@@ -4,6 +4,13 @@
 - Canonical feedback: /Users/zenray/.claude/Memory1/Projects/louisiana-bayou/FEEDBACK.md. (3 October 2026)
 - Append dated decisions and verified knowledge here; retain existing entries. (3 October 2026)
 
+## 9 October 2026 : Concepts visibles depuis une Gallery déjà ouverte
+
+- 9 October 2026 : Les six images de concept dans `02_sources/references` sont déjà archivées, leurs manifestes figurent dans le cloud et les chemins figurent dans le delta chiffré. (9 October 2026)
+- 9 October 2026 : Les copies de `tmp-3D-houdini/RefEnviro` sont identiques par SHA-256 ; elles ne doivent pas être ajoutées une seconde fois. (9 October 2026)
+- 9 October 2026 : La Gallery pouvait garder sa première liste en mémoire alors que l’index CDN se rafraîchissait ; le correctif lui transmet désormais chaque index remplacé. (9 October 2026)
+- 9 October 2026 : Le parent `tmp-houdini-september-2026` contient plusieurs chantiers et n’est pas une source Louisiana ; garder le mapping du projet limité à son atelier `tmp-bayou-louisiana`. (9 October 2026)
+
 ## 8 October 2026 : Concept images (the word "concept" now exists in the notes) and tidy
 
 - 8 October 2026 : CONCEPT images of the whole scene, full paths: colour concept `/Users/zenray/.claude/tmp/tmp-houdini-september-2026/tmp-bayou-louisiana/02_sources/references/FinishedEnviro.png` (white clapboard church, dark roof, arch "First Church of Rhodes", fence, tree on the right); grey concept with sky and a large tree `/Users/zenray/.claude/tmp/tmp-houdini-september-2026/tmp-bayou-louisiana/02_sources/references/FinishedEnvironGreyPixel.png`; grey mesh concept with a clearly readable tree on a dark background `/Users/zenray/.claude/tmp/tmp-houdini-september-2026/tmp-bayou-louisiana/02_sources/references/FullEnviroGreyMesh.png`. (8 October 2026)
