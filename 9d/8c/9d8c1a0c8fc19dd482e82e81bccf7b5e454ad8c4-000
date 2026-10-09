@@ -1802,3 +1802,11 @@
 > Murs retablis a leur cote nominale de 3.607 m (conforme Manny 1.805 m) et faitage a 7.541 m. (09 October 2026)
 > Pente du toit et de la facade unifiees a 1.2000 (50.19 degres) : planches de rive et chevrons 100% paralleles. (09 October 2026)
 > Viewport bascule sur Cycles, rendu relance sans pause. Scene sauvegardee. (09 October 2026)
+
+## 09 October 2026, 20:13:00 +0200 : Iteration
+
+- Project: louisiana-bayou; kind: iteration. (09 October 2026)
+- Agent: Antigravity. (09 October 2026)
+
+> Correction d'affichage : l'onglet panetab2 (Solaris / Cycles) etait bien actif en arriere-plan mais masque par panetab1 (la vue OBJ OpenGL). (09 October 2026)
+> panetab2 remis au premier plan sur l'ecran avec setIsCurrentTab(), Cycles relance et non suspendu. (09 October 2026)
