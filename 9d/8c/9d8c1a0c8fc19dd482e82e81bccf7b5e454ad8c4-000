@@ -1636,3 +1636,17 @@
 - Project: louisiana-bayou; kind: prompt. (9 October 2026, 15:12:29 +0200)
 
 > 9 October 2026 (Matthieu) : isoler porche + escalier + 2 fenetres dans la vue Cycles, cacher la church ; sol du porche et tous les bardages = white paint ; seule la rampe prend le bois des fenetres en respectant l'orientation ; boules : decoupage UV propre (projection cubique). Fait : isolate_view, WOOD_PARTS = rampe seule, axe par piece, boules cubiques. A traiter : defauts de fenetre (appui, montant, volet droit) en attente de precisions. (9 October 2026, 15:12:29 +0200)
+
+## 9 October 2026, 15:24:05 +0200 : Prompt
+
+<!-- feedback-event:16233746c2ac6bbe5bc11068d37daa192ec61018af2063aaca063c5f0c4ba201 (9 October 2026, 15:24:05 +0200) -->
+- Project: louisiana-bayou; kind: prompt. (9 October 2026, 15:24:05 +0200)
+
+> 9 October 2026 (Matthieu) : parfait, appliquer le symetrique, donner la sheet des fenetres actuelle (vue base color eclairee, vue geometrie coloree, vue UV avec bandes) et enregistrer/ameliorer le protocole UV side view. Fait : cause racine = uv demote en point par le merge du lookdev ; UvShutterFix ; PlotWindowSheet ; protocole section 9. (9 October 2026, 15:24:05 +0200)
+
+## 9 October 2026, 15:31:34 +0200 : Prompt
+
+<!-- feedback-event:f80aa1b75a1557331756e377efb71ce61373d3e1c17d4060233abd05db580ace (9 October 2026, 15:31:34 +0200) -->
+- Project: louisiana-bayou; kind: prompt. (9 October 2026, 15:31:34 +0200)
+
+> 9 October 2026 (Matthieu) : persiennes uniquement sur la zone rouge des louvres et distribuees au hasard ; utiliser a fond les 2 premieres bandes ; le verre (bleu) est un autre materiau et ne va pas sur la feuille ; ne plus avoir a verifier manuellement. Fait : UvShutterFix refait (une densite, aleatoire), UvCheck.py verificateur automatique, feuille fenetres regeneree. (9 October 2026, 15:31:34 +0200)
