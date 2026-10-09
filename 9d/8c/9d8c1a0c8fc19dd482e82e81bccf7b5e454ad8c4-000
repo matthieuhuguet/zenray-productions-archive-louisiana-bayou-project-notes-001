@@ -733,3 +733,226 @@
 > | Supprimer les deux trous du toit | Oui | Marques disparues dans Cycles ; couverture et charpente vérifiées | (8 October 2026, 14:04:35 +0200)
 >
 > Les mêmes contrôles passent après relecture du fichier sauvegardé. (8 October 2026, 14:04:35 +0200)
+
+## 8 October 2026, 10:41:59 +0200 : Prompt
+
+<!-- feedback-event:bebbc4915431471384b38e7b31cf6e22318eba683b182ebbd1f26d5cf448926d (8 October 2026, 10:41:59 +0200) -->
+- Project: louisiana-bayou; kind: prompt. (8 October 2026, 10:41:59 +0200)
+- Source: /Users/zenray/.gemini/antigravity/conversations/b5fe17ca-baf0-408d-b195-d321db97fce5.db. (8 October 2026, 10:41:59 +0200)
+
+> [$zenray-assets](/Users/zenray/.codex/skills/zenray-assets/SKILL.md) context on a repris louisiana bayou comprends l'index mapping (8 October 2026, 10:41:59 +0200)
+
+## 8 October 2026, 10:44:02 +0200 : Iteration
+
+<!-- feedback-event:ee177ed46e8b2df75955c5c7bf6496e9990a91fe9fca382c19dd1b54ebbba146 (8 October 2026, 10:44:02 +0200) -->
+- Project: louisiana-bayou; kind: iteration. (8 October 2026, 10:44:02 +0200)
+- Source: /Users/zenray/.gemini/antigravity/conversations/b5fe17ca-baf0-408d-b195-d321db97fce5.db. (8 October 2026, 10:44:02 +0200)
+
+> ### Début de session (08 October 2026) (8 October 2026, 10:44:02 +0200)
+>
+> **Résumé des trois dernières entrées utiles de [PROGRESS.md](file:///Users/zenray/.claude/PROGRESS.md) :** (8 October 2026, 10:44:02 +0200)
+> - **08 October 2026 00:06** : Paquet `zenray-edit` restauré du cloud, test sentinelle de lecture du registre ajouté sans correctif. (8 October 2026, 10:44:02 +0200)
+> - **08 October 2026 00:07** : Checkpoint posé pour reprise à 00:19, copie FEEDBACK gardée en local. (8 October 2026, 10:44:02 +0200)
+> - **08 October 2026 10:16** : Scène Louisiana Bayou réouverte dans Houdini et Unreal, 70 images du workshop classées avec manifeste SHA256, FileMap regénéré. (8 October 2026, 10:44:02 +0200)
+>
+> **Prochaine étape qui était notée :** Choisir entre renommer le workshop en `tmp-louisiana-bayou` (nouvel ID de source, ré-archivage de 345 Mo) ou conserver le nom actuel, puis placer l'église HDA et les matériaux dans le niveau `L_LouisianaBayou`. (8 October 2026, 10:44:02 +0200)
+>
+> --- (8 October 2026, 10:44:02 +0200)
+>
+> ### Index mapping du projet Louisiana Bayou (08 October 2026) (8 October 2026, 10:44:02 +0200)
+>
+> Dans l'écosystème ZenRay, l'**index mapping** désigne la table de correspondance directe qui relie chaque identifiant unique de ressource (`sourceId:relativePath`) à son chemin local sur macOS, son emplacement d'archive cloud, et son état de synchronisation. (8 October 2026, 10:44:02 +0200)
+>
+> L'inventaire actif de [louisiana-bayou](file:///Users/zenray/.claude/Memory1/Projects/louisiana-bayou/Project.json) compte **751 fichiers cartographiés** répartis sur **7 sources mappées** et **2 dépendances partagées** : (8 October 2026, 10:44:02 +0200)
+>
+> #### 1. Les 7 sources mappées (08 October 2026) (8 October 2026, 10:44:02 +0200)
+>
+> - **`workshop`** (`tmp`) : [tmp-bayou-louisiana](file:///Users/zenray/.claude/tmp/tmp-houdini-september-2026/tmp-bayou-louisiana) (8 October 2026, 10:44:02 +0200)
+>   - Cloud : `pages/ZenRayAssets/louisiana-bayou/sources/tmp/workshop` (8 October 2026, 10:44:02 +0200)
+>   - Contenu : 70 images rangées ce matin dans `03_work/crops`, `03_work/contact_sheets`, `03_work/panels`, `03_work/tests` et `02_sources/tests` via `TidyManifest_8_October_2026.json`. (8 October 2026, 10:44:02 +0200)
+>   - Concepts directeurs : `FinishedEnviro.png` (couleur église blanche/toit sombre), `FinishedEnvironGreyPixel.png` (gris ciel et arbre), `FullEnviroGreyMesh.png` (mesh gris lisible). (8 October 2026, 10:44:02 +0200)
+>   - Atelier actif LOAD : `/Users/zenray/Create/Build/AssetsWorkspaces/louisiana-bayou/loads/9a63ff5c-7edc-412b-8451-a7837bea3f4b/sources/tmp/workshop`. (8 October 2026, 10:44:02 +0200)
+>
+> - **`shorts`** (`tmp`) : `/Users/zenray/.claude/tmp/post-3components-zenray-houdini` (8 October 2026, 10:44:02 +0200)
+>   - Cloud : `pages/ZenRayAssets/louisiana-bayou/sources/tmp/shorts` (8 October 2026, 10:44:02 +0200)
+>
+> - **`project-notes`** (`memory`) : [Memory1/Projects/louisiana-bayou](file:///Users/zenray/.claude/Memory1/Projects/louisiana-bayou) (8 October 2026, 10:44:02 +0200)
+>   - Cloud : `pages/ZenRayAssets/louisiana-bayou/sources/memory/project-notes` (8 October 2026, 10:44:02 +0200)
+>   - Fichiers maîtres : [FEEDBACK.md](file:///Users/zenray/.claude/Memory1/Projects/louisiana-bayou/FEEDBACK.md), [Project1.md](file:///Users/zenray/.claude/Memory1/Projects/louisiana-bayou/Project1.md), [FileMap.md](file:///Users/zenray/.claude/Memory1/Projects/louisiana-bayou/FileMap.md), [Project.json](file:///Users/zenray/.claude/Memory1/Projects/louisiana-bayou/Project.json). (8 October 2026, 10:44:02 +0200)
+>
+> - **`posts`** (`memory`) : [short-02-louisiana-bayou-hda](file:///Users/zenray/.claude/Memory1/SocialMedia/Posts/short-02-louisiana-bayou-hda) (8 October 2026, 10:44:02 +0200)
+>   - Cloud : `pages/ZenRayAssets/louisiana-bayou/sources/memory/posts` (8 October 2026, 10:44:02 +0200)
+>
+> - **`production`** (`houdini`) : `/Users/zenray/Create/Build/Productions/ZenRayHoudini/LouisianaBayou` (8 October 2026, 10:44:02 +0200)
+>   - Cloud : `pages/ZenRayAssets/louisiana-bayou/sources/houdini/production` (8 October 2026, 10:44:02 +0200)
+>   - Contenu : Textures Quixel, snapshots de graphes (`Church`, `Entrance_Arch`, `Fence`, `Terrain`, `Cop_M_RoofTiles_HERMES_01`), scènes `LouisianaBayou.hip` et `LouisianaBayou.hiplc`. (8 October 2026, 10:44:02 +0200)
+>
+> - **`project-files`** (`houdini`) : `/Users/zenray/Create/Build/Productions/ZenRayHoudini` (8 October 2026, 10:44:02 +0200)
+>   - Inclusions strictes : `LouisianaBayou.hip`, `LouisianaBayou.hiplc`. (8 October 2026, 10:44:02 +0200)
+>
+> - **`game-assets`** (`unreal`) : `/Users/zenray/Create/Build/Productions/ZenRayShards/ZenRayShards` (8 October 2026, 10:44:02 +0200)
+>   - Cloud : `pages/ZenRayAssets/louisiana-bayou/sources/unreal/game-assets` (8 October 2026, 10:44:02 +0200)
+>   - Inclusions strictes : `Content/LouisianaBayou`, `Content/__ExternalActors__/LouisianaBayou`, `Content/__ExternalObjects__/LouisianaBayou`. (8 October 2026, 10:44:02 +0200)
+>   - Niveaux : `L_LouisianaBayou.umap` et `L_Church_HDA.umap`. (8 October 2026, 10:44:02 +0200)
+>
+> #### 2. Dépendances partagées (08 October 2026) (8 October 2026, 10:44:02 +0200)
+>
+> - `zenray-houdini-library` : hébergée à part dans `pages/ZenRayAssets/zenray-houdini-library/.workspace.json`. (8 October 2026, 10:44:02 +0200)
+> - `zenray-shards-core` : hébergée à part dans `pages/ZenRayAssets/zenray-shards-core/.workspace.json`. (8 October 2026, 10:44:02 +0200)
+>
+> #### 3. Points d'attention du mapping (08 October 2026) (8 October 2026, 10:44:02 +0200)
+>
+> - **Version divergente sur `production:LouisianaBayou.hiplc`** : Le fichier d'origine a changé après le LOAD. L'UNLOAD automatique est bloqué tant que les deux versions ne sont pas arbitrées. (8 October 2026, 10:44:02 +0200)
+> - **Relocalisation des scènes** : (8 October 2026, 10:44:02 +0200)
+>   - `LouisianaBayou.hiplc` : 56 chemins nécessitent une relocalisation, 19 restent non résolus. (8 October 2026, 10:44:02 +0200)
+>   - `LouisianaBayou.hip` : 5 relocalisations requises, 1 non résolue. (8 October 2026, 10:44:02 +0200)
+>
+> --- (8 October 2026, 10:44:02 +0200)
+>
+> ### Récapitulatif (08 October 2026) (8 October 2026, 10:44:02 +0200)
+>
+> | Ce qui était demandé | Statut | Preuve mesurée | (8 October 2026, 10:44:02 +0200)
+> |---|---|---| (8 October 2026, 10:44:02 +0200)
+> | Reprendre le contexte Louisiana Bayou avec zenray-assets | Fait | Session liée au projet `louisiana-bayou` dans le service Assets via [FEEDBACK.md](file:///Users/zenray/.claude/Memory1/Projects/louisiana-bayou/FEEDBACK.md) | (8 October 2026, 10:44:02 +0200)
+> | Comprendre et restituer l'index mapping | Fait | 751 fichiers répertoriés sur 7 sources locales et cloud, vérifiés via `Client.mjs context` et [FileMap.md](file:///Users/zenray/.claude/Memory1/Projects/louisiana-bayou/FileMap.md) | (8 October 2026, 10:44:02 +0200)
+> | Identifier les dépendances et points d'attention | Fait | Divergence SHA256 identifiée sur `LouisianaBayou.hiplc` et dépendances Houdini/Unreal listées | (8 October 2026, 10:44:02 +0200)
+
+## 8 October 2026, 10:55:41 +0200 : Prompt
+
+<!-- feedback-event:00c843aeca4c3ed51b4061a9ea7cc1231b32d4e74183399ed6d828dfd9cbc6f5 (8 October 2026, 10:55:41 +0200) -->
+- Project: louisiana-bayou; kind: prompt. (8 October 2026, 10:55:41 +0200)
+- Source: /Users/zenray/.gemini/antigravity/conversations/b5fe17ca-baf0-408d-b195-d321db97fce5.db. (8 October 2026, 10:55:41 +0200)
+
+> dans gallery vue si je clique sur le nouveau groupe que j'ai créé je reviens au root (premier emplacement) il faut que tu puisses mettre la vue qui aille dans un child quasi à l'infini ... + un fil d'ariane qui me permet de voir le path notamment via nom du groupe directement go (8 October 2026, 10:55:41 +0200)
+
+## 8 October 2026, 10:56:04 +0200 : Prompt
+
+<!-- feedback-event:99f8e899143fc940d3b3e9e806b2ac15fb8d06018ba697aff1182491d6ab86f0 (8 October 2026, 10:56:04 +0200) -->
+- Project: louisiana-bayou; kind: prompt. (8 October 2026, 10:56:04 +0200)
+- Source: /Users/zenray/.gemini/antigravity/conversations/b5fe17ca-baf0-408d-b195-d321db97fce5.db. (8 October 2026, 10:56:04 +0200)
+
+> zenray-progress dans gallery vue si je clique sur le nouveau groupe que j'ai créé je reviens au root (premier emplacement) il faut que tu puisses mettre la vue qui aille dans un child quasi à l'infini ... + un fil d'ariane qui me permet de voir le path notamment via nom du groupe directement go (8 October 2026, 10:56:04 +0200)
+
+## 8 October 2026, 11:08:24 +0200 : Iteration
+
+<!-- feedback-event:f146078cb39d1678111c157a23f997d4d5a5b4a9507ac9353950084699b34118 (8 October 2026, 11:08:24 +0200) -->
+- Project: louisiana-bayou; kind: iteration. (8 October 2026, 11:08:24 +0200)
+- Source: /Users/zenray/.gemini/antigravity/conversations/b5fe17ca-baf0-408d-b195-d321db97fce5.db. (8 October 2026, 11:08:24 +0200)
+
+> La navigation dans les groupes et le fil d'Ariane de [src/components/GalleryView.jsx](file:///Users/zenray/Create/Build/Productions/GithubProductions/ZenRayProgress/src/components/GalleryView.jsx) ont été corrigés et étendus (08 October 2026) : (8 October 2026, 11:08:24 +0200)
+>
+> 1. **Fin du retour forcé à la racine** : (8 October 2026, 11:08:24 +0200)
+>    - `currentFolder` ne se limite plus aux seuls dossiers de premier niveau (`rootItems.find(...)`). (8 October 2026, 11:08:24 +0200)
+>    - La fonction `findFolderPath` parcourt récursivement toute la profondeur de l'arbre pour retrouver la chaîne complète des ancêtres du groupe cliqué. (8 October 2026, 11:08:24 +0200)
+>    - Le guard de synchronisation ne renvoie plus à la racine lorsqu'un sous-groupe enfant est sélectionné. (8 October 2026, 11:08:24 +0200)
+>
+> 2. **Fil d'Ariane dynamique et illimité** : (8 October 2026, 11:08:24 +0200)
+>    - Affiche le chemin complet avec les noms réels de chaque groupe (`ToDo-3D > Louisiana Bayou > Nouveau groupe 2 > ...`). (8 October 2026, 11:08:24 +0200)
+>    - Chaque niveau parent intermédiaire est cliquable et permet de remonter directement au niveau souhaité en un clic. (8 October 2026, 11:08:24 +0200)
+>    - Le niveau actif terminal reste éditable directement pour renommer le groupe au clic ou via la touche Entrée. (8 October 2026, 11:08:24 +0200)
+>
+> 3. **Opérations récursives à toute profondeur** : (8 October 2026, 11:08:24 +0200)
+>    - `mutateLevel` met à jour les éléments directement au niveau du sous-dossier actif, quelle que soit sa profondeur dans l'arborescence. (8 October 2026, 11:08:24 +0200)
+>    - Le renommage (`renommerDossier`), l'édition de note/titre (`enregistrerTexte`), le glisser-déposer de regroupement (`onItemDrop`) et le menu « Déplacer vers… » (`deplacerVers`) opèrent désormais de manière récursive sur tous les enfants. (8 October 2026, 11:08:24 +0200)
+>    - La tuile de dossier (`FolderTile`) extrait automatiquement la première miniature disponible au sein de ses sous-groupes pour que l'aperçu ne soit jamais une case vide. (8 October 2026, 11:08:24 +0200)
+>
+> --- (8 October 2026, 11:08:24 +0200)
+>
+> ### Récapitulatif (08 October 2026) (8 October 2026, 11:08:24 +0200)
+>
+> | Ce qui était demandé | Statut | Preuve mesurée | (8 October 2026, 11:08:24 +0200)
+> |---|---|---| (8 October 2026, 11:08:24 +0200)
+> | Ouvrir un sous-groupe sans revenir à la racine | Fait | `findFolderPath` résout n'importe quel dossier enfant à l'infini ; test unitaire dédié validé dans [GalleryView.test.jsx](file:///Users/zenray/Create/Build/Productions/GithubProductions/ZenRayProgress/src/components/GalleryView.test.jsx) | (8 October 2026, 11:08:24 +0200)
+> | Afficher le fil d'Ariane avec les noms des groupes | Fait | Chemin complet interactif affiché (`ToDo-3D > Parent > Enfant`), chaque parent permet de remonter et le dernier segment permet de renommer | (8 October 2026, 11:08:24 +0200)
+> | Vérification globale et absence de régression | Fait | 13/13 tests Vitest passés avec succès et build de production Vite terminé avec succès en 11,62 s | (8 October 2026, 11:08:24 +0200)
+
+## 8 October 2026, 11:16:19 +0200 : Prompt
+
+<!-- feedback-event:eaf6bfda654e826a9c8f171dae092c708428c10b80c137aed14bb91105ab53cd (8 October 2026, 11:16:19 +0200) -->
+- Project: louisiana-bayou; kind: prompt. (8 October 2026, 11:16:19 +0200)
+- Source: /Users/zenray/.gemini/antigravity/conversations/b5fe17ca-baf0-408d-b195-d321db97fce5.db. (8 October 2026, 11:16:19 +0200)
+
+> Rien n'as changé ?? (8 October 2026, 11:16:19 +0200)
+
+## 8 October 2026, 11:21:43 +0200 : Iteration
+
+<!-- feedback-event:8f15ae23e8aa0fd7b9fec55a9c97a5481b7c6b31a3b65ed6232e7ff717e98256 (8 October 2026, 11:21:43 +0200) -->
+- Project: louisiana-bayou; kind: iteration. (8 October 2026, 11:21:43 +0200)
+- Source: /Users/zenray/.gemini/antigravity/conversations/b5fe17ca-baf0-408d-b195-d321db97fce5.db. (8 October 2026, 11:21:43 +0200)
+
+> Le déploiement en ligne sur Cloudflare Pages vient d'être achevé et le code a été poussé sur GitHub. (8 October 2026, 11:21:43 +0200)
+>
+> Lors de ta vérification précédente, la compilation était locale et le transfert vers Cloudflare Pages n'était pas encore finalisé. Le site en ligne sert maintenant la toute dernière version. Pense à faire un rechargement forcé (`Cmd + Shift + R`) dans Chrome pour vider le cache du navigateur. (8 October 2026, 11:21:43 +0200)
+>
+> ### Ce qui est en ligne (08 October 2026) (8 October 2026, 11:21:43 +0200)
+>
+> - **Navigation récursive sans limite de profondeur** : cliquer sur un sous-dossier ou sous-groupe (y compris créé dans un autre sous-groupe) ouvre son contenu sans revenir à la racine. (8 October 2026, 11:21:43 +0200)
+> - **Fil d'Ariane dynamique** : le haut de la vue affiche le chemin complet sous forme de liens cliquables (`Nom de la page > Groupe parent > Sous-groupe`), permettant de remonter au niveau souhaité d'un clic. (8 October 2026, 11:21:43 +0200)
+> - **Miniatures intelligentes pour les dossiers** : si un dossier ne contient que d'autres sous-dossiers, la vignette affiche l'image du premier média trouvé en profondeur. (8 October 2026, 11:21:43 +0200)
+> - **Édition et glisser-déposer préservés** : le renommage inline et le déplacement de médias ou de sous-groupes fonctionnent à n'importe quel niveau de l'arbre. (8 October 2026, 11:21:43 +0200)
+>
+> | Ce que tu voulais | Fait | Preuve mesurée | (8 October 2026, 11:21:43 +0200)
+> |---|---|---| (8 October 2026, 11:21:43 +0200)
+> | Pouvoir entrer dans les sous-groupes sans revenir au premier emplacement | Oui | 13 tests vitest validés, navigation récursive active dans [GalleryView.jsx](file:///Users/zenray/Create/Build/Productions/GithubProductions/ZenRayProgress/src/components/GalleryView.jsx) | (8 October 2026, 11:21:43 +0200)
+> | Avoir un fil d'Ariane avec les noms des groupes pour voir le chemin et naviguer | Oui | Fil d'Ariane testé et visible dans l'en-tête de la galerie | (8 October 2026, 11:21:43 +0200)
+> | Mettre à jour le site en ligne pour que le changement soit visible | Oui | Bundle `assets/index-D9f1Yrom.js` déployé sur Cloudflare Pages et commit `89004efa` poussé sur main | (8 October 2026, 11:21:43 +0200)
+
+## 8 October 2026, 11:49:27 +0200 : Prompt
+
+<!-- feedback-event:90d27272c3397ed3fddb6a564474bd3aa6fcee30a636d86d4606c11c354531d2 (8 October 2026, 11:49:27 +0200) -->
+- Project: louisiana-bayou; kind: prompt. (8 October 2026, 11:49:27 +0200)
+- Source: /Users/zenray/.gemini/antigravity/conversations/b5fe17ca-baf0-408d-b195-d321db97fce5.db. (8 October 2026, 11:49:27 +0200)
+
+> ça marche désormais mais je vois pas le fil d'arianne dans les vues gallery comme je le vois dans les vues create à fix (8 October 2026, 11:49:27 +0200)
+
+## 8 October 2026, 12:06:58 +0200 : Iteration
+
+<!-- feedback-event:bd8599fc0b43d7c72fa9bce8bf6c73af929ff9d5806fb2d8cfd5e6e023425351 (8 October 2026, 12:06:58 +0200) -->
+- Project: louisiana-bayou; kind: iteration. (8 October 2026, 12:06:58 +0200)
+- Source: /Users/zenray/.gemini/antigravity/conversations/b5fe17ca-baf0-408d-b195-d321db97fce5.db. (8 October 2026, 12:06:58 +0200)
+
+> Je lance la suite complète de tests vitest en arrière-plan afin de vérifier l'intégrité de l'ensemble des modules. Je poursuis dès que le résultat est disponible. (8 October 2026, 12:06:58 +0200)
+
+## 8 October 2026, 12:09:04 +0200 : Iteration
+
+<!-- feedback-event:6859dd2a66bd6afdf55a000da86b5d21d592ea8201b2f0e4b388070b811d7e19 (8 October 2026, 12:09:04 +0200) -->
+- Project: louisiana-bayou; kind: iteration. (8 October 2026, 12:09:04 +0200)
+- Source: /Users/zenray/.gemini/antigravity/conversations/b5fe17ca-baf0-408d-b195-d321db97fce5.db. (8 October 2026, 12:09:04 +0200)
+
+> La compilation de production Vite est en cours d'exécution. (8 October 2026, 12:09:04 +0200)
+
+## 8 October 2026, 12:09:37 +0200 : Iteration
+
+<!-- feedback-event:0aaf14e315c97ccafa959ca42893f9132e578144d35e578b2ad75eb3a3cc1c82 (8 October 2026, 12:09:37 +0200) -->
+- Project: louisiana-bayou; kind: iteration. (8 October 2026, 12:09:37 +0200)
+- Source: /Users/zenray/.gemini/antigravity/conversations/b5fe17ca-baf0-408d-b195-d321db97fce5.db. (8 October 2026, 12:09:37 +0200)
+
+> Le déploiement du nouveau bundle vers Cloudflare Pages est en cours. Je vérifie la fin du téléversement dès sa notification. (8 October 2026, 12:09:37 +0200)
+
+## 8 October 2026, 12:10:53 +0200 : Iteration
+
+<!-- feedback-event:101910af45c27aef08f41a7eb43e7326d6b91841901ed9bb246d74283343e6ce (8 October 2026, 12:10:53 +0200) -->
+- Project: louisiana-bayou; kind: iteration. (8 October 2026, 12:10:53 +0200)
+- Source: /Users/zenray/.gemini/antigravity/conversations/b5fe17ca-baf0-408d-b195-d321db97fce5.db. (8 October 2026, 12:10:53 +0200)
+
+> Le fil d'Ariane de la galerie a été refait pour adopter exactement la structure et le design `.zr-ws-path` des vues Create. La mise à jour est compilée, déployée sur Cloudflare Pages et poussée sur GitHub. (8 October 2026, 12:10:53 +0200)
+>
+> Pense à faire un rechargement forcé (`Cmd + Shift + R`) dans Chrome sur `https://zenray-progress.pages.dev` pour charger le nouveau bundle. (8 October 2026, 12:10:53 +0200)
+>
+> ### Ce qui a été aligné sur les vues Create (08 October 2026) (8 October 2026, 12:10:53 +0200)
+>
+> - **Coque Liquid Glass `.zr-ws-path` (Tahoe V9)** : barre de navigation en capsule de 42 px avec le dégradé de verre toolbar, le flou d'arrière-plan, la bordure fine et les ombres intérieures du système. (8 October 2026, 12:10:53 +0200)
+> - **Présence permanente dès la racine** : même à la racine de la galerie, la barre de navigation est affichée avec le nom de la galerie (ex. `ToDo-3D`) dans sa pastille bleue active, tout comme `Create` dans les vues de fichiers. (8 October 2026, 12:10:53 +0200)
+> - **Segments et chevrons identiques** : (8 October 2026, 12:10:53 +0200)
+>   - Premier niveau et dossiers parents en boutons capsules discrets avec survol doux. (8 October 2026, 12:10:53 +0200)
+>   - Séparateur SVG avec le chevron fin du système entre chaque niveau. (8 October 2026, 12:10:53 +0200)
+>   - Dossier actif en chip bleu (`#0A84FF` sur fond translucide). (8 October 2026, 12:10:53 +0200)
+> - **Menu déroulant Finder cascade** : le bouton flèche vers le bas à droite de la barre ouvre l'arborescence complète des groupes en colonnes pour naviguer instantanément à n'importe quel sous-niveau. (8 October 2026, 12:10:53 +0200)
+> - **Glisser-déposer sur le fil d'Ariane** : glisser un média ou un sous-groupe directement sur un parent ou sur la racine dans la barre le déplace dans ce dossier. (8 October 2026, 12:10:53 +0200)
+> - **Renommage direct conservé** : cliquer sur le groupe actif dans la barre permet de le renommer sur place. (8 October 2026, 12:10:53 +0200)
+>
+> | Ce que tu voulais | Fait | Preuve mesurée | (8 October 2026, 12:10:53 +0200)
+> |---|---|---| (8 October 2026, 12:10:53 +0200)
+> | Avoir le même fil d'Ariane dans la galerie que dans les vues Create | Oui | Composant intégré avec `.zr-ws-path`, chevrons SVG et capsules dans [GalleryView.jsx](file:///Users/zenray/Create/Build/Productions/GithubProductions/ZenRayProgress/src/components/GalleryView.jsx) | (8 October 2026, 12:10:53 +0200)
+> | Voir la barre de navigation dès la racine et dans les sous-groupes | Oui | Présente à la racine et à chaque niveau enfant, 13 tests vitest au vert dans [GalleryView.test.jsx](file:///Users/zenray/Create/Build/Productions/GithubProductions/ZenRayProgress/src/components/GalleryView.test.jsx) | (8 October 2026, 12:10:53 +0200)
+> | Déployer le correctif sur le site en ligne | Oui | Build Vite réussi en 11 s, déployé sur Cloudflare Pages et commit `82394b50` poussé sur main | (8 October 2026, 12:10:53 +0200)
