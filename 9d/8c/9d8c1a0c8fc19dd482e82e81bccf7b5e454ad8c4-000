@@ -1337,3 +1337,106 @@
 > Entrée = **[image de référence : asset 3D / environnement / texture / matériau]** ; problème = **[ce qui ne fonctionne pas visuellement]** ; périmètre = **[élément ciblé / modèle entier / environnement entier]** ; éléments verrouillés = **[uniquement ce qui doit être conservé]** ; paramètres libres = **[architecture / silhouette / géométrie / matériaux / palette / style / caméra / lumière]** ; amplitude d’exploration = **forte** ; objectif = **faire émerger quatre nouvelles idées remarquables qui résolvent le problème** ; sortie = **grille 2 × 2, résolution totale 4096 × 4096** ; styles par case = **architecture du passé, médiévale ou historique / architecture contemporaine / architecture futuriste / hybridation futuriste et médiévale ou civilisation alternative** ; chaque case propose un concept complet et un langage visuel nettement distinct ; utiliser la référence comme point de départ et autoriser une rupture avec son design dans le périmètre choisi ; explorer les paramètres selon une logique HDA ; adapter la prise de vue et l’éclairage à chaque concept, du réalisme crédible à la fantaisie assumée ; montrer le résultat entier ; **sans quatre déclinaisons du même design ; sans simples retouches de détails ; sans modification des éléments verrouillés ; sans texte ; sans légende**. (9 October 2026, 10:23:11 +0200)
 >
 > Tu as décrit **quatre styles**, que je conserve pour les quatre cases. J’attends ta validation avant de sauvegarder les deux titres et prompts, conformément au skill [wait-validation](/Users/zenray/.codex/skills/wait-validation/SKILL.md), qui impose d’« attendre une validation explicite » avant toute modification. (9 October 2026, 10:23:11 +0200)
+
+## 9 October 2026, 10:25:12 +0200 : Prompt
+
+<!-- feedback-event:8d4f9168bd28e641a1bdfc547af49d5f40da2e9d924d3cddb4bafea0e0711418 (9 October 2026, 10:25:12 +0200) -->
+- Project: louisiana-bayou; kind: prompt. (9 October 2026, 10:25:12 +0200)
+- Source: /Users/zenray/.codex/sessions/2026/10/08/rollout-2026-10-08T10-32-24-01a11aa4-67bb-7ae1-b1d8-99af0c3495c3.jsonl. (9 October 2026, 10:25:12 +0200)
+
+> **1. Exploring textures : design conservé** (9 October 2026, 10:25:12 +0200)
+> Entrée = **[image de référence : asset 3D / environnement / texture / matériau]** ; cible = **[surface ou matériau à retravailler]** ; problème = **[ce qui ne fonctionne pas visuellement]** ; paramètres libres = **[matière / couleur / motif / échelle / relief / usure]** ; objectif = **explorer quatre nouvelles textures originales et cohérentes sur le design actuel** ; sortie = **grille 2 × 2, résolution totale 4096 × 4096** ; directions = **exploration libre / évolution progressive / variation paramétrique / innovation expérimentale** ; reprendre la référence entière avec quatre traitements de surface nettement différents selon une logique HDA paramétrique ; conserver l’architecture, la silhouette et les proportions ; adapter uniquement le relief local si la texture le nécessite ; même cadrage et même éclairage dans les quatre cases ; **sans refonte du modèle ; sans simple recoloration comme seule variation ; sans modification hors cible ; sans décor ajouté ; sans texte ; sans légende**. (9 October 2026, 10:25:12 +0200)
+>
+> le prompt 1 ça pouvait être la géo aussi mais light (9 October 2026, 10:25:12 +0200)
+
+## 9 October 2026, 10:25:30 +0200 : Iteration
+
+<!-- feedback-event:aaa3279c18ac5723f6cf4417d7f7a4b044d7ba952111268cc19561c934eeee3b (9 October 2026, 10:25:30 +0200) -->
+- Project: louisiana-bayou; kind: iteration. (9 October 2026, 10:25:30 +0200)
+- Source: /Users/zenray/.codex/sessions/2026/10/08/rollout-2026-10-08T10-32-24-01a11aa4-67bb-7ae1-b1d8-99af0c3495c3.jsonl. (9 October 2026, 10:25:30 +0200)
+
+> **1. Exploring variations : design conservé** (9 October 2026, 10:25:30 +0200)
+>
+> Entrée = **[image de référence : asset 3D / environnement / texture / matériau]** ; cible = **[élément à retravailler]** ; problème = **[ce qui ne fonctionne pas visuellement]** ; mode = **[textures / géométrie légère / textures + géométrie légère]** ; paramètres libres = **[matière / couleur / motif / échelle / relief / usure / formes locales]** ; objectif = **explorer quatre variations originales et cohérentes sur le design actuel** ; sortie = **grille 2 × 2, résolution totale 4096 × 4096** ; directions = **exploration libre / évolution progressive / variation paramétrique / innovation expérimentale** ; reprendre la référence entière avec quatre variations nettement différentes selon une logique HDA paramétrique ; conserver l’architecture générale, la silhouette principale et les proportions globales ; autoriser des modifications géométriques locales et légères dans la cible ; même cadrage et même éclairage dans les quatre cases ; **sans refonte du modèle ; sans simple recoloration comme seule variation ; sans modification hors cible ; sans décor ajouté ; sans texte ; sans légende**. (9 October 2026, 10:25:30 +0200)
+
+## 9 October 2026, 10:25:30 +0200 : Iteration
+
+<!-- feedback-event:64a2e79948ced70bb55556075c3780584f6435c0b38b7c19eb38e31b549b6aa0 (9 October 2026, 10:25:30 +0200) -->
+- Project: louisiana-bayou; kind: iteration. (9 October 2026, 10:25:30 +0200)
+- Source: /Users/zenray/.codex/sessions/2026/10/08/rollout-2026-10-08T10-32-24-01a11aa4-67bb-7ae1-b1d8-99af0c3495c3.jsonl. (9 October 2026, 10:25:30 +0200)
+
+> **1. Exploring variations : design conservé** (9 October 2026, 10:25:30 +0200)
+>
+> Entrée = **[image de référence : asset 3D / environnement / texture / matériau]** ; cible = **[élément à retravailler]** ; problème = **[ce qui ne fonctionne pas visuellement]** ; mode = **[textures / géométrie légère / textures + géométrie légère]** ; paramètres libres = **[matière / couleur / motif / échelle / relief / usure / formes locales]** ; objectif = **explorer quatre variations originales et cohérentes sur le design actuel** ; sortie = **grille 2 × 2, résolution totale 4096 × 4096** ; directions = **exploration libre / évolution progressive / variation paramétrique / innovation expérimentale** ; reprendre la référence entière avec quatre variations nettement différentes selon une logique HDA paramétrique ; conserver l’architecture générale, la silhouette principale et les proportions globales ; autoriser des modifications géométriques locales et légères dans la cible ; même cadrage et même éclairage dans les quatre cases ; **sans refonte du modèle ; sans simple recoloration comme seule variation ; sans modification hors cible ; sans décor ajouté ; sans texte ; sans légende**. (9 October 2026, 10:25:30 +0200)
+
+## 9 October 2026, 10:27:03 +0200 : Prompt
+
+<!-- feedback-event:0cfaaec34a4d8e7c967d6431ced1eacb90d5024d24046045424104cf4b25c8ce (9 October 2026, 10:27:03 +0200) -->
+- Project: louisiana-bayou; kind: prompt. (9 October 2026, 10:27:03 +0200)
+- Source: /Users/zenray/.codex/sessions/2026/10/08/rollout-2026-10-08T10-32-24-01a11aa4-67bb-7ae1-b1d8-99af0c3495c3.jsonl. (9 October 2026, 10:27:03 +0200)
+
+> le titre est mauvais c'est pas vraiment exploring du coup c'est plus "editing" que exploring. (9 October 2026, 10:27:03 +0200)
+
+## 9 October 2026, 10:27:25 +0200 : Iteration
+
+<!-- feedback-event:a3346d7b166366bc7dc54b95db978b539f87616846c0e63e096a09446c443153 (9 October 2026, 10:27:25 +0200) -->
+- Project: louisiana-bayou; kind: iteration. (9 October 2026, 10:27:25 +0200)
+- Source: /Users/zenray/.codex/sessions/2026/10/08/rollout-2026-10-08T10-32-24-01a11aa4-67bb-7ae1-b1d8-99af0c3495c3.jsonl. (9 October 2026, 10:27:25 +0200)
+
+> **1. Editing textures + geo : design conservé** (9 October 2026, 10:27:25 +0200)
+
+## 9 October 2026, 10:27:25 +0200 : Iteration
+
+<!-- feedback-event:414ee047b3c14c54526696dea662dc96e763a80011d96e042110b9479bfa62fd (9 October 2026, 10:27:25 +0200) -->
+- Project: louisiana-bayou; kind: iteration. (9 October 2026, 10:27:25 +0200)
+- Source: /Users/zenray/.codex/sessions/2026/10/08/rollout-2026-10-08T10-32-24-01a11aa4-67bb-7ae1-b1d8-99af0c3495c3.jsonl. (9 October 2026, 10:27:25 +0200)
+
+> **1. Editing textures + geo : design conservé** (9 October 2026, 10:27:25 +0200)
+
+## 9 October 2026, 10:27:27 +0200 : Prompt
+
+<!-- feedback-event:4020cecebc11de4a3ea42e372c3d9d4466eceadb81d5f2ed66aa57e3d429ca5f (9 October 2026, 10:27:27 +0200) -->
+- Project: louisiana-bayou; kind: prompt. (9 October 2026, 10:27:27 +0200)
+- Source: /Users/zenray/.codex/sessions/2026/10/08/rollout-2026-10-08T10-32-24-01a11aa4-67bb-7ae1-b1d8-99af0c3495c3.jsonl. (9 October 2026, 10:27:27 +0200)
+
+> redonne les deux. et on sauvegarde les 2 au même endroit dans le skill. proprement. (9 October 2026, 10:27:27 +0200)
+
+## 9 October 2026, 10:29:36 +0200 : Iteration
+
+<!-- feedback-event:813308f9ac73321e1155fcc5266824e4ba207866c25183b50427d3f8bd219a6d (9 October 2026, 10:29:36 +0200) -->
+- Project: louisiana-bayou; kind: iteration. (9 October 2026, 10:29:36 +0200)
+- Source: checkpoint:codex:01a11aa4-67bb-7ae1-b1d8-99af0c3495c3. (9 October 2026, 10:29:36 +0200)
+
+> Two validated canonical prompts grouped together in zenray-houdini Prompts at line 2748. Editing textures + geo preserves design with textures and light local geometry; Exploring new concepts explores historical, contemporary, futuristic and hybrid or alternative-civilization concepts. Both 2x2 total 4096x4096. Prior templates marked historical, skill copies have identical hashes. (9 October 2026, 10:29:36 +0200)
+
+## 9 October 2026, 10:31:16 +0200 : Iteration
+
+<!-- feedback-event:92cacc8a2261499aec711e492940f639713d136be38f5d4e5a534c377954e886 (9 October 2026, 10:31:16 +0200) -->
+- Project: louisiana-bayou; kind: iteration. (9 October 2026, 10:31:16 +0200)
+- Source: /Users/zenray/.codex/sessions/2026/10/08/rollout-2026-10-08T10-32-24-01a11aa4-67bb-7ae1-b1d8-99af0c3495c3.jsonl. (9 October 2026, 10:31:16 +0200)
+
+> Les deux prompts sont sauvegardés ensemble dans [zenray-houdini, section Prompts](/Users/zenray/.claude/skills/zenray-houdini/SKILL.md:2748). (9 October 2026, 10:31:16 +0200)
+>
+> **1. Editing textures + geo : design conservé** (9 October 2026, 10:31:16 +0200)
+>
+> Entrée = **[image de référence : asset 3D / environnement / texture / matériau]** ; cible = **[élément à retravailler]** ; problème = **[ce qui ne fonctionne pas visuellement]** ; mode = **[textures / géométrie légère / textures + géométrie légère]** ; paramètres libres = **[matière / couleur / motif / échelle / relief / usure / formes locales]** ; objectif = **explorer quatre variations originales et cohérentes sur le design actuel** ; sortie = **grille 2 × 2, résolution totale 4096 × 4096** ; directions = **exploration libre / évolution progressive / variation paramétrique / innovation expérimentale** ; reprendre la référence entière avec quatre variations nettement différentes selon une logique HDA paramétrique ; conserver l’architecture générale, la silhouette principale et les proportions globales ; autoriser des modifications géométriques locales et légères dans la cible ; même cadrage et même éclairage dans les quatre cases ; **sans refonte du modèle ; sans simple recoloration comme seule variation ; sans modification hors cible ; sans décor ajouté ; sans texte ; sans légende**. (9 October 2026, 10:31:16 +0200)
+>
+> **2. Exploring new concepts : geo + textures** (9 October 2026, 10:31:16 +0200)
+>
+> Entrée = **[image de référence : asset 3D / environnement / texture / matériau]** ; problème = **[ce qui ne fonctionne pas visuellement]** ; périmètre = **[élément ciblé / modèle entier / environnement entier]** ; éléments verrouillés = **[uniquement ce qui doit être conservé]** ; paramètres libres = **[architecture / silhouette / géométrie / matériaux / palette / style / caméra / lumière]** ; amplitude d’exploration = **forte** ; objectif = **faire émerger quatre nouvelles idées remarquables qui résolvent le problème** ; sortie = **grille 2 × 2, résolution totale 4096 × 4096** ; styles par case = **architecture du passé, médiévale ou historique / architecture contemporaine / architecture futuriste / hybridation futuriste et médiévale ou civilisation alternative** ; chaque case propose un concept complet et un langage visuel nettement distinct ; utiliser la référence comme point de départ et autoriser une rupture avec son design dans le périmètre choisi ; explorer les paramètres selon une logique HDA ; adapter la prise de vue et l’éclairage à chaque concept, du réalisme crédible à la fantaisie assumée ; montrer le résultat entier ; **sans quatre déclinaisons du même design ; sans simples retouches de détails ; sans modification des éléments verrouillés ; sans texte ; sans légende**. (9 October 2026, 10:31:16 +0200)
+
+## 9 October 2026, 10:31:16 +0200 : Iteration
+
+<!-- feedback-event:a35c0f6d983d778f06054291236e178736d020da16507943b4f5c530b9fdce97 (9 October 2026, 10:31:16 +0200) -->
+- Project: louisiana-bayou; kind: iteration. (9 October 2026, 10:31:16 +0200)
+- Source: /Users/zenray/.codex/sessions/2026/10/08/rollout-2026-10-08T10-32-24-01a11aa4-67bb-7ae1-b1d8-99af0c3495c3.jsonl. (9 October 2026, 10:31:16 +0200)
+
+> Les deux prompts sont sauvegardés ensemble dans [zenray-houdini, section Prompts](/Users/zenray/.claude/skills/zenray-houdini/SKILL.md:2748). (9 October 2026, 10:31:16 +0200)
+>
+> **1. Editing textures + geo : design conservé** (9 October 2026, 10:31:16 +0200)
+>
+> Entrée = **[image de référence : asset 3D / environnement / texture / matériau]** ; cible = **[élément à retravailler]** ; problème = **[ce qui ne fonctionne pas visuellement]** ; mode = **[textures / géométrie légère / textures + géométrie légère]** ; paramètres libres = **[matière / couleur / motif / échelle / relief / usure / formes locales]** ; objectif = **explorer quatre variations originales et cohérentes sur le design actuel** ; sortie = **grille 2 × 2, résolution totale 4096 × 4096** ; directions = **exploration libre / évolution progressive / variation paramétrique / innovation expérimentale** ; reprendre la référence entière avec quatre variations nettement différentes selon une logique HDA paramétrique ; conserver l’architecture générale, la silhouette principale et les proportions globales ; autoriser des modifications géométriques locales et légères dans la cible ; même cadrage et même éclairage dans les quatre cases ; **sans refonte du modèle ; sans simple recoloration comme seule variation ; sans modification hors cible ; sans décor ajouté ; sans texte ; sans légende**. (9 October 2026, 10:31:16 +0200)
+>
+> **2. Exploring new concepts : geo + textures** (9 October 2026, 10:31:16 +0200)
+>
+> Entrée = **[image de référence : asset 3D / environnement / texture / matériau]** ; problème = **[ce qui ne fonctionne pas visuellement]** ; périmètre = **[élément ciblé / modèle entier / environnement entier]** ; éléments verrouillés = **[uniquement ce qui doit être conservé]** ; paramètres libres = **[architecture / silhouette / géométrie / matériaux / palette / style / caméra / lumière]** ; amplitude d’exploration = **forte** ; objectif = **faire émerger quatre nouvelles idées remarquables qui résolvent le problème** ; sortie = **grille 2 × 2, résolution totale 4096 × 4096** ; styles par case = **architecture du passé, médiévale ou historique / architecture contemporaine / architecture futuriste / hybridation futuriste et médiévale ou civilisation alternative** ; chaque case propose un concept complet et un langage visuel nettement distinct ; utiliser la référence comme point de départ et autoriser une rupture avec son design dans le périmètre choisi ; explorer les paramètres selon une logique HDA ; adapter la prise de vue et l’éclairage à chaque concept, du réalisme crédible à la fantaisie assumée ; montrer le résultat entier ; **sans quatre déclinaisons du même design ; sans simples retouches de détails ; sans modification des éléments verrouillés ; sans texte ; sans légende**. (9 October 2026, 10:31:16 +0200)
