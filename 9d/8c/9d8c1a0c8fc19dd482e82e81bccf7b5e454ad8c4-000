@@ -1615,3 +1615,10 @@
 - Source: /Users/zenray/.codex/sessions/2026/10/08/rollout-2026-10-08T10-32-24-01a11aa4-67bb-7ae1-b1d8-99af0c3495c3.jsonl. (9 October 2026, 14:09:09 +0200)
 
 > Entrée = **[référence du toit] + [grille UV jointe]** ; cible = **bardeaux de bois du toit** ; sortie = **atlas Height, aspect export brut Substance Designer, 4096 × 4096** ; disposition = **6 colonnes × 6 rangées, 36 variantes, une tuile par cellule** ; conserver exactement les positions, dimensions et espacements de la grille UV ; remplacer chaque case par le relief d’une tuile issue de la référence, avec des variations naturelles cohérentes ; projection orthographique à plat, tuiles droites et alignées ; même échelle physique et même amplitude de hauteur partout ; gris linéaire, cible 16 bits ; blanc = haut, noir = creux ; **sans couleurs de la grille ; sans numéros ; sans texte ; sans faîtage ; sans bardage ; sans toit assemblé ; sans perspective ; sans éclairage ; sans ombres ; sans AO ; sans reflets ; sans décor**. (9 October 2026, 14:09:09 +0200)
+
+## 9 October 2026, 14:34:08 +0200 : Log
+
+<!-- feedback-event:b5ae2c7aca398483c54b7f1a4921eb54bce36b606539d5c1adf2dad908e99a1f (9 October 2026, 14:34:08 +0200) -->
+- Project: louisiana-bayou; kind: log. (9 October 2026, 14:34:08 +0200)
+
+> 9 October 2026 : trim sheet 36 slots (ChatGPT image gen, base color + height, provisional red). UV par slot aleatoire avec refus des voisins, symetrie gauche-droite seule, bande verticale pour l'epaisseur. Feuilles: DoubleView Side/3Quarter, ModelSheet, UVSheet_Overlay, ColourIndex dans 03_work/uv/RoofTrimSheet36_9October2026. Scripts: UvRoofTrimSheet36.py, PlotRoofTrimSheet36.py. (9 October 2026, 14:34:08 +0200)
