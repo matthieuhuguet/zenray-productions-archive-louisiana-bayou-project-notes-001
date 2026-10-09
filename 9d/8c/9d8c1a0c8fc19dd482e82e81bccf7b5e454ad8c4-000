@@ -1004,3 +1004,117 @@
 - Source: /Users/zenray/.codex/sessions/2026/10/08/rollout-2026-10-08T10-32-24-01a11aa4-67bb-7ae1-b1d8-99af0c3495c3.jsonl. (9 October 2026, 09:33:03 +0200)
 
 > Entrée = **[image de référence : asset 3D / environnement / texture / matériau]** ; cible = **[élément ou matériau à explorer]** ; paramètres = **[matière / couleur / motif / échelle / relief / usure / degré de stylisation]** ; sortie = **grille 2 × 2, résolution totale 4096 × 4096**, avec **2 variantes réalistes en haut et 2 variantes stylisées en bas** ; reprendre le modèle ou la référence en entier et appliquer une nouvelle texture à la cible dans chaque variante ; faire varier les paramètres selon une logique procédurale HDA, avec un design distinct par case ; adapter la géométrie de la cible uniquement lorsque la nouvelle texture le nécessite ; préserver les proportions, les couleurs et les matériaux des autres éléments ; conserver le même cadrage, la même échelle et un éclairage neutre comparable dans les quatre cases ; recherche et innovation centrées sur la texture ; **sans modification hors cible ; sans décor ajouté ; sans texte ; sans légende**. (9 October 2026, 09:33:03 +0200)
+
+## 9 October 2026, 09:46:28 +0200 : Prompt
+
+<!-- feedback-event:bb291763d32abccb3c63b0c4483f6bb953cbb095816c7f89a27aa24472f70af8 (9 October 2026, 09:46:28 +0200) -->
+- Project: louisiana-bayou; kind: prompt. (9 October 2026, 09:46:28 +0200)
+- Source: /Users/zenray/.codex/sessions/2026/10/08/rollout-2026-10-08T10-32-24-01a11aa4-67bb-7ae1-b1d8-99af0c3495c3.jsonl. (9 October 2026, 09:46:28 +0200)
+
+> Oui mais le but du prompt c'est de se débloquer visuellement vers une idée intéressante pour résoudre un problème d'architecture (par exemple ma texture du toit est moche 4 nouvelles variations de toit original et vraiment magnifique (9 October 2026, 09:46:28 +0200)
+>
+> pareil si j'ai un problème de géométrie etc tu comprends ? (9 October 2026, 09:46:28 +0200)
+
+## 9 October 2026, 09:46:47 +0200 : Iteration
+
+<!-- feedback-event:b7dc95f13b9c1493724bb899618a5fdfffc43af5308563ea15e5ffa0e8f72bf5 (9 October 2026, 09:46:47 +0200) -->
+- Project: louisiana-bayou; kind: iteration. (9 October 2026, 09:46:47 +0200)
+- Source: /Users/zenray/.codex/sessions/2026/10/08/rollout-2026-10-08T10-32-24-01a11aa4-67bb-7ae1-b1d8-99af0c3495c3.jsonl. (9 October 2026, 09:46:47 +0200)
+
+> Entrée = **[image de référence : asset 3D / environnement / texture / matériau]** ; cible = **[élément à retravailler]** ; problème = **[ce qui ne fonctionne pas visuellement]** ; paramètres libres = **[forme / proportions / matière / couleur / motif / échelle / relief]** ; objectif = **débloquer la recherche visuelle avec quatre propositions originales, belles et cohérentes qui résolvent le problème** ; sortie = **grille 2 × 2, résolution totale 4096 × 4096**, avec **deux propositions réalistes en haut et deux stylisées en bas** ; reprendre la référence entière et explorer quatre directions de design nettement différentes selon une logique HDA paramétrique ; modifier la texture, la géométrie ou leur combinaison selon le problème, sans se limiter à des variations de couleur ; préserver l’identité de la référence et les éléments hors cible ; même cadrage, même échelle et même éclairage pour comparer les propositions ; **sans modification hors cible ; sans décor ajouté ; sans texte ; sans légende**. (9 October 2026, 09:46:47 +0200)
+
+## 9 October 2026, 09:46:48 +0200 : Iteration
+
+<!-- feedback-event:ee31caf4a41dd6da0ef47b8e8a6d0494b2415438a957d92a5d98deea02793c1a (9 October 2026, 09:46:48 +0200) -->
+- Project: louisiana-bayou; kind: iteration. (9 October 2026, 09:46:48 +0200)
+- Source: /Users/zenray/.codex/sessions/2026/10/08/rollout-2026-10-08T10-32-24-01a11aa4-67bb-7ae1-b1d8-99af0c3495c3.jsonl. (9 October 2026, 09:46:48 +0200)
+
+> Entrée = **[image de référence : asset 3D / environnement / texture / matériau]** ; cible = **[élément à retravailler]** ; problème = **[ce qui ne fonctionne pas visuellement]** ; paramètres libres = **[forme / proportions / matière / couleur / motif / échelle / relief]** ; objectif = **débloquer la recherche visuelle avec quatre propositions originales, belles et cohérentes qui résolvent le problème** ; sortie = **grille 2 × 2, résolution totale 4096 × 4096**, avec **deux propositions réalistes en haut et deux stylisées en bas** ; reprendre la référence entière et explorer quatre directions de design nettement différentes selon une logique HDA paramétrique ; modifier la texture, la géométrie ou leur combinaison selon le problème, sans se limiter à des variations de couleur ; préserver l’identité de la référence et les éléments hors cible ; même cadrage, même échelle et même éclairage pour comparer les propositions ; **sans modification hors cible ; sans décor ajouté ; sans texte ; sans légende**. (9 October 2026, 09:46:48 +0200)
+
+## 9 October 2026, 09:47:38 +0200 : Prompt
+
+<!-- feedback-event:c13b896df5439b78aace22b1ff3ce99358b9a8b8a93a631b0e199182d92411ed (9 October 2026, 09:47:38 +0200) -->
+- Project: louisiana-bayou; kind: prompt. (9 October 2026, 09:47:38 +0200)
+- Source: /Users/zenray/.codex/sessions/2026/10/08/rollout-2026-10-08T10-32-24-01a11aa4-67bb-7ae1-b1d8-99af0c3495c3.jsonl. (9 October 2026, 09:47:38 +0200)
+
+> save dans le skill section prompt exploring new designs : geo / textures et adapte le prompt [$wait-validation](/Users/zenray/.codex/skills/wait-validation/SKILL.md) (9 October 2026, 09:47:38 +0200)
+
+## 9 October 2026, 09:47:52 +0200 : Iteration
+
+<!-- feedback-event:d4e4326786a7e7b0f0bdce0602d807d7a17d42c1c1c1c176b65ca3ea1835f64e (9 October 2026, 09:47:52 +0200) -->
+- Project: louisiana-bayou; kind: iteration. (9 October 2026, 09:47:52 +0200)
+- Source: /Users/zenray/.codex/sessions/2026/10/08/rollout-2026-10-08T10-32-24-01a11aa4-67bb-7ae1-b1d8-99af0c3495c3.jsonl. (9 October 2026, 09:47:52 +0200)
+
+> Je prépare dans `zenray-houdini`, section **Prompts → Exploring new designs : geo / textures**, le modèle adapté : problème visuel comme point de départ, géométrie et textures comme paramètres d’exploration, quatre directions distinctes en grille 2 × 2, 4K. (9 October 2026, 09:47:52 +0200)
+>
+> Tu valides l’ajout ? Le skill [wait-validation](/Users/zenray/.codex/skills/wait-validation/SKILL.md) impose d’« attendre une validation explicite » avant toute modification. (9 October 2026, 09:47:52 +0200)
+
+## 9 October 2026, 09:47:52 +0200 : Iteration
+
+<!-- feedback-event:c8c62a88f6a8da6108ca2062d72cd1247d65016b7149c20b715874ff4b5a6c3c (9 October 2026, 09:47:52 +0200) -->
+- Project: louisiana-bayou; kind: iteration. (9 October 2026, 09:47:52 +0200)
+- Source: /Users/zenray/.codex/sessions/2026/10/08/rollout-2026-10-08T10-32-24-01a11aa4-67bb-7ae1-b1d8-99af0c3495c3.jsonl. (9 October 2026, 09:47:52 +0200)
+
+> Je prépare dans `zenray-houdini`, section **Prompts → Exploring new designs : geo / textures**, le modèle adapté : problème visuel comme point de départ, géométrie et textures comme paramètres d’exploration, quatre directions distinctes en grille 2 × 2, 4K. (9 October 2026, 09:47:52 +0200)
+>
+> Tu valides l’ajout ? Le skill [wait-validation](/Users/zenray/.codex/skills/wait-validation/SKILL.md) impose d’« attendre une validation explicite » avant toute modification. (9 October 2026, 09:47:52 +0200)
+
+## 9 October 2026, 09:47:55 +0200 : Prompt
+
+<!-- feedback-event:02d43d24a18c2a6c0ba4e98d8de8add94c75acdecb89d92b6cacb35399c3b62b (9 October 2026, 09:47:55 +0200) -->
+- Project: louisiana-bayou; kind: prompt. (9 October 2026, 09:47:55 +0200)
+- Source: /Users/zenray/.codex/sessions/2026/10/08/rollout-2026-10-08T10-32-24-01a11aa4-67bb-7ae1-b1d8-99af0c3495c3.jsonl. (9 October 2026, 09:47:55 +0200)
+
+> go (9 October 2026, 09:47:55 +0200)
+
+## 9 October 2026, 09:49:07 +0200 : Iteration
+
+<!-- feedback-event:58a4d0affcf80b3b0867bf55d5c8c9145f180dfefea2b3be83e5a56b54fba021 (9 October 2026, 09:49:07 +0200) -->
+- Project: louisiana-bayou; kind: iteration. (9 October 2026, 09:49:07 +0200)
+- Source: checkpoint:codex:01a11aa4-67bb-7ae1-b1d8-99af0c3495c3. (9 October 2026, 09:49:07 +0200)
+
+> Validated prompt saved in zenray-houdini Prompts / Exploring new designs : geo / textures. Parametric problem-driven exploration, geometry/textures/combined mode, four distinct designs in a 4096x4096 2x2 grid, two realistic and two stylized. Source and mirrored skill hashes match. (9 October 2026, 09:49:07 +0200)
+
+## 9 October 2026, 09:49:29 +0200 : Iteration
+
+<!-- feedback-event:39d07453f4b165a73f8b45ba9545dc623b88fb793139520729e105d89e671a9e (9 October 2026, 09:49:29 +0200) -->
+- Project: louisiana-bayou; kind: iteration. (9 October 2026, 09:49:29 +0200)
+- Source: /Users/zenray/.codex/sessions/2026/10/08/rollout-2026-10-08T10-32-24-01a11aa4-67bb-7ae1-b1d8-99af0c3495c3.jsonl. (9 October 2026, 09:49:29 +0200)
+
+> Enregistré dans [zenray-houdini, section Prompts](/Users/zenray/.claude/skills/zenray-houdini/SKILL.md:2736), sous **Exploring new designs : geo / textures** : problème visuel, paramètres HDA, quatre directions distinctes, grille 2 × 2 en 4K. (9 October 2026, 09:49:29 +0200)
+
+## 9 October 2026, 09:49:29 +0200 : Iteration
+
+<!-- feedback-event:342215a3f45f034dd25fcb010a9325d6af35160dd31cd0457e1d46ed6069e021 (9 October 2026, 09:49:29 +0200) -->
+- Project: louisiana-bayou; kind: iteration. (9 October 2026, 09:49:29 +0200)
+- Source: /Users/zenray/.codex/sessions/2026/10/08/rollout-2026-10-08T10-32-24-01a11aa4-67bb-7ae1-b1d8-99af0c3495c3.jsonl. (9 October 2026, 09:49:29 +0200)
+
+> Enregistré dans [zenray-houdini, section Prompts](/Users/zenray/.claude/skills/zenray-houdini/SKILL.md:2736), sous **Exploring new designs : geo / textures** : problème visuel, paramètres HDA, quatre directions distinctes, grille 2 × 2 en 4K. (9 October 2026, 09:49:29 +0200)
+
+## 9 October 2026, 09:49:29 +0200 : Prompt
+
+<!-- feedback-event:27ef7d197fcc62efcbfc420f38aa5c2559e4b7c5df6bf2594ff2d539bbb1b149 (9 October 2026, 09:49:29 +0200) -->
+- Project: louisiana-bayou; kind: prompt. (9 October 2026, 09:49:29 +0200)
+- Source: /Users/zenray/.codex/sessions/2026/10/08/rollout-2026-10-08T10-32-24-01a11aa4-67bb-7ae1-b1d8-99af0c3495c3.jsonl. (9 October 2026, 09:49:29 +0200)
+
+> redonne moi le prompt avec son titre stp. exploring design texture + geo (9 October 2026, 09:49:29 +0200)
+
+## 9 October 2026, 09:49:46 +0200 : Iteration
+
+<!-- feedback-event:d46e7f31656f0ec7e33becbc2dc25cf78a5d41535c380cb6d6c8e5fd155f3f50 (9 October 2026, 09:49:46 +0200) -->
+- Project: louisiana-bayou; kind: iteration. (9 October 2026, 09:49:46 +0200)
+- Source: /Users/zenray/.codex/sessions/2026/10/08/rollout-2026-10-08T10-32-24-01a11aa4-67bb-7ae1-b1d8-99af0c3495c3.jsonl. (9 October 2026, 09:49:46 +0200)
+
+> **Exploring design texture + geo** (9 October 2026, 09:49:46 +0200)
+>
+> Entrée = **[image de référence : asset 3D / environnement / texture / matériau]** ; cible = **[élément à retravailler]** ; problème = **[ce qui ne fonctionne pas visuellement]** ; mode = **[géométrie / textures / géométrie + textures]** ; paramètres libres = **[forme / proportions / matière / couleur / motif / échelle / relief]**, à adapter au problème ; objectif = **débloquer la recherche visuelle avec quatre propositions originales, belles et cohérentes qui résolvent le problème** ; sortie = **grille 2 × 2, résolution totale 4096 × 4096**, avec **deux propositions réalistes en haut et deux stylisées en bas** ; reprendre la référence entière et explorer quatre directions de design nettement différentes selon une logique HDA paramétrique ; en mode textures, adapter la géométrie de la cible si le nouveau matériau le nécessite ; préserver l’identité de la référence et les éléments hors cible ; même cadrage, même échelle de présentation et même éclairage pour comparer les propositions ; **sans simple recoloration comme seule variation ; sans modification hors cible ; sans décor ajouté ; sans texte ; sans légende**. (9 October 2026, 09:49:46 +0200)
+
+## 9 October 2026, 09:49:46 +0200 : Iteration
+
+<!-- feedback-event:72a55db9742b2bc50af7796c0d985298e13c4ffe56ba95707a5bb1fc27a799be (9 October 2026, 09:49:46 +0200) -->
+- Project: louisiana-bayou; kind: iteration. (9 October 2026, 09:49:46 +0200)
+- Source: /Users/zenray/.codex/sessions/2026/10/08/rollout-2026-10-08T10-32-24-01a11aa4-67bb-7ae1-b1d8-99af0c3495c3.jsonl. (9 October 2026, 09:49:46 +0200)
+
+> **Exploring design texture + geo** (9 October 2026, 09:49:46 +0200)
+>
+> Entrée = **[image de référence : asset 3D / environnement / texture / matériau]** ; cible = **[élément à retravailler]** ; problème = **[ce qui ne fonctionne pas visuellement]** ; mode = **[géométrie / textures / géométrie + textures]** ; paramètres libres = **[forme / proportions / matière / couleur / motif / échelle / relief]**, à adapter au problème ; objectif = **débloquer la recherche visuelle avec quatre propositions originales, belles et cohérentes qui résolvent le problème** ; sortie = **grille 2 × 2, résolution totale 4096 × 4096**, avec **deux propositions réalistes en haut et deux stylisées en bas** ; reprendre la référence entière et explorer quatre directions de design nettement différentes selon une logique HDA paramétrique ; en mode textures, adapter la géométrie de la cible si le nouveau matériau le nécessite ; préserver l’identité de la référence et les éléments hors cible ; même cadrage, même échelle de présentation et même éclairage pour comparer les propositions ; **sans simple recoloration comme seule variation ; sans modification hors cible ; sans décor ajouté ; sans texte ; sans légende**. (9 October 2026, 09:49:46 +0200)
