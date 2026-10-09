@@ -1622,3 +1622,17 @@
 - Project: louisiana-bayou; kind: log. (9 October 2026, 14:34:08 +0200)
 
 > 9 October 2026 : trim sheet 36 slots (ChatGPT image gen, base color + height, provisional red). UV par slot aleatoire avec refus des voisins, symetrie gauche-droite seule, bande verticale pour l'epaisseur. Feuilles: DoubleView Side/3Quarter, ModelSheet, UVSheet_Overlay, ColourIndex dans 03_work/uv/RoofTrimSheet36_9October2026. Scripts: UvRoofTrimSheet36.py, PlotRoofTrimSheet36.py. (9 October 2026, 14:34:08 +0200)
+
+## 9 October 2026, 15:05:48 +0200 : Log
+
+<!-- feedback-event:b598722ca55356f8e0284b18d0b44c39360d31b86c446a1b016f0ffc43354336 (9 October 2026, 15:05:48 +0200) -->
+- Project: louisiana-bayou; kind: log. (9 October 2026, 15:05:48 +0200)
+
+> 9 October 2026 : correction UV/normales de l'eglise : escalier (bois fenetres pour marches, rampes, balustres, poteaux, boules ; supports blancs alignes), 439 faces etirees refaites, normales soudees par position. Feuille ChurchUvSheet_Corrected_9October2026.png. Consigne : pas de geometrie a corriger, seulement normales et UV. (9 October 2026, 15:05:48 +0200)
+
+## 9 October 2026, 15:12:29 +0200 : Prompt
+
+<!-- feedback-event:44b1ffe79790469c9dfb53da1649c0949494a1c8a3f9fd72bbc266575a48ac74 (9 October 2026, 15:12:29 +0200) -->
+- Project: louisiana-bayou; kind: prompt. (9 October 2026, 15:12:29 +0200)
+
+> 9 October 2026 (Matthieu) : isoler porche + escalier + 2 fenetres dans la vue Cycles, cacher la church ; sol du porche et tous les bardages = white paint ; seule la rampe prend le bois des fenetres en respectant l'orientation ; boules : decoupage UV propre (projection cubique). Fait : isolate_view, WOOD_PARTS = rampe seule, axe par piece, boules cubiques. A traiter : defauts de fenetre (appui, montant, volet droit) en attente de precisions. (9 October 2026, 15:12:29 +0200)
