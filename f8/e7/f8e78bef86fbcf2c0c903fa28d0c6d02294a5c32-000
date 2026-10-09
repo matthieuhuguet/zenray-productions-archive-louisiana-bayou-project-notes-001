@@ -87,3 +87,5 @@
 - 9 October 2026, 20:48 CEST : Le job `0b824bd7` échoue au contrôle qui protège une source modifiée pendant sa sauvegarde ; `b7949aa0` démarre automatiquement à 18:47:25 UTC. Au relevé, erreur courante nulle, watcher actif, 8 fichiers en attente et un conflit de version encore visible. (9 October 2026)
 
 - 9 October 2026, 20:51 CEST : Le job `b7949aa0` archive la version stable de `LouisianaBayou.hiplc` sous `versions/production/c4cccea2…`, avec le SHA `c4cccea284349dae5200691f2346434a19675476132f44cee5cd145cedc9a23c` et son manifeste vérifié. Il termine deux fichiers, laisse cinq en attente, zéro conflit et zéro erreur, puis le service remet seul un nouveau job en file. (9 October 2026)
+
+- 9 October 2026, 21:01 CEST : Après l’archive vérifiée, de nouvelles modifications Louisiana ajoutent 3 fichiers et réouvrent un conflit de version ; l’inventaire montre 8 fichiers en attente, job automatique en cours, `error=null`, `watched=true`. Le service traite le nouveau snapshot après stabilisation, sans intervention manuelle. (9 October 2026)
