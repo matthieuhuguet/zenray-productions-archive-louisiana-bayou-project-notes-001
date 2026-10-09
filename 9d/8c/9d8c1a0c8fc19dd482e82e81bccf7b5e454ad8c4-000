@@ -1907,3 +1907,19 @@
 - Source: claude. (9 October 2026, 23:45:37 +0200)
 
 > 9 October 2026, 23:40 : audit du temps passé sur l'église, demandé par Matthieu à 23:32. Mesuré : environ 48 h de travail actif identifié (25 h du 10 au 20 September sur 11 jours, puis 22,5 h les 8 et 9 October), 38 sauvegardes du hip (bak1 le 10 September, bak38 le 9 October), 33 scripts de 1 690 lignes, hip de 4,8 Mo le 20 September à 52,5 Mo le 9 October. Sur le 9 October (56 prompts, 10,2 h entre le premier et le dernier prompt, pauses de plus de 40 minutes écartées) : géométrie porche, toit, croix, bevel et nettoyage intérieur 52 pour cent du temps, UV, trim sheet et tuiles 25 pour cent, échelle 12 pour cent, leçons 9 pour cent. Causes constatées : échelle fixée à 12:50 après les nombres de tuiles de 11:39, trim sheet de 36 emplacements à 14:04 après les UV, vérificateur UvCheck.py à 15:29 après 6 h 20 de travail et une plainte de Matthieu, matériaux déduits après fusion par tables d'ids à défaut silencieux, quads de clins sans épaisseur. Méthode proposée, NON VALIDÉE : échelle et trim sheet avant la géométrie, matériau posé à la création, vérificateur écrit avant le modèle, solide soudé, procédural réservé aux répétitions. (9 October 2026, 23:45:37 +0200)
+
+## 10 October 2026, 00:16:36 +0200 : Prompt
+
+<!-- feedback-event:c42a808070767be1aa8a73b70e7f8d735a88cc3d7b7b867c3969735d78807e43 (10 October 2026, 00:16:36 +0200) -->
+- Project: louisiana-bayou; kind: prompt. (10 October 2026, 00:16:36 +0200)
+- Source: claude. (10 October 2026, 00:16:36 +0200)
+
+> mais je comprends pas quand on fait une trimsheet on fait d'abord la texture et après la géométrie je comprends rien du tout ... après personne m'a appris mais bon ... (10 October 2026, 00:16:36 +0200)
+
+## 10 October 2026, 00:16:36 +0200 : Log
+
+<!-- feedback-event:402c564bee67e77942fae7f7585eb3e93365575c53c829651ae3101980866767 (10 October 2026, 00:16:36 +0200) -->
+- Project: louisiana-bayou; kind: log. (10 October 2026, 00:16:36 +0200)
+- Source: claude. (10 October 2026, 00:16:36 +0200)
+
+> 10 October 2026 : précision sur l'entrée du 9 October 2026 (audit-temps-eglise-2026-10-09). « Trim sheet avant la géométrie » signifie le PLAN des bandes (rectangles de couleur avec leur hauteur réelle et la densité en px/m), tiré de la fiche des tailles et d'un blockout à l'échelle, posé avant la géométrie fine et les UV. La texture peinte vient après et peut changer sans toucher un UV tant que les rectangles ne bougent pas. Ordre corrigé : 1 tailles et densité, 2 blockout, 3 plan des bandes en couleur, 4 détails et UV dans les bandes, 5 texture peinte. Cohérent avec la section 13 de /Users/zenray/.claude/skills/zenray-houdini/references/RoofTrimSheet36Protocol.md (le contrat est la table des bandes). Méthode toujours NON VALIDÉE par Matthieu. (10 October 2026, 00:16:36 +0200)
