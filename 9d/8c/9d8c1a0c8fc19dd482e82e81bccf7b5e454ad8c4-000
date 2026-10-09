@@ -1573,3 +1573,10 @@
 - Source: /Users/zenray/.codex/sessions/2026/10/08/rollout-2026-10-08T10-32-24-01a11aa4-67bb-7ae1-b1d8-99af0c3495c3.jsonl. (9 October 2026, 11:06:22 +0200)
 
 > Entrée = **[ChurchRoof_Reference, image jointe]** ; cible = **bardeaux de bois du toit** ; sortie = **trim sheet Height**, aspect export brut Substance Designer ; résolution = **4096 × 4096** ; contenu = **4 tuiles maximum, isolées, de tailles différentes**, présentées à plat sur fond noir ; projection = **orthographique, perpendiculaire aux surfaces** ; tuiles droites, alignées sur les axes de l’image ; respecter les formes, proportions et reliefs de la référence ; utiliser au maximum le cadre ; encodage cible = **gris linéaire, 16 bits** ; blanc = haut, noir = creux ; même échelle de hauteur partout ; **sans faîtage ; sans bardage ; sans longues planches ; sans toit assemblé ; sans éclairage ; sans ombres ; sans AO ; sans reflets ; sans couleur ; sans perspective ; sans inclinaison ; sans décor ; sans texte ; sans légende**. (9 October 2026, 11:06:22 +0200)
+
+## 9 October 2026, 13:35:59 +0200 : Log
+
+<!-- feedback-event:18c930ef2c35d24cc8f66b974bf44a3d6963c2d918b892b7be9c1b535b5de5f2 (9 October 2026, 13:35:59 +0200) -->
+- Project: louisiana-bayou; kind: log. (9 October 2026, 13:35:59 +0200)
+
+> Récap du 9 October 2026 (session Claude liée à vegetation-assets-collection-01, non réattribuée) : standard d'échelle figé sur la porte du porche à 2,0 m (facteur 1,6393), toit recompté sur l'image d'index en couleurs (église 21 rangées x 52 colonnes, 2 200 tuiles ; porche 7 x 18, 249 tuiles), tuiles collées par un curseur qui avance, rive de l'église collée sous le toit, faces avant et arrière de la pente droite du porche ajoutées, fenêtre de pignon 0,78 x 1,30 m, Manny posé en repère d'échelle, leçons HTML (grande leçon, densité de texels avec orientations et feuille paramétrique) et calculateur. Concept et index des fichiers : /Users/zenray/.claude/skills/zenray-houdini/references/RoofTrimSheetIndex1.md (9 October 2026, 13:35:59 +0200)

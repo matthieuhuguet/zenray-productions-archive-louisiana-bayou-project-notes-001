@@ -59,3 +59,9 @@
 - 8 October 2026 : textures de Matthieu rangées et renommées : `/Users/zenray/.claude/tmp/tmp-houdini-september-2026/tmp-bayou-louisiana/02_sources/textures/BayouRoofShingles_Height_1254_8October2026.png` et `BayouRoofShingles_BaseColor_1254_8October2026.png` (feuille de quatre tuiles, rectangles inscrits mesurés). Graphe `/obj/Cop_M_RoofShingles_01`, cinq cartes 2048 `BayouRoofShingles_<carte>_2048.png`. (8 October 2026)
 - 8 October 2026 : UV de toit : `uv_roof_church` (après `mat_tag_roof`) et `uv_roof_porch` (après `uv_whitepaint_porch`) dans `/obj/Church`, branchés sur `merge_all`. Une tuile par bardeau, couleur par tuile. Fiche : `/Users/zenray/.claude/tmp/tmp-houdini-september-2026/tmp-bayou-louisiana/03_work/uv/RoofShingles_DoubleView_Mesh_UV_8October2026.png`. Capture Cycles : `Church_Roof_Shingles_Cycles_8October2026.png` dans le même dossier. (8 October 2026)
 - 8 October 2026 : mélange peinture et noir sur les bords des planches cuit en Copernicus (`curvature` x bande de joints), `M_WhitePaint` lit `BayouWhitePaint_basecolor_edgeblack_2048.png`. Le mélange MaterialX `M_MaterialMix` reste dans `PC_matlib`, non assigné. (8 October 2026)
+
+## 9 October 2026 : Toit, trim sheet, échelle humaine (concept, valeurs, fichiers)
+
+- 9 October 2026 : Le concept noté en dur, le récap des valeurs et l'index des fichiers sont dans `/Users/zenray/.claude/skills/zenray-houdini/references/RoofTrimSheetIndex1.md` (source unique, ne pas dupliquer ici). (9 October 2026)
+- 9 October 2026 : Standard d'échelle : porte du porche à 2,0 m (facteur 1,6393 appliqué aux paramètres bruts), contrôlé avec Manny (1,805 m). Toit : église 2 200 tuiles, porche 249 tuiles. Trim sheet recommandée : 2048², 36 emplacements de 328 × 328 px, 144 aspects. (9 October 2026)
+- 9 October 2026 : Sauvegarde de l'ancienne échelle : `/Users/zenray/Create/Build/Productions/ZenRayHoudini/LouisianaBayou/LouisianaBayou_before_global_scale_9October2026.hiplc`. (9 October 2026)
