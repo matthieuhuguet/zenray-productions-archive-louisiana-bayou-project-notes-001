@@ -1891,3 +1891,11 @@
 - Source: Codex verification; Assets service inventory.. (9 October 2026, 21:02:00 +0200)
 
 > À 21:01 CEST, de nouvelles modifications locales Louisiana réouvrent un conflit et ajoutent des fichiers après l’archive précédente. Le watcher reste actif, le job est running, error=null, huit fichiers attendent. Le service reprendra la version stable automatiquement. (9 October 2026, 21:02:00 +0200)
+
+## 09 October 2026, 21:57:00 +0200 : Iteration
+
+- Project: louisiana-bayou; kind: iteration. (09 October 2026)
+- Agent: Antigravity. (09 October 2026)
+
+> Desactivation des noeuds Manny dans /obj : Manny_ScaleRef et Manny_LowLOD_fbx masques (display flag = False). (09 October 2026)
+> Le viewport est nettoye, Manny n'apparait plus ni dans la vue OpenGL ni dans les apercus. Hip sauvegarde. (09 October 2026)
