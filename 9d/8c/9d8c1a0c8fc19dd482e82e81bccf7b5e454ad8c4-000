@@ -1485,3 +1485,91 @@
 > Entrée = **[image de référence]** ; cible = **[tuiles / bardeaux du toit]** ; sortie = **une image 4096 × 4096**, aspect passe Color ID / diagnostic UV ; conserver le cadrage, la géométrie, les proportions et les éléments hors cible ; remplacer la texture de **chaque tuile visible par une couleur unie unique**, constante sur toute sa partie visible ; index logique = **pan / rangée / position dans la rangée** ; organiser les couleurs en **progression chromatique par rangées et colonnes**, avec un contraste suffisant entre toutes les tuiles adjacentes ; traiter chaque pan séparément et respecter les décalages entre rangées ; conserver exactement les limites et le nombre de pièces discernables dans la référence ; une tuile = une région colorée ; zones indéterminables = **gris neutre** ; **sans dégradé à l’intérieur d’une tuile ; sans texture sur les couleurs d’index ; sans éclairage sur les couleurs d’index ; sans ombres sur les couleurs d’index ; sans reflets ; sans fusion de tuiles ; sans subdivision inventée ; sans ajout de pièces cachées ; sans texte ; sans légende**. (9 October 2026, 10:45:38 +0200)
 >
 > Ce mapping facilite le comptage des **tuiles visibles**, mais une image générée ne garantit pas leur nombre exact. J’attends ta validation avant l’ajout dans `zenray-houdini`, conformément à [wait-validation](/Users/zenray/.codex/skills/wait-validation/SKILL.md) : « attendre une validation explicite ». (9 October 2026, 10:45:38 +0200)
+
+## 9 October 2026, 10:49:06 +0200 : Prompt
+
+<!-- feedback-event:d6d1550719b69f80274875ef65f53a8fdfdeb00f3def0819507ededd3573bf12 (9 October 2026, 10:49:06 +0200) -->
+- Project: louisiana-bayou; kind: prompt. (9 October 2026, 10:49:06 +0200)
+- Source: /Users/zenray/.codex/sessions/2026/10/08/rollout-2026-10-08T10-32-24-01a11aa4-67bb-7ae1-b1d8-99af0c3495c3.jsonl. (9 October 2026, 10:49:06 +0200)
+
+> Bah en soit via code fais le directement sur l'img ... et append la au projet louisiana bayou dans le dossier uv /private/var/folders/r2/wh6ygv490dqbrs2mb51g39jm0000gn/T/codex-clipboard-a4de613a-5081-4c6c-963a-e0a7610f85de.png renamme and add [$zenray-assets](/Users/zenray/.codex/skills/zenray-assets/SKILL.md) proprement sans erreur (9 October 2026, 10:49:06 +0200)
+
+## 9 October 2026, 11:03:59 +0200 : Iteration
+
+<!-- feedback-event:ecd5051f55ff3f3e42e5f41836e4900fa8d451b230beac9dfd3da11eb1a1c223 (9 October 2026, 11:03:59 +0200) -->
+- Project: louisiana-bayou; kind: iteration. (9 October 2026, 11:03:59 +0200)
+- Source: checkpoint:codex:01a11aa4-67bb-7ae1-b1d8-99af0c3495c3. (9 October 2026, 11:03:59 +0200)
+
+> 9 October 2026: Référence copiée et renommée dans le dossier UV de l’atelier actif, octets originaux SHA256 ae572ab1d2f1bd31fb34745571451f0d8a61cdaeb77f0cbd967b305c2f2cdbaa conservés. Mapping Color ID créé par code en 4096 x 4096, avec 544 régions estimées sur trois pans, 544 couleurs uniques et 1439 paires adjacentes contrôlées. Pixels hors toit inchangés. CSV par pan/rangée/colonne, masque 16 bits, paramètres et preuves conservés. Le décompte réel des tuiles reste non vérifié depuis cette image. Archive ciblée 7f4abfe0-241e-4e27-bee2-6daad0bb6a07 terminée: 19 fichiers, 19 SHA256 et tailles conformes aux octets locaux. PNG final SHA256 0794b75a71534a75d630a1d7bbd1775a5bc7928524526a5c4685ca0928337401, 1668437 octets. Méthode et code réutilisable consignés dans zenray-houdini. Prochain: relire visuellement les limites estimées avant usage pour modélisation. (9 October 2026, 11:03:59 +0200)
+
+## 9 October 2026, 11:04:32 +0200 : Iteration
+
+<!-- feedback-event:3063588be6c30b4634f3ae6db87db11beb784e36025423facb019eea215cf767 (9 October 2026, 11:04:32 +0200) -->
+- Project: louisiana-bayou; kind: iteration. (9 October 2026, 11:04:32 +0200)
+- Source: /Users/zenray/.codex/sessions/2026/10/08/rollout-2026-10-08T10-32-24-01a11aa4-67bb-7ae1-b1d8-99af0c3495c3.jsonl. (9 October 2026, 11:04:32 +0200)
+
+> Créé par code et ajouté au dossier **UV de Louisiana Bayou** : [PNG 4K](/Users/zenray/Create/Build/AssetsWorkspaces/louisiana-bayou/loads/9a63ff5c-7edc-412b-8451-a7837bea3f4b/sources/tmp/workshop/03_work/uv/ChurchRoof_ColorIndex_4K_9October2026.png). (9 October 2026, 11:04:32 +0200)
+>
+> La référence renommée, le masque d’identifiants et l’index CSV sont conservés à côté. (9 October 2026, 11:04:32 +0200)
+>
+> | Demande | État | Preuve | (9 October 2026, 11:04:32 +0200)
+> |---|---|---| (9 October 2026, 11:04:32 +0200)
+> | Couleur différente par région | Fait | 544 couleurs uniques ; image inchangée hors toit | (9 October 2026, 11:04:32 +0200)
+> | Ajouter proprement au projet | Fait | 19 fichiers archivés, empreintes vérifiées | (9 October 2026, 11:04:32 +0200)
+> | Nombre exact de tuiles | Estimé | Les limites floues de la référence empêchent un comptage garanti | (9 October 2026, 11:04:32 +0200)
+
+## 9 October 2026, 11:04:32 +0200 : Iteration
+
+<!-- feedback-event:fd891b7c997cc3118e455d796889974251b1e54f63bbe9eec7c28b99cbdc47ec (9 October 2026, 11:04:32 +0200) -->
+- Project: louisiana-bayou; kind: iteration. (9 October 2026, 11:04:32 +0200)
+- Source: /Users/zenray/.codex/sessions/2026/10/08/rollout-2026-10-08T10-32-24-01a11aa4-67bb-7ae1-b1d8-99af0c3495c3.jsonl. (9 October 2026, 11:04:32 +0200)
+
+> Créé par code et ajouté au dossier **UV de Louisiana Bayou** : [PNG 4K](/Users/zenray/Create/Build/AssetsWorkspaces/louisiana-bayou/loads/9a63ff5c-7edc-412b-8451-a7837bea3f4b/sources/tmp/workshop/03_work/uv/ChurchRoof_ColorIndex_4K_9October2026.png). (9 October 2026, 11:04:32 +0200)
+>
+> La référence renommée, le masque d’identifiants et l’index CSV sont conservés à côté. (9 October 2026, 11:04:32 +0200)
+>
+> | Demande | État | Preuve | (9 October 2026, 11:04:32 +0200)
+> |---|---|---| (9 October 2026, 11:04:32 +0200)
+> | Couleur différente par région | Fait | 544 couleurs uniques ; image inchangée hors toit | (9 October 2026, 11:04:32 +0200)
+> | Ajouter proprement au projet | Fait | 19 fichiers archivés, empreintes vérifiées | (9 October 2026, 11:04:32 +0200)
+> | Nombre exact de tuiles | Estimé | Les limites floues de la référence empêchent un comptage garanti | (9 October 2026, 11:04:32 +0200)
+
+## 9 October 2026, 11:04:33 +0200 : Prompt
+
+<!-- feedback-event:779f9804d7332d4ddd377d44bea2cef907cbe218e863f8e1faf47eca990c1dbe (9 October 2026, 11:04:33 +0200) -->
+- Project: louisiana-bayou; kind: prompt. (9 October 2026, 11:04:33 +0200)
+- Source: /Users/zenray/.codex/sessions/2026/10/08/rollout-2026-10-08T10-32-24-01a11aa4-67bb-7ae1-b1d8-99af0c3495c3.jsonl. (9 October 2026, 11:04:33 +0200)
+
+> Pas du tout parce que l'image est pas droite en fait. (9 October 2026, 11:04:33 +0200)
+
+## 9 October 2026, 11:05:39 +0200 : Prompt
+
+<!-- feedback-event:e1ff200cdce771c2c7c4353f1f087b0140df0e03aad639148c1b43c7c098b62a (9 October 2026, 11:05:39 +0200) -->
+- Project: louisiana-bayou; kind: prompt. (9 October 2026, 11:05:39 +0200)
+- Source: /Users/zenray/.codex/sessions/2026/10/08/rollout-2026-10-08T10-32-24-01a11aa4-67bb-7ae1-b1d8-99af0c3495c3.jsonl. (9 October 2026, 11:05:39 +0200)
+
+> <external_codex_apps_open_page>{"page_id":null}</external_codex_apps_open_page> (9 October 2026, 11:05:39 +0200)
+
+## 9 October 2026, 11:05:39 +0200 : Prompt
+
+<!-- feedback-event:c10a69f4322af895916da44c9ee2125859335fc0b4501c94539da8cd61d33104 (9 October 2026, 11:05:39 +0200) -->
+- Project: louisiana-bayou; kind: prompt. (9 October 2026, 11:05:39 +0200)
+- Source: /Users/zenray/.codex/sessions/2026/10/08/rollout-2026-10-08T10-32-24-01a11aa4-67bb-7ae1-b1d8-99af0c3495c3.jsonl. (9 October 2026, 11:05:39 +0200)
+
+> redonne moi simplement le prompt pour obtenir la height du toit [$zenray-houdini](/Users/zenray/.codex/skills/zenray-houdini/SKILL.md)  /Users/zenray/Create/Build/AssetsWorkspaces/louisiana-bayou/loads/9a63ff5c-7edc-412b-8451-a7837bea3f4b/sources/tmp/workshop/03_work/uv/ChurchRoof_Reference_9October2026.png (9 October 2026, 11:05:39 +0200)
+
+## 9 October 2026, 11:06:22 +0200 : Iteration
+
+<!-- feedback-event:7ecda6b0826fa77a48151481986dba9e3610310bc693dbc22468a2edec8474d9 (9 October 2026, 11:06:22 +0200) -->
+- Project: louisiana-bayou; kind: iteration. (9 October 2026, 11:06:22 +0200)
+- Source: /Users/zenray/.codex/sessions/2026/10/08/rollout-2026-10-08T10-32-24-01a11aa4-67bb-7ae1-b1d8-99af0c3495c3.jsonl. (9 October 2026, 11:06:22 +0200)
+
+> Entrée = **[ChurchRoof_Reference, image jointe]** ; cible = **bardeaux de bois du toit** ; sortie = **trim sheet Height**, aspect export brut Substance Designer ; résolution = **4096 × 4096** ; contenu = **4 tuiles maximum, isolées, de tailles différentes**, présentées à plat sur fond noir ; projection = **orthographique, perpendiculaire aux surfaces** ; tuiles droites, alignées sur les axes de l’image ; respecter les formes, proportions et reliefs de la référence ; utiliser au maximum le cadre ; encodage cible = **gris linéaire, 16 bits** ; blanc = haut, noir = creux ; même échelle de hauteur partout ; **sans faîtage ; sans bardage ; sans longues planches ; sans toit assemblé ; sans éclairage ; sans ombres ; sans AO ; sans reflets ; sans couleur ; sans perspective ; sans inclinaison ; sans décor ; sans texte ; sans légende**. (9 October 2026, 11:06:22 +0200)
+
+## 9 October 2026, 11:06:22 +0200 : Iteration
+
+<!-- feedback-event:16f42183ec21509e52ed9b0db368372c7f263175383116709791ea5d2c5319d4 (9 October 2026, 11:06:22 +0200) -->
+- Project: louisiana-bayou; kind: iteration. (9 October 2026, 11:06:22 +0200)
+- Source: /Users/zenray/.codex/sessions/2026/10/08/rollout-2026-10-08T10-32-24-01a11aa4-67bb-7ae1-b1d8-99af0c3495c3.jsonl. (9 October 2026, 11:06:22 +0200)
+
+> Entrée = **[ChurchRoof_Reference, image jointe]** ; cible = **bardeaux de bois du toit** ; sortie = **trim sheet Height**, aspect export brut Substance Designer ; résolution = **4096 × 4096** ; contenu = **4 tuiles maximum, isolées, de tailles différentes**, présentées à plat sur fond noir ; projection = **orthographique, perpendiculaire aux surfaces** ; tuiles droites, alignées sur les axes de l’image ; respecter les formes, proportions et reliefs de la référence ; utiliser au maximum le cadre ; encodage cible = **gris linéaire, 16 bits** ; blanc = haut, noir = creux ; même échelle de hauteur partout ; **sans faîtage ; sans bardage ; sans longues planches ; sans toit assemblé ; sans éclairage ; sans ombres ; sans AO ; sans reflets ; sans couleur ; sans perspective ; sans inclinaison ; sans décor ; sans texte ; sans légende**. (9 October 2026, 11:06:22 +0200)
