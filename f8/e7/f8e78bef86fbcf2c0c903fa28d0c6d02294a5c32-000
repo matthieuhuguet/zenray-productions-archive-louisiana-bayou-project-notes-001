@@ -79,3 +79,11 @@
 - 9 October 2026 : Le delta de recherche est actualisé au `2026-10-09T18:33:41.575Z` ; les six images de concept déjà archivées deviennent visibles après rafraîchissement de l’index, même si la Gallery reste ouverte. (9 October 2026)
 - 9 October 2026 : Le service Assets surveille 19 projets inscrits sur 20, sans erreur ni conflit ; deux fichiers Louisiana restent en file automatique au relevé, avec surveillance active. (9 October 2026)
 - 9 October 2026 : Le scan récursif et la sauvegarde automatique couvrent les sources explicitement reliées ; un parent TMP partagé garde un mapping par projet pour éviter de mêler les chantiers. (9 October 2026)
+
+- 9 October 2026 : Correction du relevé précédent : au contrôle de 20:38 CEST, 3 fichiers Louisiana restent en file automatique, sur 15 fichiers répartis dans 6 projets ; le watcher reste actif et aucune erreur ni aucun conflit ne sont signalés. (9 October 2026)
+
+- 9 October 2026, 20:45 CEST : Le job `b42166ed` a échoué car `LouisianaBayou.hiplc` a changé pendant la préservation ; le job `0b824bd7` a démarré automatiquement 82 secondes après, `error=null`, watcher actif, 7 fichiers en cours. Le conflit versionné reste visible jusqu’à stabilisation ; aucune relance manuelle. (9 October 2026)
+
+- 9 October 2026, 20:48 CEST : Le job `0b824bd7` échoue au contrôle qui protège une source modifiée pendant sa sauvegarde ; `b7949aa0` démarre automatiquement à 18:47:25 UTC. Au relevé, erreur courante nulle, watcher actif, 8 fichiers en attente et un conflit de version encore visible. (9 October 2026)
+
+- 9 October 2026, 20:51 CEST : Le job `b7949aa0` archive la version stable de `LouisianaBayou.hiplc` sous `versions/production/c4cccea2…`, avec le SHA `c4cccea284349dae5200691f2346434a19675476132f44cee5cd145cedc9a23c` et son manifeste vérifié. Il termine deux fichiers, laisse cinq en attente, zéro conflit et zéro erreur, puis le service remet seul un nouveau job en file. (9 October 2026)

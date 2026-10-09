@@ -1836,3 +1836,50 @@
 - Source: Codex user prompt; native session binding was not available for verification.. (9 October 2026, 20:35:33 +0200)
 
 > il faut que tu fasses en sortes que le logiciel soit complètement autonome désormais et qu'on ait plus besoin d'y toucher [$think-of-everything](/Users/zenray/.codex/skills/think-of-everything/SKILL.md) [$dont-stop](/Users/zenray/.codex/skills/dont-stop/SKILL.md) (9 October 2026, 20:35:33 +0200)
+
+## 9 October 2026, 20:36:53 +0200 : Iteration
+
+<!-- feedback-event:9fe2691a7b761ed4fb8bde2b54ae55348cfb573db9f1a0f5e0ba98c02856e05c (9 October 2026, 20:36:53 +0200) -->
+- Project: louisiana-bayou; kind: iteration. (9 October 2026, 20:36:53 +0200)
+- Source: Codex verification; live deployment and local Assets service status.. (9 October 2026, 20:36:53 +0200)
+
+> Correctif Gallery publié sur Production/main : le bundle Gallery répond 200 et son SHA-256 correspond au build local. Le service Assets surveille 19 projets sur 20, sans erreur ni conflit, et traite automatiquement 18 fichiers en attente sur six projets ; agent-conversations reste suspendu selon la décision antérieure. (9 October 2026, 20:36:53 +0200)
+
+## 9 October 2026, 20:38:38 +0200 : Iteration
+
+<!-- feedback-event:c8b73f7e7a36c5cd24b03c08944fb4f3c0b92d7f63b7d54e39395c4408f40cde (9 October 2026, 20:38:38 +0200) -->
+- Project: louisiana-bayou; kind: iteration. (9 October 2026, 20:38:38 +0200)
+- Source: Codex verification; Assets service inventory.. (9 October 2026, 20:38:38 +0200)
+
+> Relevé de 20:38 CEST : la file automatique est passée de 18 à 15 fichiers sur six projets pendant que les sources continuaient à changer. Louisiana a trois fichiers en attente, aucune erreur ou conflit, watched=true. (9 October 2026, 20:38:38 +0200)
+
+## 9 October 2026, 20:45:21 +0200 : Prompt
+
+<!-- feedback-event:5c79479b13f9927280f9d51a8c4c2880951d13deaf180b50ed2436884db7bb02 (9 October 2026, 20:45:21 +0200) -->
+- Project: louisiana-bayou; kind: prompt. (9 October 2026, 20:45:21 +0200)
+
+> 9 October 2026 (Matthieu) : bevel fin procedural sur aretes exterieures (church, porche, rampes, planches en bois) + polycount ; rampes centrees sur la bande de planches entre poteau exterieur et porte avec petit decalage ; noter les techniques d'adoucissement ; pente du toit a aligner en changeant uniquement la hauteur de la church. (9 October 2026, 20:45:21 +0200)
+
+## 9 October 2026, 20:45:48 +0200 : Iteration
+
+<!-- feedback-event:3c6ecb79535bcfc6bc3b8edcf5c9cb185256be592f49aef2643102040bceac61 (9 October 2026, 20:45:48 +0200) -->
+- Project: louisiana-bayou; kind: iteration. (9 October 2026, 20:45:48 +0200)
+- Source: Codex verification; Assets service job history.. (9 October 2026, 20:45:48 +0200)
+
+> Au relevé de 20:45 CEST, le job d’archive en erreur après la modification simultanée de LouisianaBayou.hiplc a été repris automatiquement : un nouveau job est running, erreur courante nulle, watcher actif, sept fichiers restent en traitement. La trace de l’échec demeure dans l’historique du job. (9 October 2026, 20:45:48 +0200)
+
+## 9 October 2026, 20:48:40 +0200 : Iteration
+
+<!-- feedback-event:ec3b7cbc22e52085035890f190294fbcff31c0888e621400720bf0a9c9ea22dd (9 October 2026, 20:48:40 +0200) -->
+- Project: louisiana-bayou; kind: iteration. (9 October 2026, 20:48:40 +0200)
+- Source: Codex verification; Assets service job history.. (9 October 2026, 20:48:40 +0200)
+
+> À 20:48 CEST, la seconde archive automatique rencontre encore la protection contre une modification de LouisianaBayou.hiplc. Le service démarre seul le job b7949aa0 ; erreur courante nulle, watcher actif, huit fichiers en attente et un conflit de version visible. La sauvegarde attend une version stable. (9 October 2026, 20:48:40 +0200)
+
+## 9 October 2026, 20:51:29 +0200 : Iteration
+
+<!-- feedback-event:884bf0f6730fbed28a5a5a3e78f55ab02b4d46a069663ee7ccea2334c82b82df (9 October 2026, 20:51:29 +0200) -->
+- Project: louisiana-bayou; kind: iteration. (9 October 2026, 20:51:29 +0200)
+- Source: Codex verification; Assets service job and cloud manifest proof.. (9 October 2026, 20:51:29 +0200)
+
+> À 20:51 CEST, le troisième job archive avec preuve cloud la version stable c4cccea2 de LouisianaBayou.hiplc ; les conflits et erreurs reviennent à zéro. Il termine deux fichiers, remet seul cinq fichiers dans un nouveau job et maintient le watcher. (9 October 2026, 20:51:29 +0200)
