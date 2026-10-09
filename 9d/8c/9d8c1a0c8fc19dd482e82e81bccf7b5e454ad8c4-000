@@ -1650,3 +1650,17 @@
 - Project: louisiana-bayou; kind: prompt. (9 October 2026, 15:31:34 +0200)
 
 > 9 October 2026 (Matthieu) : persiennes uniquement sur la zone rouge des louvres et distribuees au hasard ; utiliser a fond les 2 premieres bandes ; le verre (bleu) est un autre materiau et ne va pas sur la feuille ; ne plus avoir a verifier manuellement. Fait : UvShutterFix refait (une densite, aleatoire), UvCheck.py verificateur automatique, feuille fenetres regeneree. (9 October 2026, 15:31:34 +0200)
+
+## 9 October 2026, 15:38:02 +0200 : Prompt
+
+<!-- feedback-event:893ddf72a564e1218b6b83c065daa4b3191607bd86c1980e39ae87f90312c509 (9 October 2026, 15:38:02 +0200) -->
+- Project: louisiana-bayou; kind: prompt. (9 October 2026, 15:38:02 +0200)
+
+> 9 October 2026 (Matthieu, en colere) : IL DOIT Y AVOIR QUE DU ROUGE DANS LES PERSIENNES. Cause : tables d'ids de group_colors_A/B trop courtes, 96+88 lamelles classees frame/rail. Corrige par classement par la forme ; consigne dans RoofTrimSheet36Protocol.md section 11. (9 October 2026, 15:38:02 +0200)
+
+## 9 October 2026, 15:55:12 +0200 : Prompt
+
+<!-- feedback-event:da73d4068615befc6a6a996cd9fbaa74e1e690db9dd7c14e16820a29e859eb7f (9 October 2026, 15:55:12 +0200) -->
+- Project: louisiana-bayou; kind: prompt. (9 October 2026, 15:55:12 +0200)
+
+> 9 October 2026 (Matthieu) : stop aux timeouts longs, vue OBJ pour debug, solution la plus rapide priorite 0 (regle globale + skill) ; reappliquer les bonnes textures dans la vue OBJ ; coller les UV au coin bas gauche de la bande ; symetrie des volets (rails/charnieres du volet droit etaient classes lamelles) ; question trim sheet vs fenetre. (9 October 2026, 15:55:12 +0200)
