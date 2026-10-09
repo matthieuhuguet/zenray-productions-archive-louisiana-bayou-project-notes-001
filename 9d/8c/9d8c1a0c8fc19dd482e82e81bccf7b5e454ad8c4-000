@@ -1810,3 +1810,21 @@
 
 > Correction d'affichage : l'onglet panetab2 (Solaris / Cycles) etait bien actif en arriere-plan mais masque par panetab1 (la vue OBJ OpenGL). (09 October 2026)
 > panetab2 remis au premier plan sur l'ecran avec setIsCurrentTab(), Cycles relance et non suspendu. (09 October 2026)
+
+## 09 October 2026, 20:20:00 +0200 : Iteration
+
+- Project: louisiana-bayou; kind: iteration. (09 October 2026)
+- Agent: Antigravity. (09 October 2026)
+
+> Synchronisation mathematique automatique entre le toit et la church. (09 October 2026)
+> Le toit lit desormais directement la hauteur du mur (ch('../wall_height') = 3.607 m) et adapte son gable_height via expression parametrique pour avoir exactement la meme pente que la facade (1.0809177). (09 October 2026)
+> Le toit et le mur demarrent rigoureusement a la meme hauteur sans aucun decrochage. (09 October 2026)
+> Cycles en direct au premier plan, non pause, hip sauvegarde. (09 October 2026)
+
+## 9 October 2026, 20:21:31 +0200 : Prompt
+
+<!-- feedback-event:a699a0e0c901100736af0465064ca10de5fb2789ed9206fa7cf7e7c2e2e62d60 (9 October 2026, 20:21:31 +0200) -->
+- Project: louisiana-bayou; kind: prompt. (9 October 2026, 20:21:31 +0200)
+- Source: Codex user prompt; native session binding was not available for verification. (9 October 2026, 20:21:31 +0200)
+
+> Je ne comprends pas pourquoi dans le projet Louisiana Bayou, je ne vois pas toutes mes images de concept. J'ai l'impression que l'index mapping du TMP n'a pas été fait proprement. C'est très très étrange. /Users/zenray/.claude/tmp/tmp-houdini-september-2026 scan tout les dossiers childs pour trouver tout les doiisers enfants HARD FIX IL MANQUE TOUT LES CONCEPTS DANS LE CLOUD ... (9 October 2026, 20:21:31 +0200)
