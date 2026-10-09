@@ -1664,3 +1664,17 @@
 - Project: louisiana-bayou; kind: prompt. (9 October 2026, 15:55:12 +0200)
 
 > 9 October 2026 (Matthieu) : stop aux timeouts longs, vue OBJ pour debug, solution la plus rapide priorite 0 (regle globale + skill) ; reappliquer les bonnes textures dans la vue OBJ ; coller les UV au coin bas gauche de la bande ; symetrie des volets (rails/charnieres du volet droit etaient classes lamelles) ; question trim sheet vs fenetre. (9 October 2026, 15:55:12 +0200)
+
+## 9 October 2026, 16:08:04 +0200 : Prompt
+
+<!-- feedback-event:a03308b2b2b02370b156e958fc827dadb5319570192f74d50e58004ae20659f3 (9 October 2026, 16:08:04 +0200) -->
+- Project: louisiana-bayou; kind: prompt. (9 October 2026, 16:08:04 +0200)
+
+> 9 October 2026 (Matthieu) : bug d'ombrage sur toutes les tuiles, hard fix ; les 5 planches au-dessus du support d'escalier en materiau fenetre a la resolution fenetre. Cause : Cycles ignore les normales faceVarying et lisse sur les points partages ; correctif Facet unique points dans Church_Lookdev ; marches en bois de fenetre (densite 0,65, bande 1, bas gauche). (9 October 2026, 16:08:04 +0200)
+
+## 9 October 2026, 16:11:53 +0200 : Prompt
+
+<!-- feedback-event:4b060b59d63628d2d91f5e4a58964085af4fc25a636aafad7435705eb6e58854 (9 October 2026, 16:11:53 +0200) -->
+- Project: louisiana-bayou; kind: prompt. (9 October 2026, 16:11:53 +0200)
+
+> 9 October 2026 (Matthieu) : croix : croisillon plus fin en profondeur et centre sur le poteau (hauteur inchangee), UV re-adaptes, 1024 px/m. Fait : CrossFix.py, px_per_m, densite 0,5 uv/m sur feuille 2048. (9 October 2026, 16:11:53 +0200)
