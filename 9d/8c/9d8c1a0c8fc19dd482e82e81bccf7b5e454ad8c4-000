@@ -2200,3 +2200,10 @@
 - Project: louisiana-bayou; kind: rule. (11 October 2026, 00:21:02 +0200)
 
 > Règle (11 October 2026) : le score à 12 composantes (Scripts/Metrics2.py) n'est plus seulement un journal : il guide les paramètres. Mesuré : l'étirement horizontal pilote l'anisotropie et l'orientation, mais les composantes sont couplées (EQUIV 0,552 à 0,562 seulement). Méthode suivante proposée : plan d'expérience sur quatre paramètres (étirement, borne haute de taille, lèvre, bruit fin), puis pas amorti. À valider avant de coder. (11 October 2026, 00:21:02 +0200)
+
+## 11 October 2026, 00:34:50 +0200 : Prompt
+
+<!-- feedback-event:012a6c64ffc0af6cb810d9b48a000c3813d142e8f493fdea31206edecfacf48c (11 October 2026, 00:34:50 +0200) -->
+- Project: louisiana-bayou; kind: prompt. (11 October 2026, 00:34:50 +0200)
+
+> Louisiana Bayou, fenêtre : prendre la height de référence, itérer via un seul calque dans un graphe Copernicus propre, un calque à la fois, une capture à chaque étape, réflexion permanente et doc Copernicus liée. Workflow nommé zenray-simple-height. Go : recommencer de zéro, archiver les résultats précédents. Condition d'arrêt : seulement un résultat strictement identique. Relancer le processus toutes les 15 secondes si la boucle s'arrête. (11 October 2026, 00:34:50 +0200)
