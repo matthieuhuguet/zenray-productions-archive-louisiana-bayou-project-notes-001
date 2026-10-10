@@ -2032,3 +2032,136 @@
 - Project: louisiana-bayou; kind: rule. (10 October 2026, 16:27:50 +0200)
 
 > 10 October 2026 : rule (Matthieu) : un bout de poutre pivote se coupe par un plan/cube droit, jamais de faces qui se chevauchent ; planche de 4 vues ghost wireframe VK pour inspecter vite. Applique : CrossFix v6 coupe les 4 chevrons au faitage a x=0. Consigne dans zenray-houdini. (10 October 2026, 16:27:50 +0200)
+
+## 10 October 2026, 16:36:05 +0200 : Prompt
+
+<!-- feedback-event:9ee363144854aee0f8600d88669a1e347d2d2689eefff6e10ea67d9d37f33dcd (10 October 2026, 16:36:05 +0200) -->
+- Project: louisiana-bayou; kind: prompt. (10 October 2026, 16:36:05 +0200)
+
+> 10 October 2026 : Matthieu : « t'as toujours pas fait ce que je t'ai demande » (2 captures annotees : coin du poteau 'c'est elle qui est cut', faitage 'les deux poutres doivent etre cut par le milieu'). Faitage : v6 laissait une encoche, v7 prolonge le bout le long de l'axe jusqu'a x=0 puis coupe plat (4 chevrons, face plane y 6.984..7.146). Coin du poteau : element designe non identifie avec certitude, a confirmer par Matthieu. (10 October 2026, 16:36:05 +0200)
+
+## 10 October 2026, 16:50:25 +0200 : Standing rule
+
+<!-- feedback-event:8b78b7a51a8474ddeca54f061f0c3d615e728f1333d2fc71f12593113489104d (10 October 2026, 16:50:25 +0200) -->
+- Project: louisiana-bayou; kind: rule. (10 October 2026, 16:50:25 +0200)
+
+> 10 October 2026 : regle (Matthieu) priorite 0 : quand je n'arrive pas a faire un truc, il faut qu'il me donne une image annotee, c'est elle qui debloque (deux captures d'exemple ont debloque ce que la description complete n'avait pas fait). Inscrite dans CLAUDE.md et zenray-houdini. (10 October 2026, 16:50:25 +0200)
+
+## 10 October 2026, 17:57:33 +0200 : Prompt
+
+<!-- feedback-event:4764dc3c003bc10ae9b31334b3727d58d3e895e3561cb48e71f2a274fadf8f04 (10 October 2026, 17:57:33 +0200) -->
+- Project: louisiana-bayou; kind: prompt. (10 October 2026, 17:57:33 +0200)
+
+> 10 October 2026 : capture annotee (3 fleches) : face dans le vide sous l'escalier. Cause : doublon plat y=0 sous la face inclinee du bas de chaque limon (prims 72, 146, 109). Correction : node stairs_void_face_fix entre Component_PorchStairs et bevel_stairs, 765 -> 762 prims. (10 October 2026, 17:57:33 +0200)
+
+## 10 October 2026, 18:05:30 +0200 : Prompt
+
+<!-- feedback-event:a2cb0c409c5cd47f31c4d3fb097f3d7e1222c2b6da6a801c8eba295ee0e9c3f8 (10 October 2026, 18:05:30 +0200) -->
+- Project: louisiana-bayou; kind: prompt. (10 October 2026, 18:05:30 +0200)
+
+> 10 October 2026 : Matthieu : « il y a 3 faces dans le vide, je t'ai mis 3 fleches ». Cause de mon echec : suppression de prims dans la boucle (numeros decales), seule la 1re face partait. Corrige : collecte puis suppression en un appel ; verifie par comparaison bbox/aire que les 3 quads plats y=0 (x -1.507, -0.648, 0.211) disparaissent. (10 October 2026, 18:05:30 +0200)
+
+## 10 October 2026, 18:43:01 +0200 : Log
+
+<!-- feedback-event:6d3b312fe15978d79307657e4bcca9c4f948a93a57dc05beb06a63073f4cbb00 (10 October 2026, 18:43:01 +0200) -->
+- Project: louisiana-bayou; kind: log. (10 October 2026, 18:43:01 +0200)
+
+> 10 October 2026 : passe dont-stop « itérer les 3 heights jusqu'à 99 % ». Résultat honnête : 99 % NON atteint. EQUIV (12 composants, Scripts/Metrics2.py) : white painting 0.672 vers 0.819 ; fenêtre 0.601 vers 0.610 ; tuile 0.821 vers 0.831. Images par itération dans Heights/versions/. Ablation : densité par ligne retirée de la fenêtre. Limites mesurées : bruit aléatoire plafonne le profil de rangées (~0.86-0.90), nombre de taches et p90 hors tolérance, patch de la fenêtre encore strié horizontalement. Nombre de nœuds : 74 (white painting), 114 (fenêtre), 72 par graine (tuile) : le 64 par itération n'est pas tenu, à dire. (10 October 2026, 18:43:01 +0200)
+
+## 10 October 2026, 18:59:39 +0200 : Log
+
+<!-- feedback-event:79a1617729625b9eaa5e3d00371ce87bef476fd9b115d19aa307abec9d7a21bd (10 October 2026, 18:59:39 +0200) -->
+- Project: louisiana-bayou; kind: log. (10 October 2026, 18:59:39 +0200)
+
+> 10 October 2026 : Matthieu : viser le visuel des 3 heights uniquement par itérations de 64 nodes, optimisation plus tard, continuer sans s'arrêter. Fait : whitepaint 0.775, fenêtre 0.701, tuile 0.823 (EQUIV, 12 composants). Moteur Scripts/Iter64.py (assertion 64 nodes), specs Scripts/IterSpecs.py. Images par itération dans Heights/versions/ et journal versions/INDEX.md. (10 October 2026, 18:59:39 +0200)
+
+## 10 October 2026, 19:01:01 +0200 : Log
+
+<!-- feedback-event:561ba692d6d11b24c5563780082d827c94a639c62c2506bfab9aa3eed19bf398 (10 October 2026, 19:01:01 +0200) -->
+- Project: louisiana-bayou; kind: log. (10 October 2026, 19:01:01 +0200)
+
+> 10 October 2026 : passe 64 nodes, état : white painting 0.773 (458 nodes), fenêtre 0.701 (308 nodes), tuile 0.823 (36 graines). Rejeté : nappes claires (IT08). Écart restant du white painting : générateur de chips de la base (taches petites et dentelées), à décider. Images et journal : Heights/versions/INDEX.md. (10 October 2026, 19:01:01 +0200)
+
+## 10 October 2026, 19:31:54 +0200 : Standing rule
+
+<!-- feedback-event:f2266a956fbe635f7d61a6753f8335b661ee401794c04c92cdde6c8070fe3cc8 (10 October 2026, 19:31:54 +0200) -->
+- Project: louisiana-bayou; kind: rule. (10 October 2026, 19:31:54 +0200)
+
+> 10 October 2026 : au lieu d'un score, la question est : la height est-elle atteinte ? Sinon, une nouvelle commande MCP change le graphe, par itérations de 64 nodes. Le score (EQUIV, CompareHeight, Metrics2) est DEPRECATED ; le verdict est visuel, consigné dans versions/INDEX.md. (10 October 2026, 19:31:54 +0200)
+
+## 10 October 2026, 19:43:50 +0200 : Prompt
+
+<!-- feedback-event:c372a8eed7606008adf4107c9a6041186a184240ece8ee4f59a4e8dc7b3237fd (10 October 2026, 19:43:50 +0200) -->
+- Project: louisiana-bayou; kind: prompt. (10 October 2026, 19:43:50 +0200)
+
+> 10 October 2026, 19:40 : Matthieu. Les méthodes précédentes ne marchent pas (score, réflexion itérative, additif 64 nodes déprécié). Itérer uniquement sur la fenêtre. Trouver LA bonne méthode en testant plusieurs méthodes : 24 à 32 passes de 64 nodes par méthode, puis changer de méthode radicalement. Objectif : une méthode qui atteint la height à coup sûr en un seul prompt. Feuille explicative tenue au fil des résultats. Va vite. Relance toutes les 2 min uniquement si arrêté, jusqu'à demain 8h. (10 October 2026, 19:43:50 +0200)
+
+## 10 October 2026, 20:19:17 +0200 : Prompt
+
+<!-- feedback-event:24ec90753f57ef2eb406e5fcadc4f51118ee48ab2de069f67c771de9e7a5d350 (10 October 2026, 20:19:17 +0200) -->
+- Project: louisiana-bayou; kind: prompt. (10 October 2026, 20:19:17 +0200)
+
+> essayons cette nouvelle methode : pas 64 mais N. N a trouver : itérer haut 4096, 2048, 1024 ou 512, bref trouver N. L'ancien workflow (passes de 64 nodes) est refait alors qu'il ne fallait pas : le nombre de passes n'est pas une methode. Determiner le nombre maximal de layers qu'une seule passe peut porter (512 propose). Au moins 16 methodes differentes qui pourraient marcher ; tester seulement les quatre premieres phases de chacune ; Matthieu tranchera ensuite. Arreter de s'arreter a chaque passe. Cron a 10 secondes au lieu de 2 minutes (plancher 60 s). Faire les 32 passes. Mesurer par masques noir et blanc (Python, numpy ou Copernicus) pour deduire la prochaine iteration via la doc Copernicus, plus vite. Reprendre toutes les methodes. /tasks-sequence (10 October 2026, 20:19:17 +0200)
+
+## 10 October 2026, 20:59:23 +0200 : Prompt
+
+<!-- feedback-event:71ac11a2185427e7acf70c6602b3e2e38a82d09ec9cb5c9300bd09bc6e46752c (10 October 2026, 20:59:23 +0200) -->
+- Project: louisiana-bayou; kind: prompt. (10 October 2026, 20:59:23 +0200)
+
+> créer un skill /zenray-methodologie avec ce concept, puis enregistrer l'index dans claude.md, dans zenray-houdini et dans claude-md-global (10 October 2026, 20:59:23 +0200)
+
+## 10 October 2026, 21:59:44 +0200 : Log
+
+<!-- feedback-event:bc66a16e6553a5a6ef44f44fba7b99bc438651ee26293e0f813b0d102e1a0057 (10 October 2026, 21:59:44 +0200) -->
+- Project: louisiana-bayou; kind: log. (10 October 2026, 21:59:44 +0200)
+
+> 10 October 2026, 21:59 : réveil de la boucle Louisiana Bayou. Aucune consigne nouvelle dans le FEEDBACK ni dans la feuille. Les quatre phases des seize méthodes sont closes (série v4, seuils absolus issus de la référence). La consigne du 10 October 2026, 20:19 demande de tester seulement ces quatre phases puis d'attendre le critère de Matthieu : aucune passe n'est relancée. Boucle mise en pause ; elle repartira avec /loop après sa décision. Nodes par passe courant : 4096 (N mesuré, feuille WindowMethodSheet.md). (10 October 2026, 21:59) (10 October 2026, 21:59:44 +0200)
+
+## 10 October 2026, 22:07:14 +0200 : Prompt
+
+<!-- feedback-event:b827cda19a0797abdac3f322ed276a2307c331f05018c52229204cc052e2ab10 (10 October 2026, 22:07:14 +0200) -->
+- Project: louisiana-bayou; kind: prompt. (10 October 2026, 22:07:14 +0200)
+
+> methodology en anglais fix it /zenray-methodologie (10 October 2026, 22:07:14 +0200)
+
+## 10 October 2026, 22:15:49 +0200 : Prompt
+
+<!-- feedback-event:cacab90935ac4fea39a84399ad2bd4b0bb78f893aa4028260a849d51940836c0 (10 October 2026, 22:15:49 +0200) -->
+- Project: louisiana-bayou; kind: prompt. (10 October 2026, 22:15:49 +0200)
+
+> Non : le texte initial doit être en recit-francais, seul le nom change : zenray-methodologie devient zenray-methodology. (10 October 2026, 22:15:49 +0200)
+
+## 10 October 2026, 22:29:05 +0200 : Prompt
+
+<!-- feedback-event:374216512d093eb28677360b5934e68e2bcfd3d90d1975c4c9aa34dc84efc52a (10 October 2026, 22:29:05 +0200) -->
+- Project: louisiana-bayou; kind: prompt. (10 October 2026, 22:29:05 +0200)
+
+> 10 October 2026 : verdicts de Matthieu à l'œil. La méthode 1 et la méthode 11 ont plutôt bien marché, même si on est encore loin du résultat. C'est ce qui s'est le plus approché du résultat : la méthode 1 et la méthode 11 ont vraiment donné les meilleurs résultats, mais on est encore loin du résultat final. La méthode 14 aussi était intelligente ; elle est quasi pas mal, mais je ne sais pas. Le problème de la méthode 1, c'est qu'elle n'a pas beaucoup varié entre P1 et P4, tandis que la méthode 14... Ah non, c'est pareil. Ce qui ressort : la méthode 1, la méthode 11 et la méthode 14. (10 October 2026, 22:28) (10 October 2026, 22:29:05 +0200)
+
+## 10 October 2026, 22:29:05 +0200 : Prompt
+
+<!-- feedback-event:2e6aee8c2be8793dd479233486077e44d13d52ef2a0e4849c8d2d66ae41c3977 (10 October 2026, 22:29:05 +0200) -->
+- Project: louisiana-bayou; kind: prompt. (10 October 2026, 22:29:05 +0200)
+
+> 10 October 2026 : consigne. On va réessayer en resélectionnant les méthodes 1, 11 et 14, mais en passant à huit passes. Commencer par consigner mes résultats à l'œil, puis relancer les passes en partant de l'existant. Ne pas repartir de zéro : relire ce qui a été fait dans les passes 1, 11 et 14 et le consigner. Refaire ensuite le document HTML. (10 October 2026, 22:28) (10 October 2026, 22:29:05 +0200)
+
+## 10 October 2026, 22:29:05 +0200 : Order of work
+
+<!-- feedback-event:907f955bc1bf3e0c3166dc67e70fbf793ea28e47aeefa7db109d96b79db59b85 (10 October 2026, 22:29:05 +0200) -->
+- Project: louisiana-bayou; kind: order. (10 October 2026, 22:29:05 +0200)
+
+> 10 October 2026 : /goal 8 passes × 3 méthodologie pour affiner et trancher les prochaines étapes, nombres N (essayer le nombre maximal à chaque fois), sortie HTML avec les 3 méthodes et les 8 passes, go. Puis /wait-validation /tasks-sequence. Validation reçue : go, sauf la tâche 8 (consigner les résultats et trancher la suite), qui attend ta validation. (10 October 2026, 22:28) (10 October 2026, 22:29:05 +0200)
+
+## 10 October 2026, 22:29:05 +0200 : Standing rule
+
+<!-- feedback-event:8c0bc94990146c7134467aa132cf83e01228ae404eabf198695f7c27ea413bff (10 October 2026, 22:29:05 +0200) -->
+- Project: louisiana-bayou; kind: rule. (10 October 2026, 22:29:05 +0200)
+
+> 10 October 2026 : règle de consignation. Chaque passe porte le maximum de contexte : N (familles, nodes, temps de construction et de recalcul), couvertures par région avant et après, largeur de lèvre, profondeur et amplitude de finition, fractions mesurées face aux cibles, concentration haut moins lames, fichiers (spec, PNG, planche, masques), avis à l'œil. Une passe repart de l'existant, jamais de zéro. (10 October 2026, 22:28) (10 October 2026, 22:29:05 +0200)
+
+## 10 October 2026, 22:55:18 +0200 : Prompt
+
+<!-- feedback-event:6751f1192d2c7725babc3077a516c6d075808bcc1f8aa55e76600704a1c5a3a8 (10 October 2026, 22:55:18 +0200) -->
+- Project: louisiana-bayou; kind: prompt. (10 October 2026, 22:55:18 +0200)
+
+> Rajouter trois lignes dans le HTML où l'on compare seulement l'image de gauche et celle de droite : gauche la référence de hauteur (dictée « ref eight », lue comme height), droite le résultat final de la passe 8 de chacune des trois méthodes (M01, M11, M14). (10 October 2026, 22:55:18 +0200)
