@@ -1963,3 +1963,19 @@
 - Source: claude. (10 October 2026, 12:35:10 +0200)
 
 > 10 October 2026 : cause réelle du losange noir du faîtage du porche : quad en papillon au sommet de chaque rive (arête intérieure dépassant l'axe). Corrigé dans Component_PorchVestibule/build_rake_boards (arête coupée à l'axe, points partagés, aucun bouchon), vérifié par flipbook Cycles sur deux angles : losange disparu. Hip enregistré. Reste : paires de faces opposées entre pièces (77) et dans une même pièce (118), non traitées ; FBX Unreal à réexporter. (10 October 2026, 12:35:10 +0200)
+
+## 10 October 2026, 13:00:47 +0200 : Prompt
+
+<!-- feedback-event:e710230be8bffd1d2b0a067888d2742ec67d85c549c289160f54329ae2e3daa2 (10 October 2026, 13:00:47 +0200) -->
+- Project: louisiana-bayou; kind: prompt. (10 October 2026, 13:00:47 +0200)
+- Source: claude. (10 October 2026, 13:00:47 +0200)
+
+> il reste la croix qui n'est pas liée à la flèche inversée ! les extrémités de la flèche rentrent dans les 2 poutres / les seam bords extérieurs sont toujours pas fusionnés, boolean ou faire moins loin : la règle à noter il ne peut jamais y avoir 2 faces sur le même plan en 3D, vérifie partout sur le modèle et consigne /zenray-houdini ; sur le plan opposé même problème de flèches et de fenêtre mal positionnée. go /goal (10 October 2026, 13:00:47 +0200)
+
+## 10 October 2026, 13:00:47 +0200 : Log
+
+<!-- feedback-event:bbf5cdcc81a4425b80463959b341db34566b8ae7dbd2e58481f74ce7ae1a95d6 (10 October 2026, 13:00:47 +0200) -->
+- Project: louisiana-bayou; kind: log. (10 October 2026, 13:00:47 +0200)
+- Source: claude. (10 October 2026, 13:00:47 +0200)
+
+> 10 October 2026 : croix et flèche inversée refaites à la source (generate_gables_and_arches) : un seul poteau continu du bas de la flèche au sommet de la croix, flèche partant du haut de la fenêtre B sur les deux pignons, aisseliers arrêtés sur la face inférieure des arbalétriers (0,0557 m de l'axe pour 0,055 de demi-poutre), poteaux 4 mm et aisseliers 8 mm derrière les arbalétriers. Armature passée en union boolean (5 370 vers 4 748 faces, 0 arête ouverte), faces filiformes retirées. remove_duplicate_faces v2. Scan global des faces coplanaires qui se recouvrent : 4 064 paires restantes (porche 1 551, escalier 742, armature 657, façade 416). UvCheck passe. Hip enregistré, sauvegarde bak40. NON fait : union de l'escalier (une face sortait de sa bande), façade et porche (feuilles non fermées), fenêtre du pignon arrière à revérifier visuellement. (10 October 2026, 13:00:47 +0200)
