@@ -1979,3 +1979,56 @@
 - Source: claude. (10 October 2026, 13:00:47 +0200)
 
 > 10 October 2026 : croix et flèche inversée refaites à la source (generate_gables_and_arches) : un seul poteau continu du bas de la flèche au sommet de la croix, flèche partant du haut de la fenêtre B sur les deux pignons, aisseliers arrêtés sur la face inférieure des arbalétriers (0,0557 m de l'axe pour 0,055 de demi-poutre), poteaux 4 mm et aisseliers 8 mm derrière les arbalétriers. Armature passée en union boolean (5 370 vers 4 748 faces, 0 arête ouverte), faces filiformes retirées. remove_duplicate_faces v2. Scan global des faces coplanaires qui se recouvrent : 4 064 paires restantes (porche 1 551, escalier 742, armature 657, façade 416). UvCheck passe. Hip enregistré, sauvegarde bak40. NON fait : union de l'escalier (une face sortait de sa bande), façade et porche (feuilles non fermées), fenêtre du pignon arrière à revérifier visuellement. (10 October 2026, 13:00:47 +0200)
+
+## 10 October 2026, 13:24:33 +0200 : Prompt
+
+<!-- feedback-event:f58a8bb6ffe065c25183bef83cccd3e8ea7dc4ecc7d6d01b46c57d5fd259d50b (10 October 2026, 13:24:33 +0200) -->
+- Project: louisiana-bayou; kind: prompt. (10 October 2026, 13:24:33 +0200)
+- Source: claude. (10 October 2026, 13:24:33 +0200)
+
+> les poteaux / poutres extérieurs maintenant go (10 October 2026, 13:24:33 +0200)
+
+## 10 October 2026, 13:24:33 +0200 : Log
+
+<!-- feedback-event:49722f3e27f15a9a778cc8793103a4d2847fbd2489d3ae4aff4f9e210e175099 (10 October 2026, 13:24:33 +0200) -->
+- Project: louisiana-bayou; kind: log. (10 October 2026, 13:24:33 +0200)
+- Source: claude. (10 October 2026, 13:24:33 +0200)
+
+> 10 October 2026 : poteaux et poutres extérieurs : sweep de l'armature à cols 4 (1 738 faces au lieu de 3 434), planches de façade découpées par les quatre poteaux d'angle (498 faces cachées retirées, 0,5 mm dans le poteau), faces filiformes retirées sur la façade seulement, UvCheck passe, hip enregistré (bak41). Reste : 4 064 paires coplanaires du scan global avant cette passe (porche, escalier), à recompter. (10 October 2026, 13:24:33 +0200)
+
+## 10 October 2026, 13:38:35 +0200 : Prompt
+
+<!-- feedback-event:13859f294b3125dbfc59ac8acac061ba00dc9623e3b866441f1d15b21f5e49a3 (10 October 2026, 13:38:35 +0200) -->
+- Project: louisiana-bayou; kind: prompt. (10 October 2026, 13:38:35 +0200)
+- Source: claude. (10 October 2026, 13:38:35 +0200)
+
+> c'est pas nettoyé du tout ? ni sur l'apex // pourquoi tu utilises pas ma méthode ? (10 October 2026, 13:38:35 +0200)
+
+## 10 October 2026, 13:38:35 +0200 : Log
+
+<!-- feedback-event:73794237c0f04d0cebaf50baa8817fc2175d0afe2388b4d0509017aab7cf0f83 (10 October 2026, 13:38:35 +0200) -->
+- Project: louisiana-bayou; kind: log. (10 October 2026, 13:38:35 +0200)
+- Source: claude. (10 October 2026, 13:38:35 +0200)
+
+> 10 October 2026 : méthode de Matthieu appliquée par script (VK wireframe ghost, caméra, flipbook, composition alpha sur gris). Armature : sweep en U par côté (poteau, sablière, poteau), aisseliers à 12 segments, union 5 370 vers 1 806 faces et 0 arête ouverte, UvCheck passe (détection du dégénéré corrigée). Constat honnête sur les captures : les rampants gris sont le contour des tuiles ; au coin, les lignes verticales restantes sont les bouts de planches à clin et le poteau ; à l'apex, rafters d'armature et rives du toit sont deux familles superposées. A faire : Matthieu entoure les lignes qu'il juge fausses. Hip enregistré (bak42). (10 October 2026, 13:38:35 +0200)
+
+## 10 October 2026, 13:58:07 +0200 : Log
+
+<!-- feedback-event:4f5e16b8b42c9f63d78be521fa00e50d374d0a27bd4087de28fcf0ef1ed61966 (10 October 2026, 13:58:07 +0200) -->
+- Project: louisiana-bayou; kind: log. (10 October 2026, 13:58:07 +0200)
+
+> 10 October 2026 : 3 height Copernicus construits, noeuds reels, rangés en network boxes par section dans /obj/H_WhitePaint (58 nodes, V003 score 0.827), /obj/H_Window (62 nodes, V001 score 0.796), /obj/H_RoofTile (72 nodes, UNE tuile, 36 graines = planche 6x6, V001 score 0.886). Scores = mesure statistique d'equivalence de matiere (histogramme, profil de rangees, energie de gradient, anisotropie, taches), PAS 99 pour cent de ressemblance visuelle : il manque noeuds/cernes de nœuds du bois, jantes dentelees nettes, nœuds du clin, chanfreins des lattes, longues stries verticales de la tuile. Images : Heights/versions/{whitepaint,window,tile}/. Hip sauvegarde, backup bak43. (10 October 2026, 13:58:07 +0200)
+
+## 10 October 2026, 14:01:27 +0200 : Standing rule
+
+<!-- feedback-event:d432fa2b6e116feb902b2b6b9a1d611f737b3d3564d3721a0645cfcbaab9161f (10 October 2026, 14:01:27 +0200) -->
+- Project: louisiana-bayou; kind: rule. (10 October 2026, 14:01:27 +0200)
+
+> 10 October 2026 : regle redite par Matthieu, priorite 0 : tout chemin cite se donne en chemin absolu complet /Users/zenray/..., en lien cliquable, jamais relatif ni abrege (les liens relatifs ne s'ouvrent pas). Inscrite dans CLAUDE.md et zenray-houdini SKILL.md. (10 October 2026, 14:01:27 +0200)
+
+## 10 October 2026, 16:27:50 +0200 : Standing rule
+
+<!-- feedback-event:4a02c133ff78245d45eceaee200c0e31fdc3a4ddcd0297c24a21ed2008dfe048 (10 October 2026, 16:27:50 +0200) -->
+- Project: louisiana-bayou; kind: rule. (10 October 2026, 16:27:50 +0200)
+
+> 10 October 2026 : rule (Matthieu) : un bout de poutre pivote se coupe par un plan/cube droit, jamais de faces qui se chevauchent ; planche de 4 vues ghost wireframe VK pour inspecter vite. Applique : CrossFix v6 coupe les 4 chevrons au faitage a x=0. Consigne dans zenray-houdini. (10 October 2026, 16:27:50 +0200)
