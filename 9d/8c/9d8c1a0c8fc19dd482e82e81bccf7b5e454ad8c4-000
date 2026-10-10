@@ -2186,3 +2186,17 @@
 - Project: louisiana-bayou; kind: rule. (11 October 2026, 00:09:02 +0200)
 
 > Règle (11 October 2026) : piétinement alternant mesuré sur P11 à P16 (pire cellule 0,07 puis 0,15). Pivot : répartition des familles figée (64 par compartiment), couverture amortie à 0,25, profondeur de trou pilotée (bornes 0,10 et 0,45), N = 768 tant que la cuisson tient sous 20 s, sinon 512. Relance en arrière-plan à partir de P26. Dernière mesure : P24 à 0,049 contre 0,01 visé, zone haut limitante. (11 October 2026, 00:09:02 +0200)
+
+## 11 October 2026, 00:21:02 +0200 : Prompt
+
+<!-- feedback-event:93343fa6e836b0bfb103d1d71a4543aa44796eddca8971b9c8c77da9b991ad21 (11 October 2026, 00:21:02 +0200) -->
+- Project: louisiana-bayou; kind: prompt. (11 October 2026, 00:21:02 +0200)
+
+> Matthieu (11 October 2026) : « le problème c'est que ça évolue pas donc la méthode M = 96 passes ne marchera pas ; il faut consigner tout ce qu'on a fait dans le skill, puis relire le skill et trouver une méthode qui marche ; la meilleure méthode jusqu'ici était le score noté déprécié ; on va finir par trouver ». La boucle M01 est mise en pause à P44. Le bilan complet est dans le skill zenray-houdini, references/WindowBilan1.md. (11 October 2026, 00:21:02 +0200)
+
+## 11 October 2026, 00:21:02 +0200 : Standing rule
+
+<!-- feedback-event:83cf98b9af47dc84619ba1026bdf85fe54f4edbe77dfdbcf87e76aee33b04df6 (11 October 2026, 00:21:02 +0200) -->
+- Project: louisiana-bayou; kind: rule. (11 October 2026, 00:21:02 +0200)
+
+> Règle (11 October 2026) : le score à 12 composantes (Scripts/Metrics2.py) n'est plus seulement un journal : il guide les paramètres. Mesuré : l'étirement horizontal pilote l'anisotropie et l'orientation, mais les composantes sont couplées (EQUIV 0,552 à 0,562 seulement). Méthode suivante proposée : plan d'expérience sur quatre paramètres (étirement, borne haute de taille, lèvre, bruit fin), puis pas amorti. À valider avant de coder. (11 October 2026, 00:21:02 +0200)

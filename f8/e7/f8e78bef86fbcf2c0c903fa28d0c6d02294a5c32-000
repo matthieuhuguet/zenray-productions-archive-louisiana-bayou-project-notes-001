@@ -101,3 +101,8 @@
 
 - 11 October 2026 : la répartition des familles recalculée à chaque passe faisait alterner la pire cellule (0,07 puis 0,15). Répartition figée et couverture amortie : P17 à 0,060, stable. (11 October 2026)
 - 11 October 2026 : profondeur de trou pilotée de nouveau, N à 768 si la cuisson reste sous 20 s. P24 à 0,049, zone « haut » limitante. Le seuil de 0,01 n'est pas atteint. (11 October 2026)
+
+## 11 October 2026 : test des leviers par composante (fenêtre)
+
+- 11 October 2026 : l'étirement horizontal pilote l'anisotropie (0,00 à 0,5) et l'orientation (0,58 à 0,8), mais fait fusionner les taches. La lèvre seule ne pilote pas l'énergie des bords. EQUIV passe de 0,552 à 0,562. Les composantes sont couplées. (11 October 2026)
+- 11 October 2026 : méthode suivante proposée : plan d'expérience sur quatre paramètres, puis pas amorti. Détail dans le bilan du skill zenray-houdini, section 11. (11 October 2026)
