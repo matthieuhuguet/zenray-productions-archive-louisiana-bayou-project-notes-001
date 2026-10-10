@@ -1923,3 +1923,19 @@
 - Source: claude. (10 October 2026, 00:16:36 +0200)
 
 > 10 October 2026 : précision sur l'entrée du 9 October 2026 (audit-temps-eglise-2026-10-09). « Trim sheet avant la géométrie » signifie le PLAN des bandes (rectangles de couleur avec leur hauteur réelle et la densité en px/m), tiré de la fiche des tailles et d'un blockout à l'échelle, posé avant la géométrie fine et les UV. La texture peinte vient après et peut changer sans toucher un UV tant que les rectangles ne bougent pas. Ordre corrigé : 1 tailles et densité, 2 blockout, 3 plan des bandes en couleur, 4 détails et UV dans les bandes, 5 texture peinte. Cohérent avec la section 13 de /Users/zenray/.claude/skills/zenray-houdini/references/RoofTrimSheet36Protocol.md (le contrat est la table des bandes). Méthode toujours NON VALIDÉE par Matthieu. (10 October 2026, 00:16:36 +0200)
+
+## 10 October 2026, 10:55:33 +0200 : Prompt
+
+<!-- feedback-event:dc001898c8a594bfb1e0ef9e69edf475fca9f729e9d64903891699f6bc79bb16 (10 October 2026, 10:55:33 +0200) -->
+- Project: louisiana-bayou; kind: prompt. (10 October 2026, 10:55:33 +0200)
+- Source: claude. (10 October 2026, 10:55:33 +0200)
+
+> Est-ce que dans le fichier index trim sheet la leçon, donc dans la leçon, est-ce que tu peux me donner trois exemples avec le calcul et l'ordre des étapes si par exemple tu fais un personnage un personnage stylisé ou manga et un personnage type réaliste genre uncharted 4 ou un props hyper détaillé type organique, un props très détaillé mais là plutôt plutôt genre une porte ou une fenêtre, et le dernier c'est un bâtiment type deux bâtiments, donc un bâtiment style asiatique donc organique ou un bâtiment style très edgy futuriste. donc 6 exemples et dans chaque cas tu m'expliques le protocole de texturations et ou kit modulaire ou plutôt hda (hda peut aussi être sur les textures pas uniquement la geo ... via copernicus ou justement trimsheet) le but c'est que je comprennes comment aller vite plutôt que de passer beaucoup de temps a faire mes components et fix ma géo ! (10 October 2026, 10:55:33 +0200)
+
+## 10 October 2026, 10:55:33 +0200 : Log
+
+<!-- feedback-event:530b839e060c654063595329ccec2a0c4b71aef7fcbc4034e793a9e6d68f5e0d (10 October 2026, 10:55:33 +0200) -->
+- Project: louisiana-bayou; kind: log. (10 October 2026, 10:55:33 +0200)
+- Source: claude. (10 October 2026, 10:55:33 +0200)
+
+> 10 October 2026 : section 12 « Six cas concrets » ajoutée à la leçon /Users/zenray/.claude/tmp/tmp-houdini-september-2026/tmp-bayou-louisiana/03_work/lesson-roof-tiles/index.html (quiz renuméroté 13, glossaire 14, trois questions de quiz et huit termes de glossaire ajoutés). Six cas : personnage manga, personnage réaliste, prop organique (souche), porte, pavillon asiatique (grille du ken), tour futuriste. Chaque cas : calcul modifiable (gabarit unique alimenté par des paramètres), ordre des étapes avec l'outil, décision kit modulaire / HDA géométrie / HDA texture, où se gagne le temps, piège. Vérifié : 6 cartes rendues, valeurs recalculées par script Python identiques à celles de la page, aucune erreur console. Sources : Maxon et Polycount (densités), diapositives de Motomura (Guilty Gear Xrd), Wikipédia (ken). Surfaces en m² estimées, non mesurées ; tailles de textures d'Uncharted 4 non vérifiées. Sauvegarde du fichier d'avant : /private/tmp/claude-501/-Users-zenray--claude-Memory1/2562b086-836d-49c5-80c7-0c935a98513c/scratchpad/six/index.before-six.html. Méthode toujours NON VALIDÉE par Matthieu. (10 October 2026, 10:55:33 +0200)
