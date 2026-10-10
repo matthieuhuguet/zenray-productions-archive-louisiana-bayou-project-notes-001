@@ -2214,3 +2214,10 @@
 - Project: louisiana-bayou; kind: log. (11 October 2026, 00:44:39 +0200)
 
 > Résultat zenray-simple-height : calques L00 à L05, EQUIV 0,153 à 0,373, écart type 54,3 atteint en L05. Identité stricte impossible sans recopier la référence ; critère d'arrêt à décider. Chanfrein diagonal des bouts et fissures à faire. (11 October 2026, 00:44:39 +0200)
+
+## 11 October 2026, 01:09:27 +0200 : Prompt
+
+<!-- feedback-event:dd91d4810603778b6271114d2a6b2ed976a609736345a9d97b6a86df78cf59a3 (11 October 2026, 01:09:27 +0200) -->
+- Project: louisiana-bayou; kind: prompt. (11 October 2026, 01:09:27 +0200)
+
+> Nouvelle demande : un générateur de height qui reproduit la référence et produit un vrai graphe Copernicus (nœuds réels, pas un export PNG), focus height uniquement, documentation feature par feature de tous les nœuds, code jusqu'au matin avec reprise toutes les 15 secondes, nom provisoire zenray-cop-designer, skill avec la conversation. Réalisé : inventaire des 384 nœuds, compilateur vers vrais nœuds, régression exacte avec le calque L05, 25 tests, optimiseur sous watchdog. Limites : Substance Designer non installé (documenté seulement), identité stricte impossible sans recopier la référence, bornes d'aspect à valider. (11 October 2026, 01:09:27 +0200)
