@@ -89,3 +89,15 @@
 - 9 October 2026, 20:51 CEST : Le job `b7949aa0` archive la version stable de `LouisianaBayou.hiplc` sous `versions/production/c4cccea2…`, avec le SHA `c4cccea284349dae5200691f2346434a19675476132f44cee5cd145cedc9a23c` et son manifeste vérifié. Il termine deux fichiers, laisse cinq en attente, zéro conflit et zéro erreur, puis le service remet seul un nouveau job en file. (9 October 2026)
 
 - 9 October 2026, 21:01 CEST : Après l’archive vérifiée, de nouvelles modifications Louisiana ajoutent 3 fichiers et réouvrent un conflit de version ; l’inventaire montre 8 fichiers en attente, job automatique en cours, `error=null`, `watched=true`. Le service traite le nouveau snapshot après stabilisation, sans intervention manuelle. (9 October 2026)
+
+## 10 October 2026 : boucle M01 récursive, fenêtre (consigne de Matthieu, 23:58)
+
+- 10 October 2026 : la méthode retenue pour la fenêtre est la boucle M01 : masques d'abord, union par max, 512 familles par passe (4096 nodes), au moins 96 passes, score intégré et vérification par 8 cellules (seuils provisoires 0,01 et 0,02, à tester). (10 October 2026)
+- 10 October 2026 : mesures de référence. P9 : pire cellule 0,076. P10, à 768 familles et profondeur pilotée 0,2377 : 0,175 (essai retiré). P11, à 512 familles et profondeur 0,22 : 0,071, meilleure mesure à cette date. (10 October 2026)
+- 10 October 2026 : la boucle tourne en arrière-plan depuis P12. Son état se lit dans `measures/loop/M01_status.json` ; sa planche est `versions/window/planche_loop_M01.html`. (10 October 2026)
+- 10 October 2026 : limite connue : le score mesure des proportions, pas la position des motifs ; un 99 % pixel à pixel est hors d'atteinte avec des familles aléatoires. Le verdict à l'œil reste la décision de Matthieu. (10 October 2026)
+
+## 11 October 2026 : pivot de la boucle M01 (piétinement, répartition figée)
+
+- 11 October 2026 : la répartition des familles recalculée à chaque passe faisait alterner la pire cellule (0,07 puis 0,15). Répartition figée et couverture amortie : P17 à 0,060, stable. (11 October 2026)
+- 11 October 2026 : profondeur de trou pilotée de nouveau, N à 768 si la cuisson reste sous 20 s. P24 à 0,049, zone « haut » limitante. Le seuil de 0,01 n'est pas atteint. (11 October 2026)

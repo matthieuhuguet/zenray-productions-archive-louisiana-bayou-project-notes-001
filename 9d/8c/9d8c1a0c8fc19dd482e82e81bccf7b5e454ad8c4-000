@@ -2165,3 +2165,24 @@
 - Project: louisiana-bayou; kind: prompt. (10 October 2026, 22:55:18 +0200)
 
 > Rajouter trois lignes dans le HTML où l'on compare seulement l'image de gauche et celle de droite : gauche la référence de hauteur (dictée « ref eight », lue comme height), droite le résultat final de la passe 8 de chacune des trois méthodes (M01, M11, M14). (10 October 2026, 22:55:18 +0200)
+
+## 10 October 2026, 23:59:42 +0200 : Prompt
+
+<!-- feedback-event:71210e3289ea96dbd4601735f1e8ac2ebf97884abadcb5a5623fa1ec638d3f5b (10 October 2026, 23:59:42 +0200) -->
+- Project: louisiana-bayou; kind: prompt. (10 October 2026, 23:59:42 +0200)
+
+> Matthieu (10 October 2026) : « go faire window height jusqu'à la perfection (donc au moins minimum 96 de 4096 passes de manière récursive) ». Il précise que les chiffres ne servent à rien : N et M sont déterminés par la boucle, 4096 n'est qu'une indication (x2 si le temps le permet). Relance toutes les 15 secondes, un html go, puis tout consigner. Le score n'est plus déprécié : il s'insère dans la méthode. Les cellules servent à vérifier le score. Le seuil de 99 pour cent se teste, il ne se fixe pas. (10 October 2026, 23:59:42 +0200)
+
+## 10 October 2026, 23:59:42 +0200 : Standing rule
+
+<!-- feedback-event:b4ac509d9c2b753e1a9019c2b444ecf9ae2de28f3d788fc7e14b67a529b4d6ab (10 October 2026, 23:59:42 +0200) -->
+- Project: louisiana-bayou; kind: rule. (10 October 2026, 23:59:42 +0200)
+
+> Règle (10 October 2026) : boucle M01 en arrière-plan (Scripts/LoopM01.py), pause de 15 secondes entre deux passes, pas de cron (minimum une minute). N indicatif, 4096 nodes par passe (512 familles). Le plafond de 768 familles et la profondeur de trou pilotée ont été essayés sur P10 (pire cellule 0,076 vers 0,175) puis désactivés. Seuils provisoires : 0,01 par cellule, 0,02 par région, à tester contre l'œil. (10 October 2026, 23:59:42 +0200)
+
+## 11 October 2026, 00:09:02 +0200 : Standing rule
+
+<!-- feedback-event:a3bda98ecbcc87d4915ff1d455fc8a64d386ca9de1486390c70cbd1a94fc002e (11 October 2026, 00:09:02 +0200) -->
+- Project: louisiana-bayou; kind: rule. (11 October 2026, 00:09:02 +0200)
+
+> Règle (11 October 2026) : piétinement alternant mesuré sur P11 à P16 (pire cellule 0,07 puis 0,15). Pivot : répartition des familles figée (64 par compartiment), couverture amortie à 0,25, profondeur de trou pilotée (bornes 0,10 et 0,45), N = 768 tant que la cuisson tient sous 20 s, sinon 512. Relance en arrière-plan à partir de P26. Dernière mesure : P24 à 0,049 contre 0,01 visé, zone haut limitante. (11 October 2026, 00:09:02 +0200)
