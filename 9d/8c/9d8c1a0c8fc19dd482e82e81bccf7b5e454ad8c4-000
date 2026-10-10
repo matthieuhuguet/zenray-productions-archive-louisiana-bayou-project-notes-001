@@ -2207,3 +2207,10 @@
 - Project: louisiana-bayou; kind: prompt. (11 October 2026, 00:34:50 +0200)
 
 > Louisiana Bayou, fenêtre : prendre la height de référence, itérer via un seul calque dans un graphe Copernicus propre, un calque à la fois, une capture à chaque étape, réflexion permanente et doc Copernicus liée. Workflow nommé zenray-simple-height. Go : recommencer de zéro, archiver les résultats précédents. Condition d'arrêt : seulement un résultat strictement identique. Relancer le processus toutes les 15 secondes si la boucle s'arrête. (11 October 2026, 00:34:50 +0200)
+
+## 11 October 2026, 00:44:39 +0200 : Log
+
+<!-- feedback-event:e9d035d53d6efc3c3b931365673896ab972997053db4059172ed4086e325a1a6 (11 October 2026, 00:44:39 +0200) -->
+- Project: louisiana-bayou; kind: log. (11 October 2026, 00:44:39 +0200)
+
+> Résultat zenray-simple-height : calques L00 à L05, EQUIV 0,153 à 0,373, écart type 54,3 atteint en L05. Identité stricte impossible sans recopier la référence ; critère d'arrêt à décider. Chanfrein diagonal des bouts et fissures à faire. (11 October 2026, 00:44:39 +0200)
