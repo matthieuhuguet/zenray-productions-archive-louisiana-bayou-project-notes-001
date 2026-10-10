@@ -1939,3 +1939,27 @@
 - Source: claude. (10 October 2026, 10:55:33 +0200)
 
 > 10 October 2026 : section 12 « Six cas concrets » ajoutée à la leçon /Users/zenray/.claude/tmp/tmp-houdini-september-2026/tmp-bayou-louisiana/03_work/lesson-roof-tiles/index.html (quiz renuméroté 13, glossaire 14, trois questions de quiz et huit termes de glossaire ajoutés). Six cas : personnage manga, personnage réaliste, prop organique (souche), porte, pavillon asiatique (grille du ken), tour futuriste. Chaque cas : calcul modifiable (gabarit unique alimenté par des paramètres), ordre des étapes avec l'outil, décision kit modulaire / HDA géométrie / HDA texture, où se gagne le temps, piège. Vérifié : 6 cartes rendues, valeurs recalculées par script Python identiques à celles de la page, aucune erreur console. Sources : Maxon et Polycount (densités), diapositives de Motomura (Guilty Gear Xrd), Wikipédia (ken). Surfaces en m² estimées, non mesurées ; tailles de textures d'Uncharted 4 non vérifiées. Sauvegarde du fichier d'avant : /private/tmp/claude-501/-Users-zenray--claude-Memory1/2562b086-836d-49c5-80c7-0c935a98513c/scratchpad/six/index.before-six.html. Méthode toujours NON VALIDÉE par Matthieu. (10 October 2026, 10:55:33 +0200)
+
+## 10 October 2026, 12:26:03 +0200 : Prompt
+
+<!-- feedback-event:7467110bbf18c9c5001fed2af2acb83d526503118e579b6a0719ee7a71b62c17 (10 October 2026, 12:26:03 +0200) -->
+- Project: louisiana-bayou; kind: prompt. (10 October 2026, 12:26:03 +0200)
+- Source: claude. (10 October 2026, 12:26:03 +0200)
+
+> j'ai une solution pour corriger le mesh : tu te mets en houdini vk (vulkan view dans stage), tu prends des screens pour identifier le problème, tu fais une curve ou un nurbs et tu extrudes ou sweep et c'est très rapide. Retiens ce protocole. Les planches des murs sont triangulées alors que ça ne devrait pas être le cas. Au niveau des poutres lors d'un join la géométrie doit être soudée ou au moins boolean pour que les faces ne se défassent jamais. Chaque géométrie créée ne devra jamais avoir 2 faces superposées. (10 October 2026, 12:26:03 +0200)
+
+## 10 October 2026, 12:26:03 +0200 : Log
+
+<!-- feedback-event:f2d484807147ea091a6b07fed96e5163a779ab7e8e32a3ba965089620fe79392 (10 October 2026, 12:26:03 +0200) -->
+- Project: louisiana-bayou; kind: log. (10 October 2026, 12:26:03 +0200)
+- Source: claude. (10 October 2026, 12:26:03 +0200)
+
+> 10 October 2026 : faîtage du porche corrigé dans /obj/Church/Component_PorchVestibule/build_rake_boards (les deux rives partagent les points du faîtage, plus de bouchons doublés 994 et 996). window_cut_convex passe de 3 à 4 côtés max : les planches de façade restent des quads (triangles de façade 1 300 vers 52). Nouveau nœud remove_duplicate_faces avant promote_mat_cd : 100 faces en double retirées. UvCheck.py passe. Protocole VK + curve + sweep consigné dans zenray-houdini SKILL.md. Restent : 23 paires de faces de même sens entre pièces différentes déjà traitées, 77 paires opposées entre pièces différentes (contacts internes) et 118 opposées dans une même pièce NON traitées, par prudence ; les triangles restants du porche sont les bouts de planches à clin en biseau (profil réel). Sauvegarde avant : LouisianaBayou/backup/LouisianaBayou_bak39_before_apexweld.hiplc. (10 October 2026, 12:26:03 +0200)
+
+## 10 October 2026, 12:35:10 +0200 : Log
+
+<!-- feedback-event:9403234941efa8080d85e9dd2822306bebfc22b42000d9f65bf97258d4afa36d (10 October 2026, 12:35:10 +0200) -->
+- Project: louisiana-bayou; kind: log. (10 October 2026, 12:35:10 +0200)
+- Source: claude. (10 October 2026, 12:35:10 +0200)
+
+> 10 October 2026 : cause réelle du losange noir du faîtage du porche : quad en papillon au sommet de chaque rive (arête intérieure dépassant l'axe). Corrigé dans Component_PorchVestibule/build_rake_boards (arête coupée à l'axe, points partagés, aucun bouchon), vérifié par flipbook Cycles sur deux angles : losange disparu. Hip enregistré. Reste : paires de faces opposées entre pièces (77) et dans une même pièce (118), non traitées ; FBX Unreal à réexporter. (10 October 2026, 12:35:10 +0200)
