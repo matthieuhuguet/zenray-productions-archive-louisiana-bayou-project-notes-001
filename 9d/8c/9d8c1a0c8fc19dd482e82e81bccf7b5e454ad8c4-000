@@ -2221,3 +2221,10 @@
 - Project: louisiana-bayou; kind: prompt. (11 October 2026, 01:09:27 +0200)
 
 > Nouvelle demande : un générateur de height qui reproduit la référence et produit un vrai graphe Copernicus (nœuds réels, pas un export PNG), focus height uniquement, documentation feature par feature de tous les nœuds, code jusqu'au matin avec reprise toutes les 15 secondes, nom provisoire zenray-cop-designer, skill avec la conversation. Réalisé : inventaire des 384 nœuds, compilateur vers vrais nœuds, régression exacte avec le calque L05, 25 tests, optimiseur sous watchdog. Limites : Substance Designer non installé (documenté seulement), identité stricte impossible sans recopier la référence, bornes d'aspect à valider. (11 October 2026, 01:09:27 +0200)
+
+## 11 October 2026, 10:49:11 +0200 : Log
+
+<!-- feedback-event:9ac4bd30363e1cf42fc38be53977e045b37ac2a15035612aa9e8ee269891a10d (11 October 2026, 10:49:11 +0200) -->
+- Project: louisiana-bayou; kind: log. (11 October 2026, 10:49:11 +0200)
+
+> Heights/CopDesigner (105 fichiers, 28,9 Mo) archivé dans le cloud puis supprimé localement le 11 October 2026 après preuve SHA-256 par fichier (105/105). Un fichier macOS outputs/.DS_Store, exclu par règle, a été supprimé avec le dossier. Heights/SimpleHeight, refs et archive sont intacts. (11 October 2026, 10:49:11 +0200)
