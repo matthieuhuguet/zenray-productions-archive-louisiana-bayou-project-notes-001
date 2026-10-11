@@ -2282,3 +2282,41 @@
 - Source: /Users/zenray/.codex/sessions/2026/10/08/rollout-2026-10-08T10-32-24-01a11aa4-67bb-7ae1-b1d8-99af0c3495c3.jsonl. (11 October 2026, 13:49:58 +0200)
 
 > Entrée = **[image de référence]** ; cible = **[asset à isoler]** ; exclusions = **[cloches / éléments complexes à retirer]**, identiques dans toutes les vues ; sortie = **grille 2 × 2, 4096 × 4096** ; vues = **face 0° / profil 90° / arrière 180° / trois-quarts 45°** ; présentation = **[viewport gris / matériaux actuels]** ; construire un seul modèle cohérent puis changer uniquement l’angle de caméra autour du même pivot ; **projection orthographique, échelle fixe, même hauteur en pixels et même ligne de sol** ; verrouiller les rapports largeur / hauteur / profondeur ainsi que les dimensions, positions et espacements de chaque composant ; les largeurs apparentes changent uniquement selon la projection, sans compensation ni étirement ; conserver la silhouette et les couleurs en mode matériaux ; modèle entier, fond neutre, éclairage uniforme ; **sans cloches ; sans redimensionnement par case ; sans déformation ; sans déplacement de composants ; sans ajout ni duplication ; sans réinterprétation entre les vues ; sans décor ; sans texte ; sans légende**. (11 October 2026, 13:49:58 +0200)
+
+## 11 October 2026, 13:55:05 +0200 : Prompt
+
+<!-- feedback-event:64f98f98f01bde75bb0bd47f183b7aa911992aa6cf480dd83f431be8f0b7ae86 (11 October 2026, 13:55:05 +0200) -->
+- Project: louisiana-bayou; kind: prompt. (11 October 2026, 13:55:05 +0200)
+- Source: /Users/zenray/.codex/sessions/2026/10/08/rollout-2026-10-08T10-32-24-01a11aa4-67bb-7ae1-b1d8-99af0c3495c3.jsonl. (11 October 2026, 13:55:05 +0200)
+
+> En fait on va plutôt faire une vue 3x2 ou 2x3 avec **Vue de face (front)** : la référence principale. Elle donne la largeur, la hauteur et la symétrie. (11 October 2026, 13:55:05 +0200)
+>
+> 1. **Vue de profil (side)**, gauche ou droite : elle donne la profondeur et la silhouette latérale. Sur un objet asymétrique, il faut les deux profils. (11 October 2026, 13:55:05 +0200)
+> 2. **Vue de dos (back)** : elle est souvent négligée, mais elle révèle ce que la face cache (attaches, câbles, textures, détails arrière). (11 October 2026, 13:55:05 +0200)
+> 3. **Vue de dessus (top)** : elle donne l’emprise au sol et les proportions en largeur et profondeur, très utile pour les props, véhicules et architectures. (11 October 2026, 13:55:05 +0200)
+>
+> Selon le contexte, on ajoute la **vue de dessous (bottom)** pour les objets qu’on voit par en dessous (véhicules, props posés en hauteur), et une **vue en trois quarts** en perspective. Cette dernière n’est pas orthographique : elle sert à comprendre les volumes et à valider le rendu, pas à mesurer. (11 October 2026, 13:55:05 +0200)
+>
+>
+>
+> ce sera plus complet adapte les 2 prompts il y a et du coup le prompt devient les 6 views 3D go et redonne moi le prompt c'est noté dans [$zenray-houdini](/Users/zenray/.codex/skills/zenray-houdini/SKILL.md) je crois pour l'adapter (11 October 2026, 13:55:05 +0200)
+
+## 11 October 2026, 13:56:35 +0200 : Iteration
+
+<!-- feedback-event:e77318f958eefd9242880a459d2abf92c73c9def980f8fb85a349949bcbde4f1 (11 October 2026, 13:56:35 +0200) -->
+- Project: louisiana-bayou; kind: iteration. (11 October 2026, 13:56:35 +0200)
+- Source: checkpoint:codex:01a11aa4-67bb-7ae1-b1d8-99af0c3495c3. (11 October 2026, 13:56:35 +0200)
+
+> Deux templates six vues ajoutés dans la section Prompts du skill zenray-houdini, historique conservé et empreintes des copies identiques. Cinq vues orthographiques à échelle pixels par unité commune et un trois-quarts perspective. Second profil ou dessous selon contexte ; exclusions explicites identiques. Prochain : Matthieu génère la planche, puis contrôle des proportions. (11 October 2026, 13:56:35 +0200)
+
+## 11 October 2026, 13:57:20 +0200 : Iteration
+
+<!-- feedback-event:9761386677709c31e2ee99fa5bcbb3f6c8f8dd1fb70a9006791d3017c1c42090 (11 October 2026, 13:57:20 +0200) -->
+- Project: louisiana-bayou; kind: iteration. (11 October 2026, 13:57:20 +0200)
+- Source: /Users/zenray/.codex/sessions/2026/10/08/rollout-2026-10-08T10-32-24-01a11aa4-67bb-7ae1-b1d8-99af0c3495c3.jsonl. (11 October 2026, 13:57:20 +0200)
+
+> **6 views 3D : proportions verrouillées** (11 October 2026, 13:57:20 +0200)
+>
+> Entrée = **[référence]** ; cible = **[asset / composant]** ; retirer = **[cloches / autres éléments exclus]** ; sortie = **grille [3 colonnes × 2 rangées / 2 colonnes × 3 rangées], 4096 × 4096** ; vues = **face / profil / dos / dessus / [profil opposé si asymétrique, sinon dessous] / trois-quarts perspective** ; affichage = **[viewport gris / matériaux actuels]** ; un seul modèle figé, seules les caméras changent ; **cinq vues orthographiques à échelle identique en pixels par unité**, repère commun et proportions largeur / hauteur / profondeur verrouillées ; mêmes dimensions, positions et espacements des composants ; seules projection et occultation changent leur apparence ; trois-quarts en perspective modérée pour comprendre les volumes, sans servir de mesure ; conserver les couleurs et l’échelle des textures en mode matériaux ; asset entier dans chaque case, fond neutre, éclairage uniforme ; **sans éléments exclus ; sans étirement ; sans redimensionnement indépendant des vues orthographiques ; sans déplacement ni duplication de composants ; sans réinterprétation entre les vues ; sans décor ; sans ombre portée ; sans texte ; sans légende**. (11 October 2026, 13:57:20 +0200)
+>
+> Les deux versions sont enregistrées dans [/Users/zenray/.claude/skills/zenray-houdini/SKILL.md](/Users/zenray/.claude/skills/zenray-houdini/SKILL.md). (11 October 2026, 13:57:20 +0200)
