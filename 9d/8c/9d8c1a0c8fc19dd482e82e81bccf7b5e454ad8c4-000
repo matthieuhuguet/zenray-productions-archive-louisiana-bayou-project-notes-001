@@ -2320,3 +2320,52 @@
 > Entrée = **[référence]** ; cible = **[asset / composant]** ; retirer = **[cloches / autres éléments exclus]** ; sortie = **grille [3 colonnes × 2 rangées / 2 colonnes × 3 rangées], 4096 × 4096** ; vues = **face / profil / dos / dessus / [profil opposé si asymétrique, sinon dessous] / trois-quarts perspective** ; affichage = **[viewport gris / matériaux actuels]** ; un seul modèle figé, seules les caméras changent ; **cinq vues orthographiques à échelle identique en pixels par unité**, repère commun et proportions largeur / hauteur / profondeur verrouillées ; mêmes dimensions, positions et espacements des composants ; seules projection et occultation changent leur apparence ; trois-quarts en perspective modérée pour comprendre les volumes, sans servir de mesure ; conserver les couleurs et l’échelle des textures en mode matériaux ; asset entier dans chaque case, fond neutre, éclairage uniforme ; **sans éléments exclus ; sans étirement ; sans redimensionnement indépendant des vues orthographiques ; sans déplacement ni duplication de composants ; sans réinterprétation entre les vues ; sans décor ; sans ombre portée ; sans texte ; sans légende**. (11 October 2026, 13:57:20 +0200)
 >
 > Les deux versions sont enregistrées dans [/Users/zenray/.claude/skills/zenray-houdini/SKILL.md](/Users/zenray/.claude/skills/zenray-houdini/SKILL.md). (11 October 2026, 13:57:20 +0200)
+
+## 11 October 2026, 14:07:16 +0200 : Prompt
+
+<!-- feedback-event:fd101b9bee837394f49ce60ae3ae6b11bb3ed29ed5e69c1c7648f9379edae3ca (11 October 2026, 14:07:16 +0200) -->
+- Project: louisiana-bayou; kind: prompt. (11 October 2026, 14:07:16 +0200)
+- Source: /Users/zenray/.codex/sessions/2026/10/08/rollout-2026-10-08T10-32-24-01a11aa4-67bb-7ae1-b1d8-99af0c3495c3.jsonl. (11 October 2026, 14:07:16 +0200)
+
+> dis moi tout ce qui est enregistrer dans le skill actuellement niveau prompt et liste les tous (11 October 2026, 14:07:16 +0200)
+
+## 11 October 2026, 14:09:39 +0200 : Iteration
+
+<!-- feedback-event:66c6e84e8c019efb06a322a7d19e9bd6e434d0122300924469bfda310846b570 (11 October 2026, 14:09:39 +0200) -->
+- Project: louisiana-bayou; kind: iteration. (11 October 2026, 14:09:39 +0200)
+- Source: /Users/zenray/.codex/sessions/2026/10/08/rollout-2026-10-08T10-32-24-01a11aa4-67bb-7ae1-b1d8-99af0c3495c3.jsonl. (11 October 2026, 14:09:39 +0200)
+
+> Voici les prompts enregistrés dans le skill et ses fichiers de référence. (11 October 2026, 14:09:39 +0200)
+>
+> **Les modèles actuels** (11 October 2026, 14:09:39 +0200)
+>
+> 1. **6 views 3D : template paramétrable** : six vues, grille 3 × 2 ou 2 × 3, proportions communes, affichage gris ou matériaux actuels, exclusions configurables. (11 October 2026, 14:09:39 +0200)
+> 2. **6 views 3D : version courte, proportions verrouillées** : même principe, formulation compacte. (11 October 2026, 14:09:39 +0200)
+> 3. **Template Height brut** : trim sheet ou texture répétable, aspect export Substance Designer, 4096 × 4096, gris linéaire, cible 16 bits, sans éclairage ni ombres. (11 October 2026, 14:09:39 +0200)
+> 4. **Editing textures + geo : design conservé** : quatre variations de textures et de géométrie légère, architecture et proportions générales conservées. (11 October 2026, 14:09:39 +0200)
+> 5. **Exploring new concepts : geo + textures** : quatre concepts distincts, historique / contemporain / futuriste / hybride ou civilisation alternative. (11 October 2026, 14:09:39 +0200)
+> 6. **Décomposition d’un asset en composants** : asset complet et composants réutilisables isolés, numérotés, avec leurs attaches. (11 October 2026, 14:09:39 +0200)
+> 7. **Vues d’un composant isolé** : face, profil, dessus et trois-quarts d’un composant donné. (11 October 2026, 14:09:39 +0200)
+> 8. **Décomposition d’un eucalyptus** : vues générales et quatre composants isolés, tronc / branche principale / rameau / feuille. (11 October 2026, 14:09:39 +0200)
+> 9. **Planche de référence matériaux d’eucalyptus** : zones identifiées, échantillons et cartes Height / Base Color / Roughness / Normal / AO. (11 October 2026, 14:09:39 +0200)
+> 10. **Segmentation tricolore d’un arbre** : tronc rouge, branches bleues, feuilles vertes, fond noir et masques séparés. (11 October 2026, 14:09:39 +0200)
+>
+> **Les anciennes versions conservées** (11 October 2026, 14:09:39 +0200)
+>
+> 11. **Planche 4 vues**, ancien prompt anglais. (11 October 2026, 14:09:39 +0200)
+> 12. **Height texture**, ancien prompt anglais compact. (11 October 2026, 14:09:39 +0200)
+> 13. **Template paramétrable : quatre vues d’un asset**. (11 October 2026, 14:09:39 +0200)
+> 14. **Quatre vues : version courte avec échelle et couleurs verrouillées**. (11 October 2026, 14:09:39 +0200)
+> 15. **Exploring new designs : geo / textures** : deux propositions réalistes en haut, deux stylisées en bas. (11 October 2026, 14:09:39 +0200)
+> 16. **Exploring design texture + geo : quatre directions** : libre / progressive / paramétrique / innovation. (11 October 2026, 14:09:39 +0200)
+>
+> **Les règles de formulation enregistrées** (11 October 2026, 14:09:39 +0200)
+>
+> - **5 maps** : Base Color, Roughness, Height, Normal, AO. (11 October 2026, 14:09:39 +0200)
+> - **7 maps** : les cinq précédentes plus Metallic et Opacity, adaptées au matériau. (11 October 2026, 14:09:39 +0200)
+> - **Unreal** : sRGB, normales DirectX, regroupement ORM et branchements adaptés. (11 October 2026, 14:09:39 +0200)
+> - **Logique HDA** : paramètres entre crochets, formulation générique, exclusions explicites avec « sans ». (11 October 2026, 14:09:39 +0200)
+>
+> Le **color index mapping du toit** est enregistré comme procédure par code, pas comme prompt autonome. Le prompt spécialisé **Height du toit avec 36 cases** n’apparaît pas dans cette section de modèles. (11 October 2026, 14:09:39 +0200)
+>
+> Source principale : [/Users/zenray/.claude/skills/zenray-houdini/SKILL.md](/Users/zenray/.claude/skills/zenray-houdini/SKILL.md:2792). (11 October 2026, 14:09:39 +0200)
