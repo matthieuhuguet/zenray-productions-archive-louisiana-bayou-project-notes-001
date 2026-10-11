@@ -3119,3 +3119,141 @@
 > | Tous les matériaux et textures bien reliés | Oui | Sur le rendu, le toit a ses bardeaux, la peinture est écaillée, les volets ont leur bois, le sol est vert et Manny orange | (11 October 2026, 16:29:13 +0200)
 > | Tout bien rangé dans Unreal | Oui | Quatre dossiers créés dans `/Game/ZenRayShards/LouisianaBayou` : Textures, Materials, Meshes, Levels | (11 October 2026, 16:29:13 +0200)
 > | Même rendu que Cycles | Presque | Même cadrage et mêmes matériaux, mais le sol est plus clair à cause du ciel bleu | (11 October 2026, 16:29:13 +0200)
+
+## 11 October 2026, 16:54:07 +0200 : Prompt
+
+<!-- feedback-event:dfab877e017ecdd4d1f81e94bc25db6298bf09dc2ba3c3b74b798f126e0eaa4b (11 October 2026, 16:54:07 +0200) -->
+- Project: louisiana-bayou; kind: prompt. (11 October 2026, 16:54:07 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/8152bc29-16c2-4858-828d-937ab6240571.jsonl. (11 October 2026, 16:54:07 +0200)
+
+> range moi ma vue obj dans houdini c'est le bordel visuellement aligne la sur la vue stage qui elle est propre. (11 October 2026, 16:54:07 +0200)
+
+## 11 October 2026, 16:55:39 +0200 : Iteration
+
+<!-- feedback-event:55ae56e9713b99aa87fb1fe47c78b3480f197de9532eb047cd38925b530dc8ab (11 October 2026, 16:55:39 +0200) -->
+- Project: louisiana-bayou; kind: iteration. (11 October 2026, 16:55:39 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/8152bc29-16c2-4858-828d-937ab6240571.jsonl. (11 October 2026, 16:55:39 +0200)
+
+> J'ai rangé ta vue `/obj` sur le modèle de `/stage`. Les 66 nœuds sont maintenant répartis en 10 colonnes verticales, avec le même pas que dans `/stage` (4 unités entre colonnes, 1,1 entre nœuds). Un contrôle de positions ne trouve plus aucun nœud superposé. (11 October 2026, 16:55:39 +0200)
+>
+> Les couleurs suivent celles de `/stage` : gris pour la géométrie, bleu clair pour les réseaux Copernicus, bleu pour les caméras et leurs rigs, orange pour les lumières. (11 October 2026, 16:55:39 +0200)
+>
+> Les colonnes, de gauche à droite : (11 October 2026, 16:55:39 +0200)
+>
+> 1. **Église active** : la vue Cycles et l'export Unreal (`Church`, `Church_Lookdev`, Manny, `UE_Export_Lookdev`…) (11 October 2026, 16:55:39 +0200)
+> 2. **Textures actives** (peinture, volets, bardeaux, trim sheet du toit) (11 October 2026, 16:55:39 +0200)
+> 3. **Composants et showcase** (11 October 2026, 16:55:39 +0200)
+> 4. **Essais de heights** (`H_*`, `ZRH_*`) (11 October 2026, 16:55:39 +0200)
+> 5. **Environnement** (terrain, clôture, herbe) (11 October 2026, 16:55:39 +0200)
+> 6. **Comparaison** (bancs de test) (11 October 2026, 16:55:39 +0200)
+> 7. **Caméras et rigs** (11 October 2026, 16:55:39 +0200)
+> 8. **Lumières** (11 October 2026, 16:55:39 +0200)
+> 9. **Anciens réseaux Copernicus** (11 October 2026, 16:55:39 +0200)
+> 10. **Divers** (11 October 2026, 16:55:39 +0200)
+>
+> Chaque colonne a son cadre titré. Les anciens cadres ont été remplacés, avec les mêmes intitulés pour ceux qui existaient déjà. Aucun nœud n'est supprimé, aucun branchement ni aucun drapeau d'affichage ne bouge, et l'éditeur de réseau est recadré sur l'ensemble. (11 October 2026, 16:55:39 +0200)
+>
+> Je n'ai pas enregistré la scène : fais Ctrl+S si le rangement te convient, ou Ctrl+Z pour revenir en arrière d'un seul coup. (11 October 2026, 16:55:39 +0200)
+
+## 11 October 2026, 16:56:22 +0200 : Prompt
+
+<!-- feedback-event:8bc7ab54334d22ee9c6cd0da932b04ab6e59d07c1cc3f97c97b7e2375b8c2c40 (11 October 2026, 16:56:22 +0200) -->
+- Project: louisiana-bayou; kind: prompt. (11 October 2026, 16:56:22 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/8152bc29-16c2-4858-828d-937ab6240571.jsonl. (11 October 2026, 16:56:22 +0200)
+
+> je parlais de la scene viewport mais très bon début pour le graph (11 October 2026, 16:56:22 +0200)
+
+## 11 October 2026, 16:56:22 +0200 : Prompt
+
+<!-- feedback-event:2ab6ee3254bad5e38dabbf329e98514f0e772490a1e2bdb47fe452c806badfca (11 October 2026, 16:56:22 +0200) -->
+- Project: louisiana-bayou; kind: prompt. (11 October 2026, 16:56:22 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/8152bc29-16c2-4858-828d-937ab6240571.jsonl. (11 October 2026, 16:56:22 +0200)
+
+> [Image: source: /private/tmp/claude-501/-Users-zenray--claude-Memory1/8152bc29-16c2-4858-828d-937ab6240571/images/2.webp] (11 October 2026, 16:56:22 +0200)
+
+## 11 October 2026, 16:56:44 +0200 : Iteration
+
+<!-- feedback-event:65725bf22bba9bbaf82f728e51f268e359bc8e437bafeeacb1ce11396c8a2c85 (11 October 2026, 16:56:44 +0200) -->
+- Project: louisiana-bayou; kind: iteration. (11 October 2026, 16:56:44 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/8152bc29-16c2-4858-828d-937ab6240571.jsonl. (11 October 2026, 16:56:44 +0200)
+
+> Compris : c'est la vue 3D de `/obj` qu'il faut ranger, pas le graphe. Aujourd'hui, une quinzaine d'objets s'y affichent en même temps (clôtures, herbe, arche, essais…), et le toit apparaît en couleurs de débogage. Je ne vais laisser afficher que ce que montre `/stage`, avec les mêmes matériaux. (11 October 2026, 16:56:44 +0200)
+
+## 11 October 2026, 16:57:10 +0200 : Iteration
+
+<!-- feedback-event:b92f84783bd73f0fdb30d35a117752d831eb512143105d2b36309116afd73d5b (11 October 2026, 16:57:10 +0200) -->
+- Project: louisiana-bayou; kind: iteration. (11 October 2026, 16:57:10 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/8152bc29-16c2-4858-828d-937ab6240571.jsonl. (11 October 2026, 16:57:10 +0200)
+
+> Les 95 288 primitives ont toutes leur matériau, et aucun nœud n'est en erreur. Je fais une capture de la vue pour vérifier. (11 October 2026, 16:57:10 +0200)
+
+## 11 October 2026, 16:57:31 +0200 : Iteration
+
+<!-- feedback-event:ac405ffce08da6acba1c087074e9b71b0955dcd01570c9b99625fc27ccfb4b73 (11 October 2026, 16:57:31 +0200) -->
+- Project: louisiana-bayou; kind: iteration. (11 October 2026, 16:57:31 +0200)
+- Source: checkpoint:claude:8152bc29-16c2-4858-828d-937ab6240571. (11 October 2026, 16:57:31 +0200)
+
+> Vue OBJ alignee sur stage : View_Lookdev seul affiche avec les six materiaux PC, anciens drapeaux sauvegardes dans les user data de /obj ; graphe /obj range en 10 colonnes. Scene non enregistree, Ctrl+S par Matthieu. (11 October 2026, 16:57:31 +0200)
+
+## 11 October 2026, 16:57:43 +0200 : Iteration
+
+<!-- feedback-event:5ab845c0bd916dcc5e4a5cd7076d344e9c424b256a9bb33b9fce5beac552bc9b (11 October 2026, 16:57:43 +0200) -->
+- Project: louisiana-bayou; kind: iteration. (11 October 2026, 16:57:43 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/8152bc29-16c2-4858-828d-937ab6240571.jsonl. (11 October 2026, 16:57:43 +0200)
+
+> Ta vue 3D de `/obj` montre maintenant la même chose que `/stage` : l'église avec ses textures, les vitres, le sol vert et les deux Manny orange. Tout le reste est masqué. Capture de contrôle : [/Users/zenray/Create/Build/Productions/ZenRayHoudini/LouisianaBayou/unreal/captures/OBJ_View_Lookdev_11October2026.png](/Users/zenray/Create/Build/Productions/ZenRayHoudini/LouisianaBayou/unreal/captures/OBJ_View_Lookdev_11October2026.png). (11 October 2026, 16:57:43 +0200)
+>
+> - **Un seul objet affiché, `/obj/View_Lookdev`.** Il lit la même géométrie que `PC_import` dans `/stage`. J'ai retiré les couleurs de débogage, ce qui fait disparaître l'arc-en-ciel du toit. Ses six matériaux reprennent les valeurs de `/stage` : peinture blanche, volets, bardeaux avec leur rugosité et leur normale, vitres, sol, Manny. (11 October 2026, 16:57:43 +0200)
+> - **Les autres objets sont masqués, pas supprimés.** Clôtures, herbe, arche, `Church`, essais, caméras : seuls `View_Lookdev` et les deux lumières lookdev restent affichés. La liste des objets affichés avant est gardée dans les données de `/obj`, ce qui permet de tout réafficher d'un geste. (11 October 2026, 16:57:43 +0200)
+> - **Graphe** : `View_Lookdev` est placé en tête de la colonne « Église active ». (11 October 2026, 16:57:43 +0200)
+>
+> Le sol paraît plus pâle que dans Cycles, parce que l'aperçu OpenGL n'éclaire pas comme Cycles. (11 October 2026, 16:57:43 +0200)
+>
+> La scène n'est toujours pas enregistrée : fais Ctrl+S si ça te convient. (11 October 2026, 16:57:43 +0200)
+
+## 11 October 2026, 16:57:50 +0200 : Prompt
+
+<!-- feedback-event:8a7a8d854caf3d1ca169ae5775ceabcdc199af13b216239c8a23ee11d8162fde (11 October 2026, 16:57:50 +0200) -->
+- Project: louisiana-bayou; kind: prompt. (11 October 2026, 16:57:50 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/8152bc29-16c2-4858-828d-937ab6240571.jsonl. (11 October 2026, 16:57:50 +0200)
+
+> niquel sauf qu'il y a un bug d'ombrages je sais pas pourquoi ... (11 October 2026, 16:57:50 +0200)
+
+## 11 October 2026, 16:57:50 +0200 : Prompt
+
+<!-- feedback-event:d5a398ba536ca237b9b6ffb8b3440c307eb8dc3426ea6105668926d3653527ec (11 October 2026, 16:57:50 +0200) -->
+- Project: louisiana-bayou; kind: prompt. (11 October 2026, 16:57:50 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/8152bc29-16c2-4858-828d-937ab6240571.jsonl. (11 October 2026, 16:57:50 +0200)
+
+> [Image: source: /private/tmp/claude-501/-Users-zenray--claude-Memory1/8152bc29-16c2-4858-828d-937ab6240571/images/3.webp] (11 October 2026, 16:57:50 +0200)
+
+## 11 October 2026, 16:57:58 +0200 : Iteration
+
+<!-- feedback-event:3c5de3c47d1185a70d1f71abfc61e314996f6a34cf4af4b521d793d96b550a60 (11 October 2026, 16:57:58 +0200) -->
+- Project: louisiana-bayou; kind: iteration. (11 October 2026, 16:57:58 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/8152bc29-16c2-4858-828d-937ab6240571.jsonl. (11 October 2026, 16:57:58 +0200)
+
+> Les faces sombres (mur du porche, bas du pignon) ressemblent à des normales inversées : Cycles les cache parce que `PC_doublesided` rend les faces visibles des deux côtés, alors que l'aperçu OpenGL les éclaire de l'intérieur. Je mesure avant de corriger. (11 October 2026, 16:57:58 +0200)
+
+## 11 October 2026, 16:59:21 +0200 : Iteration
+
+<!-- feedback-event:0b4ffc05d7c7ae39be0e7793e1d0be2c122209d2fe71a5361dc86e53b5c40194 (11 October 2026, 16:59:21 +0200) -->
+- Project: louisiana-bayou; kind: iteration. (11 October 2026, 16:59:21 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/8152bc29-16c2-4858-828d-937ab6240571.jsonl. (11 October 2026, 16:59:21 +0200)
+
+> C'est corrigé : le mur du porche et le bas du pignon sont éclairés comme les autres murs. Capture : [/Users/zenray/Create/Build/Productions/ZenRayHoudini/LouisianaBayou/unreal/captures/OBJ_View_Lookdev_shading_fix_11October2026.png](/Users/zenray/Create/Build/Productions/ZenRayHoudini/LouisianaBayou/unreal/captures/OBJ_View_Lookdev_shading_fix_11October2026.png). (11 October 2026, 16:59:21 +0200)
+>
+> **La cause.** 410 faces de la peinture de l'église sont tournées vers l'intérieur : leur face avant regarde dans le bâtiment. Cycles ne le montre pas, car le nœud `PC_doublesided` de `/stage` rend chaque face visible des deux côtés. La vue OpenGL de `/obj`, elle, éclaire ces faces par derrière, d'où les murs gris foncé. (11 October 2026, 16:59:21 +0200)
+>
+> **Comment je les ai trouvées.** Pour chaque face, je lance un rayon vers l'avant et un vers l'arrière. Si le rayon avant touche l'église pendant que le rayon arrière part dans le vide, la face est retournée. (11 October 2026, 16:59:21 +0200)
+>
+> **La correction.** Trois nœuds ajoutés dans `/obj/View_Lookdev` seulement : (11 October 2026, 16:59:21 +0200)
+> - `find_inward` repère les faces retournées ; (11 October 2026, 16:59:21 +0200)
+> - `flip_inward` les remet à l'endroit ; (11 October 2026, 16:59:21 +0200)
+> - `fix_N` inverse leurs normales, que `flip_inward` laisse telles quelles. (11 October 2026, 16:59:21 +0200)
+>
+> L'église d'origine n'est pas touchée. Le toit et les fenêtres sont exclus du test, parce que leurs bardeaux et leurs cadres se recouvrent et faussaient le résultat. Ils s'affichaient correctement de toute façon. (11 October 2026, 16:59:21 +0200)
+>
+> Les mêmes 410 faces existent dans le mesh `SM_church_paint` exporté vers Unreal, où elles s'afficheront aussi sombres sous certains angles. Le vrai correctif serait de les retourner dans le HDA `Church` lui-même, puis de relancer les trois scripts du transfert. (11 October 2026, 16:59:21 +0200)
+>
+> La scène n'est pas enregistrée : Ctrl+S quand tu valides. (11 October 2026, 16:59:21 +0200)
