@@ -2927,3 +2927,195 @@
 > 2. **Le prompt « 6 views 3D »**. Il est enregistré dans [/Users/zenray/.claude/skills/zenray-houdini/SKILL.md](/Users/zenray/.claude/skills/zenray-houdini/SKILL.md) : cinq vues orthographiques à la même échelle et une vue trois-quarts en perspective. J'attends la planche que tu génères avec ce prompt pour contrôler ses proportions. (11 October 2026, 16:12:34 +0200)
 >
 > Lequel on reprend ? Si c'est le premier, donne-moi le seuil d'EQUIV qui te suffit. Si c'est le second, colle ici la planche générée. (11 October 2026, 16:12:34 +0200)
+
+## 11 October 2026, 16:18:28 +0200 : Prompt
+
+<!-- feedback-event:624f2fc9d8e71149b5d01f3c434c0bce2196822021a681705732d39defce5c48 (11 October 2026, 16:18:28 +0200) -->
+- Project: louisiana-bayou; kind: prompt. (11 October 2026, 16:18:28 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/8152bc29-16c2-4858-828d-937ab6240571.jsonl. (11 October 2026, 16:18:28 +0200)
+
+> Est-ce que tu peux lancer la scène Unreal avec tout ce que j'ai actuellement dans ma vue Cycles, c'est-à-dire les personnages Manny, tous les matériaux de l'église et l'église au complet, enfin toute ma scène Cycles actuellement qu'on voit et que je vais te mettre dans le screen, plus la plane ? Je pense que tu peux mettre en FBX, mais par contre il faut bien que tu relies tous les matériaux et les textures et que tu trie tout bien dans Unreal Engine dans des fichiers de textures et cetera et que tu utilises aussi le skill ZRS pour bien tout comprendre. /zrs /zenray-houdini transférer ma scène houdini dans unreal avec les bons matériaux setup sans te tromper go. (11 October 2026, 16:18:28 +0200)
+
+## 11 October 2026, 16:18:28 +0200 : Prompt
+
+<!-- feedback-event:313fa8813bccea6e410f92391a59e2b01fa909be6975f9531ec1051530a2cebf (11 October 2026, 16:18:28 +0200) -->
+- Project: louisiana-bayou; kind: prompt. (11 October 2026, 16:18:28 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/8152bc29-16c2-4858-828d-937ab6240571.jsonl. (11 October 2026, 16:18:28 +0200)
+
+> [Image: source: /private/tmp/claude-501/-Users-zenray--claude-Memory1/8152bc29-16c2-4858-828d-937ab6240571/images/1.webp] (11 October 2026, 16:18:28 +0200)
+
+## 11 October 2026, 16:18:32 +0200 : Prompt
+
+<!-- feedback-event:99ac40d96a6bde5e4e9cca4be932365b0ecb70da95ab782dba800d057cc8b65f (11 October 2026, 16:18:32 +0200) -->
+- Project: louisiana-bayou; kind: prompt. (11 October 2026, 16:18:32 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/8152bc29-16c2-4858-828d-937ab6240571.jsonl. (11 October 2026, 16:18:32 +0200)
+
+> Base directory for this skill: /Users/zenray/.claude/skills/zrs (11 October 2026, 16:18:32 +0200)
+>
+> # zrs (11 October 2026, 16:18:32 +0200)
+>
+> Raccourci. La source unique du jeu est : (11 October 2026, 16:18:32 +0200)
+>
+> `/Users/zenray/.claude/Memory1/ZenRayShards/ZenRayShards1.md` (11 October 2026, 16:18:32 +0200)
+>
+> ## Ce qu'il faut lire, selon la demande (11 October 2026, 16:18:32 +0200)
+>
+> | La demande porte sur… | Aller à | (11 October 2026, 16:18:32 +0200)
+> |---|---| (11 October 2026, 16:18:32 +0200)
+> | une règle de travail | `0.2 Instructions` — I-01 à I-08 | (11 October 2026, 16:18:32 +0200)
+> | une idée de jeu | `0.5 GameDesignBoard` — statuts `ToSort` `Prototype` `Discarded` `Deprecated_Cut` | (11 October 2026, 16:18:32 +0200)
+> | un bug | `0.6 SolvedBugs` — **greper le SYMPTÔME avant de diagnostiquer** | (11 October 2026, 16:18:32 +0200)
+> | l'état d'Unreal | `7` et ses sous-sections | (11 October 2026, 16:18:32 +0200)
+> | l'animation | `8.1` (chantier) · `8.2` (markerless) | (11 October 2026, 16:18:32 +0200)
+> | **rejouer une chaîne de production** | `0.7 WorkflowsAndPipelines` — `WF-01` = vidéo → animation | (11 October 2026, 16:18:32 +0200)
+>
+> ```zsh (11 October 2026, 16:18:32 +0200)
+> rg -n '^## |^### ' /Users/zenray/.claude/Memory1/ZenRayShards/ZenRayShards1.md (11 October 2026, 16:18:32 +0200)
+> ``` (11 October 2026, 16:18:32 +0200)
+>
+> ## Les quatre réflexes, en une ligne chacun (11 October 2026, 16:18:32 +0200)
+>
+> 1. **Greper `0.6 SolvedBugs` avant tout diagnostic**, par le symptôme, pas par la cause supposée. (11 October 2026, 16:18:32 +0200)
+> 2. **Tout asset du jeu vit dans `/Game/ZenRayShards`** (I-02). Le neuf y naît directement. (11 October 2026, 16:18:32 +0200)
+> 3. **PascalCase sans espace** pour tout nom technique, `Pascal Case Avec Espaces` pour l'affichage (I-01). (11 October 2026, 16:18:32 +0200)
+> 4. **Tout code est un HDA, tout réglage visuel sort en curseur** (I-08) — `UPROPERTY` réglable, (11 October 2026, 16:18:32 +0200)
+>    panneau d'éditeur, ou petite UI EN JEU quand la valeur ne se juge qu'en mouvement. (11 October 2026, 16:18:32 +0200)
+>
+> Le skill complet, avec le détail de la lecture ciblée et de l'écriture : `zenrayshards-context`. (11 October 2026, 16:18:32 +0200)
+> Celui-ci n'est qu'une porte rapide. (11 October 2026, 16:18:32 +0200)
+>
+> ## Outils du projet (11 October 2026, 16:18:32 +0200)
+>
+> ```zsh (11 October 2026, 16:18:32 +0200)
+> cd /Users/zenray/Create/Build/Productions/ZenRayShards/ZenRayShards (11 October 2026, 16:18:32 +0200)
+> python3 Scripts/unreal_guard.py ensure     # éditeur prêt, relance après plantage (11 October 2026, 16:18:32 +0200)
+> python3 Scripts/mcp.py tools <toolset>     # vue compacte des outils Unreal (11 October 2026, 16:18:32 +0200)
+> python3 Scripts/migrate_assets.py plan     # ce qui reste hors de /Game/ZenRayShards (11 October 2026, 16:18:32 +0200)
+> ``` (11 October 2026, 16:18:32 +0200)
+>
+> ## 2 October 2026 : Shared Unreal host and canonical project feedback (11 October 2026, 16:18:32 +0200)
+>
+> - ZenRayShards is a shared Unreal host; project-specific assets reference its stable project ID instead of copying the whole Unreal tree into every project. (2 October 2026) (11 October 2026, 16:18:32 +0200)
+> - Route prompts and iterations through `zenray-feedback` and the registered project ID; do not create a second canonical feedback in the Unreal folder. Existing feedback remains a linked historical source. (2 October 2026) (11 October 2026, 16:18:32 +0200)
+>
+>
+> ARGUMENTS: transférer la scène Houdini Louisiana Bayou (église, matériaux, Manny, plane) dans Unreal (11 October 2026, 16:18:32 +0200)
+
+## 11 October 2026, 16:18:56 +0200 : Iteration
+
+<!-- feedback-event:bf93fbadd81a60af57dd75ad260dbe843bf28bcce4d10d5ab975051f6c181ae3 (11 October 2026, 16:18:56 +0200) -->
+- Project: louisiana-bayou; kind: iteration. (11 October 2026, 16:18:56 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/8152bc29-16c2-4858-828d-937ab6240571.jsonl. (11 October 2026, 16:18:56 +0200)
+
+> J'ai lu la doctrine Unreal et la section export FBX ; j'inspecte maintenant la scène Solaris ouverte pour lister ce qui part vers Unreal. (11 October 2026, 16:18:56 +0200)
+
+## 11 October 2026, 16:19:53 +0200 : Iteration
+
+<!-- feedback-event:dd04402db1497a545d107f31353451b8bb2996321653056bebfc824a9e1e6acf (11 October 2026, 16:19:53 +0200) -->
+- Project: louisiana-bayou; kind: iteration. (11 October 2026, 16:19:53 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/8152bc29-16c2-4858-828d-937ab6240571.jsonl. (11 October 2026, 16:19:53 +0200)
+
+> Inventaire fait : 6 pièces (peinture, fenêtres, vitres, toit, sol, Manny), 6 matériaux, 6 textures. J'exporte maintenant les FBX depuis Houdini. (11 October 2026, 16:19:53 +0200)
+
+## 11 October 2026, 16:21:23 +0200 : Iteration
+
+<!-- feedback-event:6249f3bfc315b9e1520a62b8ae0eb46d8cadcfd6b74aaefc9f660fe49584571f (11 October 2026, 16:21:23 +0200) -->
+- Project: louisiana-bayou; kind: iteration. (11 October 2026, 16:21:23 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/8152bc29-16c2-4858-828d-937ab6240571.jsonl. (11 October 2026, 16:21:23 +0200)
+
+> Unreal démarre en arrière-plan. Un premier import existe déjà (`SM_church_*`), je le remplacerai par des FBX frais. (11 October 2026, 16:21:23 +0200)
+
+## 11 October 2026, 16:21:59 +0200 : Iteration
+
+<!-- feedback-event:fc3cccce9057eb532d8b16c12331164ae24962d3535c306d5f917bf3121d53e1 (11 October 2026, 16:21:59 +0200) -->
+- Project: louisiana-bayou; kind: iteration. (11 October 2026, 16:21:59 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/8152bc29-16c2-4858-828d-937ab6240571.jsonl. (11 October 2026, 16:21:59 +0200)
+
+> Six FBX exportés (comptes de primitives identiques à la scène, Manny à 1,805 m). Passage à Unreal. (11 October 2026, 16:21:59 +0200)
+
+## 11 October 2026, 16:23:05 +0200 : Iteration
+
+<!-- feedback-event:f23a716195bb5be9af65528a6aca0214ab26318e48eb525bf1599958eabf018d (11 October 2026, 16:23:05 +0200) -->
+- Project: louisiana-bayou; kind: iteration. (11 October 2026, 16:23:05 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/8152bc29-16c2-4858-828d-937ab6240571.jsonl. (11 October 2026, 16:23:05 +0200)
+
+> Paramètres écrits et textures vérifiées ; j'écris le script Unreal qui importe textures, matériaux et meshes. (11 October 2026, 16:23:05 +0200)
+
+## 11 October 2026, 16:24:04 +0200 : Iteration
+
+<!-- feedback-event:e3180b1153110ba2e6a9ddf86a1be5c831488b58a5f7447b7efc1b387ecd2233 (11 October 2026, 16:24:04 +0200) -->
+- Project: louisiana-bayou; kind: iteration. (11 October 2026, 16:24:04 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/8152bc29-16c2-4858-828d-937ab6240571.jsonl. (11 October 2026, 16:24:04 +0200)
+
+> Repère confirmé par mesure : Unreal (X, Y, Z) = Houdini (x, z, y) × 100, Manny tombe pile au même endroit. Je construis le niveau (meshes, soleil, ciel, caméra Cycles). (11 October 2026, 16:24:04 +0200)
+
+## 11 October 2026, 16:24:56 +0200 : Iteration
+
+<!-- feedback-event:11b1da55a16b5ffedfce7b4bea55cf7bad31013a0373eff02a29308882681342 (11 October 2026, 16:24:56 +0200) -->
+- Project: louisiana-bayou; kind: iteration. (11 October 2026, 16:24:56 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/8152bc29-16c2-4858-828d-937ab6240571.jsonl. (11 October 2026, 16:24:56 +0200)
+
+> Capture éditeur non fiable (piège connu f), je rends l'image par le Movie Render Queue depuis la caméra. (11 October 2026, 16:24:56 +0200)
+
+## 11 October 2026, 16:25:46 +0200 : Iteration
+
+<!-- feedback-event:f9e91012daf195e7c69f36c10217ceb2c864a22ff0d41e5264935efb7ca44450 (11 October 2026, 16:25:46 +0200) -->
+- Project: louisiana-bayou; kind: iteration. (11 October 2026, 16:25:46 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/8152bc29-16c2-4858-828d-937ab6240571.jsonl. (11 October 2026, 16:25:46 +0200)
+
+> Ta vue correspond au viewport `panetab2` (position −25,2 / 8,8 / 24,0 m, 50 mm). J'ajoute cette caméra dans Unreal et j'éclaircis l'exposition d'un stop et demi. (11 October 2026, 16:25:46 +0200)
+
+## 11 October 2026, 16:26:15 +0200 : Iteration
+
+<!-- feedback-event:b97e005177479c41c5f61d5405702c241ff33641e34a1dbb36c3ec93412c8a7c (11 October 2026, 16:26:15 +0200) -->
+- Project: louisiana-bayou; kind: iteration. (11 October 2026, 16:26:15 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/8152bc29-16c2-4858-828d-937ab6240571.jsonl. (11 October 2026, 16:26:15 +0200)
+
+> Cadrage identique à ta vue. Mais les couleurs ne passent pas (sol et Manny gris au lieu de vert et orange) : je vérifie les paramètres des instances. (11 October 2026, 16:26:15 +0200)
+
+## 11 October 2026, 16:27:48 +0200 : Iteration
+
+<!-- feedback-event:3976076317834848fb6cea35405ac4d8f541ccc09ab07f6fda68f042df81acda (11 October 2026, 16:27:48 +0200) -->
+- Project: louisiana-bayou; kind: iteration. (11 October 2026, 16:27:48 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/8152bc29-16c2-4858-828d-937ab6240571.jsonl. (11 October 2026, 16:27:48 +0200)
+
+> Rendu v006 : église, toit, volets, Manny et sol en place avec les bons matériaux et le cadrage de ta vue. J'inscris maintenant la recette et les deux pièges dans la mémoire et les skills. (11 October 2026, 16:27:48 +0200)
+
+## 11 October 2026, 16:28:33 +0200 : Iteration
+
+<!-- feedback-event:b1a696e3e1ea72d78ebd5e8768e396d7e68fc3149999ca179e2dab404ce11fdc (11 October 2026, 16:28:33 +0200) -->
+- Project: louisiana-bayou; kind: iteration. (11 October 2026, 16:28:33 +0200)
+- Source: checkpoint:claude:8152bc29-16c2-4858-828d-937ab6240571. (11 October 2026, 16:28:33 +0200)
+
+> Scene Cycles transferee dans Unreal (ZenRayShards) : 6 FBX par ExportLookdevToUnreal.py, textures T_LB_*, M_LB_Surface et M_LB_Glass, 6 MI_LB_*, niveau L_LouisianaBayouLookdev, cameras LB_Camera_PC et LB_Camera_View, rendu v006 verifie. Pieges : Substrate impose MakeMaterialAttributes, defaut sRGB sur sampler Masks casse la compilation (BUG-22). Prochain : accorder la lumiere au dome Cycles si demande. (11 October 2026, 16:28:33 +0200)
+
+## 11 October 2026, 16:29:13 +0200 : Iteration
+
+<!-- feedback-event:af05392be845a906f8fd6dad20728bf0c6b004debc1ccadd1cf95ea88bb05caf (11 October 2026, 16:29:13 +0200) -->
+- Project: louisiana-bayou; kind: iteration. (11 October 2026, 16:29:13 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/8152bc29-16c2-4858-828d-937ab6240571.jsonl. (11 October 2026, 16:29:13 +0200)
+
+> Ta scène Cycles est dans Unreal : le niveau `/Game/ZenRayShards/LouisianaBayou/Levels/L_LouisianaBayouLookdev` est ouvert dans l'éditeur. L'église complète, les deux Manny et le sol y sont, chacun avec son matériau branché, cadrés comme ta vue Houdini. Image du rendu Lumen : [/Users/zenray/Create/Build/Productions/ZenRayHoudini/LouisianaBayou/unreal/captures/LB_Unreal_View_v006_0000.png](/Users/zenray/Create/Build/Productions/ZenRayHoudini/LouisianaBayou/unreal/captures/LB_Unreal_View_v006_0000.png). (11 October 2026, 16:29:13 +0200)
+>
+> **Rangement dans Unreal**, sous `/Game/ZenRayShards/LouisianaBayou/` : (11 October 2026, 16:29:13 +0200)
+> - **`Textures/`** : cinq textures, chacune réglée selon son rôle (couleur, rugosité, normale). (11 October 2026, 16:29:13 +0200)
+> - **`Materials/`** : deux matériaux maîtres, l'un pour les surfaces opaques, l'autre pour les vitres, et six variantes (peinture blanche, volets, bardeaux, vitres, sol, Manny). Ils reprennent les valeurs de Cycles. (11 October 2026, 16:29:13 +0200)
+> - **`Meshes/`** : les six objets, chacun avec son matériau déjà assigné. (11 October 2026, 16:29:13 +0200)
+> - **`Levels/`** : le niveau, avec un soleil, un ciel, Lumen et deux caméras. `LB_Camera_View` reprend ta vue libre ; `LB_Camera_PC` reprend la caméra `PC_camera` de Houdini. (11 October 2026, 16:29:13 +0200)
+>
+> Le premier rendu sortait entièrement gris. Deux causes, maintenant corrigées et notées comme BUG-22 dans la mémoire du jeu : (11 October 2026, 16:29:13 +0200)
+> - **Les couleurs étaient ignorées.** Avec le mode de matériaux Substrate actif dans ce projet, un branchement direct sur la couleur de base ne colore rien. Le matériau passe maintenant par un nœud `MakeMaterialAttributes`. (11 October 2026, 16:29:13 +0200)
+> - **Le matériau maître ne compilait pas.** La texture de rugosité par défaut avait un mauvais format, et Unreal affichait son matériau gris par défaut à la place. (11 October 2026, 16:29:13 +0200)
+>
+> **Écart restant.** Le sol paraît plus clair et plus jaune que dans Cycles. Ici, un ciel bleu éclaire la scène ; dans Cycles, c'est un dôme blanc uniforme. Si tu veux une lumière identique, je peux remplacer le ciel par un éclairage blanc équivalent. (11 October 2026, 16:29:13 +0200)
+>
+> Pour refaire le transfert après une modification dans Houdini, trois scripts suffisent : [/Users/zenray/Create/Build/Productions/ZenRayHoudini/LouisianaBayou/Scripts/ExportLookdevToUnreal.py](/Users/zenray/Create/Build/Productions/ZenRayHoudini/LouisianaBayou/Scripts/ExportLookdevToUnreal.py), puis `ue_build_assets.py` et `ue_build_level.py` dans [/Users/zenray/Create/Build/Productions/ZenRayHoudini/LouisianaBayou/unreal](/Users/zenray/Create/Build/Productions/ZenRayHoudini/LouisianaBayou/unreal). Tous les réglages vivent dans un seul fichier, [/Users/zenray/Create/Build/Productions/ZenRayHoudini/LouisianaBayou/unreal/lb_params.json](/Users/zenray/Create/Build/Productions/ZenRayHoudini/LouisianaBayou/unreal/lb_params.json). La recette est écrite dans le skill `zenray-houdini`. (11 October 2026, 16:29:13 +0200)
+>
+> Un verrou Git vieux de six heures bloquait la sauvegarde automatique de Memory1. Aucun programme ne l'utilisait, je l'ai retiré, puis j'ai commité la mémoire. (11 October 2026, 16:29:13 +0200)
+>
+> | Ce que tu voulais | Fait ? | Comment je le sais | (11 October 2026, 16:29:13 +0200)
+> |---|---|---| (11 October 2026, 16:29:13 +0200)
+> | Toute la scène Cycles dans Unreal (église, Manny, sol) | Oui | Le rendu Unreal montre les six objets au même endroit que dans Houdini ; Manny mesure 1,805 m dans les deux logiciels | (11 October 2026, 16:29:13 +0200)
+> | Tous les matériaux et textures bien reliés | Oui | Sur le rendu, le toit a ses bardeaux, la peinture est écaillée, les volets ont leur bois, le sol est vert et Manny orange | (11 October 2026, 16:29:13 +0200)
+> | Tout bien rangé dans Unreal | Oui | Quatre dossiers créés dans `/Game/ZenRayShards/LouisianaBayou` : Textures, Materials, Meshes, Levels | (11 October 2026, 16:29:13 +0200)
+> | Même rendu que Cycles | Presque | Même cadrage et mêmes matériaux, mais le sol est plus clair à cause du ciel bleu | (11 October 2026, 16:29:13 +0200)

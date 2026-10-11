@@ -106,3 +106,9 @@
 
 - 11 October 2026 : l'étirement horizontal pilote l'anisotropie (0,00 à 0,5) et l'orientation (0,58 à 0,8), mais fait fusionner les taches. La lèvre seule ne pilote pas l'énergie des bords. EQUIV passe de 0,552 à 0,562. Les composantes sont couplées. (11 October 2026)
 - 11 October 2026 : méthode suivante proposée : plan d'expérience sur quatre paramètres, puis pas amorti. Détail dans le bilan du skill zenray-houdini, section 11. (11 October 2026)
+
+## 11 October 2026 : la vue Cycles est dans Unreal
+
+- 11 October 2026 : niveau `/Game/ZenRayShards/LouisianaBayou/Levels/L_LouisianaBayouLookdev` : six meshes (`SM_church_paint`, `SM_church_windows`, `SM_church_glass`, `SM_church_roof`, `SM_floor`, `SM_manny`), six instances `MI_LB_*` sur deux maîtres, cinq textures `T_LB_*`, soleil, ciel, brouillard, Lumen, caméras `LB_Camera_PC` et `LB_Camera_View` (la vue libre de Matthieu). (11 October 2026)
+- 11 October 2026 : image de contrôle : `/Users/zenray/Create/Build/Productions/ZenRayHoudini/LouisianaBayou/unreal/captures/LB_Unreal_View_v006_0000.png`. Recette et pièges : skill zenray-houdini, `UnrealEngine1.md`, section du 11 October 2026. (11 October 2026)
+- 11 October 2026 : écart restant : le sol paraît plus clair et plus jaune que dans Cycles (ciel bleu et rebond Lumen au lieu du dôme blanc) ; à régler si Matthieu le demande. (11 October 2026)
