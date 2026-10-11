@@ -3257,3 +3257,123 @@
 > Les mêmes 410 faces existent dans le mesh `SM_church_paint` exporté vers Unreal, où elles s'afficheront aussi sombres sous certains angles. Le vrai correctif serait de les retourner dans le HDA `Church` lui-même, puis de relancer les trois scripts du transfert. (11 October 2026, 16:59:21 +0200)
 >
 > La scène n'est pas enregistrée : Ctrl+S quand tu valides. (11 October 2026, 16:59:21 +0200)
+
+## 11 October 2026, 17:03:37 +0200 : Prompt
+
+<!-- feedback-event:69c3fa440d8e9c2a445637eb955a13c46af22934e846ed81384b92bead4dbdad (11 October 2026, 17:03:37 +0200) -->
+- Project: louisiana-bayou; kind: prompt. (11 October 2026, 17:03:37 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/8152bc29-16c2-4858-828d-937ab6240571.jsonl. (11 October 2026, 17:03:37 +0200)
+
+> corrige dans le HDA Church Ce qu'on va faire, c'est qu'on va faire une légère inclinaison du toit et de la pente, c'est-à-dire qu'il y a deux choses à courber. Tu peux t'inspirer du Porsche, mais le truc c'est qu'il faut corriger directement dans les propres components et ensuite dans toute la réattribution de l'objet 3D. Il faut d'abord que tu scannes l'intégralité de la church pour savoir comment courber les choses. À mon avis, c'est directement possible via un bend et il faut faire en sorte que ça casse pas tous les UV, mais surtout que ça casse pas tout le reste. Je vais te montrer sur une image exactement ce que je souhaite faire en terme de courbure sur le toit et le (11 October 2026, 17:03:37 +0200)
+>
+> Donc en fait très simplement ce qu'on veut faire c'est trois courbures sur le toit avec tous les éléments adjacents qui soient réalignés. Un peu comme le Porsche, si tu regardes le Porsche c'est déjà courbé en termes d'alignement. Et un paramètre dans le HDA Church qui permet en fait deux paramètres qui permettent symétriquement sur la façade de courber les pentes du toit par rapport à un segment au milieu et pareil sur le reste du toit, enfin pareil sur le side view du toit. Donc en fait il y a environ cinq pentes à corriger dont la face la face front et la face back sont symétriques. /dont-stop crée d'abord une save du graph church. /zenray-houdini (11 October 2026, 17:03:37 +0200)
+
+## 11 October 2026, 17:03:37 +0200 : Prompt
+
+<!-- feedback-event:75d2c2c070fb09e246b499524a96ec4369807cd6719de2ef665b54b0f7b8a8e4 (11 October 2026, 17:03:37 +0200) -->
+- Project: louisiana-bayou; kind: prompt. (11 October 2026, 17:03:37 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/8152bc29-16c2-4858-828d-937ab6240571.jsonl. (11 October 2026, 17:03:37 +0200)
+
+> [Image: source: /private/tmp/claude-501/-Users-zenray--claude-Memory1/8152bc29-16c2-4858-828d-937ab6240571/images/4.webp] (11 October 2026, 17:03:37 +0200)
+> [Image: source: /private/tmp/claude-501/-Users-zenray--claude-Memory1/8152bc29-16c2-4858-828d-937ab6240571/images/5.webp] (11 October 2026, 17:03:37 +0200)
+> [Image: source: /private/tmp/claude-501/-Users-zenray--claude-Memory1/8152bc29-16c2-4858-828d-937ab6240571/images/6.webp] (11 October 2026, 17:03:37 +0200)
+> [Image: source: /private/tmp/claude-501/-Users-zenray--claude-Memory1/8152bc29-16c2-4858-828d-937ab6240571/images/7.webp] (11 October 2026, 17:03:37 +0200)
+
+## 11 October 2026, 17:04:12 +0200 : Prompt
+
+<!-- feedback-event:5917e0dbcbc67a896a7ef07d33eefc12189ae2b13e8e29aaeccd6f9209ead207 (11 October 2026, 17:04:12 +0200) -->
+- Project: louisiana-bayou; kind: prompt. (11 October 2026, 17:04:12 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/8152bc29-16c2-4858-828d-937ab6240571.jsonl. (11 October 2026, 17:04:12 +0200)
+
+> Base directory for this skill: /Users/zenray/.claude/skills/dont-stop (11 October 2026, 17:04:12 +0200)
+>
+> # Dont stop (30 September 2026) (11 October 2026, 17:04:12 +0200)
+>
+> Continue jusqu’à ce que ce soit parfait par rapport à la contrainte `X` donnée par l’utilisateur. Ne t’arrête pas à un résultat partiel. (30 September 2026) (11 October 2026, 17:04:12 +0200)
+>
+> Corrige, vérifie contre `X`, puis recommence tant qu’un écart subsiste. Termine quand `X` est satisfaite, avec une preuve. (30 September 2026) (11 October 2026, 17:04:12 +0200)
+>
+> Si `X` manque, demande-la. Si un obstacle réel empêche de continuer, précise ce qui manque pour reprendre. (30 September 2026) (11 October 2026, 17:04:12 +0200)
+>
+>
+> ARGUMENTS: Church HDA : retourner les faces inversées, puis courber le toit (pignons avant/arrière symétriques + faîtage côté) avec deux paramètres, éléments adjacents réalignés, UV intacts ; sauvegarde du graphe d'abord (11 October 2026, 17:04:12 +0200)
+
+## 11 October 2026, 17:04:55 +0200 : Iteration
+
+<!-- feedback-event:7e73d87f212ebaa38d7e98f029edc7dd40049c2016bb7a9472122ef2b46d726e (11 October 2026, 17:04:55 +0200) -->
+- Project: louisiana-bayou; kind: iteration. (11 October 2026, 17:04:55 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/8152bc29-16c2-4858-828d-937ab6240571.jsonl. (11 October 2026, 17:04:55 +0200)
+
+> Sauvegarde faite (graphe complet en `.cpio`, paramètres en JSON, copie du `.hiplc`). Je scanne maintenant l'église pour mesurer le toit. (11 October 2026, 17:04:55 +0200)
+
+## 11 October 2026, 17:07:45 +0200 : Iteration
+
+<!-- feedback-event:ec6254a9f6fabff1cf98eec25717dad506728b5e3f98cd460e92b00142de8e32 (11 October 2026, 17:07:45 +0200) -->
+- Project: louisiana-bayou; kind: iteration. (11 October 2026, 17:07:45 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/8152bc29-16c2-4858-828d-937ab6240571.jsonl. (11 October 2026, 17:07:45 +0200)
+
+> Le pont a expiré, probablement pendant la recuisson complète de l'église. J'attends quelques secondes, puis je vérifie l'état. (11 October 2026, 17:07:45 +0200)
+
+## 11 October 2026, 17:07:51 +0200 : Iteration
+
+<!-- feedback-event:ffc82cdaa698cfa493159598cb2be89c0e1aca2962f5686b636c1d73703ef0c6 (11 October 2026, 17:07:51 +0200) -->
+- Project: louisiana-bayou; kind: iteration. (11 October 2026, 17:07:51 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/8152bc29-16c2-4858-828d-937ab6240571.jsonl. (11 October 2026, 17:07:51 +0200)
+
+> Tout est créé et branché. Je relève les mesures et le nombre de faces retournées. (11 October 2026, 17:07:51 +0200)
+
+## 11 October 2026, 17:08:39 +0200 : Iteration
+
+<!-- feedback-event:2181a6a8ba2b4271c5ef099e6896d83fa1672471df04e238034c3b68746a8fbe (11 October 2026, 17:08:39 +0200) -->
+- Project: louisiana-bayou; kind: iteration. (11 October 2026, 17:08:39 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/8152bc29-16c2-4858-828d-937ab6240571.jsonl. (11 October 2026, 17:08:39 +0200)
+
+> Trois constats à vérifier : le toit affiche la texture de peinture au lieu des bardeaux, la courbure est à peine visible, et le mur de façade apparaît gris. Je mesure. (11 October 2026, 17:08:39 +0200)
+
+## 11 October 2026, 17:09:55 +0200 : Iteration
+
+<!-- feedback-event:adc82fd96798375ac406278a0d0dbf47eafcbfc8d9287c944ab1eb47ce4826eb (11 October 2026, 17:09:55 +0200) -->
+- Project: louisiana-bayou; kind: iteration. (11 October 2026, 17:09:55 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/8152bc29-16c2-4858-828d-937ab6240571.jsonl. (11 October 2026, 17:09:55 +0200)
+
+> Le découpage garde exactement les mêmes plages d'UV. Nouvelle capture des trois vues. (11 October 2026, 17:09:55 +0200)
+
+## 11 October 2026, 17:12:35 +0200 : Iteration
+
+<!-- feedback-event:501f18755aea20ccdbe824995a3163e0900ec7bacd13f2322e6de7b8054aae70 (11 October 2026, 17:12:35 +0200) -->
+- Project: louisiana-bayou; kind: iteration. (11 October 2026, 17:12:35 +0200)
+- Source: checkpoint:claude:8152bc29-16c2-4858-828d-937ab6240571. (11 October 2026, 17:12:35 +0200)
+
+> HDA Church : sauvegarde cpio + json + hiplc, puis onglet Roof Curvature (roof_curve_gable 0.2, roof_curve_ridge 0.3), chaine apres les UV avec decoupe des grandes faces, porche exclu, 412 faces inversees retournees. Captures v3 verifiees. Prochain : validation de Matthieu, puis relancer export Unreal. (11 October 2026, 17:12:35 +0200)
+
+## 11 October 2026, 17:13:05 +0200 : Iteration
+
+<!-- feedback-event:53c2b307e18cdde02e150adf3f564570c2bed7298a1526306011da3f31d43174 (11 October 2026, 17:13:05 +0200) -->
+- Project: louisiana-bayou; kind: iteration. (11 October 2026, 17:13:05 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/8152bc29-16c2-4858-828d-937ab6240571.jsonl. (11 October 2026, 17:13:05 +0200)
+
+> Le toit de l'église est courbé dans le HDA Church, réglable par deux paramètres, et les faces inversées y sont corrigées. Les éléments qui touchent le toit suivent la courbe et les UV ne bougent pas. Captures : [/Users/zenray/Create/Build/Productions/ZenRayHoudini/LouisianaBayou/captures_roof_curve/v3_front34.png](/Users/zenray/Create/Build/Productions/ZenRayHoudini/LouisianaBayou/captures_roof_curve/v3_front34.png), [v3_side.png](/Users/zenray/Create/Build/Productions/ZenRayHoudini/LouisianaBayou/captures_roof_curve/v3_side.png), [v3_front.png](/Users/zenray/Create/Build/Productions/ZenRayHoudini/LouisianaBayou/captures_roof_curve/v3_front.png) et [v3_back34.png](/Users/zenray/Create/Build/Productions/ZenRayHoudini/LouisianaBayou/captures_roof_curve/v3_back34.png), toutes dans le même dossier. (11 October 2026, 17:13:05 +0200)
+>
+> **Sauvegarde, faite avant de toucher à quoi que ce soit.** (11 October 2026, 17:13:05 +0200)
+> - Le graphe complet de Church : [/Users/zenray/Create/Build/Productions/ZenRayHoudini/LouisianaBayou/backups/Church_graph_before_roof_curve_11October2026.cpio](/Users/zenray/Create/Build/Productions/ZenRayHoudini/LouisianaBayou/backups/Church_graph_before_roof_curve_11October2026.cpio). (11 October 2026, 17:13:05 +0200)
+> - Tous ses paramètres en JSON, dans le même dossier. (11 October 2026, 17:13:05 +0200)
+> - Une copie de la scène : [/Users/zenray/Create/Build/Productions/ZenRayHoudini/LouisianaBayou/backup/LouisianaBayou_bak49.hiplc](/Users/zenray/Create/Build/Productions/ZenRayHoudini/LouisianaBayou/backup/LouisianaBayou_bak49.hiplc). (11 October 2026, 17:13:05 +0200)
+>
+> **Les deux paramètres**, dans le nouvel onglet **Roof Curvature** de `/obj/Church` : (11 October 2026, 17:13:05 +0200)
+> - `roof_curve_gable` creuse les deux pentes vues de face. L'avant et l'arrière bougent ensemble, symétriquement autour du faîtage. Valeur actuelle : 0,20 m. (11 October 2026, 17:13:05 +0200)
+> - `roof_curve_ridge` fait descendre le faîtage au milieu de la nef, vu de côté. Les deux bords bas du toit restent droits. Valeur actuelle : 0,30 m. (11 October 2026, 17:13:05 +0200)
+>
+> À 0 et 0, l'église redevient droite. J'ai choisi ces valeurs pour que la courbe se voie tout en restant légère : règle-les à l'œil. (11 October 2026, 17:13:05 +0200)
+>
+> **Comment c'est fait.** J'ai d'abord mesuré l'église : bas du toit à 3,59 m, faîtage à 7,56 m, 7,4 m de large, 13,3 m de long. Ensuite : (11 October 2026, 17:13:05 +0200)
+> - **Ce qui suit la courbe** : tout ce qui touche le toit (bardeaux, planches de rive, haut du bardage des pignons, croix, lucarne) descend avec lui. Le déplacement diminue en descendant et devient nul sous le bas du toit, donc les murs et le bas des façades ne bougent pas. (11 October 2026, 17:13:05 +0200)
+> - **Le porche** garde sa forme d'origine, escalier compris, sans être déformé. (11 October 2026, 17:13:05 +0200)
+> - **Les UV** ne bougent pas : la courbure s'applique après leur calcul. (11 October 2026, 17:13:05 +0200)
+> - **Le voligeage blanc** : au premier essai, cette grande planche peinte sous les bardeaux restait plate et ressortait par-dessus le toit, parce qu'elle n'avait des sommets qu'à ses coins. Les grandes faces situées au-dessus du bas du toit sont maintenant découpées en carreaux de 30 cm avant la courbure ; leurs UV gardent exactement les mêmes valeurs. (11 October 2026, 17:13:05 +0200)
+> - **Les faces inversées** : 412 faces de bois peint tournées vers l'intérieur sont retournées dans Church lui-même. La correction provisoire de `View_Lookdev` est retirée. (11 October 2026, 17:13:05 +0200)
+>
+> **Le mur de façade gris** sur la capture de face n'est pas un défaut : ses faces sont bien tournées vers l'extérieur, c'est la lumière de la vue OBJ qui l'éclaire de biais. (11 October 2026, 17:13:05 +0200)
+>
+> **Ce qui reste.** (11 October 2026, 17:13:05 +0200)
+> - Le fichier `ZenRayChurchHero.hda` n'est pas mis à jour : comme avant, les changements vivent dans l'instance de la scène. Fais Ctrl+S pour les garder. (11 October 2026, 17:13:05 +0200)
+> - La scène Unreal a encore l'ancien toit droit. Pour lui donner la courbe et les faces corrigées, il faudra relancer les trois scripts du transfert ; je le fais quand tu valides les valeurs. (11 October 2026, 17:13:05 +0200)
