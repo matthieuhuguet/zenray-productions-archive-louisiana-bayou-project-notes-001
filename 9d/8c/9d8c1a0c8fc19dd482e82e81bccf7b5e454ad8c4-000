@@ -3377,3 +3377,41 @@
 > **Ce qui reste.** (11 October 2026, 17:13:05 +0200)
 > - Le fichier `ZenRayChurchHero.hda` n'est pas mis à jour : comme avant, les changements vivent dans l'instance de la scène. Fais Ctrl+S pour les garder. (11 October 2026, 17:13:05 +0200)
 > - La scène Unreal a encore l'ancien toit droit. Pour lui donner la courbe et les faces corrigées, il faudra relancer les trois scripts du transfert ; je le fais quand tu valides les valeurs. (11 October 2026, 17:13:05 +0200)
+
+## 12 October 2026, 01:52:07 +0200 : Prompt
+
+<!-- feedback-event:ff6de753326a1117c1a7580a3861d8c5d7c60c1bbb429fddfc4db2c82d3d1a89 (12 October 2026, 01:52:07 +0200) -->
+- Project: louisiana-bayou; kind: prompt. (12 October 2026, 01:52:07 +0200)
+- Source: /Users/zenray/.codex/sessions/2026/10/08/rollout-2026-10-08T10-32-24-01a11aa4-67bb-7ae1-b1d8-99af0c3495c3.jsonl. (12 October 2026, 01:52:07 +0200)
+
+> Est-ce que tu peux me redonner le prompt qui, à partir d'une image, permet d'obtenir la height en format 1:1 sans shadows et sans détails bloquants, etc. (12 October 2026, 01:52:07 +0200)
+
+## 12 October 2026, 01:52:43 +0200 : Iteration
+
+<!-- feedback-event:55033a7c4650869c132cd4bb3ed6890ff0df52fc3f44a5c6c3c938d4890010be (12 October 2026, 01:52:43 +0200) -->
+- Project: louisiana-bayou; kind: iteration. (12 October 2026, 01:52:43 +0200)
+- Source: /Users/zenray/.codex/sessions/2026/10/08/rollout-2026-10-08T10-32-24-01a11aa4-67bb-7ae1-b1d8-99af0c3495c3.jsonl. (12 October 2026, 01:52:43 +0200)
+
+> Entrée = **[image de référence]** ; cible = **[matériau ou surface]** ; sortie = **texture Height**, aspect export brut Substance Designer ; résolution = **4096 × 4096**, format carré **1:1** ; encodage cible = **gris linéaire, 16 bits** ; blanc = haut, noir = creux ; représenter uniquement le relief du matériau à plat ; conserver une échelle de hauteur cohérente ; remplir entièrement le cadre ; raccord sur les quatre bords ; **sans éclairage ; sans ombres ; sans AO ; sans reflets ; sans couleur ; sans perspective ; sans décor ; sans détails étrangers au matériau ; sans texte ; sans légende**. (12 October 2026, 01:52:43 +0200)
+
+## 12 October 2026, 02:00:14 +0200 : Prompt
+
+<!-- feedback-event:d550b4d540d316fd0bed65616c216ae991972294733333adb68abe62c5f603d1 (12 October 2026, 02:00:14 +0200) -->
+- Project: louisiana-bayou; kind: prompt. (12 October 2026, 02:00:14 +0200)
+- Source: /Users/zenray/.codex/sessions/2026/10/08/rollout-2026-10-08T10-32-24-01a11aa4-67bb-7ae1-b1d8-99af0c3495c3.jsonl. (12 October 2026, 02:00:14 +0200)
+
+> redonne moi les 7 maps (12 October 2026, 02:00:14 +0200)
+
+## 12 October 2026, 02:00:25 +0200 : Iteration
+
+<!-- feedback-event:526335f7402b73130e5ea835305ed37796e05cf48ed12cbe4b550b81a2a8eccd (12 October 2026, 02:00:25 +0200) -->
+- Project: louisiana-bayou; kind: iteration. (12 October 2026, 02:00:25 +0200)
+- Source: /Users/zenray/.codex/sessions/2026/10/08/rollout-2026-10-08T10-32-24-01a11aa4-67bb-7ae1-b1d8-99af0c3495c3.jsonl. (12 October 2026, 02:00:25 +0200)
+
+> 1. **Base Color** : couleur sans éclairage. (12 October 2026, 02:00:25 +0200)
+> 2. **Roughness** : rugosité. (12 October 2026, 02:00:25 +0200)
+> 3. **Height** : hauteur du relief. (12 October 2026, 02:00:25 +0200)
+> 4. **Normal** : détails de surface, format DirectX pour Unreal. (12 October 2026, 02:00:25 +0200)
+> 5. **Ambient Occlusion (AO)** : occlusion dans les creux. (12 October 2026, 02:00:25 +0200)
+> 6. **Metallic** : zones métalliques. (12 October 2026, 02:00:25 +0200)
+> 7. **Opacity** : transparence ou découpe, selon le matériau. (12 October 2026, 02:00:25 +0200)
