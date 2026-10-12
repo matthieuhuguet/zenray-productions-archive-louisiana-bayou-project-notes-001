@@ -3415,3 +3415,112 @@
 > 5. **Ambient Occlusion (AO)** : occlusion dans les creux. (12 October 2026, 02:00:25 +0200)
 > 6. **Metallic** : zones métalliques. (12 October 2026, 02:00:25 +0200)
 > 7. **Opacity** : transparence ou découpe, selon le matériau. (12 October 2026, 02:00:25 +0200)
+
+## 12 October 2026, 11:24:46 +0200 : Prompt
+
+<!-- feedback-event:93cd7e4cb6a35bdd4bbe68948eb7347a32df22efb219f5f44ccbecab80eca599 (12 October 2026, 11:24:46 +0200) -->
+- Project: louisiana-bayou; kind: prompt. (12 October 2026, 11:24:46 +0200)
+- Source: /Users/zenray/.codex/sessions/2026/10/08/rollout-2026-10-08T10-32-24-01a11aa4-67bb-7ae1-b1d8-99af0c3495c3.jsonl. (12 October 2026, 11:24:46 +0200)
+
+> redonne moi le prompt explore (12 October 2026, 11:24:46 +0200)
+
+## 12 October 2026, 11:25:40 +0200 : Iteration
+
+<!-- feedback-event:de1174ccdd44f726e09ffdab49ceca64f4ac997c6992d922530ed03cc2393de9 (12 October 2026, 11:25:40 +0200) -->
+- Project: louisiana-bayou; kind: iteration. (12 October 2026, 11:25:40 +0200)
+- Source: /Users/zenray/.codex/sessions/2026/10/08/rollout-2026-10-08T10-32-24-01a11aa4-67bb-7ae1-b1d8-99af0c3495c3.jsonl. (12 October 2026, 11:25:40 +0200)
+
+> **Exploring new concepts : geo + textures** (12 October 2026, 11:25:40 +0200)
+>
+> Entrée = **[image de référence : asset 3D / environnement / texture / matériau]** ; problème = **[ce qui ne fonctionne pas visuellement]** ; périmètre = **[élément ciblé / modèle entier / environnement entier]** ; éléments verrouillés = **[uniquement ce qui doit être conservé]** ; paramètres libres = **[architecture / silhouette / géométrie / matériaux / palette / style / caméra / lumière]** ; amplitude d’exploration = **forte** ; objectif = **faire émerger quatre nouvelles idées remarquables qui résolvent le problème** ; sortie = **grille 2 × 2, résolution totale 4096 × 4096** ; styles par case = **architecture du passé, médiévale ou historique / architecture contemporaine / architecture futuriste / hybridation futuriste et médiévale ou civilisation alternative** ; chaque case propose un concept complet et un langage visuel nettement distinct ; utiliser la référence comme point de départ et autoriser une rupture avec son design dans le périmètre choisi ; explorer les paramètres selon une logique HDA ; adapter la prise de vue et l’éclairage à chaque concept, du réalisme crédible à la fantaisie assumée ; montrer le résultat entier ; **sans quatre déclinaisons du même design ; sans simples retouches de détails ; sans modification des éléments verrouillés ; sans texte ; sans légende**. (12 October 2026, 11:25:40 +0200)
+
+## 12 October 2026, 11:32:37 +0200 : Prompt
+
+<!-- feedback-event:4369113be9b6294be0b20db57c0d2984e8779c19a18ea2c2c40daee4ea15c9e8 (12 October 2026, 11:32:37 +0200) -->
+- Project: louisiana-bayou; kind: prompt. (12 October 2026, 11:32:37 +0200)
+- Source: /Users/zenray/.codex/sessions/2026/10/08/rollout-2026-10-08T10-32-24-01a11aa4-67bb-7ae1-b1d8-99af0c3495c3.jsonl. (12 October 2026, 11:32:37 +0200)
+
+> Avant que je note architecture du passé, médiévale ou historique, architecture contemporaine, etc., il y avait un truc qui disait, je crois, innovation progressive évolutive, un truc dans le style. J'ai besoin des quatre mots-clés. (12 October 2026, 11:32:37 +0200)
+
+## 12 October 2026, 11:32:51 +0200 : Iteration
+
+<!-- feedback-event:34225da2828f9c6b933dc648ea965546ead2822f9d71f77aa6aaba0f9ac1fc8d (12 October 2026, 11:32:51 +0200) -->
+- Project: louisiana-bayou; kind: iteration. (12 October 2026, 11:32:51 +0200)
+- Source: /Users/zenray/.codex/sessions/2026/10/08/rollout-2026-10-08T10-32-24-01a11aa4-67bb-7ae1-b1d8-99af0c3495c3.jsonl. (12 October 2026, 11:32:51 +0200)
+
+> **Exploration libre / Évolution progressive / Variation paramétrique / Innovation expérimentale**. (12 October 2026, 11:32:51 +0200)
+
+## 12 October 2026, 11:44:22 +0200 : Prompt
+
+<!-- feedback-event:a2ee8ca5e64cf98bd3b6af1b5652cfd9b5e0c582d82defbebe7ea86d5fa351ba (12 October 2026, 11:44:22 +0200) -->
+- Project: louisiana-bayou; kind: prompt. (12 October 2026, 11:44:22 +0200)
+- Source: /Users/zenray/.codex/sessions/2026/10/08/rollout-2026-10-08T10-32-24-01a11aa4-67bb-7ae1-b1d8-99af0c3495c3.jsonl. (12 October 2026, 11:44:22 +0200)
+
+> Dans claude [$claude-md-global](/Users/zenray/.codex/skills/claude-md-global/SKILL.md) au début ou à indexer dans la partie design j'aimerai que tu notes ça : soit beaucoup plus addictif utilisable fluide dans une deuxième partie on focusera énormément sur les performances du drive pour que tout se charge rapidement via des processus parallèles qui feront aparaitre ce dont j'ai besoin avec un objectif de 0.1 sec (le fait de faire apparaitre des loader circulaire type apple permettent à l'user de patienter par exemple tandis que ne rien afficher est une erreur de design crucial. (12 October 2026, 11:44:22 +0200)
+> [$wait-validation](/Users/zenray/.codex/skills/wait-validation/SKILL.md) reformule proprement d'abord [$tasks-sequence](/Users/zenray/.codex/skills/tasks-sequence/SKILL.md) (12 October 2026, 11:44:22 +0200)
+
+## 12 October 2026, 11:44:37 +0200 : Iteration
+
+<!-- feedback-event:ac8629fde050737bbd5e8a03063ec37891982d0f71ef362bdc8b114a1ba6d28e (12 October 2026, 11:44:37 +0200) -->
+- Project: louisiana-bayou; kind: iteration. (12 October 2026, 11:44:37 +0200)
+- Source: /Users/zenray/.codex/sessions/2026/10/08/rollout-2026-10-08T10-32-24-01a11aa4-67bb-7ae1-b1d8-99af0c3495c3.jsonl. (12 October 2026, 11:44:37 +0200)
+
+> « Rendre l’interface beaucoup plus addictive, utilisable et fluide. Dans un deuxième temps, concentrer le travail sur les performances du drive : charger en parallèle ce qui est nécessaire, avec un objectif d’apparition du contenu en **0,1 seconde**. Si le chargement prend davantage de temps, afficher immédiatement un indicateur circulaire de type Apple pour permettre à l’utilisateur de patienter ; ne rien afficher constitue une erreur cruciale de design. » (12 October 2026, 11:44:37 +0200)
+>
+> Après ta validation, je l’inscris dans la doctrine design et l’indexe depuis `CLAUDE.md`. Le skill [wait-validation](/Users/zenray/.codex/skills/wait-validation/SKILL.md) impose d’« attendre une validation explicite » avant toute modification. (12 October 2026, 11:44:37 +0200)
+
+## 12 October 2026, 11:46:08 +0200 : Prompt
+
+<!-- feedback-event:17ad777a3e9a40df910c7a69ef05f2066575c8531d5611e3edbad5c1fc4a7628 (12 October 2026, 11:46:08 +0200) -->
+- Project: louisiana-bayou; kind: prompt. (12 October 2026, 11:46:08 +0200)
+- Source: /Users/zenray/.codex/sessions/2026/10/08/rollout-2026-10-08T10-32-24-01a11aa4-67bb-7ae1-b1d8-99af0c3495c3.jsonl. (12 October 2026, 11:46:08 +0200)
+
+> Pour chaque app / software / task rendre l’interface beaucoup plus addictive, utilisable et fluide. Dans un deuxième temps, concentrer le travail sur les performances du programme / software / algorithme : charger en parallèle ce qui est nécessaire, avec un objectif d’apparition du contenu en **0,1 seconde**. Si le chargement prend davantage de temps, afficher immédiatement un indicateur circulaire de type Apple pour permettre à l’utilisateur de patienter ; ne rien afficher constitue une erreur cruciale de design. (12 October 2026, 11:46:08 +0200)
+
+## 12 October 2026, 11:46:23 +0200 : Iteration
+
+<!-- feedback-event:a95bce485f574eb37fc5208fed2dcc29825457855595ca896763389bcebe6499 (12 October 2026, 11:46:23 +0200) -->
+- Project: louisiana-bayou; kind: iteration. (12 October 2026, 11:46:23 +0200)
+- Source: /Users/zenray/.codex/sessions/2026/10/08/rollout-2026-10-08T10-32-24-01a11aa4-67bb-7ae1-b1d8-99af0c3495c3.jsonl. (12 October 2026, 11:46:23 +0200)
+
+> « Pour chaque application, logiciel ou tâche, rendre l’interface beaucoup plus addictive, utilisable et fluide. Dans un deuxième temps, concentrer le travail sur les performances du programme, du logiciel ou de l’algorithme : charger en parallèle ce qui est nécessaire, avec un objectif d’apparition du contenu en **0,1 seconde**. Si le chargement prend davantage de temps, afficher immédiatement un indicateur circulaire de type Apple pour permettre à l’utilisateur de patienter ; ne rien afficher constitue une erreur cruciale de design. » (12 October 2026, 11:46:23 +0200)
+>
+> Texte prêt à enregistrer dans la doctrine design après ton « go ». (12 October 2026, 11:46:23 +0200)
+
+## 12 October 2026, 11:46:37 +0200 : Prompt
+
+<!-- feedback-event:c40e9d844636f5964297e4a7cd8bfcbebfd0ce08f57360c774b4cb80bf5e18ff (12 October 2026, 11:46:37 +0200) -->
+- Project: louisiana-bayou; kind: prompt. (12 October 2026, 11:46:37 +0200)
+- Source: /Users/zenray/.codex/sessions/2026/10/08/rollout-2026-10-08T10-32-24-01a11aa4-67bb-7ae1-b1d8-99af0c3495c3.jsonl. (12 October 2026, 11:46:37 +0200)
+
+> c'est quoi ces fichiers scan deep : /Users/zenray/.claude/2562b086-836d-49c5-80c7-0c935a98513c /Users/zenray/.claude/00ffe75e-952c-45fc-88a9-6f1bb05adeb3 /Users/zenray/.claude/2b07b759-dad5-4053-af6d-10e036fe53df /Users/zenray/.claude/3a9c2407-7dcc-4acd-baf2-90a94300e953 /Users/zenray/.claude/3e51dc3d-4e58-441b-abf8-9f6013ebbf24 /Users/zenray/.claude/5be85b54-ff94-4c79-8cab-7131103e6d68 /Users/zenray/.claude/5fd92a10-03f3-4126-89e0-4dfe033274bd /Users/zenray/.claude/7e78b89b-c9f6-435b-aeea-a9878d6c808b /Users/zenray/.claude/20b28879-0c00-47e2-8e56-f2cd9a671404 /Users/zenray/.claude/60d4fc84-ff82-40eb-a470-9dd232cfd5ff /Users/zenray/.claude/068e9161-445a-4e75-a52f-e12511b3ad70 (12 October 2026, 11:46:37 +0200)
+
+## 12 October 2026, 11:47:57 +0200 : Iteration
+
+<!-- feedback-event:0e559acb191dfd022f9305c840e4fab78f712f7f950d3bcb210dc5923d3fc07a (12 October 2026, 11:47:57 +0200) -->
+- Project: louisiana-bayou; kind: iteration. (12 October 2026, 11:47:57 +0200)
+- Source: /Users/zenray/.codex/sessions/2026/10/08/rollout-2026-10-08T10-32-24-01a11aa4-67bb-7ae1-b1d8-99af0c3495c3.jsonl. (12 October 2026, 11:47:57 +0200)
+
+> Ce sont **11 dossiers de suivi de conversations Claude**, nommés avec leur identifiant de session. Chacun contient un fichier Markdown de tâches, créé selon le skill [prompt-stacking](/Users/zenray/.codex/skills/prompt-stacking/SKILL.md). (12 October 2026, 11:47:57 +0200)
+>
+> Le scan récursif trouve **11 fichiers, 25 963 octets au total**, environ **26 Ko**. Aucun média, code ou cache volumineux. (12 October 2026, 11:47:57 +0200)
+>
+> | Début de l’identifiant | Contenu du suivi | (12 October 2026, 11:47:57 +0200)
+> |---|---| (12 October 2026, 11:47:57 +0200)
+> | `2562b086` | Houdini, Louisiana Bayou, textures Height, lys et rendus Unreal | (12 October 2026, 11:47:57 +0200)
+> | `00ffe75e` | Construction de PostKit, toutes les tâches marquées terminées | (12 October 2026, 11:47:57 +0200)
+> | `2b07b759` | Interface Assets, performances, vignettes et maquettes | (12 October 2026, 11:47:57 +0200)
+> | `3a9c2407` | Copernicus, méthode Height et sept maps PBR | (12 October 2026, 11:47:57 +0200)
+> | `3e51dc3d` | Upload de films, sous-titres, renommage et vitesse | (12 October 2026, 11:47:57 +0200)
+> | `5be85b54` | Liens Design et correction du collage d’images | (12 October 2026, 11:47:57 +0200)
+> | `5fd92a10` | ZenRay Freelance, prospection et lettres | (12 October 2026, 11:47:57 +0200)
+> | `7e78b89b` | Motion design, reproduction de vidéos et moteur procédural | (12 October 2026, 11:47:57 +0200)
+> | `20b28879` | Louisiana Bayou, clôture, terrain et herbe | (12 October 2026, 11:47:57 +0200)
+> | `60d4fc84` | Rangement Downloads, migration Memory, Assets et Studio | (12 October 2026, 11:47:57 +0200)
+> | `068e9161` | Édition photo, cadrage, textes et exports | (12 October 2026, 11:47:57 +0200)
+>
+> Les sections **OPEN / DONE / CANCELED** servent à reprendre les tâches après une interruption. **Elles ne prouvent pas qu’un processus tourne actuellement.** (12 October 2026, 11:47:57 +0200)
+>
+> Certains suivis sont mal rangés ou anciens : `3a9c2407` contient des tâches actives dans `CANCELED`, et `60d4fc84` plusieurs tâches actives et terminées dans `OPEN`. Le dernier dossier utilise l’ancien nom `agent-continuity-prompt-stacking.md`. (12 October 2026, 11:47:57 +0200)
+>
+> **Rien n’a été modifié ni supprimé.** (12 October 2026, 11:47:57 +0200)
