@@ -1,0 +1,79 @@
+# Resume louisiana-bayou (13 October 2026 at 16:16)
+
+- Generated from FEEDBACK.md, Rules.md and ConversationIndex.json; derived, never edited by hand, never a substitute for the originals. (13 October 2026 at 16:16)
+- Pinned rules, read first: [Rules.md](/Users/zenray/.claude/Memory1/Projects/louisiana-bayou/Rules.md) (8 rules). (13 October 2026 at 16:16)
+- Canonical feedback: [FEEDBACK.md](/Users/zenray/.claude/Memory1/Projects/louisiana-bayou/FEEDBACK.md), 296 entries, last Iteration at 12 October 2026, 11:47:57 +0200. (13 October 2026 at 16:16)
+
+## Latest conversations (13 October 2026 at 16:16)
+
+- LATEST codex:01a11aa4-67bb-7ae1-b1d8-99af0c3495c3, « Conversation codex 01a11aa4 », last activity 12 October 2026 at 11:47 Paris (from feedback). Original: `node scripts/Assets/ConversationDigest.mjs codex:01a11aa4-67bb-7ae1-b1d8-99af0c3495c3 --out <file.md>`. (13 October 2026 at 16:16)
+- claude:8152bc29-16c2-4858-828d-937ab6240571, « LOUISIANA BAYOU », last activity 11 October 2026 at 17:13 Paris (from transcript). Original: `node scripts/Assets/ConversationDigest.mjs claude:8152bc29-16c2-4858-828d-937ab6240571 --out <file.md>`. (13 October 2026 at 16:16)
+- codex:01a12115-ab1b-7262-9039-00c41e82a05c, « Conversation codex 01a12115 », last activity 9 October 2026 at 16:39 Paris (from feedback). Original: `node scripts/Assets/ConversationDigest.mjs codex:01a12115-ab1b-7262-9039-00c41e82a05c --out <file.md>`. (13 October 2026 at 16:16)
+
+## Last 6 prompts of Matthieu, oldest first (13 October 2026 at 16:16)
+
+### 12 October 2026, 02:00:14 +0200 · Prompt · codex:01a11aa4
+
+> redonne moi les 7 maps
+
+### 12 October 2026, 11:24:46 +0200 · Prompt · codex:01a11aa4
+
+> redonne moi le prompt explore
+
+### 12 October 2026, 11:32:37 +0200 · Prompt · codex:01a11aa4
+
+> Avant que je note architecture du passé, médiévale ou historique, architecture contemporaine, etc., il y avait un truc qui disait, je crois, innovation progressive évolutive, un truc dans le style. J'ai besoin des quatre mots-clés.
+
+### 12 October 2026, 11:44:22 +0200 · Prompt · codex:01a11aa4
+
+> Dans claude [$claude-md-global](/Users/zenray/.codex/skills/claude-md-global/SKILL.md) au début ou à indexer dans la partie design j'aimerai que tu notes ça : soit beaucoup plus addictif utilisable fluide dans une deuxième partie on focusera énormément sur les performances du drive pour que tout se charge rapidement via des processus parallèles qui feront aparaitre ce dont j'ai besoin avec un objectif de 0.1 sec (le fait de faire apparaitre des loader circulaire type apple permettent à l'user de patienter par exemple tandis que ne rien afficher est une erreur de design crucial.
+> [$wait-validation](/Users/zenray/.codex/skills/wait-validation/SKILL.md) reformule proprement d'abord [$tasks-seque
+> [... 57 more characters in FEEDBACK.md]
+
+### 12 October 2026, 11:46:08 +0200 · Prompt · codex:01a11aa4
+
+> Pour chaque app / software / task rendre l’interface beaucoup plus addictive, utilisable et fluide. Dans un deuxième temps, concentrer le travail sur les performances du programme / software / algorithme : charger en parallèle ce qui est nécessaire, avec un objectif d’apparition du contenu en **0,1 seconde**. Si le chargement prend davantage de temps, afficher immédiatement un indicateur circulaire de type Apple pour permettre à l’utilisateur de patienter ; ne rien afficher constitue une erreur cruciale de design.
+
+### 12 October 2026, 11:46:37 +0200 · Prompt · codex:01a11aa4
+
+> c'est quoi ces fichiers scan deep : /Users/zenray/.claude/2562b086-836d-49c5-80c7-0c935a98513c /Users/zenray/.claude/00ffe75e-952c-45fc-88a9-6f1bb05adeb3 /Users/zenray/.claude/2b07b759-dad5-4053-af6d-10e036fe53df /Users/zenray/.claude/3a9c2407-7dcc-4acd-baf2-90a94300e953 /Users/zenray/.claude/3e51dc3d-4e58-441b-abf8-9f6013ebbf24 /Users/zenray/.claude/5be85b54-ff94-4c79-8cab-7131103e6d68 /Users/zenray/.claude/5fd92a10-03f3-4126-89e0-4dfe033274bd /Users/zenray/.claude/7e78b89b-c9f6-435b-aeea-a9878d6c808b /Users/zenray/.claude/20b28879-0c00-47e2-8e56-f2cd9a671404 /Users/zenray/.claude/60d4fc84-ff82-40eb-a470-9dd232cfd5ff /Users/zenray/.claude/068e9161-445a-4e75-a52f-e12511b3ad70
+
+
+## Last 3 iterations or checkpoints (13 October 2026 at 16:16)
+
+### 12 October 2026, 11:44:37 +0200 · Iteration · codex:01a11aa4
+
+> « Rendre l’interface beaucoup plus addictive, utilisable et fluide. Dans un deuxième temps, concentrer le travail sur les performances du drive : charger en parallèle ce qui est nécessaire, avec un objectif d’apparition du contenu en **0,1 seconde**. Si le chargement prend davantage de temps, afficher immédiatement un indicateur circulaire de type Apple pour permettre à l’utilisateur de patienter ; ne rien afficher constitue une erreur cruciale de design. »
+> 
+> Après ta validation, je l’inscris dans la doctrine design et l’indexe depuis `CLAUDE.md`. Le skill [wait-validation](/Users/zenray/.codex/skills/wait-validation/SKILL.md) impose d’« attendre une validation explicite » avant toute modific
+> [... 6 more characters in FEEDBACK.md]
+
+### 12 October 2026, 11:46:23 +0200 · Iteration · codex:01a11aa4
+
+> « Pour chaque application, logiciel ou tâche, rendre l’interface beaucoup plus addictive, utilisable et fluide. Dans un deuxième temps, concentrer le travail sur les performances du programme, du logiciel ou de l’algorithme : charger en parallèle ce qui est nécessaire, avec un objectif d’apparition du contenu en **0,1 seconde**. Si le chargement prend davantage de temps, afficher immédiatement un indicateur circulaire de type Apple pour permettre à l’utilisateur de patienter ; ne rien afficher constitue une erreur cruciale de design. »
+> 
+> Texte prêt à enregistrer dans la doctrine design après ton « go ».
+
+### 12 October 2026, 11:47:57 +0200 · Iteration · codex:01a11aa4
+
+> Ce sont **11 dossiers de suivi de conversations Claude**, nommés avec leur identifiant de session. Chacun contient un fichier Markdown de tâches, créé selon le skill [prompt-stacking](/Users/zenray/.codex/skills/prompt-stacking/SKILL.md).
+> 
+> Le scan récursif trouve **11 fichiers, 25 963 octets au total**, environ **26 Ko**. Aucun média, code ou cache volumineux.
+> 
+> | Début de l’identifiant | Contenu du suivi |
+> |---|---|
+> | `2562b086` | Houdini, Louisiana Bayou, textures Height, lys et rendus Unreal |
+> | `00ffe75e` | Construction de PostKit, toutes les tâches marquées terminées |
+> | `2b07b759` | Interface Assets, performances, vignettes et maquettes |
+> | `3a9c2407` | Copernicus, méthode Height et sep
+> [... 914 more characters in FEEDBACK.md]
+
+
+## Last order of work (13 October 2026 at 16:16)
+
+### 10 October 2026, 22:29:05 +0200 · Order of work · manual
+
+> 10 October 2026 : /goal 8 passes × 3 méthodologie pour affiner et trancher les prochaines étapes, nombres N (essayer le nombre maximal à chaque fois), sortie HTML avec les 3 méthodes et les 8 passes, go. Puis /wait-validation /tasks-sequence. Validation reçue : go, sauf la tâche 8 (consigner les résultats et trancher la suite), qui attend ta validation. (10 October 2026, 22:28)
+
+
+Next step: reread the latest prompt above, check it against Rules.md, then continue; append through feedback.py and close the turn with Client.mjs checkpoint. (13 October 2026 at 16:16)
