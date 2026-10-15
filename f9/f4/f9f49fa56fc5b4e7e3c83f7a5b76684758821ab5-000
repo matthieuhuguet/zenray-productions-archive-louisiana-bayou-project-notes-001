@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "projectId": "louisiana-bayou",
- "scannedAt": "2026-10-15T11:49:48.823Z",
+ "scannedAt": "2026-10-15T11:57:49.576Z",
  "conversations": [
   {
    "projectId": "louisiana-bayou",
@@ -687,8 +687,8 @@
    "provider": "claude",
    "sessionId": "d2f26016-25dd-4bcc-a6d8-122d50d3f383",
    "title": "Motion Design Vector and Music",
-   "updatedAt": "2026-10-15T11:49:15.276Z",
-   "bytes": 49992837,
+   "updatedAt": "2026-10-15T11:56:53.642Z",
+   "bytes": 54561015,
    "boundProject": null
   },
   {
@@ -1375,8 +1375,8 @@
    "provider": "claude",
    "sessionId": "fa37c224-b0f7-4ffe-b1d9-73121293ef45",
    "title": "Shelf miniatures loading performance",
-   "updatedAt": "2026-10-15T11:49:19.048Z",
-   "bytes": 1920613,
+   "updatedAt": "2026-10-15T11:53:20.686Z",
+   "bytes": 34546,
    "boundProject": null
   },
   {
