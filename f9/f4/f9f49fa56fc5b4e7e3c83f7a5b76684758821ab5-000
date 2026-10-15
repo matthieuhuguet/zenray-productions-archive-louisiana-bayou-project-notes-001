@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "projectId": "louisiana-bayou",
- "scannedAt": "2026-10-15T13:19:50.004Z",
+ "scannedAt": "2026-10-15T13:24:49.680Z",
  "conversations": [
   {
    "projectId": "louisiana-bayou",
@@ -687,8 +687,8 @@
    "provider": "claude",
    "sessionId": "d2f26016-25dd-4bcc-a6d8-122d50d3f383",
    "title": "Motion Design Vector and Music",
-   "updatedAt": "2026-10-15T13:19:47.473Z",
-   "bytes": 77725132,
+   "updatedAt": "2026-10-15T13:23:54.524Z",
+   "bytes": 21647,
    "boundProject": null
   },
   {
