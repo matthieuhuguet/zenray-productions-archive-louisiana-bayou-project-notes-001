@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "projectId": "louisiana-bayou",
- "scannedAt": "2026-10-16T13:09:08.904Z",
+ "scannedAt": "2026-10-16T13:18:09.926Z",
  "conversations": [
   {
    "projectId": "louisiana-bayou",
@@ -117,18 +117,18 @@
   },
   {
    "projectId": "louisiana-bayou",
-   "lines": 91,
-   "work": 26,
+   "lines": 99,
+   "work": 28,
    "prompts": 0,
    "first": "2026-10-16T11:43:19.042Z",
-   "last": "2026-10-16T13:08:49.975Z",
+   "last": "2026-10-16T13:16:50.254Z",
    "strength": "strong",
    "conversationId": "claude:a3f20b1d-27ed-48e1-a0d1-5fe182c0e423",
    "provider": "claude",
    "sessionId": "a3f20b1d-27ed-48e1-a0d1-5fe182c0e423",
    "title": "2 louisiana bayou video",
-   "updatedAt": "2026-10-16T13:08:49.975Z",
-   "bytes": 9212693,
+   "updatedAt": "2026-10-16T13:17:50.640Z",
+   "bytes": 10538969,
    "boundProject": null
   },
   {
@@ -687,8 +687,8 @@
    "provider": "claude",
    "sessionId": "d2f26016-25dd-4bcc-a6d8-122d50d3f383",
    "title": "3 motion design and editing video",
-   "updatedAt": "2026-10-16T13:09:06.736Z",
-   "bytes": 206812984,
+   "updatedAt": "2026-10-16T13:10:15.314Z",
+   "bytes": 22321,
    "boundProject": null
   },
   {
@@ -879,8 +879,8 @@
    "provider": "claude",
    "sessionId": "d3327e82-5a7e-46d8-b6f6-bc0447663c2b",
    "title": "4 sport section",
-   "updatedAt": "2026-10-16T13:08:14.694Z",
-   "bytes": 36478,
+   "updatedAt": "2026-10-16T13:18:00.353Z",
+   "bytes": 16291656,
    "boundProject": "zenray-progress"
   },
   {

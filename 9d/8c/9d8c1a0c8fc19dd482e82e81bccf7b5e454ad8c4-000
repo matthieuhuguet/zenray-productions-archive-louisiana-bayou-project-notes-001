@@ -3545,3 +3545,17 @@
 - Project: louisiana-bayou; kind: prompt. (16 October 2026, 14:39:16 +0200)
 
 > Depuis l'inclinaison du toit, la géométrie du haut a été modifiée par une déformation type lattice alors qu'elle devait rester clean. Il faut une courbe procédurale qui redessine toutes les planches selon la géométrie voulue : changer les paramètres atomiques des component HDA, pas de lattice, courbures du toit réglables proprement. Itérer sans régression. Enlever l'espèce de lattice, topologie parfaite, go, utiliser 4 à 6 vues pour vérifier. (16 October 2026, 14:39:16 +0200)
+
+## 16 October 2026, 15:18:55 +0200 : Standing rule
+
+<!-- feedback-event:079d1f1bab6860057c4d289e26bf259869987ca08f3668b5ae2cf42ddcad2d3b (16 October 2026, 15:18:55 +0200) -->
+- Project: louisiana-bayou; kind: rule. (16 October 2026, 15:18:55 +0200)
+
+> Matthieu : attention régression, l'étape d'avant (toit courbé procédural, étape 3) était parfaite. Vérifié : état par défaut identique (OUT_church 48570 points, 37773 prims, même planche de 6 vues). Hip sauvegardé, définitions .hda non écrasées, sauvegardes dans backups/. (16 October 2026, 15:18:55 +0200)
+
+## 16 October 2026, 15:18:55 +0200 : Iteration
+
+<!-- feedback-event:caf2be411a130947f297fdc5bb3fccb6bed0515e9df2a2245899d8123ac97720 (16 October 2026, 15:18:55 +0200) -->
+- Project: louisiana-bayou; kind: iteration. (16 October 2026, 15:18:55 +0200)
+
+> Toit courbé procédural sans lattice : champ de hauteur partagé par Component_Roof, WoodFacade, Armature et cross_fix; 6 paramètres sur /obj/Church (Roof Curvature); courbes à 0 = géométrie d'origine (Facade 183 prims, Armature 1026, toit même nombre de prims et points); planches 4 à 6 vues dans captures_procedural_roof/. (16 October 2026, 15:18:55 +0200)
