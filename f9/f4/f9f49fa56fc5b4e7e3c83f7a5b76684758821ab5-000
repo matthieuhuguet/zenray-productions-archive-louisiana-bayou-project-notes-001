@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "projectId": "louisiana-bayou",
- "scannedAt": "2026-10-16T12:38:07.432Z",
+ "scannedAt": "2026-10-16T13:00:07.660Z",
  "conversations": [
   {
    "projectId": "louisiana-bayou",
@@ -117,6 +117,22 @@
   },
   {
    "projectId": "louisiana-bayou",
+   "lines": 71,
+   "work": 19,
+   "prompts": 0,
+   "first": "2026-10-16T11:43:19.042Z",
+   "last": "2026-10-16T13:00:03.928Z",
+   "strength": "strong",
+   "conversationId": "claude:a3f20b1d-27ed-48e1-a0d1-5fe182c0e423",
+   "provider": "claude",
+   "sessionId": "a3f20b1d-27ed-48e1-a0d1-5fe182c0e423",
+   "title": "2 louisiana bayou video",
+   "updatedAt": "2026-10-16T13:00:04.283Z",
+   "bytes": 6722272,
+   "boundProject": null
+  },
+  {
+   "projectId": "louisiana-bayou",
    "lines": 31,
    "work": 15,
    "prompts": 0,
@@ -191,8 +207,8 @@
    "provider": "codex",
    "sessionId": "01a1301b-f199-7773-863c-b2a78d50b909",
    "title": "Conversation codex 01a1301b",
-   "updatedAt": "2026-10-16T12:37:55.091Z",
-   "bytes": 38830719,
+   "updatedAt": "2026-10-16T12:40:09.850Z",
+   "bytes": 38928540,
    "boundProject": "zenray-japanese"
   },
   {
@@ -210,22 +226,6 @@
    "updatedAt": "2026-10-09T19:59:07.623Z",
    "bytes": 22183936,
    "boundProject": "poisson-gloss-matthieu-poterie-aix-8-octobre-2026"
-  },
-  {
-   "projectId": "louisiana-bayou",
-   "lines": 21,
-   "work": 3,
-   "prompts": 0,
-   "first": "2026-10-16T11:43:19.042Z",
-   "last": "2026-10-16T11:52:15.207Z",
-   "strength": "strong",
-   "conversationId": "claude:a3f20b1d-27ed-48e1-a0d1-5fe182c0e423",
-   "provider": "claude",
-   "sessionId": "a3f20b1d-27ed-48e1-a0d1-5fe182c0e423",
-   "title": "2 louisiana bayou video",
-   "updatedAt": "2026-10-16T11:59:07.615Z",
-   "bytes": 36521,
-   "boundProject": null
   },
   {
    "projectId": "louisiana-bayou",
@@ -687,8 +687,8 @@
    "provider": "claude",
    "sessionId": "d2f26016-25dd-4bcc-a6d8-122d50d3f383",
    "title": "3 motion design and editing video",
-   "updatedAt": "2026-10-16T12:38:03.449Z",
-   "bytes": 177877286,
+   "updatedAt": "2026-10-16T13:00:03.853Z",
+   "bytes": 203598396,
    "boundProject": null
   },
   {
@@ -879,8 +879,8 @@
    "provider": "claude",
    "sessionId": "d3327e82-5a7e-46d8-b6f6-bc0447663c2b",
    "title": "4 sport section",
-   "updatedAt": "2026-10-16T12:38:03.822Z",
-   "bytes": 6997841,
+   "updatedAt": "2026-10-16T13:00:06.027Z",
+   "bytes": 36295,
    "boundProject": "zenray-progress"
   },
   {
@@ -1423,8 +1423,8 @@
    "provider": "claude",
    "sessionId": "6770fb4c-3c30-4bc8-939a-b209ab0ddb1b",
    "title": "1 zenray freelance",
-   "updatedAt": "2026-10-16T12:05:33.919Z",
-   "bytes": 36846,
+   "updatedAt": "2026-10-16T12:53:50.600Z",
+   "bytes": 36541,
    "boundProject": null
   },
   {

@@ -3538,3 +3538,10 @@
 - Project: louisiana-bayou; kind: iteration. (16 October 2026, 13:52:02 +0200)
 
 > Houdini FX 22.0.368 lancé avec LouisianaBayou.hiplc; la passerelle zrbridge ne démarre pas seule au chargement d'un hip (456.py non exécuté), lancée à la main dans le Python Shell; sticky note /obj/todo_louisiana_bayou_16Oct2026 ajoutée avec 7 tâches (poutres boolean 4064 paires, faces retournées, HDA, vue OBJ, heights, Unreal, vidéo Motion). (16 October 2026, 13:52:02 +0200)
+
+## 16 October 2026, 14:39:16 +0200 : Prompt
+
+<!-- feedback-event:267c8065e5c8d5a07747d9eeadde99c1a2ce885f19a52f35a92f3da6ac23cb11 (16 October 2026, 14:39:16 +0200) -->
+- Project: louisiana-bayou; kind: prompt. (16 October 2026, 14:39:16 +0200)
+
+> Depuis l'inclinaison du toit, la géométrie du haut a été modifiée par une déformation type lattice alors qu'elle devait rester clean. Il faut une courbe procédurale qui redessine toutes les planches selon la géométrie voulue : changer les paramètres atomiques des component HDA, pas de lattice, courbures du toit réglables proprement. Itérer sans régression. Enlever l'espèce de lattice, topologie parfaite, go, utiliser 4 à 6 vues pour vérifier. (16 October 2026, 14:39:16 +0200)
