@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "projectId": "louisiana-bayou",
- "scannedAt": "2026-10-16T11:45:07.452Z",
+ "scannedAt": "2026-10-16T11:48:06.429Z",
  "conversations": [
   {
    "projectId": "louisiana-bayou",
@@ -191,8 +191,8 @@
    "provider": "codex",
    "sessionId": "01a1301b-f199-7773-863c-b2a78d50b909",
    "title": "Conversation codex 01a1301b",
-   "updatedAt": "2026-10-16T11:45:03.069Z",
-   "bytes": 35228543,
+   "updatedAt": "2026-10-16T11:48:02.296Z",
+   "bytes": 35546222,
    "boundProject": "zenray-japanese"
   },
   {
@@ -223,8 +223,8 @@
    "provider": "claude",
    "sessionId": "a3f20b1d-27ed-48e1-a0d1-5fe182c0e423",
    "title": "Louisiana Bayou modeling et vidéo",
-   "updatedAt": "2026-10-16T11:43:59.397Z",
-   "bytes": 1297592,
+   "updatedAt": "2026-10-16T11:47:22.649Z",
+   "bytes": 1395423,
    "boundProject": null
   },
   {
@@ -687,8 +687,8 @@
    "provider": "claude",
    "sessionId": "d2f26016-25dd-4bcc-a6d8-122d50d3f383",
    "title": "Motion Design Vector and Music",
-   "updatedAt": "2026-10-16T11:45:05.672Z",
-   "bytes": 158010203,
+   "updatedAt": "2026-10-16T11:48:01.437Z",
+   "bytes": 22279,
    "boundProject": null
   },
   {
@@ -879,8 +879,8 @@
    "provider": "codex",
    "sessionId": "01a13ecc-751b-7bd3-8d67-6eaa5aaa5ed6",
    "title": "Conversation codex 01a13ecc",
-   "updatedAt": "2026-10-15T09:10:55.358Z",
-   "bytes": 962533,
+   "updatedAt": "2026-10-16T11:47:31.281Z",
+   "bytes": 1103661,
    "boundProject": null
   },
   {
@@ -1407,8 +1407,8 @@
    "provider": "claude",
    "sessionId": "d3327e82-5a7e-46d8-b6f6-bc0447663c2b",
    "title": "Sport Section Save",
-   "updatedAt": "2026-10-16T11:45:06.446Z",
-   "bytes": 1832895,
+   "updatedAt": "2026-10-16T11:45:52.738Z",
+   "bytes": 36742,
    "boundProject": "zenray-progress"
   },
   {
