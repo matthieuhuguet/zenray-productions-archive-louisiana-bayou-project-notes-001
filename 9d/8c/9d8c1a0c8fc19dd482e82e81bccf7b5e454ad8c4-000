@@ -3524,3 +3524,17 @@
 > Certains suivis sont mal rangés ou anciens : `3a9c2407` contient des tâches actives dans `CANCELED`, et `60d4fc84` plusieurs tâches actives et terminées dans `OPEN`. Le dernier dossier utilise l’ancien nom `agent-continuity-prompt-stacking.md`. (12 October 2026, 11:47:57 +0200)
 >
 > **Rien n’a été modifié ni supprimé.** (12 October 2026, 11:47:57 +0200)
+
+## 16 October 2026, 13:52:02 +0200 : Prompt
+
+<!-- feedback-event:6405f89ebec5b0a0bff0c32b7623cc8006b9d8c89d102f08db7965b6822fec49 (16 October 2026, 13:52:02 +0200) -->
+- Project: louisiana-bayou; kind: prompt. (16 October 2026, 13:52:02 +0200)
+
+> Reprends le projet Lousiana Bayou, ouvre-le /zenray-houdini et on va reprendre le modeling et faire une vidéo qui illustre actuellement notre progression. via le projet de motion que je fais actuellement ouvre d'abord houdini et append la liste de chose à faire (16 October 2026, 13:52:02 +0200)
+
+## 16 October 2026, 13:52:02 +0200 : Iteration
+
+<!-- feedback-event:913814b650119cc785ef0adcd4fde40351bdae02c46f94be0d133d55e897fe6c (16 October 2026, 13:52:02 +0200) -->
+- Project: louisiana-bayou; kind: iteration. (16 October 2026, 13:52:02 +0200)
+
+> Houdini FX 22.0.368 lancé avec LouisianaBayou.hiplc; la passerelle zrbridge ne démarre pas seule au chargement d'un hip (456.py non exécuté), lancée à la main dans le Python Shell; sticky note /obj/todo_louisiana_bayou_16Oct2026 ajoutée avec 7 tâches (poutres boolean 4064 paires, faces retournées, HDA, vue OBJ, heights, Unreal, vidéo Motion). (16 October 2026, 13:52:02 +0200)

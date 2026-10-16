@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "projectId": "louisiana-bayou",
- "scannedAt": "2026-10-16T11:48:06.429Z",
+ "scannedAt": "2026-10-16T11:53:06.486Z",
  "conversations": [
   {
    "projectId": "louisiana-bayou",
@@ -191,8 +191,8 @@
    "provider": "codex",
    "sessionId": "01a1301b-f199-7773-863c-b2a78d50b909",
    "title": "Conversation codex 01a1301b",
-   "updatedAt": "2026-10-16T11:48:02.296Z",
-   "bytes": 35546222,
+   "updatedAt": "2026-10-16T11:53:03.943Z",
+   "bytes": 35770594,
    "boundProject": "zenray-japanese"
   },
   {
@@ -213,18 +213,18 @@
   },
   {
    "projectId": "louisiana-bayou",
-   "lines": 9,
+   "lines": 21,
    "work": 3,
    "prompts": 0,
    "first": "2026-10-16T11:43:19.042Z",
-   "last": "2026-10-16T11:43:59.397Z",
+   "last": "2026-10-16T11:52:15.207Z",
    "strength": "strong",
    "conversationId": "claude:a3f20b1d-27ed-48e1-a0d1-5fe182c0e423",
    "provider": "claude",
    "sessionId": "a3f20b1d-27ed-48e1-a0d1-5fe182c0e423",
-   "title": "Louisiana Bayou modeling et vidéo",
-   "updatedAt": "2026-10-16T11:47:22.649Z",
-   "bytes": 1395423,
+   "title": "2 louisiana bayou video",
+   "updatedAt": "2026-10-16T11:52:24.348Z",
+   "bytes": 36990,
    "boundProject": null
   },
   {
@@ -686,9 +686,9 @@
    "conversationId": "claude:d2f26016-25dd-4bcc-a6d8-122d50d3f383",
    "provider": "claude",
    "sessionId": "d2f26016-25dd-4bcc-a6d8-122d50d3f383",
-   "title": "Motion Design Vector and Music",
-   "updatedAt": "2026-10-16T11:48:01.437Z",
-   "bytes": 22279,
+   "title": "3 motion design and editing video",
+   "updatedAt": "2026-10-16T11:53:00.616Z",
+   "bytes": 161434070,
    "boundProject": null
   },
   {
@@ -879,8 +879,8 @@
    "provider": "codex",
    "sessionId": "01a13ecc-751b-7bd3-8d67-6eaa5aaa5ed6",
    "title": "Conversation codex 01a13ecc",
-   "updatedAt": "2026-10-16T11:47:31.281Z",
-   "bytes": 1103661,
+   "updatedAt": "2026-10-16T11:52:59.668Z",
+   "bytes": 1552474,
    "boundProject": null
   },
   {
@@ -1400,15 +1400,31 @@
    "lines": 1,
    "work": 0,
    "prompts": 0,
+   "first": "2026-10-16T11:49:21.085Z",
+   "last": "2026-10-16T11:49:21.085Z",
+   "strength": "weak",
+   "conversationId": "claude:6770fb4c-3c30-4bc8-939a-b209ab0ddb1b",
+   "provider": "claude",
+   "sessionId": "6770fb4c-3c30-4bc8-939a-b209ab0ddb1b",
+   "title": "1 zenray freelance",
+   "updatedAt": "2026-10-16T11:52:42.222Z",
+   "bytes": 1484869,
+   "boundProject": null
+  },
+  {
+   "projectId": "louisiana-bayou",
+   "lines": 1,
+   "work": 0,
+   "prompts": 0,
    "first": "2026-10-16T11:40:57.498Z",
    "last": "2026-10-16T11:40:57.498Z",
    "strength": "weak",
    "conversationId": "claude:d3327e82-5a7e-46d8-b6f6-bc0447663c2b",
    "provider": "claude",
    "sessionId": "d3327e82-5a7e-46d8-b6f6-bc0447663c2b",
-   "title": "Sport Section Save",
+   "title": "4 sport section",
    "updatedAt": "2026-10-16T11:45:52.738Z",
-   "bytes": 36742,
+   "bytes": 36760,
    "boundProject": "zenray-progress"
   },
   {
