@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "projectId": "louisiana-bayou",
- "scannedAt": "2026-10-16T12:12:06.851Z",
+ "scannedAt": "2026-10-16T12:23:07.454Z",
  "conversations": [
   {
    "projectId": "louisiana-bayou",
@@ -191,8 +191,8 @@
    "provider": "codex",
    "sessionId": "01a1301b-f199-7773-863c-b2a78d50b909",
    "title": "Conversation codex 01a1301b",
-   "updatedAt": "2026-10-16T12:12:01.764Z",
-   "bytes": 37383441,
+   "updatedAt": "2026-10-16T12:23:06.931Z",
+   "bytes": 38120281,
    "boundProject": "zenray-japanese"
   },
   {
@@ -687,8 +687,8 @@
    "provider": "claude",
    "sessionId": "d2f26016-25dd-4bcc-a6d8-122d50d3f383",
    "title": "3 motion design and editing video",
-   "updatedAt": "2026-10-16T12:09:47.808Z",
-   "bytes": 22316,
+   "updatedAt": "2026-10-16T12:22:36.748Z",
+   "bytes": 165140127,
    "boundProject": null
   },
   {
@@ -879,8 +879,8 @@
    "provider": "codex",
    "sessionId": "01a13ecc-751b-7bd3-8d67-6eaa5aaa5ed6",
    "title": "Conversation codex 01a13ecc",
-   "updatedAt": "2026-10-16T12:12:03.622Z",
-   "bytes": 2480673,
+   "updatedAt": "2026-10-16T12:19:54.013Z",
+   "bytes": 2860545,
    "boundProject": null
   },
   {
