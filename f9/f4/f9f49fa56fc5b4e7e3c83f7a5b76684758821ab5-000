@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "projectId": "louisiana-bayou",
- "scannedAt": "2026-10-17T14:26:33.117Z",
+ "scannedAt": "2026-10-17T14:41:33.131Z",
  "conversations": [
   {
    "projectId": "louisiana-bayou",
@@ -671,8 +671,8 @@
    "provider": "claude",
    "sessionId": "d2f26016-25dd-4bcc-a6d8-122d50d3f383",
    "title": "3 motion design and editing video",
-   "updatedAt": "2026-10-17T14:22:10.106Z",
-   "bytes": 22450,
+   "updatedAt": "2026-10-17T14:41:32.155Z",
+   "bytes": 238506321,
    "boundProject": null
   },
   {
@@ -849,6 +849,22 @@
    "title": "Mail transfert dossier auto-école",
    "updatedAt": "2026-10-02T14:38:28.892Z",
    "bytes": 23040,
+   "boundProject": null
+  },
+  {
+   "projectId": "louisiana-bayou",
+   "lines": 2,
+   "work": 0,
+   "prompts": 0,
+   "first": "2026-10-17T14:21:27.442Z",
+   "last": "2026-10-17T14:39:08.411Z",
+   "strength": "weak",
+   "conversationId": "claude:2ce02bbc-dad5-488e-9ffc-51313c488339",
+   "provider": "claude",
+   "sessionId": "2ce02bbc-dad5-488e-9ffc-51313c488339",
+   "title": "StudioPhoto",
+   "updatedAt": "2026-10-17T14:41:30.229Z",
+   "bytes": 10807143,
    "boundProject": null
   },
   {
@@ -1368,22 +1384,6 @@
    "lines": 1,
    "work": 0,
    "prompts": 0,
-   "first": "2026-10-17T14:21:27.442Z",
-   "last": "2026-10-17T14:21:27.442Z",
-   "strength": "weak",
-   "conversationId": "claude:2ce02bbc-dad5-488e-9ffc-51313c488339",
-   "provider": "claude",
-   "sessionId": "2ce02bbc-dad5-488e-9ffc-51313c488339",
-   "title": "Grille comparaison images haute résolution",
-   "updatedAt": "2026-10-17T14:26:27.171Z",
-   "bytes": 36502,
-   "boundProject": null
-  },
-  {
-   "projectId": "louisiana-bayou",
-   "lines": 1,
-   "work": 0,
-   "prompts": 0,
    "first": "2026-10-17T13:32:54.286Z",
    "last": "2026-10-17T13:32:54.286Z",
    "strength": "weak",
@@ -1391,8 +1391,8 @@
    "provider": "claude",
    "sessionId": "dc58fe08-d3b3-4c2a-a4af-b00e77409ca3",
    "title": "Plan to Google Calendar",
-   "updatedAt": "2026-10-17T14:26:05.321Z",
-   "bytes": 3891725,
+   "updatedAt": "2026-10-17T14:39:58.882Z",
+   "bytes": 39708,
    "boundProject": null
   },
   {
@@ -1408,7 +1408,7 @@
    "sessionId": "6770fb4c-3c30-4bc8-939a-b209ab0ddb1b",
    "title": "1 zenray freelance",
    "updatedAt": "2026-10-17T13:47:05.186Z",
-   "bytes": 40193,
+   "bytes": 40215,
    "boundProject": null
   },
   {
