@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "projectId": "louisiana-bayou",
- "scannedAt": "2026-10-17T16:07:34.257Z",
+ "scannedAt": "2026-10-17T16:28:34.571Z",
  "conversations": [
   {
    "projectId": "louisiana-bayou",
@@ -1391,8 +1391,8 @@
    "provider": "claude",
    "sessionId": "dc58fe08-d3b3-4c2a-a4af-b00e77409ca3",
    "title": "Plan to Google Calendar",
-   "updatedAt": "2026-10-17T14:57:09.256Z",
-   "bytes": 4435346,
+   "updatedAt": "2026-10-17T16:28:31.211Z",
+   "bytes": 39683,
    "boundProject": null
   },
   {
