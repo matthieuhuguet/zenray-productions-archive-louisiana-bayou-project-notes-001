@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "projectId": "louisiana-bayou",
- "scannedAt": "2026-10-18T18:34:55.409Z",
+ "scannedAt": "2026-10-18T19:07:54.867Z",
  "conversations": [
   {
    "projectId": "louisiana-bayou",
@@ -85,18 +85,18 @@
   },
   {
    "projectId": "louisiana-bayou",
-   "lines": 258,
+   "lines": 265,
    "work": 51,
    "prompts": 0,
    "first": "2026-10-16T11:43:19.042Z",
-   "last": "2026-10-18T18:34:00.461Z",
+   "last": "2026-10-18T18:52:59.647Z",
    "strength": "strong",
    "conversationId": "claude:a3f20b1d-27ed-48e1-a0d1-5fe182c0e423",
    "provider": "claude",
    "sessionId": "a3f20b1d-27ed-48e1-a0d1-5fe182c0e423",
    "title": "2 louisiana bayou video",
-   "updatedAt": "2026-10-18T18:34:29.443Z",
-   "bytes": 36780,
+   "updatedAt": "2026-10-18T18:53:01.928Z",
+   "bytes": 36775,
    "boundProject": null
   },
   {
@@ -258,6 +258,22 @@
    "updatedAt": "2026-10-12T22:41:34.969Z",
    "bytes": 34223100,
    "boundProject": "conversation-codex-aec1fa9e2736c44185ca1c87"
+  },
+  {
+   "projectId": "louisiana-bayou",
+   "lines": 9,
+   "work": 2,
+   "prompts": 2,
+   "first": "2026-10-18T18:35:06.838Z",
+   "last": "2026-10-18T18:36:36.649Z",
+   "strength": "strong",
+   "conversationId": "codex:01a1504b-8bc4-7743-8866-fa57df496522",
+   "provider": "codex",
+   "sessionId": "01a1504b-8bc4-7743-8866-fa57df496522",
+   "title": "Conversation codex 01a1504b",
+   "updatedAt": "2026-10-18T18:36:36.649Z",
+   "bytes": 945860,
+   "boundProject": null
   },
   {
    "projectId": "louisiana-bayou",
@@ -607,8 +623,8 @@
    "provider": "claude",
    "sessionId": "d2f26016-25dd-4bcc-a6d8-122d50d3f383",
    "title": "3 motion design and editing video",
-   "updatedAt": "2026-10-18T18:33:12.776Z",
-   "bytes": 22316,
+   "updatedAt": "2026-10-18T19:07:50.173Z",
+   "bytes": 369544615,
    "boundProject": null
   },
   {
@@ -759,6 +775,22 @@
    "projectId": "louisiana-bayou",
    "lines": 3,
    "work": 0,
+   "prompts": 0,
+   "first": "2026-10-17T14:21:27.442Z",
+   "last": "2026-10-18T19:00:34.400Z",
+   "strength": "weak",
+   "conversationId": "claude:2ce02bbc-dad5-488e-9ffc-51313c488339",
+   "provider": "claude",
+   "sessionId": "2ce02bbc-dad5-488e-9ffc-51313c488339",
+   "title": "StudioPhoto",
+   "updatedAt": "2026-10-18T19:05:09.218Z",
+   "bytes": 36729,
+   "boundProject": "studiophoto-matthieu-17-october-2026"
+  },
+  {
+   "projectId": "louisiana-bayou",
+   "lines": 3,
+   "work": 0,
    "prompts": 1,
    "first": "2026-10-12T01:02:46.196Z",
    "last": "2026-10-12T07:32:32.868Z",
@@ -802,22 +834,6 @@
    "updatedAt": "2026-10-02T14:38:28.892Z",
    "bytes": 23040,
    "boundProject": null
-  },
-  {
-   "projectId": "louisiana-bayou",
-   "lines": 2,
-   "work": 0,
-   "prompts": 0,
-   "first": "2026-10-17T14:21:27.442Z",
-   "last": "2026-10-17T14:39:08.411Z",
-   "strength": "weak",
-   "conversationId": "claude:2ce02bbc-dad5-488e-9ffc-51313c488339",
-   "provider": "claude",
-   "sessionId": "2ce02bbc-dad5-488e-9ffc-51313c488339",
-   "title": "StudioPhoto",
-   "updatedAt": "2026-10-17T16:07:12.377Z",
-   "bytes": 36743,
-   "boundProject": "studiophoto-matthieu-17-october-2026"
   },
   {
    "projectId": "louisiana-bayou",
