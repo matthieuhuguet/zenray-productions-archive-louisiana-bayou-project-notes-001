@@ -3671,3 +3671,17 @@
 - Project: louisiana-bayou; kind: iteration. (18 October 2026, 23:04:50 +0200)
 
 > Maps peinture blanche depuis la height salie : 20 nodes natifs P_* dans /obj/ZRH_WhitePaint_ConcreteMix (boîte MAPS peinture blanche). Base color : ramp RGB sur la height propre (stops mesurés sur BayouWhitePaint_basecolor_edgeblack, corrélation height IA / ZenRay 0,991) + teinte de salissure gris brun 0,30 0,265 0,225 pilotée par le masque des taches du béton (flou 1,5 px, force 0,65) + AO plancher 0,85 ; moyenne 0,684 0,658 0,629 contre 0,719 0,692 0,662 pour l'IA. Roughness : courbe mesurée sur la roughness IA, de 0,93 à 0,64. Normal : scale 0,008 (kernel 1) pour la height salie. AO : heightscale 10. Fichiers BayouWhitePaint_<Map>_ZenRayHeight_18-October-2026.png (format de date de la règle du jour) dans 02_sources/textures. Branchés sur M_WhitePaint de View_Lookdev, M_PeelingWhiteWood_01 de materials_for_unreal et M_WhitePaint de /stage/PC_matlib (nouveaux noeuds rgh, nrm, ao) ; Height posée en dispTex désactivé ; nodes plus rouges. Avant/après : captures_procedural_roof/whitepaint_BEFORE_AFTER_sheet.png. Piège : le noeud blur est en unités image par défaut, il faut units=1 (pixels) sinon le masque est moyenné. Verdict visuel à Matthieu : peeling un peu moins contrasté qu'avant, reflets plus argentés sur les arêtes. Hip sauvegardé. (18 October 2026, 23:04:50 +0200)
+
+## 18 October 2026, 23:59:55 +0200 : Prompt
+
+<!-- feedback-event:461adc8f05fb91d80407b935eaff0447af44989bf9710c5def51e0fffb93ee11 (18 October 2026, 23:59:55 +0200) -->
+- Project: louisiana-bayou; kind: prompt. (18 October 2026, 23:59:55 +0200)
+
+> 18 October 2026 : prompts de Matthieu (grammaire seule) : « Bon on va pas y passer 4 heures pour éclairer proprement une scène, il suffit d'une GI orientée contre la maison pour que les faces soient éclairées » ; « Arrêtons Cycles, je pense qu'il y a un problème au niveau du GPU et de mon Mac, on utilise directement Karma CPU, tu vas plug correctement tous les matériaux, passe à un rendu 1024 pour aller vite viewport » ; « Bravo tu as réussi mais il y a toujours ce bug de normal. Commence par faire une web search, vérifie toute la documentation, note dans un fichier qui s'appellera Karma1.md de manière ultra complète, note-le comme code et fonctions à call dans zenrayhoudini le skill. Première étape : faire en sorte que le base color grey soit affiché partout sur Karma CPU » ; « focus sur chasser le bug de normales (Karma puis /obj), la façade a un bug d'ombrage, vérifie s'il apparaît en obj ou si c'est le component qui le fait apparaître, trouve l'origine du bug et consigne-le » ; « stop computer use et consigne dans le skill c'était quoi le bug ? » (18 October 2026, 23:59:55 +0200)
+
+## 18 October 2026, 23:59:55 +0200 : Standing rule
+
+<!-- feedback-event:60c06e02e5a78587ca45209827b0f0087ee25f44a43a5935c9503ca388db521c (18 October 2026, 23:59:55 +0200) -->
+- Project: louisiana-bayou; kind: rule. (18 October 2026, 23:59:55 +0200)
+
+> 18 October 2026 : toute branche de lookdev (Church_Lookdev/om_church) lit le noeud FINAL de l'export, après compute_normals_final, jamais promote_mat_cd. Avant un rendu Karma, sop_normal_chain et usd_normal_report doivent donner zéro normale nulle ou non unitaire. Un défaut visible seulement avec une carte de normales est une normale invalide avant d'être une affaire d'UV. Karma lit MaterialX, pas les usdpreviewsurface écrits à la main. Détail : skill zenray-houdini, Karma1.md section 5. (18 October 2026, 23:59:55 +0200)
