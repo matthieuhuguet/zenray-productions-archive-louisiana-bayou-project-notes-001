@@ -3573,3 +3573,10 @@
 - Project: louisiana-bayou; kind: iteration. (18 October 2026, 10:38:31 +0200)
 
 > Dossier ZenRayHoudini/LouisianaBayou rangé dans le tmp : 2497 fichiers dans tmp-bayou-louisiana/04_houdini_project (scripts, heights, backups, snapshots_versions, captures, unreal), liens symboliques laissés, textures et hip en place, scène rouverte, passerelle MCP active, Finder ouvert sur 02_sources/references (6 concepts). (18 October 2026, 10:38:31 +0200)
+
+## 18 October 2026, 18:02:17 +0200 : Prompt
+
+<!-- feedback-event:871cfac0485c4127113cb8913dd6c82d3c0b1d88a24105b4a202d74250412d63 (18 October 2026, 18:02:17 +0200) -->
+- Project: louisiana-bayou; kind: prompt. (18 October 2026, 18:02:17 +0200)
+
+> Validé : lance ZenRay Height sur tile_height_ref.png (heights/Heights/refs). (18 October 2026, 18:02:17 +0200)
