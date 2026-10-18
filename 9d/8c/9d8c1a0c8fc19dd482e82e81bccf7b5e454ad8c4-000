@@ -3587,3 +3587,10 @@
 - Project: louisiana-bayou; kind: iteration. (18 October 2026, 18:10:26 +0200)
 
 > ZenRay Height sur tile_height_ref.png : projet RoofTiles36, 0,9978 de corrélation en pleine résolution (SSIM 0,959), raccord 0,42 ; 0,02, 31 couches, 7,9 min. Height finale : /Users/zenray/.claude/tmp/tmp-zenray-height/projects/RoofTiles36/versions/final/RoofTiles36_H2/FINAL_height.png ; graphe /obj/ZRH_RoofTiles36. Verdict visuel à Matthieu. (18 October 2026, 18:10:26 +0200)
+
+## 18 October 2026, 19:15:50 +0200 : Prompt
+
+<!-- feedback-event:b8d68f16372fba25c232efe089a6ca88b810abf40608e10ace6c8d27c68032a1 (18 October 2026, 19:15:50 +0200) -->
+- Project: louisiana-bayou; kind: prompt. (18 October 2026, 19:15:50 +0200)
+
+> Prompt : ranger tout le graph actuel dans /obj ; question sans exécution : peut-on modifier ZenRay Height pour n'utiliser que des nodes COP classiques (blend, multiply...) plutôt que rasterize geometry / channel extract ? Fait : /obj rangé en 11 boîtes titrées, 89 nodes, 0 recouvrement, 0 node libre, ZRH_RoofTiles36 dans la boîte ZenRay Height (18 October 2026), hip sauvegardé. Question : réponse donnée, rien modifié. (18 October 2026, 19:15:50 +0200)
