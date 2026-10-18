@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "projectId": "louisiana-bayou",
- "scannedAt": "2026-10-18T22:41:41.981Z",
+ "scannedAt": "2026-10-18T22:57:37.255Z",
  "conversations": [
   {
    "projectId": "louisiana-bayou",
@@ -53,6 +53,22 @@
   },
   {
    "projectId": "louisiana-bayou",
+   "lines": 581,
+   "work": 100,
+   "prompts": 3,
+   "first": "2026-10-16T11:43:19.042Z",
+   "last": "2026-10-18T22:57:09.093Z",
+   "strength": "strong",
+   "conversationId": "claude:a3f20b1d-27ed-48e1-a0d1-5fe182c0e423",
+   "provider": "claude",
+   "sessionId": "a3f20b1d-27ed-48e1-a0d1-5fe182c0e423",
+   "title": "2 louisiana bayou video",
+   "updatedAt": "2026-10-18T22:57:09.109Z",
+   "bytes": 72202817,
+   "boundProject": null
+  },
+  {
+   "projectId": "louisiana-bayou",
    "lines": 639,
    "work": 93,
    "prompts": 7,
@@ -65,22 +81,6 @@
    "title": "Learn Texturing and Freelance",
    "updatedAt": "2026-09-23T17:08:49.694Z",
    "bytes": 79105,
-   "boundProject": null
-  },
-  {
-   "projectId": "louisiana-bayou",
-   "lines": 559,
-   "work": 92,
-   "prompts": 3,
-   "first": "2026-10-16T11:43:19.042Z",
-   "last": "2026-10-18T22:40:19.986Z",
-   "strength": "strong",
-   "conversationId": "claude:a3f20b1d-27ed-48e1-a0d1-5fe182c0e423",
-   "provider": "claude",
-   "sessionId": "a3f20b1d-27ed-48e1-a0d1-5fe182c0e423",
-   "title": "2 louisiana bayou video",
-   "updatedAt": "2026-10-18T22:40:48.141Z",
-   "bytes": 36665,
    "boundProject": null
   },
   {
@@ -319,8 +319,8 @@
    "provider": "claude",
    "sessionId": "d2f26016-25dd-4bcc-a6d8-122d50d3f383",
    "title": "3 motion design and editing video",
-   "updatedAt": "2026-10-18T22:41:41.599Z",
-   "bytes": 390725776,
+   "updatedAt": "2026-10-18T22:52:07.963Z",
+   "bytes": 22320,
    "boundProject": null
   },
   {
@@ -847,8 +847,8 @@
    "provider": "codex",
    "sessionId": "01a1511f-9f4c-7410-a6eb-d2e93353fa70",
    "title": "Conversation codex 01a1511f",
-   "updatedAt": "2026-10-18T22:41:41.239Z",
-   "bytes": 2437249,
+   "updatedAt": "2026-10-18T22:55:47.240Z",
+   "bytes": 3419085,
    "boundProject": "zenray-progress"
   },
   {
