@@ -3594,3 +3594,17 @@
 - Project: louisiana-bayou; kind: prompt. (18 October 2026, 19:15:50 +0200)
 
 > Prompt : ranger tout le graph actuel dans /obj ; question sans exécution : peut-on modifier ZenRay Height pour n'utiliser que des nodes COP classiques (blend, multiply...) plutôt que rasterize geometry / channel extract ? Fait : /obj rangé en 11 boîtes titrées, 89 nodes, 0 recouvrement, 0 node libre, ZRH_RoofTiles36 dans la boîte ZenRay Height (18 October 2026), hip sauvegardé. Question : réponse donnée, rien modifié. (18 October 2026, 19:15:50 +0200)
+
+## 18 October 2026, 19:18:56 +0200 : Iteration
+
+<!-- feedback-event:e2eb613296f15dd3c96ab4b4775192cea01b8ddb9c59b2f94950996c5b171ec6 (18 October 2026, 19:18:56 +0200) -->
+- Project: louisiana-bayou; kind: iteration. (18 October 2026, 19:18:56 +0200)
+
+> Prompt : range le graph ZRH_RoofTiles36. Fait : 183 nodes dans 32 boîtes (Coordinates, L01 à L31) empilées de haut en bas, flux de gauche à droite dans chaque boîte, 0 recouvrement, OUT_height et ZRH_export en bas, hip sauvegardé. Aucun paramètre ni connexion changé. (18 October 2026, 19:18:56 +0200)
+
+## 18 October 2026, 19:20:15 +0200 : Prompt
+
+<!-- feedback-event:37f73cc4fb4131346100ac6d220b2490f4591b3b5839a9e3932b25abc4d43713 (18 October 2026, 19:20:15 +0200) -->
+- Project: louisiana-bayou; kind: prompt. (18 October 2026, 19:20:15 +0200)
+
+> Prompt : crée maintenant la base color à partir de la height générée, puis la normal, puis toutes les maps nécessaires pour le toit (voir les 5 maps dont j'ai besoin), puis illustre sur une sheet l'état actuel, go. (18 October 2026, 19:20:15 +0200)
