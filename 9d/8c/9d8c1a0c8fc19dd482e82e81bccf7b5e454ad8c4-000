@@ -3559,3 +3559,10 @@
 - Project: louisiana-bayou; kind: iteration. (16 October 2026, 15:18:55 +0200)
 
 > Toit courbé procédural sans lattice : champ de hauteur partagé par Component_Roof, WoodFacade, Armature et cross_fix; 6 paramètres sur /obj/Church (Roof Curvature); courbes à 0 = géométrie d'origine (Facade 183 prims, Armature 1026, toit même nombre de prims et points); planches 4 à 6 vues dans captures_procedural_roof/. (16 October 2026, 15:18:55 +0200)
+
+## 18 October 2026, 10:34:56 +0200 : Prompt
+
+<!-- feedback-event:13a78419c01b09c065108d2178873a035a93b6a48b14333301fe39208f1188d2 (18 October 2026, 10:34:56 +0200) -->
+- Project: louisiana-bayou; kind: prompt. (18 October 2026, 10:34:56 +0200)
+
+> Rouvre le projet sur Houdini et passe au texturing de l'autre objet : ouvre directement sur Finder le dossier où est mon concept pour identifier l'objet, texturing via génération d'un trimsheet et de ZenRay Height, go. Pour l'instant ouvre seulement Houdini et Height go, on finira les matériaux go. (18 October 2026, 10:34:56 +0200)
