@@ -3699,3 +3699,66 @@
 - Project: louisiana-bayou; kind: rule. (19 October 2026, 00:17:41 +0200)
 
 > 19 October 2026 : la densité du projet est 1 024 px par mètre (1 px par millimètre, 10,24 px par centimètre, feuille 2048 = 2 m = 0,5 uv par mètre) ; une trim sheet se PLANIFIE depuis la taille réelle des groupes colorés (hauteur de bande = largeur max × densité + marges, jamais une mise à l'échelle pour remplir) et le plan dit quand il déborde. Code : skill zenray-houdini, templates/trimsheet-from-colours. Test sur l'arche vert, méthode non validée par Matthieu. (19 October 2026, 00:17:41 +0200)
+
+## 19 October 2026, 01:16:44 +0200 : Prompt
+
+<!-- feedback-event:0c1b639071eb53041a414b9404ddc1cf68c78e6df8d6d3204dcf8ff8500b02cd (19 October 2026, 01:16:44 +0200) -->
+- Project: louisiana-bayou; kind: prompt. (19 October 2026, 01:16:44 +0200)
+
+> Mais regarde ce module, tu vois bien qu'il n'est pas symétrique ni cohérent, certaines parties flottent dans le vide. (pendentif de l'arche, planche filaire) (19 October 2026, 01:16:44 +0200)
+
+## 19 October 2026, 01:16:44 +0200 : Prompt
+
+<!-- feedback-event:6c33ddf2a50298172f2d931d45a0446f156ea52b9c21bfb8b60b31d8d407c885 (19 October 2026, 01:16:44 +0200) -->
+- Project: louisiana-bayou; kind: prompt. (19 October 2026, 01:16:44 +0200)
+
+> Pareil, la partie violette n'a aucun intérêt ; en revanche le vert doit toucher une sorte de fil de fer que tu peux faire carré, qui tient en bas le prop, pour tenir de manière cohérente. (capture annotée : quatre points rouges sur les côtés du panneau) (19 October 2026, 01:16:44 +0200)
+
+## 19 October 2026, 01:16:45 +0200 : Prompt
+
+<!-- feedback-event:e877944d8657b57bc50c5c8b2257b1835c6761ab025afa1c5181d4e5873cd85f (19 October 2026, 01:16:45 +0200) -->
+- Project: louisiana-bayou; kind: prompt. (19 October 2026, 01:16:45 +0200)
+
+> Regarde là, tu vois, l'arche n'est pas symétrique. Je n'aurais pas dû te le dire, mais tu devrais comprendre que ce n'est pas positionné, au niveau du side, exactement au centre du pilier, ce qui aurait dû être fait, par rapport à l'arche et au pilier. Donc édite proprement. (capture avec une ligne rouge sur l'axe du pilier) (19 October 2026, 01:16:45 +0200)
+
+## 19 October 2026, 01:16:45 +0200 : Prompt
+
+<!-- feedback-event:dbe9f54998b3c6d2d81161e80ae404624df7927d3f1cdee24a760550700f7933 (19 October 2026, 01:16:45 +0200) -->
+- Project: louisiana-bayou; kind: prompt. (19 October 2026, 01:16:45 +0200)
+
+> Ensuite, il faut que l'asset soit parfaitement symétrique. Pour ça, garde la face avec des détails et fais un clip mirror propre. Go. (deux captures de la vue Houdini, arrière et avant) (19 October 2026, 01:16:45 +0200)
+
+## 19 October 2026, 01:16:45 +0200 : Standing rule
+
+<!-- feedback-event:faea6806853746fb14ce7c97d48d1c0d64137b674f2c41dc42fd136c2eaf3030 (19 October 2026, 01:16:45 +0200) -->
+- Project: louisiana-bayou; kind: rule. (19 October 2026, 01:16:45 +0200)
+
+> Un module ou une pièce qui flotte est refusé : avant de montrer un asset, ContactGraph doit rendre UN seul composant connecté ; une pièce sans fonction (tiges violettes) se supprime ; ce qui tient un objet se modélise (fils carrés aux points marqués par Matthieu sur sa capture). (19 October 2026, 01:16:45 +0200)
+
+## 19 October 2026, 01:16:45 +0200 : Standing rule
+
+<!-- feedback-event:00f86140e4be1a2671d43bc0404ee41b39bdc251fe2d63953121e6f307af5807 (19 October 2026, 01:16:45 +0200) -->
+- Project: louisiana-bayou; kind: rule. (19 October 2026, 01:16:45 +0200)
+
+> Une valeur qui doit coïncider avec une autre se LIE par expression, jamais deux mesures indépendantes : arch_r = span / 2 (arche centrée sur l'axe des piliers), arch_cy dérivé de la hauteur de couronne mesurée. (19 October 2026, 01:16:45 +0200)
+
+## 19 October 2026, 01:16:45 +0200 : Standing rule
+
+<!-- feedback-event:7a8ad303f3b1f41ed1dc9343cc676e2989a571807b36b4940d1ee1ecc651cc39 (19 October 2026, 01:16:45 +0200) -->
+- Project: louisiana-bayou; kind: rule. (19 October 2026, 01:16:45 +0200)
+
+> Un asset vu des deux côtés est symétrique des deux côtés : garder la face avec les détails (+z) et faire un clip mirror propre (Mirror SOP en mode clip, puis recoller les faces coupées par Dissolve sur les arêtes de coupe coplanaires) ; écart de miroir sous 0,001 mm. Recette dans zenray-houdini references/CleanPropGeometry1.md. (19 October 2026, 01:16:45 +0200)
+
+## 19 October 2026, 01:16:45 +0200 : Iteration
+
+<!-- feedback-event:291025775033ace96c8cc365819cb6d5bab89c4740239525c95b9844a9821d4a (19 October 2026, 01:16:45 +0200) -->
+- Project: louisiana-bayou; kind: iteration. (19 October 2026, 01:16:45 +0200)
+
+> Planche de validation v3 envoyée : 995 faces (ancien 2 928), 1 114 points, 26 solides fermés, un objet connecté, symétrie 0,0004 mm ; arche recentrée de 27,6 mm, quatre fils carrés, pendentif sur l'âme. Instantanés Houdini v001 et v002. UV après son feu vert. (19 October 2026, 01:16:45 +0200)
+
+## 19 October 2026, 01:16:57 +0200 : Standing rule
+
+<!-- feedback-event:a348a8688dad0aa8982cd813226cd0288da692f16cdda615404fc4e6b17609d4 (19 October 2026, 01:16:57 +0200) -->
+- Project: louisiana-bayou; kind: rule. (19 October 2026, 01:16:57 +0200)
+
+> 19 October 2026 : les trois règles précédentes (rien ne flotte, valeurs liées, symétrie par clip mirror) datent de ce jour ; leurs lignes n'avaient pas reçu la date. (19 October 2026, 01:16:57 +0200)
