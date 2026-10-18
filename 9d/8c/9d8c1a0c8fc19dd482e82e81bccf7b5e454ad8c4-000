@@ -3608,3 +3608,17 @@
 - Project: louisiana-bayou; kind: prompt. (18 October 2026, 19:20:15 +0200)
 
 > Prompt : crée maintenant la base color à partir de la height générée, puis la normal, puis toutes les maps nécessaires pour le toit (voir les 5 maps dont j'ai besoin), puis illustre sur une sheet l'état actuel, go. (18 October 2026, 19:20:15 +0200)
+
+## 18 October 2026, 19:25:23 +0200 : Iteration
+
+<!-- feedback-event:35cfddf133bcdbab74c8616813145558429e238737eea3fef8958bf0a0e93fc3 (18 October 2026, 19:25:23 +0200) -->
+- Project: louisiana-bayou; kind: iteration. (18 October 2026, 19:25:23 +0200)
+
+> Maps du toit RoofTiles36 depuis la height : Base Color (3 constantes de la palette du concept, blend par la height, AO multiplié), Normal DirectX (heighttonormal, scale 0,005 mesuré, vert inversé par colorcorrect), Roughness (remap 0,95 à 0,72), AO (heighttoambientocclusion, heightscale 10), Height. 17 nodes natifs M_* dans /obj/ZRH_RoofTiles36, boîte MAPS toit. PNG 2048 : /Users/zenray/.claude/tmp/tmp-zenray-height/projects/RoofTiles36/maps/ ; planche RoofTiles36_MapsSheet.png ; scripts Scripts/BuildRoofMaps.py et Scripts/MapsSheet.py. Normal à scale 10 saturait 40 pour cent des pixels, corrigé. Verdict visuel à Matthieu. (18 October 2026, 19:25:23 +0200)
+
+## 18 October 2026, 19:40:11 +0200 : Iteration
+
+<!-- feedback-event:155510ee6779695d2e52c816fc82e08d4bbd1d7a2242515c7307bdbeb4c224a2 (18 October 2026, 19:40:11 +0200) -->
+- Project: louisiana-bayou; kind: iteration. (18 October 2026, 19:40:11 +0200)
+
+> Prompt : réouvre la scène fermée, mets tout dans le même graph, range proprement, puis refais la base color avec le dégradé plus intéressant de l'ancienne map placeholder IA. Fait : scène rouverte (le graphe maps était bien sauvegardé), tout dans /obj/ZRH_RoofTiles36 (204 nodes, 33 boîtes, 0 recouvrement, boîte MAPS toit sous les couches, OUT_height et ZRH_export dessous). Base color v2 : ramp par canal clé sur la height (mesurée par quantile sur BayouRoofTrimSheet36_BaseColor_ChatGPT_9October2026.png) + profil vertical par tuile (clair en haut, plus sombre à 65 pour cent, chaud en bas) + teinte chaude du bois de bout masquée sur les tuiles + AO ; moyenne 0,381 0,324 0,274 contre 0,373 0,322 0,276 pour l'IA, écart-type 0,125 contre 0,141, bords chauds 0,633 contre 0,642 de B/R. Script Scripts/BuildRoofMaps.py (bloc P), planche RoofTiles36_MapsSheet.png. Verdict visuel à Matthieu. (18 October 2026, 19:40:11 +0200)
