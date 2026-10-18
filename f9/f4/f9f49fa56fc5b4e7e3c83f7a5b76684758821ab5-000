@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "projectId": "louisiana-bayou",
- "scannedAt": "2026-10-18T08:36:57.301Z",
+ "scannedAt": "2026-10-18T08:57:56.825Z",
  "conversations": [
   {
    "projectId": "louisiana-bayou",
@@ -85,6 +85,22 @@
   },
   {
    "projectId": "louisiana-bayou",
+   "lines": 151,
+   "work": 33,
+   "prompts": 0,
+   "first": "2026-10-16T11:43:19.042Z",
+   "last": "2026-10-18T08:38:31.647Z",
+   "strength": "strong",
+   "conversationId": "claude:a3f20b1d-27ed-48e1-a0d1-5fe182c0e423",
+   "provider": "claude",
+   "sessionId": "a3f20b1d-27ed-48e1-a0d1-5fe182c0e423",
+   "title": "2 louisiana bayou video",
+   "updatedAt": "2026-10-18T08:38:33.975Z",
+   "bytes": 36955,
+   "boundProject": null
+  },
+  {
+   "projectId": "louisiana-bayou",
    "lines": 108,
    "work": 32,
    "prompts": 1,
@@ -98,22 +114,6 @@
    "updatedAt": "2026-10-11T15:13:10.697Z",
    "bytes": 20964,
    "boundProject": "louisiana-bayou"
-  },
-  {
-   "projectId": "louisiana-bayou",
-   "lines": 130,
-   "work": 31,
-   "prompts": 0,
-   "first": "2026-10-16T11:43:19.042Z",
-   "last": "2026-10-18T08:35:10.517Z",
-   "strength": "strong",
-   "conversationId": "claude:a3f20b1d-27ed-48e1-a0d1-5fe182c0e423",
-   "provider": "claude",
-   "sessionId": "a3f20b1d-27ed-48e1-a0d1-5fe182c0e423",
-   "title": "2 louisiana bayou video",
-   "updatedAt": "2026-10-18T08:36:10.847Z",
-   "bytes": 36497,
-   "boundProject": null
   },
   {
    "projectId": "louisiana-bayou",
@@ -623,8 +623,8 @@
    "provider": "claude",
    "sessionId": "d2f26016-25dd-4bcc-a6d8-122d50d3f383",
    "title": "3 motion design and editing video",
-   "updatedAt": "2026-10-18T08:36:44.250Z",
-   "bytes": 281100482,
+   "updatedAt": "2026-10-18T08:57:50.401Z",
+   "bytes": 296476157,
    "boundProject": null
   },
   {

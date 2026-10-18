@@ -3566,3 +3566,10 @@
 - Project: louisiana-bayou; kind: prompt. (18 October 2026, 10:34:56 +0200)
 
 > Rouvre le projet sur Houdini et passe au texturing de l'autre objet : ouvre directement sur Finder le dossier où est mon concept pour identifier l'objet, texturing via génération d'un trimsheet et de ZenRay Height, go. Pour l'instant ouvre seulement Houdini et Height go, on finira les matériaux go. (18 October 2026, 10:34:56 +0200)
+
+## 18 October 2026, 10:38:31 +0200 : Iteration
+
+<!-- feedback-event:a90e078df39bf726dc432aa4ed99a67fa286603e2c8c0d52aa17541d8e47ebb4 (18 October 2026, 10:38:31 +0200) -->
+- Project: louisiana-bayou; kind: iteration. (18 October 2026, 10:38:31 +0200)
+
+> Dossier ZenRayHoudini/LouisianaBayou rangé dans le tmp : 2497 fichiers dans tmp-bayou-louisiana/04_houdini_project (scripts, heights, backups, snapshots_versions, captures, unreal), liens symboliques laissés, textures et hip en place, scène rouverte, passerelle MCP active, Finder ouvert sur 02_sources/references (6 concepts). (18 October 2026, 10:38:31 +0200)
