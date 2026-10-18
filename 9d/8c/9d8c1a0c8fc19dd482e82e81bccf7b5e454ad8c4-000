@@ -3685,3 +3685,17 @@
 - Project: louisiana-bayou; kind: rule. (18 October 2026, 23:59:55 +0200)
 
 > 18 October 2026 : toute branche de lookdev (Church_Lookdev/om_church) lit le noeud FINAL de l'export, après compute_normals_final, jamais promote_mat_cd. Avant un rendu Karma, sop_normal_chain et usd_normal_report doivent donner zéro normale nulle ou non unitaire. Un défaut visible seulement avec une carte de normales est une normale invalide avant d'être une affaire d'UV. Karma lit MaterialX, pas les usdpreviewsurface écrits à la main. Détail : skill zenray-houdini, Karma1.md section 5. (18 October 2026, 23:59:55 +0200)
+
+## 19 October 2026, 00:17:41 +0200 : Prompt
+
+<!-- feedback-event:ffcd034a901be8805f9d8234cfb18ccd4595bc728e9cb1c8d644a57fe2b4ba47 (19 October 2026, 00:17:41 +0200) -->
+- Project: louisiana-bayou; kind: prompt. (19 October 2026, 00:17:41 +0200)
+
+> 19 October 2026 : prompt de Matthieu (grammaire seule) : « réouvre ce props, il est déjà dans Houdini, on va générer son trimsheet à partir de la méthode : on prend le props déjà modélisé, on assigne une couleur par matériau (la croix, l'arche, les deux poteaux avec la même texture, le panneau principal avec sa propre texture), et en fonction de cette couleur et de l'espace que ça utilise, en mètres, on génère une trim sheet par bande de couleur. Redonne-moi la leçon (le nombre de pixels défini avec le toit), teste la méthode, puis on la consigne. Montre-moi une sheet : la vue asset 3/4, et à droite les UV trimsheet. » Stop computer use demandé juste avant. (19 October 2026, 00:17:41 +0200)
+
+## 19 October 2026, 00:17:41 +0200 : Standing rule
+
+<!-- feedback-event:278251747d7d439f8c75bc4db22171d172e3100112171cec96f64020f674dafd (19 October 2026, 00:17:41 +0200) -->
+- Project: louisiana-bayou; kind: rule. (19 October 2026, 00:17:41 +0200)
+
+> 19 October 2026 : la densité du projet est 1 024 px par mètre (1 px par millimètre, 10,24 px par centimètre, feuille 2048 = 2 m = 0,5 uv par mètre) ; une trim sheet se PLANIFIE depuis la taille réelle des groupes colorés (hauteur de bande = largeur max × densité + marges, jamais une mise à l'échelle pour remplir) et le plan dit quand il déborde. Code : skill zenray-houdini, templates/trimsheet-from-colours. Test sur l'arche vert, méthode non validée par Matthieu. (19 October 2026, 00:17:41 +0200)

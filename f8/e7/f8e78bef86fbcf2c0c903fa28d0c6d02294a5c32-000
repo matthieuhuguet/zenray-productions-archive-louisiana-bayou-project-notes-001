@@ -140,3 +140,7 @@
 
 - 18 October 2026 : lookdev en Karma CPU, matériaux MaterialX `MX_*` (scripts : `/Users/zenray/Create/Build/Productions/ZenRayHoudini/LouisianaBayou/Scripts/BuildKarmaMaterials.py`, bibliothèque `/Users/zenray/.claude/skills/zenray-houdini/scripts/karma/KarmaLib.py`). Toute la doc et les mesures : `/Users/zenray/.claude/skills/zenray-houdini/Karma1.md`. (18 October 2026)
 - 18 October 2026 : bug d'ombrage de la façade = 40 planches à normale (0,0,0) créées par les booléens `corner_post_cut` puis `corner_cut_clean`, réparées par `compute_normals_final` mais non vues par `Church_Lookdev/om_church` qui lisait `promote_mat_cd`. Corrigé en repointant vers `/obj/Church/compute_normals_final`. (18 October 2026)
+
+## 19 October 2026 : trim sheet par bande de couleur, test sur l'arche (19 October 2026)
+
+- 19 October 2026 : méthode testée sur `/obj/Entrance_Arch` (nœuds `trim_from_colours` et `OUT_trimsheet` ajoutés, `OUT_entrance_arch` intact) : une couleur par groupe (sign, posts, arch, cross), bandes calculées depuis la taille réelle à 1 024 px/m sur 2048, 630 px libres, vérificateur vert (0 hors bande, densité médiane 1,000). Code et doc : `/Users/zenray/.claude/skills/zenray-houdini/templates/trimsheet-from-colours/` et `SKILL.md`. Planche : `/Users/zenray/.claude/tmp/tmp-houdini-september-2026/tmp-bayou-louisiana/03_work/uv/EntranceArch_Trimsheet_19-October-2026/EntranceArch_DoubleView_Trimsheet_19-October-2026.png`. Hip non sauvegardé après ce test. (19 October 2026)
