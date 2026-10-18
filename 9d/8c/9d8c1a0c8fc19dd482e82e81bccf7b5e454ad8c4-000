@@ -3580,3 +3580,10 @@
 - Project: louisiana-bayou; kind: prompt. (18 October 2026, 18:02:17 +0200)
 
 > Validé : lance ZenRay Height sur tile_height_ref.png (heights/Heights/refs). (18 October 2026, 18:02:17 +0200)
+
+## 18 October 2026, 18:10:26 +0200 : Iteration
+
+<!-- feedback-event:849cea2c79f4856be15214505b4a27f03a1de29c67fc1c300b4fbd67f2a803b5 (18 October 2026, 18:10:26 +0200) -->
+- Project: louisiana-bayou; kind: iteration. (18 October 2026, 18:10:26 +0200)
+
+> ZenRay Height sur tile_height_ref.png : projet RoofTiles36, 0,9978 de corrélation en pleine résolution (SSIM 0,959), raccord 0,42 ; 0,02, 31 couches, 7,9 min. Height finale : /Users/zenray/.claude/tmp/tmp-zenray-height/projects/RoofTiles36/versions/final/RoofTiles36_H2/FINAL_height.png ; graphe /obj/ZRH_RoofTiles36. Verdict visuel à Matthieu. (18 October 2026, 18:10:26 +0200)
