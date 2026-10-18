@@ -3629,3 +3629,10 @@
 - Project: louisiana-bayou; kind: iteration. (18 October 2026, 19:42:48 +0200)
 
 > Prompt : plug les 5 nouvelles maps sur le toit de la géométrie actuelle. Fait : copies datées BayouRoofTrimSheet36_<Map>_ZenRayHeight_18October2026.png dans 02_sources/textures (BaseColor, Normal_OpenGL, Normal_DirectX, Roughness, AO, Height). Branchées sur M_RoofShingles de /obj/View_Lookdev/materials (viewport) et de /obj/Church/materials_for_unreal/M_WoodShinglesRoof_03 (export Unreal) : base color, roughness, normal OpenGL, AO ; Height dans dispTex_texture, désactivé (les bardeaux sont de la vraie géométrie). Karma /stage/PC_matlib/M_RoofShingles : base color, normal, roughness changés, nouveau noeud M_RoofShingles_ao sur occlusion. Nodes M_RoofShingles* et uv_roof_church ne sont plus rouges (textures issues de la génération Copernicus). Même UV (trim sheet 36 cases), aucune géométrie touchée. 6 vues OBJ dans captures_procedural_roof/roof_maps_plugged_sheet.png. Unreal : textures T_LB_* non réimportées. Hip sauvegardé. (18 October 2026, 19:42:48 +0200)
+
+## 18 October 2026, 20:25:42 +0200 : Standing rule
+
+<!-- feedback-event:dececac5a75e8a63acf12c6520e9c8976c92adf696e3245edd0329881d7660af (18 October 2026, 20:25:42 +0200) -->
+- Project: louisiana-bayou; kind: rule. (18 October 2026, 20:25:42 +0200)
+
+> Règle de nommage (Matthieu) : la date dans un nom de fichier s'écrit jour en nombre, mois en lettres anglaises, année en nombre, avec tirets (18-October-2026 n'est qu'un exemple, jamais 18October2026). Écrite dans CLAUDE.md global (une ligne), rules/SkillsAndMemory1.md (section complète) et zenray-houdini SKILL.md ; aucun fichier renommé aujourd'hui (liens de la scène), 234 fichiers au format collé repérés pour un renommage futur avec mise à jour des références ; date manquante : lire les métadonnées. (18 October 2026, 20:25:42 +0200)
