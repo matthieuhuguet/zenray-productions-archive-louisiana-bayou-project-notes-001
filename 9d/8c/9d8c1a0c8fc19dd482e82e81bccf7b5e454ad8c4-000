@@ -3643,3 +3643,31 @@
 - Project: louisiana-bayou; kind: prompt. (18 October 2026, 22:29:06 +0200)
 
 > Prompt : garder la feuille 4 (béton, en bas à droite) de la planche fournie, la diviser proprement, recréer sa height procéduralement (ZenRay Height) puis la blender avec la height actuelle de la peinture blanche (ZRH_Secondary_whitepaint), en ajustant les levels car c'est un albédo. Validé : go. (18 October 2026, 22:29:06 +0200)
+
+## 18 October 2026, 22:53:19 +0200 : Iteration
+
+<!-- feedback-event:d44bc37ec45f8c727058c2cbad53a3a6c408caab3a3e54572910deccb87c9a47 (18 October 2026, 22:53:19 +0200) -->
+- Project: louisiana-bayou; kind: iteration. (18 October 2026, 22:53:19 +0200)
+
+> Béton x peinture blanche : feuille 4 découpée (624 x 624 px à partir de (630,630) dans la planche 1254, traits de séparation exclus), ZenRay Height ConcreteStains 0,986 pleine résolution (SSIM 0,995, 30 couches, raccord 0,83 ; 1,17, 8,4 min, graphe /obj/ZRH_ConcreteStains). Mix dans /obj/ZRH_WhitePaint_ConcreteMix (nodes natifs : file, mono, remap, blend multiply, rop) : levels du béton 0,72 à 0,905 vers 0 à 1 (albédo, taches = creux), force 0,6, tous réglables dans Scripts/BuildConcreteMix.py. Pièges : un node file n'expose son layer qu'après le bouton Add AOVs, sinon tout consommateur dit source is missing ; hsv, mono et remap exigent un layer typé. Height mixée : /Users/zenray/.claude/tmp/tmp-zenray-height/projects/ConcreteStains/mix/WhitePaint_ConcreteMix_height.png, planche WhitePaint_ConcreteMix_Sheet.png. Pas encore branchée sur l'église. Hip sauvegardé. (18 October 2026, 22:53:19 +0200)
+
+## 18 October 2026, 22:59:07 +0200 : Iteration
+
+<!-- feedback-event:53ad287e7788431e7ec6fe3467a63c1cac222ceb5194629ad877fb037e5d5cde (18 October 2026, 22:59:07 +0200) -->
+- Project: louisiana-bayou; kind: iteration. (18 October 2026, 22:59:07 +0200)
+
+> Retour : les bandes du béton ne tombaient pas sur les interstices des planches ; refaire proprement, planches inchangées, seulement la salissure. Fait : warp vertical du béton par morceaux dans /obj/ZRH_WhitePaint_ConcreteMix (nodes natifs ramp, remap, channeljoin, UV Sample en espace texture). Mesure automatique : 8 interstices de la height blanche (centres 212, 437, 676, 916, 1157, 1406, 1649, 1891, largeur 45 px) et 3 bandes de coffrage du béton (475, 955, 1472) appariées aux interstices 2, 4, 6 ; après warp les bandes sont à 437, 917, 1407 (écart 1 px), épaisseur ramenée de 144, 98, 126 px à 77, 57, 81 px (band_width_scale 0,5). Height blanche inchangée (percentiles identiques). Réglages P : align_bands, band_to_gap, band_width_scale, top_edge_px, levels, strength. Piège : UV Sample en uvspace image inverse le warp, texture est la bonne valeur. Planche WhitePaint_ConcreteMix_Aligned_Sheet.png. Hip sauvegardé. (18 October 2026, 22:59:07 +0200)
+
+## 18 October 2026, 23:01:29 +0200 : Prompt
+
+<!-- feedback-event:ee1e5c29510133db8b2ecd47e5198ae475951f9f7c04f5e63e20e05ec1a841d3 (18 October 2026, 23:01:29 +0200) -->
+- Project: louisiana-bayou; kind: prompt. (18 October 2026, 23:01:29 +0200)
+
+> Prompt : appliquer directement depuis la height salie (mix peinture blanche x béton), recalculer les 5 maps depuis cette height (base color inspirée de la base color AI gen, mais la salissure n'y est pas donc la colorer moi-même), puis brancher les maps sur l'église et faire un avant-après. (18 October 2026, 23:01:29 +0200)
+
+## 18 October 2026, 23:04:50 +0200 : Iteration
+
+<!-- feedback-event:bf6e5929e324899b809b947ac12fb206c111502b30fbf4efda9c758ec01e8258 (18 October 2026, 23:04:50 +0200) -->
+- Project: louisiana-bayou; kind: iteration. (18 October 2026, 23:04:50 +0200)
+
+> Maps peinture blanche depuis la height salie : 20 nodes natifs P_* dans /obj/ZRH_WhitePaint_ConcreteMix (boîte MAPS peinture blanche). Base color : ramp RGB sur la height propre (stops mesurés sur BayouWhitePaint_basecolor_edgeblack, corrélation height IA / ZenRay 0,991) + teinte de salissure gris brun 0,30 0,265 0,225 pilotée par le masque des taches du béton (flou 1,5 px, force 0,65) + AO plancher 0,85 ; moyenne 0,684 0,658 0,629 contre 0,719 0,692 0,662 pour l'IA. Roughness : courbe mesurée sur la roughness IA, de 0,93 à 0,64. Normal : scale 0,008 (kernel 1) pour la height salie. AO : heightscale 10. Fichiers BayouWhitePaint_<Map>_ZenRayHeight_18-October-2026.png (format de date de la règle du jour) dans 02_sources/textures. Branchés sur M_WhitePaint de View_Lookdev, M_PeelingWhiteWood_01 de materials_for_unreal et M_WhitePaint de /stage/PC_matlib (nouveaux noeuds rgh, nrm, ao) ; Height posée en dispTex désactivé ; nodes plus rouges. Avant/après : captures_procedural_roof/whitepaint_BEFORE_AFTER_sheet.png. Piège : le noeud blur est en unités image par défaut, il faut units=1 (pixels) sinon le masque est moyenné. Verdict visuel à Matthieu : peeling un peu moins contrasté qu'avant, reflets plus argentés sur les arêtes. Hip sauvegardé. (18 October 2026, 23:04:50 +0200)
