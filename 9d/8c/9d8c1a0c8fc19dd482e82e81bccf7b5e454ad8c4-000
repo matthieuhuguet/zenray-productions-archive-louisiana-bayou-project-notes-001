@@ -3827,3 +3827,32 @@
 - Project: louisiana-bayou; kind: prompt. (19 October 2026, 11:07:02 +0200)
 
 > 19 October 2026 : prompt de Matthieu (grammaire seule) : « c'est toujours le même problème, soit la feuille d'abord, soit la géométrie d'abord ; à l'ère de Claude Code et de ChatGPT Image, quelle est la meilleure méthode pour générer des UV et des matériaux reliés à une géométrie ? ChatGPT donne l'impulsion d'une direction de height, ZenRay Height la corrige en vraie height ; explique une nouvelle méthode ou une itération parfaite à 99,9 %, d'abord en phase parametric knowledge. » Proposition consignée dans UV-Trimsheet1.md section 15, à valider. (19 October 2026, 11:07:02 +0200)
+
+## 19 October 2026, 11:36:01 +0200 : Prompt
+
+<!-- feedback-event:f1a6d79311179f9f299d8cf3e8c827f68e1cebe3dc00ff2759109f483e26d37a (19 October 2026, 11:36:01 +0200) -->
+- Project: louisiana-bayou; kind: prompt. (19 October 2026, 11:36:01 +0200)
+
+> 19 October 2026 : prompts de Matthieu (grammaire seule) : « oui construis, mais il faut la tester avant de la valider, relance Houdini et teste-la » ; puis, sur la capture des masques : « regarde l'arche, elle est mal découpée, sans doute un problème du script ; très bien cette vérification, on la gardera à l'avenir comme module de check pour le découpage ; refais cette étape et les suivantes en fonction ». (19 October 2026, 11:36:01 +0200)
+
+## 19 October 2026, 11:36:01 +0200 : Standing rule
+
+<!-- feedback-event:79d3044e2f1b80583ae7196df963efaeed91fceb43c830bbb8988ca86963e52e (19 October 2026, 11:36:01 +0200) -->
+- Project: louisiana-bayou; kind: rule. (19 October 2026, 11:36:01 +0200)
+
+> 19 October 2026 : après chaque découpage UV, lancer le module de contrôle du découpage : cut_check_geo vert (aucune arête à moins d'un degré du pli effectif, aucune famille d'arêtes de même angle coupée à moitié) et masque d'usure sur le modèle sans pointillés ; un seuil d'angle ne se pose jamais sur un angle présent dans le maillage. (19 October 2026, 11:36:01 +0200)
+
+## 19 October 2026, 11:36:01 +0200 : Iteration
+
+<!-- feedback-event:7148dbc37c00a51ce2ee2a99c0004b5a1f3a0d3e43bb37c512b30ceef4a8c0cf (19 October 2026, 11:36:01 +0200) -->
+- Project: louisiana-bayou; kind: iteration. (19 October 2026, 11:36:01 +0200)
+
+> 19 October 2026 : test de « matériaux d'abord, feuille compilée » sur l'arche (Houdini relancé) : familles de matériaux, bandes orientées, feuille compilée relue à 100 %, masques uv2 ; défauts corrigés : empilement qui couchait des copies, anneaux courbes, lecture du haut sur faces inclinées, pli de 45 degrés posé sur 382 chanfreins (arche découpée en pointillés, vue par Matthieu), usure sans seuil propre, cache de texture du viewport. Découpage refait : pli effectif 46,8, 127 îlots, score 1,000, contrôle de découpage vert dans les deux sens. Défaut amont : ligne de bord sur les sorties ZenRay Height. Snapshot v006. Planche EntranceArch_CompiledSheet_Test_v2_19-October-2026.png. (19 October 2026, 11:36:01 +0200)
+
+## 19 October 2026, 11:36:01 +0200 : Iteration
+
+<!-- feedback-event:c7b8e79f7ec6c963d8f96da71f5217bcddc6ee15caeb54670cf4437064671ae2 (19 October 2026, 11:36:01 +0200) -->
+- Project: louisiana-bayou; kind: iteration. (19 October 2026, 11:36:01 +0200)
+- Source: checkpoint:claude:a3f20b1d-27ed-48e1-a0d1-5fe182c0e423. (19 October 2026, 11:36:01 +0200)
+
+> Materials first compiled sheet built and tested on Entrance_Arch_Clean ; cutting redone after Matthieu saw a dashed arch (45 degree crease on 45 degree chamfers) : robust crease, same angle same cut, cut check module numeric and visual ; score 1.000, orientation 100 percent, reread 100 percent, snapshot v006. Next : one AI swatch per material family, fix ZenRay Height border line. (19 October 2026, 11:36:01 +0200)
