@@ -3762,3 +3762,46 @@
 - Project: louisiana-bayou; kind: rule. (19 October 2026, 01:16:57 +0200)
 
 > 19 October 2026 : les trois règles précédentes (rien ne flotte, valeurs liées, symétrie par clip mirror) datent de ce jour ; leurs lignes n'avaient pas reçu la date. (19 October 2026, 01:16:57 +0200)
+
+## 19 October 2026, 02:22:54 +0200 : Prompt
+
+<!-- feedback-event:06a0333ad822c2510fc5ff41799c9894f340fdcde4dd9e0c58f5e3023a90a6e7 (19 October 2026, 02:22:54 +0200) -->
+- Project: louisiana-bayou; kind: prompt. (19 October 2026, 02:22:54 +0200)
+
+> 19 October 2026 : prompt de Matthieu (grammaire seule) : « Le but est de créer ZenRay UV Trimsheet et de l'index mappé avec une consignation parfaite depuis /zenray-houdini ; itérer jusqu'à trouver avec Python, exactement de la même manière que Copernicus ; une loop pour obtenir dans 99,9 % des cas, via un compute comme ZenRay Height, le découpage UV parfait en fonction de la géométrie déjà faite ; toute la data dans un UV-Trimsheet1.md ; si texel density trop haut alors UDIM ou deuxième matériau ; générer la trim sheet de height via ChatGPT Image puis tout matériau via ZenRay Height ; énormément de recherche. » (19 October 2026, 02:22:54 +0200)
+
+## 19 October 2026, 02:22:54 +0200 : Iteration
+
+<!-- feedback-event:c2bb27a3ed9a19bb202dfe98fee0f3432ebd40a54d2c97398777a46d43b23dd5 (19 October 2026, 02:22:54 +0200) -->
+- Project: louisiana-bayou; kind: iteration. (19 October 2026, 02:22:54 +0200)
+
+> 19 October 2026 : ZenRay UV Trimsheet construit et appliqué à /obj/Entrance_Arch_Clean (CTRL_uv, scale_asset, trim_uv, OUT_uv, snapshot v003). Choix recommandé x 1.64, 1024 px/m, une feuille 4096 : score 1.000, règles dures vertes, vérificateur indépendant vert et rouge sur 4 copies cassées, 117 îles, 70 % des faces partagées, étirement max 5.66 %. Planches : EntranceArch_ScaleProposals_19-October-2026.png et EntranceArch_UVTrimsheet_Validation_19-October-2026.png. Méthode : /Users/zenray/.claude/skills/zenray-houdini/UV-Trimsheet1.md. Prochain : choix de l'échelle et de la densité par Matthieu, puis height. (19 October 2026, 02:22:54 +0200)
+
+## 19 October 2026, 02:22:54 +0200 : Standing rule
+
+<!-- feedback-event:052e4a3192943932d13a08193c1eb4c123e2f434ab0be7e15b4e7334448cf9e4 (19 October 2026, 02:22:54 +0200) -->
+- Project: louisiana-bayou; kind: rule. (19 October 2026, 02:22:54 +0200)
+
+> 19 October 2026 : une trim sheet se déplie depuis la géométrie validée, après le choix de l'échelle (mannequin 1,76 m) et de la densité ; faces répétées superposées par congruence prouvée, une bande par matériau, rien hors de la feuille, score ZenRay UV au moins 0,999 et vérificateur vert avant de montrer. Méthode : UV-Trimsheet1.md. (19 October 2026, 02:22:54 +0200)
+
+## 19 October 2026, 02:23:17 +0200 : Iteration
+
+<!-- feedback-event:b0bd9c85c097fe4e0d87bea262993a1b8ef5d4320cb5f8eb76a0b75e0ceb6888 (19 October 2026, 02:23:17 +0200) -->
+- Project: louisiana-bayou; kind: iteration. (19 October 2026, 02:23:17 +0200)
+- Source: checkpoint:claude:a3f20b1d-27ed-48e1-a0d1-5fe182c0e423. (19 October 2026, 02:23:17 +0200)
+
+> ZenRay UV Trimsheet built and applied to /obj/Entrance_Arch_Clean (CTRL_uv, trim_uv, OUT_uv, snapshot v003). Recommended x1.64, 1024 px/m, one 4096 sheet : score 1.000, verifier green and red on 4 broken copies. Method UV-Trimsheet1.md. Next : Matthieu chooses scale and density, generates the height, then ZenRay Height. (19 October 2026, 02:23:17 +0200)
+
+## 19 October 2026, 02:25:08 +0200 : Prompt
+
+<!-- feedback-event:0626168653191ca036dc2b0966313f1d407c3c9821ea199d306242f6b749e17d (19 October 2026, 02:25:08 +0200) -->
+- Project: louisiana-bayou; kind: prompt. (19 October 2026, 02:25:08 +0200)
+
+> 19 October 2026 : prompt de Matthieu (grammaire seule) : « Attention, continue, mais piège noté : les trois erreurs : (1) pas d'UDIM ni de deuxième matériau pour une longueur, une bande de trim sheet tile en U, l'îlot dépasse à droite de [0,1], la seule limite est la hauteur de bande en V ; (2) utiliser les SOPs natifs (uvlayout et son empilement, uvflatten avec alignement, Labs Trim Texture, UV Unitize), le Python en chef d'orchestre ; (3) trim sheet pour l'architecture, le modulaire, le mobilier et les gros props mécaniques, UV unique plus Copernicus pour l'organique. Append dans la documentation ou les rules. Le pipeline Geo, bandes UV, height, Copernicus fait sauter l'étape Substance. » (19 October 2026, 02:25:08 +0200)
+
+## 19 October 2026, 02:25:08 +0200 : Standing rule
+
+<!-- feedback-event:5944b3f3f7db3e141edef341844b763b1afc383dc5653ff5364e6baa10ab16dc (19 October 2026, 02:25:08 +0200) -->
+- Project: louisiana-bayou; kind: rule. (19 October 2026, 02:25:08 +0200)
+
+> 19 October 2026 : une trim sheet n'est pas un atlas : un matériau qui tile occupe une bande pleine largeur, ses îles s'y superposent en V et dépassent librement en U ; seul un contenu unique (texte) garde une zone sans répétition ; ni UDIM ni deuxième matériau pour une longueur ; les nœuds natifs se mesurent contre le Python avant de choisir ; trim sheet seulement pour les objets à motifs répétés. Texte intégral : UV-Trimsheet1.md section 13. (19 October 2026, 02:25:08 +0200)
