@@ -4168,3 +4168,17 @@
 - Source: checkpoint:claude:a3f20b1d-27ed-48e1-a0d1-5fe182c0e423. (19 October 2026, 20:47:44 +0200)
 
 > ZenRay UV deuxième correction : horizontal partout, M1 groupé (8192 x 8192), M2 un carré par famille, M3 un seul carré avec panneau, layering Copernicus pour M4, exemples texturés avec matières Houdini, damier noir et blanc. Passage final code 0, cinq méthodes 1,000, auto-tests verts. Prochain : validation de Matthieu. (19 October 2026, 20:47:44 +0200)
+
+## 19 October 2026, 21:16:22 +0200 : Prompt
+
+<!-- feedback-event:ce02bbc24724a5a89ff9f70a4c09d88a870001ed0231515f29a8a16246859266 (19 October 2026, 21:16:22 +0200) -->
+- Project: louisiana-bayou; kind: prompt. (19 October 2026, 21:16:22 +0200)
+
+> 19 October 2026, Matthieu (grammaire seule, captures et références Naughty Dog, Matthew Trevelyan Johns, trim pipeline de TLOU Part I) : 8192 ne peut jamais exister, textures beaucoup trop lourdes, à bannir de la méthodologie globale ; 4096 grand maximum, 2048 par défaut, toujours 1024 px/m. Il faudrait straight les UV, rendre droites les arches pour que le pattern soit plus intéressant ; les coupures de l'arche coupent trop les bandes. Une même île ou une même découpe doit avoir la même orientation et la même longueur (le sign en forme de deux triangles) ; en trim sheet ce doit être stacké. Chaque UV doit paraître parfaite comme faite par un artiste. S'inspirer des trim sheets Naughty Dog, quelle que soit la méthode M1 à M5. M4 : le channel pack doit vraiment être rouge, vert, bleu dans la feuille. Itère longtemps sur chaque méthode avec tous les feedbacks précédents. (19 October 2026, 21:16:22 +0200)
+
+## 19 October 2026, 21:16:22 +0200 : Standing rule
+
+<!-- feedback-event:e662676cab8347dd72bb75c150d09db15ec5602ed7b7ad5956ae1e2367958682 (19 October 2026, 21:16:22 +0200) -->
+- Project: louisiana-bayou; kind: rule. (19 October 2026, 21:16:22 +0200)
+
+> 19 October 2026 : aucune texture de 8192 px dans ZenRay UV ni ailleurs : 2048 px par défaut, 4096 px au maximum, densité toujours 1024 px/m ; une surface qui ne tient pas se découpe en plusieurs feuilles ou passe en trim, jamais en 8192. (19 October 2026, 21:16:22 +0200)
