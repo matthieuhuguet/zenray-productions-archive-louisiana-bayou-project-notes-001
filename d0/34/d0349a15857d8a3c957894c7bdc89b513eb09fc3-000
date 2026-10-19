@@ -1,79 +1,62 @@
-# Resume louisiana-bayou (13 October 2026 at 16:16)
+# Resume louisiana-bayou (19 October 2026 at 12:08)
 
-- Generated from FEEDBACK.md, Rules.md and ConversationIndex.json; derived, never edited by hand, never a substitute for the originals. (13 October 2026 at 16:16)
-- Pinned rules, read first: [Rules.md](/Users/zenray/.claude/Memory1/Projects/louisiana-bayou/Rules.md) (8 rules). (13 October 2026 at 16:16)
-- Canonical feedback: [FEEDBACK.md](/Users/zenray/.claude/Memory1/Projects/louisiana-bayou/FEEDBACK.md), 296 entries, last Iteration at 12 October 2026, 11:47:57 +0200. (13 October 2026 at 16:16)
+- Generated from FEEDBACK.md, Rules.md and ConversationIndex.json; derived, never edited by hand, never a substitute for the originals. (19 October 2026 at 12:08)
+- Pinned rules, read first: [Rules.md](/Users/zenray/.claude/Memory1/Projects/louisiana-bayou/Rules.md) (19 rules). (19 October 2026 at 12:08)
+- Canonical feedback: [FEEDBACK.md](/Users/zenray/.claude/Memory1/Projects/louisiana-bayou/FEEDBACK.md), 346 entries, last Iteration at 19 October 2026, 11:50:57 +0200. (19 October 2026 at 12:08)
 
-## Latest conversations (13 October 2026 at 16:16)
+## Latest conversations (19 October 2026 at 12:08)
 
-- LATEST codex:01a11aa4-67bb-7ae1-b1d8-99af0c3495c3, « Conversation codex 01a11aa4 », last activity 12 October 2026 at 11:47 Paris (from feedback). Original: `node scripts/Assets/ConversationDigest.mjs codex:01a11aa4-67bb-7ae1-b1d8-99af0c3495c3 --out <file.md>`. (13 October 2026 at 16:16)
-- claude:8152bc29-16c2-4858-828d-937ab6240571, « LOUISIANA BAYOU », last activity 11 October 2026 at 17:13 Paris (from transcript). Original: `node scripts/Assets/ConversationDigest.mjs claude:8152bc29-16c2-4858-828d-937ab6240571 --out <file.md>`. (13 October 2026 at 16:16)
-- codex:01a12115-ab1b-7262-9039-00c41e82a05c, « Conversation codex 01a12115 », last activity 9 October 2026 at 16:39 Paris (from feedback). Original: `node scripts/Assets/ConversationDigest.mjs codex:01a12115-ab1b-7262-9039-00c41e82a05c --out <file.md>`. (13 October 2026 at 16:16)
+- LATEST claude:a3f20b1d-27ed-48e1-a0d1-5fe182c0e423, last activity 19 October 2026 at 11:50 Paris (from feedback). Original: `node scripts/Assets/ConversationDigest.mjs claude:a3f20b1d-27ed-48e1-a0d1-5fe182c0e423 --out <file.md>`. (19 October 2026 at 12:08)
+- codex:01a11aa4-67bb-7ae1-b1d8-99af0c3495c3, « Conversation codex 01a11aa4 », last activity 12 October 2026 at 11:47 Paris (from feedback). Original: `node scripts/Assets/ConversationDigest.mjs codex:01a11aa4-67bb-7ae1-b1d8-99af0c3495c3 --out <file.md>`. (19 October 2026 at 12:08)
+- claude:8152bc29-16c2-4858-828d-937ab6240571, « LOUISIANA BAYOU », last activity 11 October 2026 at 17:13 Paris (from transcript). Original: `node scripts/Assets/ConversationDigest.mjs claude:8152bc29-16c2-4858-828d-937ab6240571 --out <file.md>`. (19 October 2026 at 12:08)
 
-## Last 6 prompts of Matthieu, oldest first (13 October 2026 at 16:16)
+## Last 6 prompts of Matthieu, oldest first (19 October 2026 at 12:08)
 
-### 12 October 2026, 02:00:14 +0200 · Prompt · codex:01a11aa4
+### 19 October 2026, 01:16:45 +0200 · Prompt · manual
 
-> redonne moi les 7 maps
+> Ensuite, il faut que l'asset soit parfaitement symétrique. Pour ça, garde la face avec des détails et fais un clip mirror propre. Go. (deux captures de la vue Houdini, arrière et avant)
 
-### 12 October 2026, 11:24:46 +0200 · Prompt · codex:01a11aa4
+### 19 October 2026, 02:22:54 +0200 · Prompt · manual
 
-> redonne moi le prompt explore
+> 19 October 2026 : prompt de Matthieu (grammaire seule) : « Le but est de créer ZenRay UV Trimsheet et de l'index mappé avec une consignation parfaite depuis /zenray-houdini ; itérer jusqu'à trouver avec Python, exactement de la même manière que Copernicus ; une loop pour obtenir dans 99,9 % des cas, via un compute comme ZenRay Height, le découpage UV parfait en fonction de la géométrie déjà faite ; toute la data dans un UV-Trimsheet1.md ; si texel density trop haut alors UDIM ou deuxième matériau ; générer la trim sheet de height via ChatGPT Image puis tout matériau via ZenRay Height ; énormément de recherche. »
 
-### 12 October 2026, 11:32:37 +0200 · Prompt · codex:01a11aa4
+### 19 October 2026, 02:25:08 +0200 · Prompt · manual
 
-> Avant que je note architecture du passé, médiévale ou historique, architecture contemporaine, etc., il y avait un truc qui disait, je crois, innovation progressive évolutive, un truc dans le style. J'ai besoin des quatre mots-clés.
+> 19 October 2026 : prompt de Matthieu (grammaire seule) : « Attention, continue, mais piège noté : les trois erreurs : (1) pas d'UDIM ni de deuxième matériau pour une longueur, une bande de trim sheet tile en U, l'îlot dépasse à droite de [0,1], la seule limite est la hauteur de bande en V ; (2) utiliser les SOPs natifs (uvlayout et son empilement, uvflatten avec alignement, Labs Trim Texture, UV Unitize), le Python en chef d'orchestre ; (3) trim sheet pour l'architecture, le modulaire, le mobilier et les gros props mécaniques, UV unique plus Copernicus pour l'organique. Append dans la documentation ou les rules. Le pipeline Geo, bandes UV, height, Copernicus fait sauter l'étape Substance. »
 
-### 12 October 2026, 11:44:22 +0200 · Prompt · codex:01a11aa4
+### 19 October 2026, 11:07:02 +0200 · Prompt · manual
 
-> Dans claude [$claude-md-global](/Users/zenray/.codex/skills/claude-md-global/SKILL.md) au début ou à indexer dans la partie design j'aimerai que tu notes ça : soit beaucoup plus addictif utilisable fluide dans une deuxième partie on focusera énormément sur les performances du drive pour que tout se charge rapidement via des processus parallèles qui feront aparaitre ce dont j'ai besoin avec un objectif de 0.1 sec (le fait de faire apparaitre des loader circulaire type apple permettent à l'user de patienter par exemple tandis que ne rien afficher est une erreur de design crucial.
-> [$wait-validation](/Users/zenray/.codex/skills/wait-validation/SKILL.md) reformule proprement d'abord [$tasks-seque
-> [... 57 more characters in FEEDBACK.md]
+> 19 October 2026 : prompt de Matthieu (grammaire seule) : « c'est toujours le même problème, soit la feuille d'abord, soit la géométrie d'abord ; à l'ère de Claude Code et de ChatGPT Image, quelle est la meilleure méthode pour générer des UV et des matériaux reliés à une géométrie ? ChatGPT donne l'impulsion d'une direction de height, ZenRay Height la corrige en vraie height ; explique une nouvelle méthode ou une itération parfaite à 99,9 %, d'abord en phase parametric knowledge. » Proposition consignée dans UV-Trimsheet1.md section 15, à valider.
 
-### 12 October 2026, 11:46:08 +0200 · Prompt · codex:01a11aa4
+### 19 October 2026, 11:36:01 +0200 · Prompt · manual
 
-> Pour chaque app / software / task rendre l’interface beaucoup plus addictive, utilisable et fluide. Dans un deuxième temps, concentrer le travail sur les performances du programme / software / algorithme : charger en parallèle ce qui est nécessaire, avec un objectif d’apparition du contenu en **0,1 seconde**. Si le chargement prend davantage de temps, afficher immédiatement un indicateur circulaire de type Apple pour permettre à l’utilisateur de patienter ; ne rien afficher constitue une erreur cruciale de design.
+> 19 October 2026 : prompts de Matthieu (grammaire seule) : « oui construis, mais il faut la tester avant de la valider, relance Houdini et teste-la » ; puis, sur la capture des masques : « regarde l'arche, elle est mal découpée, sans doute un problème du script ; très bien cette vérification, on la gardera à l'avenir comme module de check pour le découpage ; refais cette étape et les suivantes en fonction ».
 
-### 12 October 2026, 11:46:37 +0200 · Prompt · codex:01a11aa4
+### 19 October 2026, 11:50:49 +0200 · Prompt · manual
 
-> c'est quoi ces fichiers scan deep : /Users/zenray/.claude/2562b086-836d-49c5-80c7-0c935a98513c /Users/zenray/.claude/00ffe75e-952c-45fc-88a9-6f1bb05adeb3 /Users/zenray/.claude/2b07b759-dad5-4053-af6d-10e036fe53df /Users/zenray/.claude/3a9c2407-7dcc-4acd-baf2-90a94300e953 /Users/zenray/.claude/3e51dc3d-4e58-441b-abf8-9f6013ebbf24 /Users/zenray/.claude/5be85b54-ff94-4c79-8cab-7131103e6d68 /Users/zenray/.claude/5fd92a10-03f3-4126-89e0-4dfe033274bd /Users/zenray/.claude/7e78b89b-c9f6-435b-aeea-a9878d6c808b /Users/zenray/.claude/20b28879-0c00-47e2-8e56-f2cd9a671404 /Users/zenray/.claude/60d4fc84-ff82-40eb-a470-9dd232cfd5ff /Users/zenray/.claude/068e9161-445a-4e75-a52f-e12511b3ad70
+> 19 October 2026, prompt de Matthieu : « je ne comprends pas trop ce qu'on fait actuellement ; on fait juste un dépliage UV classique ? en quoi la height va être différente ou adaptée ? pourquoi n'avoir gardé que 3 couleurs alors qu'on en avait 5, est-il vraiment utile de passer de 5 à 3 ? comment avoir un Trim UV Texel ou un Texel UV Check, assemblé dans la sheet de travail ? je ne sais pas combien d'espace occupent mes bandes découpées. »
 
 
-## Last 3 iterations or checkpoints (13 October 2026 at 16:16)
+## Last 3 iterations or checkpoints (19 October 2026 at 12:08)
 
-### 12 October 2026, 11:44:37 +0200 · Iteration · codex:01a11aa4
+### 19 October 2026, 11:36:01 +0200 · Iteration · checkpoint claude:a3f20b1d
 
-> « Rendre l’interface beaucoup plus addictive, utilisable et fluide. Dans un deuxième temps, concentrer le travail sur les performances du drive : charger en parallèle ce qui est nécessaire, avec un objectif d’apparition du contenu en **0,1 seconde**. Si le chargement prend davantage de temps, afficher immédiatement un indicateur circulaire de type Apple pour permettre à l’utilisateur de patienter ; ne rien afficher constitue une erreur cruciale de design. »
-> 
-> Après ta validation, je l’inscris dans la doctrine design et l’indexe depuis `CLAUDE.md`. Le skill [wait-validation](/Users/zenray/.codex/skills/wait-validation/SKILL.md) impose d’« attendre une validation explicite » avant toute modific
-> [... 6 more characters in FEEDBACK.md]
+> Materials first compiled sheet built and tested on Entrance_Arch_Clean ; cutting redone after Matthieu saw a dashed arch (45 degree crease on 45 degree chamfers) : robust crease, same angle same cut, cut check module numeric and visual ; score 1.000, orientation 100 percent, reread 100 percent, snapshot v006. Next : one AI swatch per material family, fix ZenRay Height border line.
 
-### 12 October 2026, 11:46:23 +0200 · Iteration · codex:01a11aa4
+### 19 October 2026, 11:50:49 +0200 · Iteration · manual
 
-> « Pour chaque application, logiciel ou tâche, rendre l’interface beaucoup plus addictive, utilisable et fluide. Dans un deuxième temps, concentrer le travail sur les performances du programme, du logiciel ou de l’algorithme : charger en parallèle ce qui est nécessaire, avec un objectif d’apparition du contenu en **0,1 seconde**. Si le chargement prend davantage de temps, afficher immédiatement un indicateur circulaire de type Apple pour permettre à l’utilisateur de patienter ; ne rien afficher constitue une erreur cruciale de design. »
-> 
-> Texte prêt à enregistrer dans la doctrine design après ton « go ».
+> 19 October 2026, itération : TrimTexelCheck.py (espace de texture par bande : px, m, part de la feuille, reuse, libre) et TrimWorkSheet.py (réglages, texel check, quatre vues, portes) ; bouton Work sheet (texel check) sur CTRL_uv ; planche Arch_s164_work_work_sheet.png, portes vertes. Mesure : 7 groupes = 13 bandes, 8,2 % libres, rivet et wire servent moins d'une fois leur texture ; 3 familles = 5 bandes, 34,2 % libres ; panneau 35,9 % de la feuille. Le regroupement en 3 familles reste à valider par Matthieu. UV-Trimsheet1.md section 18.
 
-### 12 October 2026, 11:47:57 +0200 · Iteration · codex:01a11aa4
+### 19 October 2026, 11:50:57 +0200 · Iteration · checkpoint claude:a3f20b1d
 
-> Ce sont **11 dossiers de suivi de conversations Claude**, nommés avec leur identifiant de session. Chacun contient un fichier Markdown de tâches, créé selon le skill [prompt-stacking](/Users/zenray/.codex/skills/prompt-stacking/SKILL.md).
-> 
-> Le scan récursif trouve **11 fichiers, 25 963 octets au total**, environ **26 Ko**. Aucun média, code ou cache volumineux.
-> 
-> | Début de l’identifiant | Contenu du suivi |
-> |---|---|
-> | `2562b086` | Houdini, Louisiana Bayou, textures Height, lys et rendus Unreal |
-> | `00ffe75e` | Construction de PostKit, toutes les tâches marquées terminées |
-> | `2b07b759` | Interface Assets, performances, vignettes et maquettes |
-> | `3a9c2407` | Copernicus, méthode Height et sep
-> [... 914 more characters in FEEDBACK.md]
+> 19 October 2026 : TrimTexelCheck.py et TrimWorkSheet.py construits et testes sur Entrance_Arch_Clean (bouton Work sheet sur CTRL_uv, portes vertes, x 1,64). 7 groupes = 13 bandes 8,2 % libres ; 3 familles = 5 bandes 34,2 % libres ; panneau 35,9 % de la feuille. Documente UV-Trimsheet1.md section 18. Prochain : Matthieu choisit familles et echelle.
 
 
-## Last order of work (13 October 2026 at 16:16)
+## Last order of work (19 October 2026 at 12:08)
 
 ### 10 October 2026, 22:29:05 +0200 · Order of work · manual
 
 > 10 October 2026 : /goal 8 passes × 3 méthodologie pour affiner et trancher les prochaines étapes, nombres N (essayer le nombre maximal à chaque fois), sortie HTML avec les 3 méthodes et les 8 passes, go. Puis /wait-validation /tasks-sequence. Validation reçue : go, sauf la tâche 8 (consigner les résultats et trancher la suite), qui attend ta validation. (10 October 2026, 22:28)
 
 
-Next step: reread the latest prompt above, check it against Rules.md, then continue; append through feedback.py and close the turn with Client.mjs checkpoint. (13 October 2026 at 16:16)
+Next step: reread the latest prompt above, check it against Rules.md, then continue; append through feedback.py and close the turn with Client.mjs checkpoint. (19 October 2026 at 12:08)

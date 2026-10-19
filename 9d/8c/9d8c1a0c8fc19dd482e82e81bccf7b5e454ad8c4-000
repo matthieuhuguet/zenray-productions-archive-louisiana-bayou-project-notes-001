@@ -3878,3 +3878,177 @@
 - Source: checkpoint:claude:a3f20b1d-27ed-48e1-a0d1-5fe182c0e423. (19 October 2026, 11:50:57 +0200)
 
 > 19 October 2026 : TrimTexelCheck.py et TrimWorkSheet.py construits et testes sur Entrance_Arch_Clean (bouton Work sheet sur CTRL_uv, portes vertes, x 1,64). 7 groupes = 13 bandes 8,2 % libres ; 3 familles = 5 bandes 34,2 % libres ; panneau 35,9 % de la feuille. Documente UV-Trimsheet1.md section 18. Prochain : Matthieu choisit familles et echelle. (19 October 2026, 11:50:57 +0200)
+
+## 19 October 2026, 12:08:26 +0200 : Prompt
+
+<!-- feedback-event:e402f0f469180defe51b74a7b4e569fda5d13945cd1e16385cf1404f74b3456d (19 October 2026, 12:08:26 +0200) -->
+- Project: louisiana-bayou; kind: prompt. (19 October 2026, 12:08:26 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/8ef64432-15df-4091-bb15-041c25f2482d.jsonl. (19 October 2026, 12:08:26 +0200)
+
+> <command-message>zenray-resume-coordinator</command-message> (19 October 2026, 12:08:26 +0200)
+> <command-name>/zenray-resume-coordinator</command-name> (19 October 2026, 12:08:26 +0200)
+> <command-args>louisiana bayou donne moi la vue actuelle 6 views /zenray-houdini de mon asset arch sans many dans une sheet go. via hom</command-args> (19 October 2026, 12:08:26 +0200)
+
+## 19 October 2026, 12:08:26 +0200 : Prompt
+
+<!-- feedback-event:5299343eb110e2356ad1a9ff933886675bafa02c6317c64ffa5d033f5ba2ae6b (19 October 2026, 12:08:26 +0200) -->
+- Project: louisiana-bayou; kind: prompt. (19 October 2026, 12:08:26 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/8ef64432-15df-4091-bb15-041c25f2482d.jsonl. (19 October 2026, 12:08:26 +0200)
+
+> Base directory for this skill: /Users/zenray/.claude/skills/zenray-resume-coordinator (19 October 2026, 12:08:26 +0200)
+>
+> # ZenRay Resume (13 October 2026) (19 October 2026, 12:08:26 +0200)
+>
+> ## Reprise immédiate depuis une conversation vierge (13 October 2026) (19 October 2026, 12:08:26 +0200)
+>
+> - 13 October 2026 : Utiliser ce skill dès que Matthieu ouvre une conversation neuve et demande de reprendre un projet existant (par exemple « reprends Louisiana Bayou », « où en est le projet X », ou `/zenray-resume <projet>`). (13 October 2026) (19 October 2026, 12:08:26 +0200)
+> - 13 October 2026 : Ce skill est la porte d'entrée légère pour reprendre le fil ; il évite de charger l'intégralité du skill lourd zenray-assets (650 lignes d'outillage, ctime, watchers et archives cloud) dans une session qui a juste besoin de savoir ce qui vient d'être fait. (13 October 2026) (19 October 2026, 12:08:26 +0200)
+> - 13 October 2026 : Pour l'outillage lourd (création de projet neuf, archivage cloud R2/GitHub, LOAD/UNLOAD d'ateliers 3D, surveillance de sources de production), utiliser directement le skill zenray-assets. (13 October 2026) (19 October 2026, 12:08:26 +0200)
+>
+> ## Procédure de reprise en une commande (13 October 2026) (19 October 2026, 12:08:26 +0200)
+>
+> - 13 October 2026 : Dans Claude Code, Codex ou Antigravity, exécuter en premier : `node /Users/zenray/Create/Build/Productions/GithubProductions/ZenRayProgress/scripts/Assets/BeginConversation.mjs --agent=<agent> --session-id=<vrai-id> --project-id=<id-projet>`, en adaptant l'agent réel (claude, codex, antigravity ou gemini). (13 October 2026) (19 October 2026, 12:08:26 +0200)
+> - 13 October 2026 : Cette commande lie la session dans SessionBindings.json, met à jour l'index des conversations, et affiche directement le bloc resume avec la dernière conversation liée, les derniers prompts réels de Matthieu et les règles épinglées. (13 October 2026) (19 October 2026, 12:08:26 +0200)
+> - 13 October 2026 : Si le pont Assets est déchargé ou indisponible, la commande ne bloque pas : elle extrait et affiche quand même le brief complet depuis les fichiers locaux. (13 October 2026) (19 October 2026, 12:08:26 +0200)
+>
+> ## Lecture directe sans terminal (LLM agnostique, ChatGPT, Claude Web) (13 October 2026) (19 October 2026, 12:08:26 +0200)
+>
+> - 13 October 2026 : Dans un modèle sans accès au terminal ou par copier-coller (ChatGPT, Claude.ai web, etc.), ouvrir directement le fichier dérivé `/Users/zenray/.claude/Memory1/Projects/<id-projet>/RESUME.md`. (13 October 2026) (19 October 2026, 12:08:26 +0200)
+> - 13 October 2026 : Ce fichier contient le condensé exact : la dernière conversation active, les 6 derniers prompts verbatim de Matthieu, les 3 dernières itérations et le dernier ordre de mission, chaque ligne avec sa date. (13 October 2026) (19 October 2026, 12:08:26 +0200)
+> - 13 October 2026 : Pour générer ou rafraîchir manuellement ce fichier sans lancer le démarrage complet de session : `node /Users/zenray/Create/Build/Productions/GithubProductions/ZenRayProgress/scripts/Assets/Resume.mjs <id-projet> --write`. (13 October 2026) (19 October 2026, 12:08:26 +0200)
+>
+> ## Règles de session après la reprise (13 October 2026) (19 October 2026, 12:08:26 +0200)
+>
+> - 13 October 2026 : Lire en priorité les règles épinglées dans `/Users/zenray/.claude/Memory1/Projects/<id-projet>/Rules.md`. (13 October 2026) (19 October 2026, 12:08:26 +0200)
+> - 13 October 2026 : Consigner les nouveaux prompts et faits durables avec `python3 ~/.claude/skills/zenray-feedback/scripts/feedback.py add <id-projet> "<texte>" --kind prompt|iteration|rule --event-id <id-stable>`. (13 October 2026) (19 October 2026, 12:08:26 +0200)
+> - 13 October 2026 : Clôturer chaque tour de travail par `node /Users/zenray/Create/Build/Productions/GithubProductions/ZenRayProgress/scripts/Assets/Client.mjs checkpoint <id-projet> '<json>'`. (13 October 2026) (19 October 2026, 12:08:26 +0200)
+>
+> ## 17 October 2026 : Renommage en zenray-resume-coordinator et déclaration du projet (17 October 2026) (19 October 2026, 12:08:26 +0200)
+>
+> - 17 October 2026 : Le skill `zenray-resume` (créé le 13 October 2026 ci-dessus) est renommé `zenray-resume-coordinator` afin de nommer ses deux fonctions : reprendre un projet via `RESUME.md` et coordonner le suivi de la session entre tous les agents (`SessionBindings.json`, `Rules.md`, `FEEDBACK.md` et `checkpoint`). (17 October 2026) (19 October 2026, 12:08:26 +0200)
+> - 17 October 2026 : Au démarrage d'une conversation vierge, c'est toujours Matthieu qui déclare le projet à relier (par exemple `/zenray-resume-coordinator <projet>`) ; l'agent ne devine jamais un projet depuis le titre de la fenêtre et passe l'identifiant déclaré à `BeginConversation.mjs`, qui verrouille l'union `sessionId` / `projectId` dans `SessionBindings.json` pour toute la durée de vie de la discussion. (17 October 2026) (19 October 2026, 12:08:26 +0200)
+> - 17 October 2026 : Si Matthieu demande explicitement d'interroger ou de grepper un projet sans lier la conversation courante (« sans bind »), lire directement `RESUME.md`, `FEEDBACK.md`, `Project1.md` ou `Rules.md` sans exécuter `BeginConversation.mjs`. (17 October 2026) (19 October 2026, 12:08:26 +0200)
+>
+>
+> ARGUMENTS: louisiana bayou donne moi la vue actuelle 6 views /zenray-houdini de mon asset arch sans many dans une sheet go. via hom (19 October 2026, 12:08:26 +0200)
+
+## 19 October 2026, 12:08:26 +0200 : Prompt
+
+<!-- feedback-event:69205a188474b89ba9041d163c6bc0e9a2ff549a1fcefd1f45499b7cda068877 (19 October 2026, 12:08:26 +0200) -->
+- Project: louisiana-bayou; kind: prompt. (19 October 2026, 12:08:26 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/8ef64432-15df-4091-bb15-041c25f2482d.jsonl. (19 October 2026, 12:08:26 +0200)
+
+> [Image: source: /private/tmp/claude-501/-Users-zenray--claude-Memory1/8ef64432-15df-4091-bb15-041c25f2482d/images/1.webp] (19 October 2026, 12:08:26 +0200)
+
+## 19 October 2026, 12:09:02 +0200 : Prompt
+
+<!-- feedback-event:4eb689eba32b624c31007d6478c080c8c92d0934d2e913246393cb64aab446ab (19 October 2026, 12:09:02 +0200) -->
+- Project: louisiana-bayou; kind: prompt. (19 October 2026, 12:09:02 +0200)
+
+> 19 October 2026 : prompt de Matthieu (grammaire seule) : « louisiana bayou donne moi la vue actuelle 6 views /zenray-houdini de mon asset arch sans mannequin dans une sheet go, via hom. » (19 October 2026, 12:09:02 +0200)
+
+## 19 October 2026, 12:09:02 +0200 : Iteration
+
+<!-- feedback-event:aa4a58f8c4fc5ebe4edb8461be79f30eb969255ee4adbe34fee86b2e16edce2d (19 October 2026, 12:09:02 +0200) -->
+- Project: louisiana-bayou; kind: iteration. (19 October 2026, 12:09:02 +0200)
+
+> 19 October 2026 : planche 6 vues de Entrance_Arch_Clean sans ZR_Mannequin_Scale (front, back, left, right, top, persp), flipbook de la vue Houdini live via hom, mannequin masque puis restaure : /Users/zenray/.claude/tmp/tmp-houdini-september-2026/tmp-bayou-louisiana/03_work/arch-views/Arch_6views_19-October-2026_sheet.png (19 October 2026, 12:09:02 +0200)
+
+## 19 October 2026, 12:08:58 +0200 : Prompt
+
+<!-- feedback-event:25658be15bf78227002a845891ad1babc701463c92fb121a1b9e5c218deff75d (19 October 2026, 12:08:58 +0200) -->
+- Project: louisiana-bayou; kind: prompt. (19 October 2026, 12:08:58 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/8ef64432-15df-4091-bb15-041c25f2482d.jsonl. (19 October 2026, 12:08:58 +0200)
+
+> [Image: original 2100x1400, displayed at 2000x1333. Multiply coordinates by 1.05 to map to original image.] (19 October 2026, 12:08:58 +0200)
+
+## 19 October 2026, 12:09:09 +0200 : Iteration
+
+<!-- feedback-event:59d7a9463031b142488e6768098c723b80562db05f12ff6c27ec4a5507769532 (19 October 2026, 12:09:09 +0200) -->
+- Project: louisiana-bayou; kind: iteration. (19 October 2026, 12:09:09 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/8ef64432-15df-4091-bb15-041c25f2482d.jsonl. (19 October 2026, 12:09:09 +0200)
+
+> Voici la planche des 6 vues de l'arche `Entrance_Arch_Clean`, sans mannequin : (19 October 2026, 12:09:09 +0200)
+>
+> [/Users/zenray/.claude/tmp/tmp-houdini-september-2026/tmp-bayou-louisiana/03_work/arch-views/Arch_6views_19-October-2026_sheet.png](/Users/zenray/.claude/tmp/tmp-houdini-september-2026/tmp-bayou-louisiana/03_work/arch-views/Arch_6views_19-October-2026_sheet.png) (19 October 2026, 12:09:09 +0200)
+>
+> | Ce que tu voulais | Fait ? | Comment je le sais | (19 October 2026, 12:09:09 +0200)
+> |---|---|---| (19 October 2026, 12:09:09 +0200)
+> | La vue actuelle de l'arche, 6 vues dans une sheet, via hom | Oui | J'ai ouvert l'image : front, back, left, right, top et perspective sont bien présentes. | (19 October 2026, 12:09:09 +0200)
+> | Sans mannequin | Oui | `ZR_Mannequin_Scale` n'apparaît sur aucune vue. Je l'ai masqué le temps de la capture, puis je l'ai remis (le script rend `True`). | (19 October 2026, 12:09:09 +0200)
+> | Même rendu que ta vue Houdini | Oui | Je suis passé par les flipbooks de ta vue live, donc en ombré blanc avec la grille. | (19 October 2026, 12:09:09 +0200)
+>
+> Les vues back et left sortent plus grises que les autres, parce que la lumière de la vue Houdini vient de devant. La géométrie, elle, est identique. (19 October 2026, 12:09:09 +0200)
+>
+> La caméra temporaire `cam_debug_capture` est supprimée, et ta caméra de vue est restaurée. (19 October 2026, 12:09:09 +0200)
+
+## 19 October 2026, 12:09:29 +0200 : Prompt
+
+<!-- feedback-event:1bdc2ea5983d9045285a0beb6443145f26fd2e9bd7e73e60d02a2197fe8599db (19 October 2026, 12:09:29 +0200) -->
+- Project: louisiana-bayou; kind: prompt. (19 October 2026, 12:09:29 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/8ef64432-15df-4091-bb15-041c25f2482d.jsonl. (19 October 2026, 12:09:29 +0200)
+
+> Donne moi le prompt qui était dans le skill houdini via grep qui générait la trimsheet de l'asset (19 October 2026, 12:09:29 +0200)
+
+## 19 October 2026, 12:09:44 +0200 : Iteration
+
+<!-- feedback-event:7358541f614795d05b8c478fbd1ed238f1bc63a669aaa428b0f2c96a96851fd9 (19 October 2026, 12:09:44 +0200) -->
+- Project: louisiana-bayou; kind: iteration. (19 October 2026, 12:09:44 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/8ef64432-15df-4091-bb15-041c25f2482d.jsonl. (19 October 2026, 12:09:44 +0200)
+
+> Le prompt vient de `TrimUVMaps.py` (lignes 108 à 121), qui écrit un fichier `*_height_prompt.txt` par feuille. Tu le colles dans ChatGPT Image avec la `_colour.png` de la même feuille. Voici le gabarit puis la dernière version générée pour l'arche. (19 October 2026, 12:09:44 +0200)
+>
+> **Gabarit** : [/Users/zenray/.claude/skills/zenray-houdini/scripts/uv/TrimUVMaps.py](/Users/zenray/.claude/skills/zenray-houdini/scripts/uv/TrimUVMaps.py) (19 October 2026, 12:09:44 +0200)
+>
+> ``` (19 October 2026, 12:09:44 +0200)
+> Height map for this sheet, same framing pixel for pixel : {W} x {H} px, {density} px per metre ({density/100} px per cm). (19 October 2026, 12:09:44 +0200)
+> Grey scale only, white = high, black = low ; the background between bands stays flat mid grey ; no text, no line, no frame. (19 October 2026, 12:09:44 +0200)
+> Bands from top to bottom (each colour is one material) : (19 October 2026, 12:09:44 +0200)
+> - {matériau} (rgb {couleur}) : rows {y0} to {y1} px, {hauteur} m tall, {a horizontal strip that must TILE seamlessly left to right, detail running along the length | unique content kept exactly in its island shapes}, material : <write it here> (19 October 2026, 12:09:44 +0200)
+> ``` (19 October 2026, 12:09:44 +0200)
+>
+> **Version générée pour l'arche** (dernier test compilé, 4096 x 4096 px) : [/Users/zenray/.claude/tmp/tmp-houdini-september-2026/tmp-bayou-louisiana/03_work/uv/EntranceArch_Trimsheet_19-October-2026/maps_compiled_test/Arch_s164_work_sheet1_height_prompt.txt](/Users/zenray/.claude/tmp/tmp-houdini-september-2026/tmp-bayou-louisiana/03_work/uv/EntranceArch_Trimsheet_19-October-2026/maps_compiled_test/Arch_s164_work_sheet1_height_prompt.txt) (19 October 2026, 12:09:44 +0200)
+>
+> ``` (19 October 2026, 12:09:44 +0200)
+> Height map for this sheet, same framing pixel for pixel : 4096 x 4096 px, 1024 px per metre (10.24 px per cm). (19 October 2026, 12:09:44 +0200)
+> Grey scale only, white = high, black = low ; the background between bands stays flat mid grey ; no text, no line, no frame. (19 October 2026, 12:09:44 +0200)
+> Bands from top to bottom (each colour is one material) : (19 October 2026, 12:09:44 +0200)
+> - sign (rgb (89, 199, 102)) : rows 0 to 1472 px, 1.4375 m tall, unique content kept exactly in its island shapes, material : <write it here> (19 October 2026, 12:09:44 +0200)
+> - pillar@V (rgb (242, 204, 64)) : rows 1472 to 1828 px, 0.3477 m tall, a horizontal strip that must TILE seamlessly left to right, detail running along the length, material : <write it here> (19 October 2026, 12:09:44 +0200)
+> - pillar@U (rgb (242, 204, 64)) : rows 1828 to 2164 px, 0.3281 m tall, a horizontal strip that must TILE seamlessly left to right, detail running along the length, material : <write it here> (19 October 2026, 12:09:44 +0200)
+> - iron@V (rgb (76, 140, 242)) : rows 2164 to 2496 px, 0.3242 m tall, a horizontal strip that must TILE seamlessly left to right, detail running along the length, material : <write it here> (19 October 2026, 12:09:44 +0200)
+> - iron@U (rgb (76, 140, 242)) : rows 2496 to 2696 px, 0.1953 m tall, a horizontal strip that must TILE seamlessly left to right, detail running along the length, material : <write it here> (19 October 2026, 12:09:44 +0200)
+> ``` (19 October 2026, 12:09:44 +0200)
+>
+> Le script laisse `<write it here>` à remplir par toi (ex. « pierre blanche patinée », « fer forgé rouillé »), car il ne génère que les faits de géométrie. (19 October 2026, 12:09:44 +0200)
+>
+> Le dernier prompt de Matthieu notait aussi que le regroupement en 3 familles (5 bandes) n'est pas encore validé. Les variantes 7 groupes et 3 familles sont dans le dossier `texel_check/`, avec leur propre `*_height_prompt.txt`. (19 October 2026, 12:09:44 +0200)
+
+## 19 October 2026, 12:17:38 +0200 : Prompt
+
+<!-- feedback-event:9f78650b67dbd5faf6d7055df269919e224c99ea9c90849f75458f6f57ff5394 (19 October 2026, 12:17:38 +0200) -->
+- Project: louisiana-bayou; kind: prompt. (19 October 2026, 12:17:38 +0200)
+
+> 19 October 2026, prompt de Matthieu : « à l'image du Trim UV Check, je voulais un outil qui montre la texel density, inspiré de RizomUV : rouge = pas assez, bleu = trop, blanc = parfait, en fonction de l'input que je te demande pour le découpage, 1024, 2048 ; peu importe ce que je te demande, le but c'est qu'il n'y ait jamais d'erreur ; peut-être qu'il faudrait ajouter les UV en plus. Tu ne dois faire aucune erreur et l'ajouter sur la feuille et dans le workflow de la méthode UV. Code jusqu'à ce que l'outil soit parfait. » (19 October 2026, 12:17:38 +0200)
+
+## 19 October 2026, 12:17:38 +0200 : Standing rule
+
+<!-- feedback-event:e823b0be8b9f94e310e8bdd1891dddd2dbc45afeeb68e622818754c728dcc799 (19 October 2026, 12:17:38 +0200) -->
+- Project: louisiana-bayou; kind: rule. (19 October 2026, 12:17:38 +0200)
+
+> 19 October 2026 : après tout dépliage UV, le contrôle de densité de texels (dossier Texel check de CTRL_uv) doit être blanc à 100 % quelle que soit la densité demandée ; aucune face n'est laissée sans UV ni rétrécie en silence, une feuille grandit jusqu'à max_sheet_px. (19 October 2026, 12:17:38 +0200)
+
+## 19 October 2026, 12:17:38 +0200 : Iteration
+
+<!-- feedback-event:175d02713f420e4abd8e3da6777bb5d965794e41e5aae46279b6549a40036df2 (19 October 2026, 12:17:38 +0200) -->
+- Project: louisiana-bayou; kind: iteration. (19 October 2026, 12:17:38 +0200)
+
+> 19 October 2026, itération : contrôle de densité de texels à la RizomUV (TrimTexelCheck density_geo, nœuds texel_density, texel_metric_uv, uv_checker, dossier Texel check), planche de travail v2 (3 colonnes résultat densité damier, UV colorées par feuille, légende, portes), feuilles agrandies au lieu de faces perdues (max_sheet_px). Preuves : TrimTexelDensityTest 19/19 ; Houdini 512, 1024, 1500, 2048 px/m et uv2 blancs à 100 % ; cas cassé 36,19 % rouge et 32,56 % bleu ; check_geo vert ; snapshot v007. UV-Trimsheet1.md section 19. (19 October 2026, 12:17:38 +0200)
+
+## 19 October 2026, 12:17:38 +0200 : Iteration
+
+<!-- feedback-event:7c5cf68d8ad67d6a8b71f43f0e755414d81bf0627a1d0664a6d11aae18540f2f (19 October 2026, 12:17:38 +0200) -->
+- Project: louisiana-bayou; kind: iteration. (19 October 2026, 12:17:38 +0200)
+- Source: checkpoint:claude:a3f20b1d-27ed-48e1-a0d1-5fe182c0e423. (19 October 2026, 12:17:38 +0200)
+
+> 19 October 2026 : controle de densite de texels a la RizomUV (blanc, rouge, bleu) et damier dans Houdini, planche de travail v2, feuilles agrandies au lieu de faces perdues. Preuves : selftest 19/19, Houdini 512 a 2048 px/m blancs, cas casse rouge et bleu, snapshot v007. UV-Trimsheet1.md section 19. Prochain : Matthieu choisit familles et echelle. (19 October 2026, 12:17:38 +0200)

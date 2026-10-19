@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "projectId": "louisiana-bayou",
- "scannedAt": "2026-10-19T10:03:04.384Z",
+ "scannedAt": "2026-10-19T10:19:04.358Z",
  "conversations": [
   {
    "projectId": "louisiana-bayou",
@@ -53,18 +53,18 @@
   },
   {
    "projectId": "louisiana-bayou",
-   "lines": 836,
-   "work": 129,
+   "lines": 877,
+   "work": 137,
    "prompts": 6,
    "first": "2026-10-16T11:43:19.042Z",
-   "last": "2026-10-19T10:02:26.736Z",
+   "last": "2026-10-19T10:18:02.939Z",
    "strength": "strong",
    "conversationId": "claude:a3f20b1d-27ed-48e1-a0d1-5fe182c0e423",
    "provider": "claude",
    "sessionId": "a3f20b1d-27ed-48e1-a0d1-5fe182c0e423",
    "title": "2 louisiana bayou video",
-   "updatedAt": "2026-10-19T10:02:29.597Z",
-   "bytes": 108095934,
+   "updatedAt": "2026-10-19T10:18:26.504Z",
+   "bytes": 40898,
    "boundProject": null
   },
   {
@@ -194,6 +194,22 @@
    "updatedAt": "2026-10-09T19:58:17.855593+00:00",
    "bytes": 22183936,
    "boundProject": "poisson-gloss-matthieu-poterie-aix-8-octobre-2026"
+  },
+  {
+   "projectId": "louisiana-bayou",
+   "lines": 18,
+   "work": 3,
+   "prompts": 0,
+   "first": "2026-10-19T10:08:26.530Z",
+   "last": "2026-10-19T10:09:44.042Z",
+   "strength": "strong",
+   "conversationId": "claude:8ef64432-15df-4091-bb15-041c25f2482d",
+   "provider": "claude",
+   "sessionId": "8ef64432-15df-4091-bb15-041c25f2482d",
+   "title": "vue arch 6 views",
+   "updatedAt": "2026-10-19T10:09:47.194Z",
+   "bytes": 36574,
+   "boundProject": "louisiana-bayou"
   },
   {
    "projectId": "louisiana-bayou",
