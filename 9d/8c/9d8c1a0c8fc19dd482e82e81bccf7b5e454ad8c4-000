@@ -4117,3 +4117,18 @@
 - Project: louisiana-bayou; kind: prompt. (19 October 2026, 17:31:51 +0200)
 
 > 19 October 2026, demande de Matthieu (résumé fidèle, texte complet dans le transcript de la session a3f20b1d) : construire chaque méthode dans une boucle pour la méthode ZenRay UV, 5 méthodes pour l'asset Arch de la scène Houdini (M1 UV unique et bake, M2 texture tileable, M3 trim sheet et hotspot, M4 matériaux en couches et masque RGB, M5 mesh decals). Un software parfait appelable par Houdini MCP ou une commande Python, paramétrable comme un HDA (densité 1024 ou 2048 px/m, taille modifiable), résultats déterminés et reproductibles comme ZenRay Height (score 0,999). Tester, puis valider dans un skill indexé et mappé au skill zenray-houdini, chaque méthode indexée ; section Labs « expérimental, notre méthode actuelle » pour ce qu'on a essayé ; repartir de 0 ; boucle dont-stop ; passer à la méthode suivante seulement quand c'est fini et scoré à 0,999. Feuille de vérification HTML industrialisable (gabarit) avec les 5 découpes : rapport de scale avec le mannequin, color ID par famille de matériau à la Blender, rapport de texel density (rouge, bleu, blanc), UV checker, vue 3D perspective comparée au placement des UV, couleur par famille, contrôle des seams et de la texel density. Texel density toujours 1024 px/m, échelle 1,64. Renommer Trim UV Check en UV Seam Checker ; le contrôle de texel density ne doit plus replacer les UV n'importe comment, le placement suit la méthode. UV-Trimsheet1.md devient zenray-uv-1.md (la data). Le skill zenray-uv-trimsheet est retiré, le nouveau skill et software devient zenray-uv ; utiliser au maximum les nodes Houdini existants. Skills demandés : zenray-parametric-knowledge-websearch, tasks-sequence, think-of-everything, dont-stop. N'oublier rien. (19 October 2026, 17:31:51 +0200)
+
+## 19 October 2026, 18:34:44 +0200 : Iteration
+
+<!-- feedback-event:b41107970e4403c515d3aee68d4bd7f67fb822a54ebe7e6eaec5e1c20e45e3e3 (19 October 2026, 18:34:44 +0200) -->
+- Project: louisiana-bayou; kind: iteration. (19 October 2026, 18:34:44 +0200)
+
+> 19 October 2026 : ZenRay UV construit. Cinq méthodes en nœuds natifs dans /obj/ZRUV_Arch (CTRL_zruv, 8 réglages au plus par dossier), scorées sur les UV écrites et auto-testées dans les deux sens ; arche x 1,64 à 1024 px/m : M1 1,000 (8192 x 4096, cuisson Copernicus 74 s, couverture et couleur ID 1,000), M2 1,000, M3 1,000 (15 bandes, rectitude prouvée 0,9397 avant et 1,000 après ; hotspot Labs mesuré et écarté, 2,7 % à 1 % de densité), M4 1,000 (uv2 128 px/m, masque RVB), M5 1,000 (884 demi-bandes, decal unique du panneau, 8 arêtes écartées au pendentif qui se chevauche de 0,56 mm). Commande unique en 184 s, code de sortie 0. Feuille : /Users/zenray/.claude/tmp/tmp-houdini-september-2026/tmp-bayou-louisiana/03_work/uv/ZenRayUV_5Methods_19-October-2026/runs/ZRUV_Arch/index.html (preview zenray-uv-sheet). Renommages faits : zenray-uv-1.md (UV-Trimsheet1.md en lien), UV Seam Checker, skill zenray-uv, zenray-uv-trimsheet retiré, ancien travail en section Labs. En attente : validation de Matthieu. (19 October 2026, 18:34:44 +0200)
+
+## 19 October 2026, 18:34:44 +0200 : Iteration
+
+<!-- feedback-event:72615d227ff0bfdc2416503b5baa3f8ef902f71a7ca43d52fa6be46e97d25192 (19 October 2026, 18:34:44 +0200) -->
+- Project: louisiana-bayou; kind: iteration. (19 October 2026, 18:34:44 +0200)
+- Source: checkpoint:claude:a3f20b1d-27ed-48e1-a0d1-5fe182c0e423. (19 October 2026, 18:34:44 +0200)
+
+> ZenRay UV construit : cinq méthodes M1 à M5 sur /obj/ZRUV_Arch, toutes à 1,000, auto-tests verts, commande unique ZenRayUV.py (184 s, code 0), feuille de vérification HTML. Prochain : validation de Matthieu méthode par méthode. (19 October 2026, 18:34:44 +0200)
