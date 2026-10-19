@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "projectId": "louisiana-bayou",
- "scannedAt": "2026-10-19T19:42:24.292Z",
+ "scannedAt": "2026-10-19T19:54:24.460Z",
  "conversations": [
   {
    "projectId": "louisiana-bayou",
@@ -37,6 +37,22 @@
   },
   {
    "projectId": "louisiana-bayou",
+   "lines": 1128,
+   "work": 171,
+   "prompts": 9,
+   "first": "2026-10-16T11:43:19.042Z",
+   "last": "2026-10-19T19:54:05.740Z",
+   "strength": "strong",
+   "conversationId": "claude:a3f20b1d-27ed-48e1-a0d1-5fe182c0e423",
+   "provider": "claude",
+   "sessionId": "a3f20b1d-27ed-48e1-a0d1-5fe182c0e423",
+   "title": "2 louisiana bayou video",
+   "updatedAt": "2026-10-19T19:54:21.005Z",
+   "bytes": 157438347,
+   "boundProject": null
+  },
+  {
+   "projectId": "louisiana-bayou",
    "lines": 272,
    "work": 167,
    "prompts": 6,
@@ -49,22 +65,6 @@
    "title": "ZenRayShards",
    "updatedAt": "2026-08-22T19:19:07.184Z",
    "bytes": 38019472,
-   "boundProject": null
-  },
-  {
-   "projectId": "louisiana-bayou",
-   "lines": 1107,
-   "work": 159,
-   "prompts": 9,
-   "first": "2026-10-16T11:43:19.042Z",
-   "last": "2026-10-19T19:41:52.482Z",
-   "strength": "strong",
-   "conversationId": "claude:a3f20b1d-27ed-48e1-a0d1-5fe182c0e423",
-   "provider": "claude",
-   "sessionId": "a3f20b1d-27ed-48e1-a0d1-5fe182c0e423",
-   "title": "2 louisiana bayou video",
-   "updatedAt": "2026-10-19T19:41:52.499Z",
-   "bytes": 150650618,
    "boundProject": null
   },
   {
