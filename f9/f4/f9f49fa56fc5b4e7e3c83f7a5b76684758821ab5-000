@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "projectId": "louisiana-bayou",
- "scannedAt": "2026-10-19T22:23:25.758Z",
+ "scannedAt": "2026-10-19T22:47:25.807Z",
  "conversations": [
   {
    "projectId": "louisiana-bayou",
@@ -37,18 +37,18 @@
   },
   {
    "projectId": "louisiana-bayou",
-   "lines": 1217,
-   "work": 185,
+   "lines": 1249,
+   "work": 188,
    "prompts": 10,
    "first": "2026-10-16T11:43:19.042Z",
-   "last": "2026-10-19T22:22:43.428Z",
+   "last": "2026-10-19T22:47:05.735Z",
    "strength": "strong",
    "conversationId": "claude:a3f20b1d-27ed-48e1-a0d1-5fe182c0e423",
    "provider": "claude",
    "sessionId": "a3f20b1d-27ed-48e1-a0d1-5fe182c0e423",
    "title": "2 louisiana bayou video",
-   "updatedAt": "2026-10-19T22:22:46.697Z",
-   "bytes": 165697473,
+   "updatedAt": "2026-10-19T22:47:05.735Z",
+   "bytes": 167507371,
    "boundProject": null
   },
   {
@@ -1361,6 +1361,22 @@
    "title": "InstagramCommunication",
    "updatedAt": "2026-08-16T14:31:17.711Z",
    "bytes": 932,
+   "boundProject": null
+  },
+  {
+   "projectId": "louisiana-bayou",
+   "lines": 1,
+   "work": 0,
+   "prompts": 0,
+   "first": "2026-10-19T22:28:36.987Z",
+   "last": "2026-10-19T22:28:36.987Z",
+   "strength": "weak",
+   "conversationId": "claude:8e5e976b-267a-433f-8e7f-c138fcf9f1da",
+   "provider": "claude",
+   "sessionId": "8e5e976b-267a-433f-8e7f-c138fcf9f1da",
+   "title": "Capture Switch input via MacBook HDMI",
+   "updatedAt": "2026-10-19T22:41:15.710Z",
+   "bytes": 36657,
    "boundProject": null
   },
   {
