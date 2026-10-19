@@ -4052,3 +4052,25 @@
 - Source: checkpoint:claude:a3f20b1d-27ed-48e1-a0d1-5fe182c0e423. (19 October 2026, 12:17:38 +0200)
 
 > 19 October 2026 : controle de densite de texels a la RizomUV (blanc, rouge, bleu) et damier dans Houdini, planche de travail v2, feuilles agrandies au lieu de faces perdues. Preuves : selftest 19/19, Houdini 512 a 2048 px/m blancs, cas casse rouge et bleu, snapshot v007. UV-Trimsheet1.md section 19. Prochain : Matthieu choisit familles et echelle. (19 October 2026, 12:17:38 +0200)
+
+## 19 October 2026, 14:13:46 +0200 : Prompt
+
+<!-- feedback-event:5b71ea6eccf2eee68a335667f48149f1c7663897e91f4208ad1996bbdd2b517f (19 October 2026, 14:13:46 +0200) -->
+- Project: louisiana-bayou; kind: prompt. (19 October 2026, 14:13:46 +0200)
+
+> 19 October 2026, prompt de Matthieu (grammaire seule) : « Craft la leçon parfaite. Il faudrait repartir de zéro et me faire une leçon pour que je comprenne les texel density et les UV de A à Z : un document index comme tu m'avais fait pour le rooftile, pour comprendre exactement tout, avec des graphes interactifs où je peux bouger les sliders pour comprendre les choses. Et une fois que tu t'es assuré que j'avais tout compris, tu notes aussi dans claude.md global les leçons apprises dans memory, et on itère uniquement sur ça. Donc commence à me faire une leçon digestible, compréhensible et accessible, et ensuite je déterminerai comment approprier le bon asset, la bonne méthodologie d'UV et de texturing, par rapport à n'importe quel asset en 2026. Je suis assez déçu de tout ce qu'on a fait jusqu'à maintenant, car on ne comprend pas les choses, ce n'est pas assez intuitif. Input contextuel : peut-être m'expliquer les 5 méthodes le plus en détail, puis les build, puis savoir laquelle utiliser ; celle qui m'intéresse le plus à automatiser, ce serait celle qui utilise un masque RGB, mais prenons les choses dans l'ordre. » Deux recherches jointes (phase 1 et phase 2, sources web) sur les méthodes des studios. (19 October 2026, 14:13:46 +0200)
+
+## 19 October 2026, 14:13:47 +0200 : Iteration
+
+<!-- feedback-event:6303f0870d59062ef6d1ffdfc4b7125777dee035028d7db90b13005603d8d650 (19 October 2026, 14:13:47 +0200) -->
+- Project: louisiana-bayou; kind: iteration. (19 October 2026, 14:13:47 +0200)
+
+> 19 October 2026, itération : leçon interactive UV et texel density de A à Z, /Users/zenray/.claude/tmp/tmp-houdini-september-2026/tmp-bayou-louisiana/03_work/lesson-uv-texel-density/index.html (3 boucles de 15 min, 18 chapitres, 12 graphes à curseurs, simulateur de méthode, test de 5 questions, glossaire, sources). Vérifié : 14 widgets sans erreur, Medium 500, thème sombre, 375 px sans défilement horizontal, CheckNumbers.py vert (13 nombres) et rouge sur copie faussée. En attente : réponses de Matthieu au test ; l'inscription dans le CLAUDE.md global ne se fait qu'après. UV-Trimsheet1.md section 20. (19 October 2026, 14:13:47 +0200)
+
+## 19 October 2026, 14:13:47 +0200 : Iteration
+
+<!-- feedback-event:cb46f4195e0674d2878a74cab3ae786bb0683007f0d78da7bc3b1f349b30a042 (19 October 2026, 14:13:47 +0200) -->
+- Project: louisiana-bayou; kind: iteration. (19 October 2026, 14:13:47 +0200)
+- Source: checkpoint:claude:a3f20b1d-27ed-48e1-a0d1-5fe182c0e423. (19 October 2026, 14:13:47 +0200)
+
+> 19 October 2026 : lecon interactive UV et texel density (03_work/lesson-uv-texel-density/index.html, preview lesson-uv port 4194), 12 graphes, 5 methodes, simulateur, test de 5 questions ; verifiee (widgets, theme, mobile, chiffres). Prochain : reponses de Matthieu au test, puis CLAUDE.md global. (19 October 2026, 14:13:47 +0200)
