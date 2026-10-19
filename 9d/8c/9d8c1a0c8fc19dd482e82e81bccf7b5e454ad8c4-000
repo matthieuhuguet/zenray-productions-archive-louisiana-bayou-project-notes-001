@@ -4182,3 +4182,18 @@
 - Project: louisiana-bayou; kind: rule. (19 October 2026, 21:16:22 +0200)
 
 > 19 October 2026 : aucune texture de 8192 px dans ZenRay UV ni ailleurs : 2048 px par défaut, 4096 px au maximum, densité toujours 1024 px/m ; une surface qui ne tient pas se découpe en plusieurs feuilles ou passe en trim, jamais en 8192. (19 October 2026, 21:16:22 +0200)
+
+## 19 October 2026, 21:57:12 +0200 : Iteration
+
+<!-- feedback-event:86d12728e4da6adebb8ed3436af6e4447a284531a2b8843bf5be0cc85f72a47c (19 October 2026, 21:57:12 +0200) -->
+- Project: louisiana-bayou; kind: iteration. (19 October 2026, 21:57:12 +0200)
+
+> 19 October 2026 : troisième correction faite. Aucune texture au-dessus de 4096 (M1 4096 x 4096, 21,3 Mio au lieu de 85,3 ; M2 trois tuiles de 2048 ; M3 une trim sheet de 4096 partagée, deux matières ; M4 masque 1024 ; M5 atlas 4096). Bandes de l'arche droites et d'une seule pièce (redresseur exact des grilles de quads, l'option Rectify native écartée par mesure), jumelles empilées (499 îles sur 669 dans M1), aucune île debout, panneau à l'endroit, trim sheet façon Naughty Dog, masque RVB empaqueté par channeljoin. Cinq méthodes à 1,000, 62 s, code 0, 59 cas d'auto-test verts. Prochain : validation de Matthieu méthode par méthode. (19 October 2026, 21:57:12 +0200)
+
+## 19 October 2026, 21:57:21 +0200 : Iteration
+
+<!-- feedback-event:dcadaf38605da5e42ecb3b17b6665cab5073f15ee3629a7c8b7b8dd334a19656 (19 October 2026, 21:57:21 +0200) -->
+- Project: louisiana-bayou; kind: iteration. (19 October 2026, 21:57:21 +0200)
+- Source: checkpoint:claude:a3f20b1d-27ed-48e1-a0d1-5fe182c0e423. (19 October 2026, 21:57:21 +0200)
+
+> ZenRay UV troisième correction : aucune texture au-dessus de 4096, bandes droites, jumelles empilées, trim sheet façon Naughty Dog, masque RVB empaqueté. Cinq méthodes à 1,000, 62 s, 59 cas d auto-test verts. Prochain : validation de Matthieu. (19 October 2026, 21:57:21 +0200)
