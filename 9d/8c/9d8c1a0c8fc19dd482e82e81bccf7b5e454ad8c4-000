@@ -4088,3 +4088,25 @@
 - Project: louisiana-bayou; kind: iteration. (19 October 2026, 16:54:32 +0200)
 
 > 19 October 2026, itération : chapitre 3 refait ; graphe = une caisse 3D texturée (taille de l'image, taille de la caisse, rotation) et une vue de près de 10 cm aux vrais pixels ; texte en un paragraphe avec l'exemple 1 024 px sur 1 m puis 2 m (512 px/m, flou) puis 2 048 px (net). Vérifié dans le navigateur : 1 m et 1 024 net et blanc, 2 m et 1 024 pixélisé et rouge, 2 m et 2 048 net et blanc ; aucune erreur ; CheckNumbers vert. (19 October 2026, 16:54:32 +0200)
+
+## 19 October 2026, 17:17:57 +0200 : Prompt
+
+<!-- feedback-event:76f0da399fba45fd6042e2a57621f636d54672388522cd974d9fdbf448910eef (19 October 2026, 17:17:57 +0200) -->
+- Project: louisiana-bayou; kind: prompt. (19 October 2026, 17:17:57 +0200)
+
+> Consigne depuis le skill /zenray-houdini toute les sections de la leçon pour s'y référer à l'avenir. il faut que les 2 html soit rangé proprement dans le dossier skill directement. et que toutes les sections y soit indexé notamment les 5 méthodes. (19 October 2026, 17:17:57 +0200)
+
+## 19 October 2026, 17:17:57 +0200 : Iteration
+
+<!-- feedback-event:5913d610b4f19124d092cf57dff304dc1a164c08f2572e2646f528ff18981c57 (19 October 2026, 17:17:57 +0200) -->
+- Project: louisiana-bayou; kind: iteration. (19 October 2026, 17:17:57 +0200)
+
+> 19 October 2026 : leçons déplacées dans /Users/zenray/.claude/skills/zenray-houdini/lessons/ (uv-texel-density, roof-tiles ; anciens chemins = liens), index de toutes les sections et des 5 méthodes dans /Users/zenray/.claude/skills/zenray-houdini/Lessons1.md, routage dans SKILL.md ; vérifié : 18 ancres et 14 graphes sans erreur à http://localhost:4194/uv-texel-density/, roof-tiles et texel-density.html en 200, CheckNumbers vert. (19 October 2026, 17:17:57 +0200)
+
+## 19 October 2026, 17:18:28 +0200 : Iteration
+
+<!-- feedback-event:ec8a6336f143f6f27a5e9c0f4174c5d558aea652b95c011de83a748e45fa2b0e (19 October 2026, 17:18:28 +0200) -->
+- Project: louisiana-bayou; kind: iteration. (19 October 2026, 17:18:28 +0200)
+- Source: checkpoint:claude:a3f20b1d-27ed-48e1-a0d1-5fe182c0e423. (19 October 2026, 17:18:28 +0200)
+
+> Leçons UV texel density et toit rangées dans /Users/zenray/.claude/skills/zenray-houdini/lessons/, toutes les sections et les 5 méthodes indexées dans Lessons1.md (vérifié : 18 ancres, 14 graphes sans erreur, roof-tiles 200, commit 452539e1c). Prochain : réponses de Matthieu au quiz, puis leçons apprises dans CLAUDE.md global. (19 October 2026, 17:18:28 +0200)
