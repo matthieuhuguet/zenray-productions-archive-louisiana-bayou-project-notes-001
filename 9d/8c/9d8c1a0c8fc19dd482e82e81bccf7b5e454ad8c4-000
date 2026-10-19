@@ -4074,3 +4074,17 @@
 - Source: checkpoint:claude:a3f20b1d-27ed-48e1-a0d1-5fe182c0e423. (19 October 2026, 14:13:47 +0200)
 
 > 19 October 2026 : lecon interactive UV et texel density (03_work/lesson-uv-texel-density/index.html, preview lesson-uv port 4194), 12 graphes, 5 methodes, simulateur, test de 5 questions ; verifiee (widgets, theme, mobile, chiffres). Prochain : reponses de Matthieu au test, puis CLAUDE.md global. (19 October 2026, 14:13:47 +0200)
+
+## 19 October 2026, 16:54:32 +0200 : Prompt
+
+<!-- feedback-event:0276bc5023263acb54e4481467a6ccaca2ae30005bd0175b5ff074cf027bf79d (19 October 2026, 16:54:32 +0200) -->
+- Project: louisiana-bayou; kind: prompt. (19 October 2026, 16:54:32 +0200)
+
+> 19 October 2026, prompt de Matthieu (grammaire seule) : « Refais cette partie [chapitre 3, la texel density], c'est catastrophique, je ne comprends pas ; ça manque d'un exemple et d'un graphe dynamique avec un objet 3D dont j'ajusterais la texture pour voir le résultat. » (/zenray-simple) (19 October 2026, 16:54:32 +0200)
+
+## 19 October 2026, 16:54:32 +0200 : Iteration
+
+<!-- feedback-event:9e2dfe01574913bc731ae01f83f769ed8c5cbccaf3bafa5ec4756e2ff88fa6ec (19 October 2026, 16:54:32 +0200) -->
+- Project: louisiana-bayou; kind: iteration. (19 October 2026, 16:54:32 +0200)
+
+> 19 October 2026, itération : chapitre 3 refait ; graphe = une caisse 3D texturée (taille de l'image, taille de la caisse, rotation) et une vue de près de 10 cm aux vrais pixels ; texte en un paragraphe avec l'exemple 1 024 px sur 1 m puis 2 m (512 px/m, flou) puis 2 048 px (net). Vérifié dans le navigateur : 1 m et 1 024 net et blanc, 2 m et 1 024 pixélisé et rouge, 2 m et 2 048 net et blanc ; aucune erreur ; CheckNumbers vert. (19 October 2026, 16:54:32 +0200)
