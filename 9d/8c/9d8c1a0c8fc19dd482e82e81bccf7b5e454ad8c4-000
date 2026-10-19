@@ -4139,3 +4139,10 @@
 - Project: louisiana-bayou; kind: prompt. (19 October 2026, 18:44:26 +0200)
 
 > 19 October 2026 : Matthieu, sur la vue UV de M2 (îles empilées) : « mais c est quoi cette merde ... j ai l impression que tu as rien compris refais tout proprement ça n a aucun sens ... » (19 October 2026, 18:44:26 +0200)
+
+## 19 October 2026, 18:58:19 +0200 : Iteration
+
+<!-- feedback-event:4dd567d88df04997bdb794b4948e2885076260bde45f619b86cd3d4af8696149 (19 October 2026, 18:58:19 +0200) -->
+- Project: louisiana-bayou; kind: iteration. (19 October 2026, 18:58:19 +0200)
+
+> 19 October 2026 : rangement sur tuile refait par famille (For-Each natif, uvlayout à échelle fixe sans rotation, trois boîtes croissantes, familles côte à côte), décalage aléatoire retiré ; densité des grandes faces de M3 corrigée (UV de la trim sheet relues avec la tuile de 2048 : elles auraient montré 512 px/m) ; score de chevauchement par famille (auto-test 0,746 sur deux îles empilées). Commande complète code 0 en 207 s, cinq méthodes à 1,000, cinq auto-tests verts. Avant et après : /Users/zenray/.claude/tmp/tmp-houdini-september-2026/tmp-bayou-louisiana/03_work/uv/ZenRayUV_5Methods_19-October-2026/runs/ZRUV_Arch/M2/before_after_layout.png ; zenray-uv-1.md section 14. (19 October 2026, 18:58:19 +0200)
