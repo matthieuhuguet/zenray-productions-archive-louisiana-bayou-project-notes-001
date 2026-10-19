@@ -3856,3 +3856,25 @@
 - Source: checkpoint:claude:a3f20b1d-27ed-48e1-a0d1-5fe182c0e423. (19 October 2026, 11:36:01 +0200)
 
 > Materials first compiled sheet built and tested on Entrance_Arch_Clean ; cutting redone after Matthieu saw a dashed arch (45 degree crease on 45 degree chamfers) : robust crease, same angle same cut, cut check module numeric and visual ; score 1.000, orientation 100 percent, reread 100 percent, snapshot v006. Next : one AI swatch per material family, fix ZenRay Height border line. (19 October 2026, 11:36:01 +0200)
+
+## 19 October 2026, 11:50:49 +0200 : Prompt
+
+<!-- feedback-event:349f9dcab009621571a3aca8e103e5a2e3ed17f8cce169501e72c9ee122c829f (19 October 2026, 11:50:49 +0200) -->
+- Project: louisiana-bayou; kind: prompt. (19 October 2026, 11:50:49 +0200)
+
+> 19 October 2026, prompt de Matthieu : « je ne comprends pas trop ce qu'on fait actuellement ; on fait juste un dépliage UV classique ? en quoi la height va être différente ou adaptée ? pourquoi n'avoir gardé que 3 couleurs alors qu'on en avait 5, est-il vraiment utile de passer de 5 à 3 ? comment avoir un Trim UV Texel ou un Texel UV Check, assemblé dans la sheet de travail ? je ne sais pas combien d'espace occupent mes bandes découpées. » (19 October 2026, 11:50:49 +0200)
+
+## 19 October 2026, 11:50:49 +0200 : Iteration
+
+<!-- feedback-event:af89c47e1455e1172356ff74efec2f3940e84b72918460ad699ba4a0139c4a58 (19 October 2026, 11:50:49 +0200) -->
+- Project: louisiana-bayou; kind: iteration. (19 October 2026, 11:50:49 +0200)
+
+> 19 October 2026, itération : TrimTexelCheck.py (espace de texture par bande : px, m, part de la feuille, reuse, libre) et TrimWorkSheet.py (réglages, texel check, quatre vues, portes) ; bouton Work sheet (texel check) sur CTRL_uv ; planche Arch_s164_work_work_sheet.png, portes vertes. Mesure : 7 groupes = 13 bandes, 8,2 % libres, rivet et wire servent moins d'une fois leur texture ; 3 familles = 5 bandes, 34,2 % libres ; panneau 35,9 % de la feuille. Le regroupement en 3 familles reste à valider par Matthieu. UV-Trimsheet1.md section 18. (19 October 2026, 11:50:49 +0200)
+
+## 19 October 2026, 11:50:57 +0200 : Iteration
+
+<!-- feedback-event:9c1b90a265abf2a44b8a93de6ea7006d5295107ad9154e783417bb4a9a70b890 (19 October 2026, 11:50:57 +0200) -->
+- Project: louisiana-bayou; kind: iteration. (19 October 2026, 11:50:57 +0200)
+- Source: checkpoint:claude:a3f20b1d-27ed-48e1-a0d1-5fe182c0e423. (19 October 2026, 11:50:57 +0200)
+
+> 19 October 2026 : TrimTexelCheck.py et TrimWorkSheet.py construits et testes sur Entrance_Arch_Clean (bouton Work sheet sur CTRL_uv, portes vertes, x 1,64). 7 groupes = 13 bandes 8,2 % libres ; 3 familles = 5 bandes 34,2 % libres ; panneau 35,9 % de la feuille. Documente UV-Trimsheet1.md section 18. Prochain : Matthieu choisit familles et echelle. (19 October 2026, 11:50:57 +0200)
