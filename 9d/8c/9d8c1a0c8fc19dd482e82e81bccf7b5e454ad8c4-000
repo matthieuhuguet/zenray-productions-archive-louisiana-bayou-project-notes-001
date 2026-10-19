@@ -3805,3 +3805,18 @@
 - Project: louisiana-bayou; kind: rule. (19 October 2026, 02:25:08 +0200)
 
 > 19 October 2026 : une trim sheet n'est pas un atlas : un matériau qui tile occupe une bande pleine largeur, ses îles s'y superposent en V et dépassent librement en U ; seul un contenu unique (texte) garde une zone sans répétition ; ni UDIM ni deuxième matériau pour une longueur ; les nœuds natifs se mesurent contre le Python avant de choisir ; trim sheet seulement pour les objets à motifs répétés. Texte intégral : UV-Trimsheet1.md section 13. (19 October 2026, 02:25:08 +0200)
+
+## 19 October 2026, 02:40:13 +0200 : Iteration
+
+<!-- feedback-event:fde2f876b8cc40f94624de137a684913159c41b7323a06da8ee9958c31634d03 (19 October 2026, 02:40:13 +0200) -->
+- Project: louisiana-bayou; kind: iteration. (19 October 2026, 02:40:13 +0200)
+
+> 19 October 2026 : correction appliquée : ZenRay UV Trimsheet passe en mode trim par défaut (bandes pleine largeur qui se répètent en U, îlots superposés en haut à gauche, panneau seul en contenu unique), uvflatten natif en candidat mesuré (325 faces), pli 45 degrés retenu par la boucle. x 1.64, 1024 px/m : une feuille 4096 (16.8 Mpx) ou trims 2048 plus panneau 4096 x 2048 (12.6 Mpx). Score 1.000, vérificateur vert et rouge sur 6 copies cassées, snapshot v004. Planche : EntranceArch_UVTrimsheet_Trim_Validation_19-October-2026.png. (19 October 2026, 02:40:13 +0200)
+
+## 19 October 2026, 02:40:13 +0200 : Iteration
+
+<!-- feedback-event:48f4c3f82bf0969174df14a3925b94de520fa510c289f8defe6252ff03510189 (19 October 2026, 02:40:13 +0200) -->
+- Project: louisiana-bayou; kind: iteration. (19 October 2026, 02:40:13 +0200)
+- Source: checkpoint:claude:a3f20b1d-27ed-48e1-a0d1-5fe182c0e423. (19 October 2026, 02:40:13 +0200)
+
+> Trim mode applied to /obj/Entrance_Arch_Clean per Matthieu correction : tiling bands in U, overlapping islands, sign unique, native uvflatten candidate, crease 45 ; score 1.000, verifier green and red on 6 broken copies ; snapshot v004. Next : Matthieu picks scale and option A or B, then height. (19 October 2026, 02:40:13 +0200)
