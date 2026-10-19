@@ -3820,3 +3820,10 @@
 - Source: checkpoint:claude:a3f20b1d-27ed-48e1-a0d1-5fe182c0e423. (19 October 2026, 02:40:13 +0200)
 
 > Trim mode applied to /obj/Entrance_Arch_Clean per Matthieu correction : tiling bands in U, overlapping islands, sign unique, native uvflatten candidate, crease 45 ; score 1.000, verifier green and red on 6 broken copies ; snapshot v004. Next : Matthieu picks scale and option A or B, then height. (19 October 2026, 02:40:13 +0200)
+
+## 19 October 2026, 11:07:02 +0200 : Prompt
+
+<!-- feedback-event:42ee4312ab55b41b2f0f82752d02653f5f09df6a8f58a21baec7e868d66f00c6 (19 October 2026, 11:07:02 +0200) -->
+- Project: louisiana-bayou; kind: prompt. (19 October 2026, 11:07:02 +0200)
+
+> 19 October 2026 : prompt de Matthieu (grammaire seule) : « c'est toujours le même problème, soit la feuille d'abord, soit la géométrie d'abord ; à l'ère de Claude Code et de ChatGPT Image, quelle est la meilleure méthode pour générer des UV et des matériaux reliés à une géométrie ? ChatGPT donne l'impulsion d'une direction de height, ZenRay Height la corrige en vraie height ; explique une nouvelle méthode ou une itération parfaite à 99,9 %, d'abord en phase parametric knowledge. » Proposition consignée dans UV-Trimsheet1.md section 15, à valider. (19 October 2026, 11:07:02 +0200)
