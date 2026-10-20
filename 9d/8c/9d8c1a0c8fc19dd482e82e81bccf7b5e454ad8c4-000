@@ -4320,3 +4320,43 @@
 - Source: claude. (20 October 2026, 15:15:24 +0200)
 
 > Découpage d'artiste (M1) : un bord d'île en escalier sur la feuille UV (marches carrées, non lissées) au lieu d'un bord droit ou lisse signale une erreur de découpe : la couture zigzague d'une face à l'autre au lieu de suivre une boucle d'arêtes ; elle se reprend sur une boucle, et le score la mesure (la lèvre du cochon, 20 October 2026) (20 October 2026, 15:15:24 +0200)
+
+## 20 October 2026, 18:56:41 +0200 : Iteration
+
+<!-- feedback-event:d83fbac7d8f46cc9ba52f9c0654e0030ad40faa0cd410bcec294880b1e987c81 (20 October 2026, 18:56:41 +0200) -->
+- Project: louisiana-bayou; kind: iteration. (20 October 2026, 18:56:41 +0200)
+- Source: checkpoint:claude:a3f20b1d-27ed-48e1-a0d1-5fe182c0e423. (20 October 2026, 18:56:41 +0200)
+
+> 20 October 2026 : regle de Matthieu consignee (Rules.md) : un bord en escalier sur la feuille UV est une erreur de decoupe ; mesuree par UVSeamChecker.stair_runs (composante uv:smooth_border de M1, references a 0). Levre du cochon refaite par la regle cavity (ZruvArtist.cavity_cuts) : rebord identique a SideFX, 58 aretes sur 58, aucun virage, sans lire ses UV. Banc M1 final : cochon 0,999999 (16 iles comme SideFX, 0 escalier, 2048 px a 1568 px/m), arche 1,0, jouet 0,999993, boule 1,0, Manny 0,999471 ; SelfTest 64 sur 64, CavitySelfTest vert et rouge, ArtistSelfTest 3 sur 3. Page https://claude.ai/artifact/67UWF5RKjK4pyKaGUUDQ3g republiee ; zenray-uv-1.md section 22. Prochain geste : les crans de deux ou trois aretes du cochon (1,45 m contre 0,19 m chez SideFX, bande du cou), puis validation de Matthieu et Crag par Matthieu. (20 October 2026, 18:56:41 +0200)
+
+## 20 October 2026, 19:03:17 +0200 : Prompt
+
+<!-- feedback-event:66a6e43f171d23bf84214b2a312a6c4af9f2b2a6eaa900ba16e223fc4b055822 (20 October 2026, 19:03:17 +0200) -->
+- Project: louisiana-bayou; kind: prompt. (20 October 2026, 19:03:17 +0200)
+- Source: claude. (20 October 2026, 19:03:17 +0200)
+
+> « Reste : en fait, ce qu'il reste à faire, c'est au niveau de la gorge et de la joue du cochon. Regarde sur la planche UV, les UV que tu as faites au niveau de la tête : si tu regardes uniquement le vert, ce n'est pas symétrique, alors que ça aurait dû l'être, alors que sur celui de SideFX on voit bien que c'est symétrique et bien propre, parce qu'il a pris l'arête qui rentre dans la gorge du cochon et qui part sur la joue. Donc en fait, si tu regardes left de ZRUV, au niveau du haut c'est propre, mais tu aurais dû faire une découpe qui découpe proprement toute la gorge à ce niveau-là. Et entre left et right, tu vois bien que ce n'est pas symétrique. Et la gorge du cou, qui est du coup rose ou un peu orange, aurait dû être coupée beaucoup plus proprement et beaucoup plus droite, parce que si tu remarques, au niveau du buste du cochon, ce n'est pas propre et tu as encore refait une espèce de bordure d'escalier. Donc il reste ce léger détail, et évidemment tout consigner dans le skill / algo : regarde et compare. Mais évidemment, tu n'as pas le droit de juste comparer les deux et de calculer à partir de SideFX : ce doit être l'algorithme qui détermine automatiquement, proprement, les choses, en mode artiste. » (deux captures : la feuille UV ZRUV contre SideFX, les vues left et right) (20 October 2026) (20 October 2026, 19:03:17 +0200)
+
+## 20 October 2026, 19:03:17 +0200 : Standing rule
+
+<!-- feedback-event:8b3d75dc3b9c9d2e455598ce4a707bdf9db7bfe3f9bf063f89e3eabdffbd8ee0 (20 October 2026, 19:03:17 +0200) -->
+- Project: louisiana-bayou; kind: rule. (20 October 2026, 19:03:17 +0200)
+- Source: claude. (20 October 2026, 19:03:17 +0200)
+
+> Découpage d'artiste (M1) : un maillage symétrique reçoit une découpe symétrique (le vert du visage du cochon est le même à gauche et à droite) ; seul un patron d'artiste rejoué garde l'asymétrie choisie par son artiste (20 October 2026) (20 October 2026, 19:03:17 +0200)
+
+## 20 October 2026, 19:03:17 +0200 : Standing rule
+
+<!-- feedback-event:94ca2673f69c798d0b93fd2036ba2441b56f88e5071507963b8ec311d9d423dd (20 October 2026, 19:03:17 +0200) -->
+- Project: louisiana-bayou; kind: rule. (20 October 2026, 19:03:17 +0200)
+- Source: claude. (20 October 2026, 19:03:17 +0200)
+
+> Découpage d'artiste (M1) : une couture qui sépare deux panneaux (le visage et la mâchoire) suit une seule boucle d'arêtes d'un bout à l'autre, du coin de la bouche jusqu'à la joue, au lieu de sauter de boucle en boucle ; un cran de deux ou trois arêtes est aussi un escalier (20 October 2026) (20 October 2026, 19:03:17 +0200)
+
+## 20 October 2026, 19:03:17 +0200 : Standing rule
+
+<!-- feedback-event:2fcdc288fa76f658f2c1ec12c0bfcda55c19d774249b8bc1ff658c61b534609c (20 October 2026, 19:03:17 +0200) -->
+- Project: louisiana-bayou; kind: rule. (20 October 2026, 19:03:17 +0200)
+- Source: claude. (20 October 2026, 19:03:17 +0200)
+
+> La référence (SideFX, l'artiste) sert à mesurer et à comparer, jamais à calculer la découpe : l'algorithme décide seul, en mode artiste (20 October 2026) (20 October 2026, 19:03:17 +0200)
