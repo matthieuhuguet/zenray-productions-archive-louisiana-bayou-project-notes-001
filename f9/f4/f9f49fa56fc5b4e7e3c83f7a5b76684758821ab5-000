@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "projectId": "louisiana-bayou",
- "scannedAt": "2026-10-20T00:36:27.341Z",
+ "scannedAt": "2026-10-20T00:37:27.340Z",
  "conversations": [
   {
    "projectId": "louisiana-bayou",
@@ -47,8 +47,8 @@
    "provider": "claude",
    "sessionId": "a3f20b1d-27ed-48e1-a0d1-5fe182c0e423",
    "title": "2 louisiana bayou video",
-   "updatedAt": "2026-10-20T00:36:20.796Z",
-   "bytes": 170347824,
+   "updatedAt": "2026-10-20T00:36:55.882Z",
+   "bytes": 170372891,
    "boundProject": null
   },
   {
