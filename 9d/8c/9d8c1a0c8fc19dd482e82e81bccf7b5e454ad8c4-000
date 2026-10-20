@@ -4212,3 +4212,31 @@
 - Source: checkpoint:claude:a3f20b1d-27ed-48e1-a0d1-5fe182c0e423. (20 October 2026, 09:35:05 +0200)
 
 > ZenRay UV cinquième passe finie (20 October 2026) : toutes les méthodes M1 à M5 (M3 en trois variantes) des quatre assets à 0,999 ou plus, 29 auto-tests sur 29 dans les deux sens ; Manny coupé comme Epic (16 îles, 13,96 m, feuille 2048) ; page https://claude.ai/artifact/67UWF5RKjK4pyKaGUUDQ3g ; doc zenray-uv-1.md section 19. Prochain : validation de Matthieu. (20 October 2026, 09:35:05 +0200)
+
+## 20 October 2026, 12:13:00 +0200 : Prompt
+
+<!-- feedback-event:a5f0f9e3206839d05e81b32dc1ea9f1332376da04252d0507bbb20b73e16fde1 (20 October 2026, 12:13:00 +0200) -->
+- Project: louisiana-bayou; kind: prompt. (20 October 2026, 12:13:00 +0200)
+
+> Ses mots (grammaire seule) : « tu vas t'inspirer manuellement de tout ce que les assets UV d'origine proposent en termes d'UV : tu reprends l'asset UV de Manny et tu regardes comment l'artiste a déposé les UV, comment il les a orientées, où est-ce qu'il a fait les coupures ; tu fais un processus manuel identique à 1 pour 1, mais par toi-même, afin de noter les règles et les concepts de découpe, donc les seams, lesquelles sont reliées auxquelles, pourquoi, comment sont orientées ensuite les UV, et tu fais pareil pour la shader ball et le rubber toy, qui possédaient aussi des UV à l'origine ; tu vois où sont les jonctions parfaites, où sont les découpes cachées, souvent en dessous du modèle ou sur la face arrière ; le but, c'est que ce soit strictement identique aux UV et aux découpes des modèles de base, puis appliquer toutes les règles et les concepts à l'algorithme pour qu'il puisse le reproduire à chaque fois de manière strictement identique, avec des concepts clés et pas quelque chose d'approximatif ; regarde comment la vue UV de base est et reproduis par toi-même. » (20 October 2026) (20 October 2026, 12:13:00 +0200)
+
+## 20 October 2026, 12:13:00 +0200 : Prompt
+
+<!-- feedback-event:985c35ce5c50f7fb7c94d5e8a4bd4facc17c23a55e77457b301dda925c541f1a (20 October 2026, 12:13:00 +0200) -->
+- Project: louisiana-bayou; kind: prompt. (20 October 2026, 12:13:00 +0200)
+
+> Ses mots (grammaire seule) : « Non, Manny aussi, le résultat n'est pas le résultat d'un artiste senior ! En fait, toutes les UV à la fin doivent être strictement identiques et tu dois comprendre pourquoi et comment… par rapport à des règles d'apprentissage append dans le skill, mais aussi l'algorithme. » (20 October 2026) (20 October 2026, 12:13:00 +0200)
+
+## 20 October 2026, 12:13:00 +0200 : Standing rule
+
+<!-- feedback-event:1b0a3782e9fd76b60580250a76d59d9cfaa30fe81fd428c95ef379972593919c (20 October 2026, 12:13:00 +0200) -->
+- Project: louisiana-bayou; kind: rule. (20 October 2026, 12:13:00 +0200)
+
+> Une découpe se juge contre la référence d'un artiste par l'identité de ses coutures arête pour arête (F1) et de ses îles, jamais par le seul nombre d'îles ou la longueur ; un rejeu des clics de l'artiste (boucle et plus court chemin, ZruvArtist) est la preuve que la coupe est comprise, et chaque clic porte sa raison (20 October 2026) (20 October 2026, 12:13:00 +0200)
+
+## 20 October 2026, 12:13:00 +0200 : Standing rule
+
+<!-- feedback-event:db8a0af5063ebdca8a616bc43ab6c61b1f714140893e88c4835fca2370952ea3 (20 October 2026, 12:13:00 +0200) -->
+- Project: louisiana-bayou; kind: rule. (20 October 2026, 12:13:00 +0200)
+
+> Une référence peut se contredire : le rubber toy coupe 28,5 % de ses coutures d'un seul côté sur un maillage symétrique à 99,98 % ; un tel écart se signale comme choix d'artiste, il ne devient jamais une règle (20 October 2026) (20 October 2026, 12:13:00 +0200)
