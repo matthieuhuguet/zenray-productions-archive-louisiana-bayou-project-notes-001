@@ -4240,3 +4240,17 @@
 - Project: louisiana-bayou; kind: rule. (20 October 2026, 12:13:00 +0200)
 
 > Une référence peut se contredire : le rubber toy coupe 28,5 % de ses coutures d'un seul côté sur un maillage symétrique à 99,98 % ; un tel écart se signale comme choix d'artiste, il ne devient jamais une règle (20 October 2026) (20 October 2026, 12:13:00 +0200)
+
+## 20 October 2026, 12:50:44 +0200 : Prompt
+
+<!-- feedback-event:f58b48579ca25c4650d7cf0e056c17e1587945d4506a1760f02e54e5fc12a98a (20 October 2026, 12:50:44 +0200) -->
+- Project: louisiana-bayou; kind: prompt. (20 October 2026, 12:50:44 +0200)
+
+> Ses mots (grammaire seule) : « Donne-moi des images du rendu actuel / sheet au fur et à mesure de la boucle, comme ça je peux vérifier au fur et à mesure du développement ; normalement tu le fais, mais qu'à la fin : non, fais-le au fur et à mesure, et note, consigne cette instruction. » (20 October 2026) (20 October 2026, 12:50:44 +0200)
+
+## 20 October 2026, 12:50:44 +0200 : Standing rule
+
+<!-- feedback-event:0a6352e3463c2f622a1f0101858a4e11e0e88bb65fe952c08634775215c5bfde (20 October 2026, 12:50:44 +0200) -->
+- Project: louisiana-bayou; kind: rule. (20 October 2026, 12:50:44 +0200)
+
+> À chaque itération qui change ce qui se voit (banc, planche, mise en page, texture), envoyer à Matthieu les images de l'état courant (SendUserFile, une légende avec le chiffre mesuré), jamais seulement à la fin de la boucle (20 October 2026) (20 October 2026, 12:50:44 +0200)
