@@ -4262,3 +4262,45 @@
 - Source: checkpoint:claude:a3f20b1d-27ed-48e1-a0d1-5fe182c0e423. (20 October 2026, 12:57:48 +0200)
 
 > ZenRay UV, 20 October 2026 : artist references (Manny, rubber toy, shader ball) reproduced seam for seam by ZruvArtist (clicks, concepts, layout) : F1 1.000 and identical islands, shapes within 0.6 to 1.5 percent ; M1 of the bench cut by the artist pattern scores 1.000, 0.999999, 1.000 ; learned rules imposed on the tailor (Manny F1 0.115 to 0.387) ; pattern carried onto remeshes within 1.1 and 1.5 mm ; doctrine section 20, page version 3. Next : Matthieu validation, general rules for buried zones and quad loops, humanoid pattern transfer. (20 October 2026, 12:57:48 +0200)
+
+## 20 October 2026, 14:56:01 +0200 : Prompt
+
+<!-- feedback-event:7df2f4e13e1b1843fcc7336ee7a2d0d61bd77c27af05cfe040a162c39a165e7d (20 October 2026, 14:56:01 +0200) -->
+- Project: louisiana-bayou; kind: prompt. (20 October 2026, 14:56:01 +0200)
+
+> 20 October 2026, Matthieu : « attention, si on est minutieux dans les détails, le groin et les oreilles sont mal découpés ; après, excellente méthodologie, mais il faut corriger puis consigner ; mets ensuite les sheets islands colors ZRUV puis SideFX pour les avoir à proximité et comparer à l'avenir. » (20 October 2026, 14:56:01 +0200)
+
+## 20 October 2026, 14:56:01 +0200 : Prompt
+
+<!-- feedback-event:ed6b22e2457cff1c6f60ebc373129ce9eec882412d25738882f439bd17745774 (20 October 2026, 14:56:01 +0200) -->
+- Project: louisiana-bayou; kind: prompt. (20 October 2026, 14:56:01 +0200)
+
+> 20 October 2026, Matthieu : « consigne le feedback et refais la sheet d'UV ZRUV ; je ne comprends pas pourquoi tu mets la texture en 2048 x 1024, essaie plutôt de fitter dans des textures carrées 1:1 en règle générale ; ici peu importe la densité et l'échelle vu que c'est un chara, tu peux monter à 2048 px/m et fitter la tête, pas besoin de tout refaire, tes UV sont déjà découpées ; c'est juste la sheet d'UV. Défaut 2048 pour les personnages et créatures organiques, 1024 pour les assets, props et structures. » (20 October 2026, 14:56:01 +0200)
+
+## 20 October 2026, 14:56:01 +0200 : Standing rule
+
+<!-- feedback-event:87516de5b4155f157349aef9362b44ee5b733fc48889aab2497f086cb5aaa20b (20 October 2026, 14:56:01 +0200) -->
+- Project: louisiana-bayou; kind: rule. (20 October 2026, 14:56:01 +0200)
+
+> Découpage d'artiste (M1) : le bout d'une saillie (le groin du cochon) se coupe en capuchon dans le creux derrière son rebord ; une feuille mince tenue largement (une oreille) se coupe à sa racine et en deux îles, la face cachée serrée le long de sa tranche ; les petits trous (les yeux) restent dans l'île ; une île ne se recouvre jamais elle-même ; une petite île ou une lanière rejoint sa voisine quand la fusion passe (20 October 2026) (20 October 2026, 14:56:01 +0200)
+
+## 20 October 2026, 14:56:01 +0200 : Standing rule
+
+<!-- feedback-event:8e471064666b5c41607f92192d22351f1159fb8935580269b59897e81c23fc57 (20 October 2026, 14:56:01 +0200) -->
+- Project: louisiana-bayou; kind: rule. (20 October 2026, 14:56:01 +0200)
+
+> Les planches d'UV montrent toujours ZRUV puis la référence (SideFX, l'artiste) côte à côte, îles aux couleurs assorties, en 3D et en feuille (M1Boards --ref) (20 October 2026) (20 October 2026, 14:56:01 +0200)
+
+## 20 October 2026, 14:56:01 +0200 : Standing rule
+
+<!-- feedback-event:cb0ad2d9c03e9cc78d41ab1c9378494bdb707d503be406f7756a2a11ec8fb495 (20 October 2026, 14:56:01 +0200) -->
+- Project: louisiana-bayou; kind: rule. (20 October 2026, 14:56:01 +0200)
+
+> Les feuilles d'UV sont carrées 1:1 en règle générale (m1_allow_rect éteint) ; densité par défaut 2048 px/m pour les personnages et créatures organiques, 1024 px/m pour les assets, props et structures (asset_kind) ; remplace « densité toujours 1024 px/m » de la règle du 19 October 2026 (20 October 2026) (20 October 2026, 14:56:01 +0200)
+
+## 20 October 2026, 14:56:01 +0200 : Standing rule
+
+<!-- feedback-event:da369ae6dc95407e1d8f8b4ff645c928d64f8f21a27ec35d929c6fb1c3e2c1a3 (20 October 2026, 14:56:01 +0200) -->
+- Project: louisiana-bayou; kind: rule. (20 October 2026, 14:56:01 +0200)
+
+> Refaire la feuille d'UV (densité, taille, rangement) ne refait pas la découpe : cut_td garde la découpe jugée à l'ancienne densité (20 October 2026) (20 October 2026, 14:56:01 +0200)
