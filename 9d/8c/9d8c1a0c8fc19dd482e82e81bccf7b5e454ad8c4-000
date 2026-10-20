@@ -4197,3 +4197,18 @@
 - Source: checkpoint:claude:a3f20b1d-27ed-48e1-a0d1-5fe182c0e423. (19 October 2026, 21:57:21 +0200)
 
 > ZenRay UV troisième correction : aucune texture au-dessus de 4096, bandes droites, jumelles empilées, trim sheet façon Naughty Dog, masque RVB empaqueté. Cinq méthodes à 1,000, 62 s, 59 cas d auto-test verts. Prochain : validation de Matthieu. (19 October 2026, 21:57:21 +0200)
+
+## 20 October 2026, 09:35:05 +0200 : Iteration
+
+<!-- feedback-event:0dad763daadfa89c024a1c9a08696f17df1163d62218cf0cab2c7bbaf05db754 (20 October 2026, 09:35:05 +0200) -->
+- Project: louisiana-bayou; kind: iteration. (20 October 2026, 09:35:05 +0200)
+
+> 20 October 2026 : ZenRay UV, cinquième passe finie. Jumelles justes au bake, couture des chanfreins reproduite sur les copies, M3B et M3C corrigés, decals en arc et ligne de joint du jouet, tailleur parallèle, règle d'étalement et buste en panneaux. Toutes les méthodes des quatre assets à 0,999 ou plus, 29 auto-tests sur 29 dans les deux sens. Manny 16 îles et 13,96 m contre 45 et 15,25 m chez Epic, feuille 2048. Page : https://claude.ai/artifact/67UWF5RKjK4pyKaGUUDQ3g. Prochain : validation de Matthieu. (20 October 2026, 09:35:05 +0200)
+
+## 20 October 2026, 09:35:05 +0200 : Iteration
+
+<!-- feedback-event:93d16ad4a15217c55a33a29db77ea88993808e80d99149b4883bdf120057f9ec (20 October 2026, 09:35:05 +0200) -->
+- Project: louisiana-bayou; kind: iteration. (20 October 2026, 09:35:05 +0200)
+- Source: checkpoint:claude:a3f20b1d-27ed-48e1-a0d1-5fe182c0e423. (20 October 2026, 09:35:05 +0200)
+
+> ZenRay UV cinquième passe finie (20 October 2026) : toutes les méthodes M1 à M5 (M3 en trois variantes) des quatre assets à 0,999 ou plus, 29 auto-tests sur 29 dans les deux sens ; Manny coupé comme Epic (16 îles, 13,96 m, feuille 2048) ; page https://claude.ai/artifact/67UWF5RKjK4pyKaGUUDQ3g ; doc zenray-uv-1.md section 19. Prochain : validation de Matthieu. (20 October 2026, 09:35:05 +0200)
