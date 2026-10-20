@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "projectId": "louisiana-bayou",
- "scannedAt": "2026-10-20T07:03:31.267Z",
+ "scannedAt": "2026-10-20T07:15:31.228Z",
  "conversations": [
   {
    "projectId": "louisiana-bayou",
@@ -37,18 +37,18 @@
   },
   {
    "projectId": "louisiana-bayou",
-   "lines": 1711,
-   "work": 299,
+   "lines": 1718,
+   "work": 301,
    "prompts": 12,
    "first": "2026-10-16T11:43:19.042Z",
-   "last": "2026-10-20T06:54:01.519Z",
+   "last": "2026-10-20T07:14:32.203Z",
    "strength": "strong",
    "conversationId": "claude:a3f20b1d-27ed-48e1-a0d1-5fe182c0e423",
    "provider": "claude",
    "sessionId": "a3f20b1d-27ed-48e1-a0d1-5fe182c0e423",
    "title": "2 louisiana bayou video",
-   "updatedAt": "2026-10-20T07:02:48.614Z",
-   "bytes": 209222688,
+   "updatedAt": "2026-10-20T07:14:32.203Z",
+   "bytes": 209261222,
    "boundProject": null
   },
   {
