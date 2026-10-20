@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "projectId": "louisiana-bayou",
- "scannedAt": "2026-10-20T11:30:33.300Z",
+ "scannedAt": "2026-10-20T11:47:33.809Z",
  "conversations": [
   {
    "projectId": "louisiana-bayou",
@@ -37,18 +37,18 @@
   },
   {
    "projectId": "louisiana-bayou",
-   "lines": 1988,
-   "work": 343,
+   "lines": 2013,
+   "work": 351,
    "prompts": 14,
    "first": "2026-10-16T11:43:19.042Z",
-   "last": "2026-10-20T11:25:18.267Z",
+   "last": "2026-10-20T11:47:00.526Z",
    "strength": "strong",
    "conversationId": "claude:a3f20b1d-27ed-48e1-a0d1-5fe182c0e423",
    "provider": "claude",
    "sessionId": "a3f20b1d-27ed-48e1-a0d1-5fe182c0e423",
    "title": "UV Methodology",
-   "updatedAt": "2026-10-20T11:30:20.847Z",
-   "bytes": 233999339,
+   "updatedAt": "2026-10-20T11:47:02.776Z",
+   "bytes": 237234483,
    "boundProject": null
   },
   {
@@ -1217,6 +1217,22 @@
    "title": "InstagramCommunication",
    "updatedAt": "2026-08-16T14:31:17.711Z",
    "bytes": 932,
+   "boundProject": null
+  },
+  {
+   "projectId": "louisiana-bayou",
+   "lines": 1,
+   "work": 0,
+   "prompts": 0,
+   "first": "2026-10-20T11:46:59.545Z",
+   "last": "2026-10-20T11:46:59.545Z",
+   "strength": "weak",
+   "conversationId": "claude:e404b8fe-5771-41e1-b7bb-5f6111652bf6",
+   "provider": "claude",
+   "sessionId": "e404b8fe-5771-41e1-b7bb-5f6111652bf6",
+   "title": "Consigner le sharingan",
+   "updatedAt": "2026-10-20T11:47:11.662Z",
+   "bytes": 31678,
    "boundProject": null
   },
   {
