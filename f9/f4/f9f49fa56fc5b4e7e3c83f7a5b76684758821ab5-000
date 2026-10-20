@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "projectId": "louisiana-bayou",
- "scannedAt": "2026-10-20T17:59:20.404Z",
+ "scannedAt": "2026-10-20T18:15:19.743Z",
  "conversations": [
   {
    "projectId": "louisiana-bayou",
@@ -37,18 +37,18 @@
   },
   {
    "projectId": "louisiana-bayou",
-   "lines": 2399,
-   "work": 417,
+   "lines": 2424,
+   "work": 423,
    "prompts": 16,
    "first": "2026-10-16T11:43:19.042Z",
-   "last": "2026-10-20T17:59:01.611Z",
+   "last": "2026-10-20T18:09:14.128Z",
    "strength": "strong",
    "conversationId": "claude:a3f20b1d-27ed-48e1-a0d1-5fe182c0e423",
    "provider": "claude",
    "sessionId": "a3f20b1d-27ed-48e1-a0d1-5fe182c0e423",
    "title": "UV Methodology",
-   "updatedAt": "2026-10-20T17:59:01.611Z",
-   "bytes": 278241022,
+   "updatedAt": "2026-10-20T18:14:20.732Z",
+   "bytes": 42870,
    "boundProject": null
   },
   {
