@@ -4254,3 +4254,11 @@
 - Project: louisiana-bayou; kind: rule. (20 October 2026, 12:50:44 +0200)
 
 > À chaque itération qui change ce qui se voit (banc, planche, mise en page, texture), envoyer à Matthieu les images de l'état courant (SendUserFile, une légende avec le chiffre mesuré), jamais seulement à la fin de la boucle (20 October 2026) (20 October 2026, 12:50:44 +0200)
+
+## 20 October 2026, 12:57:48 +0200 : Iteration
+
+<!-- feedback-event:e86ec9e01f9ebb2fcaa8795c65ce1663a91ddbf51bd4866e768153a476b7cd98 (20 October 2026, 12:57:48 +0200) -->
+- Project: louisiana-bayou; kind: iteration. (20 October 2026, 12:57:48 +0200)
+- Source: checkpoint:claude:a3f20b1d-27ed-48e1-a0d1-5fe182c0e423. (20 October 2026, 12:57:48 +0200)
+
+> ZenRay UV, 20 October 2026 : artist references (Manny, rubber toy, shader ball) reproduced seam for seam by ZruvArtist (clicks, concepts, layout) : F1 1.000 and identical islands, shapes within 0.6 to 1.5 percent ; M1 of the bench cut by the artist pattern scores 1.000, 0.999999, 1.000 ; learned rules imposed on the tailor (Manny F1 0.115 to 0.387) ; pattern carried onto remeshes within 1.1 and 1.5 mm ; doctrine section 20, page version 3. Next : Matthieu validation, general rules for buried zones and quad loops, humanoid pattern transfer. (20 October 2026, 12:57:48 +0200)
