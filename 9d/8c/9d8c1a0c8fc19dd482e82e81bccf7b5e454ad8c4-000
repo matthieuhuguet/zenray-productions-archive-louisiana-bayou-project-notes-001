@@ -4304,3 +4304,19 @@
 - Project: louisiana-bayou; kind: rule. (20 October 2026, 14:56:01 +0200)
 
 > Refaire la feuille d'UV (densité, taille, rangement) ne refait pas la découpe : cut_td garde la découpe jugée à l'ancienne densité (20 October 2026) (20 October 2026, 14:56:01 +0200)
+
+## 20 October 2026, 15:15:24 +0200 : Prompt
+
+<!-- feedback-event:ed2dcf6a2eab0e48a3c699728eb5cc144d8000a8338e60d043f410f73af02f93 (20 October 2026, 15:15:24 +0200) -->
+- Project: louisiana-bayou; kind: prompt. (20 October 2026, 15:15:24 +0200)
+- Source: claude. (20 October 2026, 15:15:24 +0200)
+
+> « Regarde, mini edit à faire encore sur le cochon : en fait c'est simple, finalement, c'est à chaque fois que tu vois des bords carrés non anti-aliasés sur la sheet UV, et pas un bord droit ou lisse, que tu as fait une erreur dans la découpe. Consigne et refais proprement la lèvre du cochon, on s'approche de la fin... » (deux captures : la lèvre de ZRUV en escalier contre SideFX, et l'île bleue de la lèvre à bord en dents de scie) (20 October 2026) (20 October 2026, 15:15:24 +0200)
+
+## 20 October 2026, 15:15:24 +0200 : Standing rule
+
+<!-- feedback-event:03f468e66cffdfb5ce56e4a466a18534b38425d84f8f73b1876b023a2dbab535 (20 October 2026, 15:15:24 +0200) -->
+- Project: louisiana-bayou; kind: rule. (20 October 2026, 15:15:24 +0200)
+- Source: claude. (20 October 2026, 15:15:24 +0200)
+
+> Découpage d'artiste (M1) : un bord d'île en escalier sur la feuille UV (marches carrées, non lissées) au lieu d'un bord droit ou lisse signale une erreur de découpe : la couture zigzague d'une face à l'autre au lieu de suivre une boucle d'arêtes ; elle se reprend sur une boucle, et le score la mesure (la lèvre du cochon, 20 October 2026) (20 October 2026, 15:15:24 +0200)
