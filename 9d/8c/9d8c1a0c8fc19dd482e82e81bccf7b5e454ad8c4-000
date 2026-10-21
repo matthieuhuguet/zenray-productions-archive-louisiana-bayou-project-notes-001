@@ -4360,3 +4360,115 @@
 - Source: claude. (20 October 2026, 19:03:17 +0200)
 
 > La référence (SideFX, l'artiste) sert à mesurer et à comparer, jamais à calculer la découpe : l'algorithme décide seul, en mode artiste (20 October 2026) (20 October 2026, 19:03:17 +0200)
+
+## 20 October 2026, 22:06:56 +0200 : Prompt
+
+<!-- feedback-event:e53a2a65d725eaba6884d13c911f1b214152a4e3c415769112f5dd07e5da3cfe (20 October 2026, 22:06:56 +0200) -->
+- Project: louisiana-bayou; kind: prompt. (20 October 2026, 22:06:56 +0200)
+
+> 20 October 2026, Matthieu sur la tête de cochon ZRUV (mots corrigés pour la grammaire seule) : « c'est beaucoup mieux, mais il y a une régression au niveau des oreilles : tu fais au moins trois voire quatre coupes alors qu'une oreille devrait être coupée en deux, tout simplement, en fonction de l'edge flow du bord le plus extérieur. Tu as scindé le visage avec une couleur jaune et une couleur orange alors que ça devrait être ensemble. Et la gorge, c'est pareil : le bord vert et le bord bleu peuvent être mis ensemble, c'est ce qui se passe dans la référence. Sur le visage, assembler le bord jaune avec le bord orange ; sur la gorge, assembler le vert avec le bleu ; sur l'oreille, découper proprement en fonction de l'edge flow extérieur et simplement en deux parties. » (20 October 2026, 22:06:56 +0200)
+
+## 20 October 2026, 22:06:56 +0200 : Standing rule
+
+<!-- feedback-event:3358b137d1dda80cb97058bf9799c65f37dc74b168ae28ecd93f291c41073def (20 October 2026, 22:06:56 +0200) -->
+- Project: louisiana-bayou; kind: rule. (20 October 2026, 22:06:56 +0200)
+
+> 20 October 2026 : une oreille (un rabat) se coupe en deux pièces exactement, avant et arrière, par la boucle d'arêtes de son bord le plus extérieur et sa racine ; le tailleur n'y ajoute jamais de coupe. Le visage et la gorge ne se scindent pas quand la pièce réunie passe le critère (l'artiste SideFX garde tête 15 % et mâchoire 9,5 % entières). Les coutures du corps suivent les plis concaves et les boucles d'arêtes, et ne tournent qu'à un pôle ou à une jonction. (20 October 2026, 22:06:56 +0200)
+
+## 20 October 2026, 22:33:58 +0200 : Prompt
+
+<!-- feedback-event:5172e32176617ef61f8d883fbe67d40f3f6a48c7b1717c1aaac037a89fe2c1f2 (20 October 2026, 22:33:58 +0200) -->
+- Project: louisiana-bayou; kind: prompt. (20 October 2026, 22:33:58 +0200)
+
+> 20 October 2026, Matthieu : « Anyway tu focus uniquement sur M1 désormais pour l'instant. M2 à M5 (passe en labs = expérimentale) restent des occurrences qu'on a à l'esprit mais qui ne seront utiles que pour du hard surface... La méthode est quasi validée. » (20 October 2026, 22:33:58 +0200)
+
+## 20 October 2026, 22:33:59 +0200 : Standing rule
+
+<!-- feedback-event:ae19b201ef3eb8e9405e5af149f283d3ef3a7b8486c550fa05b9366715572cec (20 October 2026, 22:33:59 +0200) -->
+- Project: louisiana-bayou; kind: rule. (20 October 2026, 22:33:59 +0200)
+
+> 20 October 2026 : ZenRay UV, seul M1 (découpage d'artiste) est la méthode courante ; M2 à M5 passent en Labs (expérimental), gardés pour le hard surface, plus travaillés ni présentés comme méthodes livrées tant que Matthieu ne les rouvre pas. (20 October 2026, 22:33:59 +0200)
+
+## 20 October 2026, 23:06:49 +0200 : Prompt
+
+<!-- feedback-event:293d4198cacdf74dd6457d46a371ad8f40ec9912a46d02082beacfb1300b3706 (20 October 2026, 23:06:49 +0200) -->
+- Project: louisiana-bayou; kind: prompt. (20 October 2026, 23:06:49 +0200)
+
+> 20 October 2026, Matthieu (grammaire seule, résumé fidèle de son message) : VALIDATION : la tête de cochon et son orientation sont vraiment nickel, Manny est vraiment nickel ; l'arche (hard surface) ne le convainc pas encore, axes d'amélioration de M1 à voir plus tard (l'organique fonctionne, le hard surface est difficile à dire). Il ne voit plus Houdini ouvert et veut le voir pour suivre ce que je fais (hython bien mais pas idéal pour lui). Il demande : comment se lance l'outil, où il est référencé, où est la documentation, si tout est consigné ; lancer Crag (la bête humanoïde des test geo de Houdini) via M1 pour valider en automatique ; les options à explorer ; à la fin du document l'index de toutes les méthodes deprecated ou labs avec une rapide description. Problème signalé : on n'a plus la texel density par rapport à la taille du mesh (une échelle choisie, Manny 1,80 m) ; prochaine étape : déterminer chaque tuile pour assurer une densité parfaite et cohérente plutôt que tout faire tenir au maximum ; raisonner en millions de pixels : 1 texture 1024 x 1024 = 1,04 million (exactement 1 048 576), 1 texture 4096 x 4096 = 16,77 millions (16 777 216) ; quatre tuiles 2048 coûtent autant qu'une 4096 ; mieux vaut plusieurs bandes en V à la bonne densité ; ne pas trancher en faisant des sheets, ce n'est pas l'heure de l'optimisation. Index mapping des îles : numéro de chaque île UV dans les six vues et sur la planche UV, couleurs cohérentes, généré systématiquement dans chaque tuile, algorithme ultra solide, à consigner dans la génération du HTML. Texel density : vert au milieu (au lieu de blanc) = densité valide, bleu = trop de densité, rouge = pas assez ; toutes les occurrences de blanc passent au vert ; une sheet de la densité des UV actuelles (aucune nouvelle UV) de la tête de cochon et de Manny à 2048 px/m (personnages), toutes leurs textures et îles, pour vérifier si l'outil génère déjà à la bonne densité. Puis proposer Crag avec la vue sheet, en ajoutant au document Banc ZenRay UV. Ne jamais oublier de consigner ce que je fais, notamment ses validations ou non. (20 October 2026, 23:06:49 +0200)
+
+## 20 October 2026, 23:06:49 +0200 : Standing rule
+
+<!-- feedback-event:ba572d1692009a95939b21e03b754484e4e4f23f850905c3922e1b5c1b721eae (20 October 2026, 23:06:49 +0200) -->
+- Project: louisiana-bayou; kind: rule. (20 October 2026, 23:06:49 +0200)
+
+> 20 October 2026 : VALIDÉ par Matthieu : M1 sur la tête de cochon (et l'orientation debout des îles) et sur Manny. NON validé encore : M1 sur l'arche (hard surface). (20 October 2026, 23:06:49 +0200)
+
+## 20 October 2026, 23:06:49 +0200 : Standing rule
+
+<!-- feedback-event:66094557323115f915e5ad2e0defffa2c15932905a58a20385940fe0b604d8cb (20 October 2026, 23:06:49 +0200) -->
+- Project: louisiana-bayou; kind: rule. (20 October 2026, 23:06:49 +0200)
+
+> 20 October 2026 : la mémoire GPU se compte en pixels : 1024 x 1024 = 1 048 576 pixels, 4096 x 4096 = 16 777 216 ; quatre tuiles de 2048 valent une 4096. On garde la densité choisie (2048 px/m personnage, 1024 px/m prop) exacte et cohérente sur l'échelle réelle du mesh, en plusieurs tuiles plus petites si besoin, plutôt que d'étirer les UV pour remplir une seule grande texture. (20 October 2026, 23:06:49 +0200)
+
+## 20 October 2026, 23:06:49 +0200 : Standing rule
+
+<!-- feedback-event:5552fe78c14d6f236f6e93f1a287023c2ed22af7ff690cfecf66e73f5258e813 (20 October 2026, 23:06:49 +0200) -->
+- Project: louisiana-bayou; kind: rule. (20 October 2026, 23:06:49 +0200)
+
+> 20 October 2026 : toute planche ZRUV (six vues et tuiles UV) porte le numéro de chaque île à un endroit visible de l'île, la même couleur et le même numéro en 3D et en UV, dans chaque tuile ; la carte de densité de texels est verte quand la densité est juste, bleue quand elle est trop forte, rouge quand elle est trop faible (plus jamais de blanc). (20 October 2026, 23:06:49 +0200)
+
+## 20 October 2026, 23:13:57 +0200 : Prompt
+
+<!-- feedback-event:ac7b918f8655354e3b72201773cd5d0f74208927364a4bd247922942fabf1184 (20 October 2026, 23:13:57 +0200) -->
+- Project: louisiana-bayou; kind: prompt. (20 October 2026, 23:13:57 +0200)
+
+> 20 October 2026, Matthieu (grammaire seule) : « Le problème des numéros, c'est qu'ils sont beaucoup trop gros ; ils doivent être en Inter ; ça doit être une feuille en plus de ce qui existait déjà, jamais un remplacement ; en font Inter Regular, donc toujours sans serif ; si les chiffres sont trop gros, plus gros que l'island, alors ils se déportent sur la gauche avec une flèche blanche et un stroke noir de 1 px ; d'ailleurs pareil pour la font, blanche et stroke noir 1 px, voire moins, c'est adaptatif ce 1 px. Consigne et code. » (20 October 2026, 23:13:57 +0200)
+
+## 20 October 2026, 23:13:57 +0200 : Standing rule
+
+<!-- feedback-event:c9b654d27b42b74551b9fd5bba608d1ec6969aad3f2c4791d558ec69eaf27153 (20 October 2026, 23:13:57 +0200) -->
+- Project: louisiana-bayou; kind: rule. (20 October 2026, 23:13:57 +0200)
+
+> 20 October 2026 : les numéros d'îles vivent sur une planche EN PLUS (jamais à la place des planches existantes), en Inter Regular, chiffres blancs au contour noir d'1 px au plus (adaptatif, plus fin quand le chiffre est petit) ; un numéro plus grand que son île se déporte à gauche avec une flèche blanche au contour noir vers l'île. (20 October 2026, 23:13:57 +0200)
+
+## 20 October 2026, 23:35:59 +0200 : Prompt
+
+<!-- feedback-event:3c0c4e473f27030ce8fbd7b235ec0f73b64a818c7821cfd6830bb1a0bebe43d8 (20 October 2026, 23:35:59 +0200) -->
+- Project: louisiana-bayou; kind: prompt. (20 October 2026, 23:35:59 +0200)
+
+> 20 October 2026, Matthieu (grammaire seule) : « Ça me semble beaucoup trop long d'attendre 20 minutes pour Crag. Soit le problème, c'est que Houdini n'est pas ouvert proprement, soit c'est que l'algorithme aurait dû faire les choses étape par étape au lieu de tout faire d'un coup. Même en termes de performance, ce n'est pas des choses que je souhaite garder. Il faut optimiser le programme pour qu'il procède étape par étape, afin de ne jamais attendre 20 minutes ; il y a de grosses passes d'optimisation à faire sur l'algorithme. » (20 October 2026, 23:35:59 +0200)
+
+## 20 October 2026, 23:35:59 +0200 : Standing rule
+
+<!-- feedback-event:ed77cd44c73af0520129ec114cf4e8297654f31a18578ee36c41afda0d06c3d8 (20 October 2026, 23:35:59 +0200) -->
+- Project: louisiana-bayou; kind: rule. (20 October 2026, 23:35:59 +0200)
+
+> 20 October 2026 : M1 ne fait jamais attendre 20 minutes : un asset fait de pièces séparées se découpe pièce par pièce (chaque pièce, ou chaque paire symétrique, est un petit problème résolu à part, en parallèle, gardé en cache à part), jamais en un seul problème géant. (20 October 2026, 23:35:59 +0200)
+
+## 21 October 2026, 01:19:06 +0200 : Prompt
+
+<!-- feedback-event:aeb42a3bf2e9a2257d47582a1787012d6376821d9282cb8f5c4b3483aa8a9a00 (21 October 2026, 01:19:06 +0200) -->
+- Project: louisiana-bayou; kind: prompt. (21 October 2026, 01:19:06 +0200)
+
+> 21 October 2026, Matthieu (grammaire seule, texte complet de sa consigne de nuit) : « Fixe toutes les densités pour qu'elles soient vertes sur chacun des éléments par rapport à leur taille déclarée et en fonction chara organique ou hard surface, props / assets 1024 ou 2048. Évite pour le moment les maps 4096 : ce n'est pas interdit, mais ça prend beaucoup plus de mémoire. Refais proprement l'arche : utilise par défaut des maps de texture 2D 2048 x 2048, et fais plusieurs maps si jamais. PIG : fixe la densité, actuellement elle est rouge. ARCH : 2048 x 2048 max, plusieurs matériaux, planches autorisées ; attention, il ne s'agit pas d'UDIM, réservés au cinéma, c'est plutôt la logique Epic qui s'applique : plusieurs matériaux de 1024 plutôt qu'un gros bloc de 4096 (absolument banni), car 1 Mo contre 16 Mo ; en revanche 2048 est autorisé, et les planches de 2048 permettent de fit certains éléments faisant 2 m de largeur par exemple ; la densité était déjà verte, donc juste adapter les UV, rien d'autre. RUBBER TOY : quasi parfait, sauf que 2048 est trop grand, trop de fill blanc, donc plutôt utiliser plusieurs 1024 et fit ; ce genre d'espace blanc où on ne remplit que 25 %, c'est à bannir : utiliser plutôt une résolution inférieure (j'imagine que c'est parce que l'asset est petit) ; par contre un bug sur la vue checker du rubber toy : il y a des lignes rouges qui ne correspondent pas au découpage UV qu'on voit dans les six vues, qui sont la source de vérité ; corrige ce damier ; pareil, la densité est rouge sur le nez, bizarre. SHADER BALL : fixe toutes les densités ; le problème, c'est que tu aurais dû faire chacune des découpes de manière symétrique, par exemple toujours essayer de découper les choses par derrière ; dans les vues left et right, tu as découpé à gauche de l'objet alors que le plus logique aurait été de découper en bas ou en haut, de manière symétrique, et là plutôt en haut, parce que la zone du bas est beaucoup plus visible. » Puis : « En soi, la logique pour du hard surface ou de l'organique, c'est de toujours essayer de découper les seams surtout dans le back, c'est-à-dire le derrière, ou le top en règle générale, ou le bas ; mais plutôt back en premier, ensuite top, ensuite bottom. Ça ne change pas les règles ; dans le cas du shader ball, ça aurait dû être fait en haut. Je vois le problème : dans la sheet tu m'as donné la vue front, mais la vue front, c'est la vue left ; si tu regardes la vue left comme la vue front, tu vois que la seam aurait dû être placée en haut. » MANNY : « c'est parfait, sauf la densité : plusieurs maps de 2048 ; bleu ce n'est pas bon et rouge non plus. » CRAG : « beaucoup d'UV à straighten, globalement pas mal, mais densité à corriger, beaucoup de bleu et de rouge, et beaucoup de bords d'escalier ; ça va demander le plus d'effort ; il faut surtout straighten l'orientation des découpes pour que ce soit aussi cohérent que Manny. » Enfin : « tout ce qui est améliorable, fais-le, tu as carte blanche jusqu'à 11 h demain ; itère, relance avec un cron pour toujours améliorer ; on a fini, peaufinage vers la perfection ; corrige chacune des occurrences dans l'ordre, sans skill tasks-sequence. » (21 October 2026, 01:19:06 +0200)
+
+## 21 October 2026, 01:19:06 +0200 : Standing rule
+
+<!-- feedback-event:403a674269b19f72856b8f8f86f4df07304843a8c5a438103a5c0e9bb628047a (21 October 2026, 01:19:06 +0200) -->
+- Project: louisiana-bayou; kind: rule. (21 October 2026, 01:19:06 +0200)
+
+> 21 October 2026 : chaque île à la densité déclarée (personnage organique 2048 px/m, prop ou asset 1024 px/m), jamais ajustée pour remplir une feuille ; feuilles carrées de 2048 au plus, 1024 quand l'asset est petit, plusieurs feuilles (logique Epic : plusieurs matériaux) plutôt qu'une 4096 ; jamais une feuille remplie au quart. (21 October 2026, 01:19:06 +0200)
+
+## 21 October 2026, 01:19:06 +0200 : Standing rule
+
+<!-- feedback-event:7c7a4bdc4f13cd9dbd2fe01d10661a0ed85f98e951e0acc9095e25058f76afa1 (21 October 2026, 01:19:06 +0200) -->
+- Project: louisiana-bayou; kind: rule. (21 October 2026, 01:19:06 +0200)
+
+> 21 October 2026 : les coutures se placent derrière d'abord, puis en haut, puis en bas, symétriquement ; les six vues d'une planche suivent la face avant déclarée de l'asset (le shader ball regarde +x : sa vue front est la vue left du monde). (21 October 2026, 01:19:06 +0200)
+
+## 21 October 2026, 01:19:06 +0200 : Standing rule
+
+<!-- feedback-event:76efb8206f16d9d1ba89039b3b4d88f029d869c568e5afea414bfcea157744aa (21 October 2026, 01:19:06 +0200) -->
+- Project: louisiana-bayou; kind: rule. (21 October 2026, 01:19:06 +0200)
+
+> 21 October 2026 : le damier d'une planche dessine ses lignes sur les îles telles que les six vues les montrent (même découpage) ; une ligne qui ne correspond pas à une couture est un bug du damier. (21 October 2026, 01:19:06 +0200)
