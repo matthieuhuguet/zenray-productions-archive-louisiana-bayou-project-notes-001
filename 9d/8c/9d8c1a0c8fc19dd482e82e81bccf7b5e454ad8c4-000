@@ -4472,3 +4472,17 @@
 - Project: louisiana-bayou; kind: rule. (21 October 2026, 01:19:06 +0200)
 
 > 21 October 2026 : le damier d'une planche dessine ses lignes sur les îles telles que les six vues les montrent (même découpage) ; une ligne qui ne correspond pas à une couture est un bug du damier. (21 October 2026, 01:19:06 +0200)
+
+## 21 October 2026, 15:37:19 +0200 : Prompt
+
+<!-- feedback-event:101f0ce012144033bd227cdad2874b22c2f6974fe28c0167dedc5d6d0d4ca818 (21 October 2026, 15:37:19 +0200) -->
+- Project: louisiana-bayou; kind: prompt. (21 October 2026, 15:37:19 +0200)
+
+> 21 October 2026, Matthieu (grammaire seule) : « continue Crag ; j'ai l'impression que sur le rubber toy le texel est trop petit, car je ne connais pas la taille de l'asset ; plutôt que les mètres de coutures dans le document, le plus important, ce sont les mesures en m3 de l'objet : longueur L (horizontale, de gauche à droite), largeur l (horizontale, vers le fond), hauteur h (verticale) ; inscris-les sur tous les assets du document ; le rubber toy a une texel density trop faible, il faut au minimum la doubler. » (21 October 2026, 15:37:19 +0200)
+
+## 21 October 2026, 15:37:19 +0200 : Prompt
+
+<!-- feedback-event:d01fd976c1ffe30944a0c37315fe73c8e35179888cd69127d9edabde8decef2b (21 October 2026, 15:37:19 +0200) -->
+- Project: louisiana-bayou; kind: prompt. (21 October 2026, 15:37:19 +0200)
+
+> 21 October 2026, Matthieu : « Je ne sais pas si ça a vraiment du sens de calculer en m3 pour des UV, ou s'il faudrait plutôt calculer en m2 puisqu'il s'agit de surface ; je n'arrive pas à trancher ; comment font les tech artists 3D seniors ? » Puis : « comment peut-on déterminer depuis un objet 3D une surface en m2, surtout sur un objet organique comme le rubber toy ? Sur une table, je comprends : on mesure le haut et le bas. On définit la densité au début (1024 ou 2048), mais comment calcule-t-on la taille en m2 ? Est-ce qu'on calcule la couture ? Fais-moi un petit schéma. » Puis : « c'est trop complexe » ; « tu mesures par rapport à la surface la plus grande ? » ; « je ne comprends pas, reprends depuis le moment où j'ai posé la question. » (21 October 2026, 15:37:19 +0200)
