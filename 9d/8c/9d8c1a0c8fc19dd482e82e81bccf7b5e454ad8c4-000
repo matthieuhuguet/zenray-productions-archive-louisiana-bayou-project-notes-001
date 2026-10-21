@@ -4493,3 +4493,18 @@
 - Project: louisiana-bayou; kind: prompt. (21 October 2026, 16:00:24 +0200)
 
 > 21 October 2026, Matthieu (grammaire seule, résumé fidèle) : « Honnêtement, je ne comprends toujours pas quel réflexe avoir en tant que tech artist pour texturer un objet ; peut-être que je devrais uniquement retenir la taille de l'objet et sa densité. Je comprends quelle texel density appliquer (ça se juge à l'œil, 512, 1024, 2048), mais je n'arrive pas à comprendre comment déterminer la taille d'un objet : Manny fait 1,8 m de haut, mais le rubber toy est à la fois haut, profond et large, et surtout plus large que haut. Je n'arrive pas à l'expliquer moi-même. » (21 October 2026, 16:00:24 +0200)
+
+## 21 October 2026, 16:17:22 +0200 : Log
+
+<!-- feedback-event:e50f8661f49369ecac6ec2d5b4c75c41e4f52ee9ebb80b8145de09fde22a9a1e (21 October 2026, 16:17:22 +0200) -->
+- Project: louisiana-bayou; kind: log. (21 October 2026, 16:17:22 +0200)
+
+> Index des articles du projet en tête de la page Assets, articles toujours dans leur dernière version, sans push à chaque modification, fichiers HTML distincts et pas d'artifact (demande du 21 October 2026). Fait : cinq articles dans Articles/, index déclaré comme article, lien ?article= déployé, M1 se régénère seule. (21 October 2026, 16:17:22 +0200)
+
+## 21 October 2026, 16:17:22 +0200 : Iteration
+
+<!-- feedback-event:17b49f5fbf534a4d5dbecabdc041428978438c23b97cebdecb63a4cc9b3e6426 (21 October 2026, 16:17:22 +0200) -->
+- Project: louisiana-bayou; kind: iteration. (21 October 2026, 16:17:22 +0200)
+- Source: checkpoint:claude:beb9938e-4434-4925-8d13-137bb7940fc0. (21 October 2026, 16:17:22 +0200)
+
+> Index des articles : 5 articles autonomes et Articles/index.html déclaré article ; lien ?article= en production ; archive vérifiée par SHA ; vérification visuelle dans le drive à faire par Matthieu (code de déverrouillage). (21 October 2026, 16:17:22 +0200)
