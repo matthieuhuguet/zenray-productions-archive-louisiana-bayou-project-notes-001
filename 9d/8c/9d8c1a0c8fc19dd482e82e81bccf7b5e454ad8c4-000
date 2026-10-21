@@ -4486,3 +4486,10 @@
 - Project: louisiana-bayou; kind: prompt. (21 October 2026, 15:37:19 +0200)
 
 > 21 October 2026, Matthieu : « Je ne sais pas si ça a vraiment du sens de calculer en m3 pour des UV, ou s'il faudrait plutôt calculer en m2 puisqu'il s'agit de surface ; je n'arrive pas à trancher ; comment font les tech artists 3D seniors ? » Puis : « comment peut-on déterminer depuis un objet 3D une surface en m2, surtout sur un objet organique comme le rubber toy ? Sur une table, je comprends : on mesure le haut et le bas. On définit la densité au début (1024 ou 2048), mais comment calcule-t-on la taille en m2 ? Est-ce qu'on calcule la couture ? Fais-moi un petit schéma. » Puis : « c'est trop complexe » ; « tu mesures par rapport à la surface la plus grande ? » ; « je ne comprends pas, reprends depuis le moment où j'ai posé la question. » (21 October 2026, 15:37:19 +0200)
+
+## 21 October 2026, 16:00:24 +0200 : Prompt
+
+<!-- feedback-event:cf26ba23b894add5013aa93271054fa392ad04519a91e907ecdc04c676402bae (21 October 2026, 16:00:24 +0200) -->
+- Project: louisiana-bayou; kind: prompt. (21 October 2026, 16:00:24 +0200)
+
+> 21 October 2026, Matthieu (grammaire seule, résumé fidèle) : « Honnêtement, je ne comprends toujours pas quel réflexe avoir en tant que tech artist pour texturer un objet ; peut-être que je devrais uniquement retenir la taille de l'objet et sa densité. Je comprends quelle texel density appliquer (ça se juge à l'œil, 512, 1024, 2048), mais je n'arrive pas à comprendre comment déterminer la taille d'un objet : Manny fait 1,8 m de haut, mais le rubber toy est à la fois haut, profond et large, et surtout plus large que haut. Je n'arrive pas à l'expliquer moi-même. » (21 October 2026, 16:00:24 +0200)
