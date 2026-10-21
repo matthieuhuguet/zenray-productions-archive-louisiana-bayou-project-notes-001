@@ -4508,3 +4508,39 @@
 - Source: checkpoint:claude:beb9938e-4434-4925-8d13-137bb7940fc0. (21 October 2026, 16:17:22 +0200)
 
 > Index des articles : 5 articles autonomes et Articles/index.html déclaré article ; lien ?article= en production ; archive vérifiée par SHA ; vérification visuelle dans le drive à faire par Matthieu (code de déverrouillage). (21 October 2026, 16:17:22 +0200)
+
+## 21 October 2026, 16:33:23 +0200 : Standing rule
+
+<!-- feedback-event:bddb461695641ae492817c792858786a31ae17f3375daeca8a2fee8147521e21 (21 October 2026, 16:33:23 +0200) -->
+- Project: louisiana-bayou; kind: rule. (21 October 2026, 16:33:23 +0200)
+
+> 21 October 2026 : ZRUV, le plus important est une texel density adéquate pour chaque asset (« adequate texel density for every assets ») : choisir la densité en px/m à l'œil selon la distance caméra (512 lointain, 1024 prop, 2048 personnage ou vu de près), l'outil l'applique, et ce qui est vu ensemble de près partage à peu près la même densité. Questions et réponses : skills/zenray-houdini/references/TexelDensityQA1.md. (21 October 2026) (21 October 2026, 16:33:23 +0200)
+
+## 21 October 2026, 16:33:23 +0200 : Standing rule
+
+<!-- feedback-event:2267edcd034eac45b38f635333e30cd5c91c3b6d709ab74a3d23ba924a8b26a1 (21 October 2026, 16:33:23 +0200) -->
+- Project: louisiana-bayou; kind: rule. (21 October 2026, 16:33:23 +0200)
+
+> 21 October 2026 : ZRUV, l'échelle se vérifie sur la dimension connue dans la vraie vie et indépendante de la pose (hauteur de Manny, environ 1,80 m ; hauteur d'une porte, environ 2 m), puis L × l × h pour les proportions et la comparaison avec un voisin ; le m³ ne sert pas, il écrase trois mesures en une. (21 October 2026) (21 October 2026, 16:33:23 +0200)
+
+## 21 October 2026, 16:35:25 +0200 : Iteration
+
+<!-- feedback-event:5799fa54a74fb4908c19b8da01df4a71b8fae5b7df44b2b6be7b0d23e9a37721 (21 October 2026, 16:35:25 +0200) -->
+- Project: louisiana-bayou; kind: iteration. (21 October 2026, 16:35:25 +0200)
+- Source: checkpoint:claude:beb9938e-4434-4925-8d13-137bb7940fc0. (21 October 2026, 16:35:25 +0200)
+
+> Questions texel density consignées (TexelDensityQA1.md, index mapping), règles ZRUV ajoutées, arche à 512 px/m score 1,0 une feuille 2048 verte à 100 %, page M1 et article 05 à jour. Prochain : verdict de Matthieu 512 contre 1024. (21 October 2026, 16:35:25 +0200)
+
+## 21 October 2026, 16:41:28 +0200 : Standing rule
+
+<!-- feedback-event:c47526e14e37b618177cfe786ee4402b7180be4f22f5ce444c40f56319d308b7 (21 October 2026, 16:41:28 +0200) -->
+- Project: louisiana-bayou; kind: rule. (21 October 2026, 16:41:28 +0200)
+
+> 21 October 2026 : toute page HTML qui montre des images (planches ZRUV, feuilles de vérification, index d'articles) en met au plus deux côte à côte (Matthieu : « sinon on voit rien même en plein écran »), une seule sous 640 px ; un seul jeton --fig-cols: 2 règle les grilles. Générateurs : skills/zenray-houdini/scripts/zenray_uv/Overview.py (STYLE partagé par OverviewM1.py), templates/zenray-uv-sheet/sheet.html (Sheet.py), Scripts/Articles/BuildArticles.py de l'atelier Louisiana Bayou. (21 October 2026) (21 October 2026, 16:41:28 +0200)
+
+## 21 October 2026, 16:45:16 +0200 : Standing rule
+
+<!-- feedback-event:b2fbd9203381fdfa27883353c3f4b11c60e19fae92d8bec22c3b830cc0b6029c (21 October 2026, 16:45:16 +0200) -->
+- Project: louisiana-bayou; kind: rule. (21 October 2026, 16:45:16 +0200)
+
+> 21 October 2026 : la carte de texel density (<asset>_M1_density.png) ne porte plus les numéros d'îles, ni dans les six vues ni sur les feuilles (Matthieu) ; les numéros restent sur les planches d'îles (islands_3d, islands_uv). Réglage : PRM['density_numbers'] = False dans skills/zenray-houdini/scripts/zenray_uv/M1Boards.py ; redessiner la seule carte : M1Boards.py <runs> <asset> --only density. Corrige la règle du 20 October 2026 qui mettait les numéros sur toute planche ZRUV. (21 October 2026) (21 October 2026, 16:45:16 +0200)
