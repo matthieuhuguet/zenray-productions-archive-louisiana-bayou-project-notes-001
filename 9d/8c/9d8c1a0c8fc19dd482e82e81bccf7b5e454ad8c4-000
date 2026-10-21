@@ -4551,3 +4551,11 @@
 - Project: louisiana-bayou; kind: rule. (21 October 2026, 18:46:29 +0200)
 
 > 21 October 2026 : chaîne ZRUV puis Height : chaque asset de la page M1 donne d'un clic ses entrées (feuille UV sans numéros, numérotée, six vues numérotées, référence recadrée, prompt.md générique) dans tmp-<asset> ; la height du modèle d'image se range dans heights/ai_*, ZenRay Height la refait avec --atlas (jamais de raccord sur une feuille UV), le résultat dans heights/final_* ; le recalage 2D par île vient seulement dans un second temps, dans le graphe. (21 October 2026) (21 October 2026, 18:46:29 +0200)
+
+## 21 October 2026, 18:54:44 +0200 : Iteration
+
+<!-- feedback-event:4d102013aac77f82f47d6f3e0cfeead2755b42fbfb33a8feafc3e4355b276430 (21 October 2026, 18:54:44 +0200) -->
+- Project: louisiana-bayou; kind: iteration. (21 October 2026, 18:54:44 +0200)
+- Source: checkpoint:claude:beb9938e-4434-4925-8d13-137bb7940fc0. (21 October 2026, 18:54:44 +0200)
+
+> Entrées Height par asset (HeightInputs.py, tmp-<asset> et zip), boutons et prompt sur la page M1, ZenRay Height --atlas sur la height ChatGPT de l arche 512 : 0,9951. Prochain : recalage 2D par île. (21 October 2026, 18:54:44 +0200)
