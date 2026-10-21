@@ -1,62 +1,65 @@
-# Resume louisiana-bayou (19 October 2026 at 12:08)
+# Resume louisiana-bayou (21 October 2026 at 16:06)
 
-- Generated from FEEDBACK.md, Rules.md and ConversationIndex.json; derived, never edited by hand, never a substitute for the originals. (19 October 2026 at 12:08)
-- Pinned rules, read first: [Rules.md](/Users/zenray/.claude/Memory1/Projects/louisiana-bayou/Rules.md) (19 rules). (19 October 2026 at 12:08)
-- Canonical feedback: [FEEDBACK.md](/Users/zenray/.claude/Memory1/Projects/louisiana-bayou/FEEDBACK.md), 346 entries, last Iteration at 19 October 2026, 11:50:57 +0200. (19 October 2026 at 12:08)
+- Generated from FEEDBACK.md, Rules.md and ConversationIndex.json; derived, never edited by hand, never a substitute for the originals. (21 October 2026 at 16:06)
+- Pinned rules, read first: [Rules.md](/Users/zenray/.claude/Memory1/Projects/louisiana-bayou/Rules.md) (42 rules). (21 October 2026 at 16:06)
+- Canonical feedback: [FEEDBACK.md](/Users/zenray/.claude/Memory1/Projects/louisiana-bayou/FEEDBACK.md), 420 entries, last Prompt at 21 October 2026, 16:00:24 +0200. (21 October 2026 at 16:06)
 
-## Latest conversations (19 October 2026 at 12:08)
+## Latest conversations (21 October 2026 at 16:06)
 
-- LATEST claude:a3f20b1d-27ed-48e1-a0d1-5fe182c0e423, last activity 19 October 2026 at 11:50 Paris (from feedback). Original: `node scripts/Assets/ConversationDigest.mjs claude:a3f20b1d-27ed-48e1-a0d1-5fe182c0e423 --out <file.md>`. (19 October 2026 at 12:08)
-- codex:01a11aa4-67bb-7ae1-b1d8-99af0c3495c3, « Conversation codex 01a11aa4 », last activity 12 October 2026 at 11:47 Paris (from feedback). Original: `node scripts/Assets/ConversationDigest.mjs codex:01a11aa4-67bb-7ae1-b1d8-99af0c3495c3 --out <file.md>`. (19 October 2026 at 12:08)
-- claude:8152bc29-16c2-4858-828d-937ab6240571, « LOUISIANA BAYOU », last activity 11 October 2026 at 17:13 Paris (from transcript). Original: `node scripts/Assets/ConversationDigest.mjs claude:8152bc29-16c2-4858-828d-937ab6240571 --out <file.md>`. (19 October 2026 at 12:08)
+- LATEST claude:a3f20b1d-27ed-48e1-a0d1-5fe182c0e423, last activity 20 October 2026 at 18:56 Paris (from feedback). Original: `node scripts/Assets/ConversationDigest.mjs claude:a3f20b1d-27ed-48e1-a0d1-5fe182c0e423 --out <file.md>`. (21 October 2026 at 16:06)
+- claude:8ef64432-15df-4091-bb15-041c25f2482d, « vue arch 6 views », last activity 19 October 2026 at 12:09 Paris (from transcript). Original: `node scripts/Assets/ConversationDigest.mjs claude:8ef64432-15df-4091-bb15-041c25f2482d --out <file.md>`. (21 October 2026 at 16:06)
+- codex:01a11aa4-67bb-7ae1-b1d8-99af0c3495c3, « 01a11aa4-67bb-7ae1-b1d8-99af0c3495c3 », last activity 12 October 2026 at 11:47 Paris (from feedback). Original: `node scripts/Assets/ConversationDigest.mjs codex:01a11aa4-67bb-7ae1-b1d8-99af0c3495c3 --out <file.md>`. (21 October 2026 at 16:06)
 
-## Last 6 prompts of Matthieu, oldest first (19 October 2026 at 12:08)
+## Last 6 prompts of Matthieu, oldest first (21 October 2026 at 16:06)
 
-### 19 October 2026, 01:16:45 +0200 · Prompt · manual
+### 20 October 2026, 23:13:57 +0200 · Prompt · manual
 
-> Ensuite, il faut que l'asset soit parfaitement symétrique. Pour ça, garde la face avec des détails et fais un clip mirror propre. Go. (deux captures de la vue Houdini, arrière et avant)
+> 20 October 2026, Matthieu (grammaire seule) : « Le problème des numéros, c'est qu'ils sont beaucoup trop gros ; ils doivent être en Inter ; ça doit être une feuille en plus de ce qui existait déjà, jamais un remplacement ; en font Inter Regular, donc toujours sans serif ; si les chiffres sont trop gros, plus gros que l'island, alors ils se déportent sur la gauche avec une flèche blanche et un stroke noir de 1 px ; d'ailleurs pareil pour la font, blanche et stroke noir 1 px, voire moins, c'est adaptatif ce 1 px. Consigne et code. »
 
-### 19 October 2026, 02:22:54 +0200 · Prompt · manual
+### 20 October 2026, 23:35:59 +0200 · Prompt · manual
 
-> 19 October 2026 : prompt de Matthieu (grammaire seule) : « Le but est de créer ZenRay UV Trimsheet et de l'index mappé avec une consignation parfaite depuis /zenray-houdini ; itérer jusqu'à trouver avec Python, exactement de la même manière que Copernicus ; une loop pour obtenir dans 99,9 % des cas, via un compute comme ZenRay Height, le découpage UV parfait en fonction de la géométrie déjà faite ; toute la data dans un UV-Trimsheet1.md ; si texel density trop haut alors UDIM ou deuxième matériau ; générer la trim sheet de height via ChatGPT Image puis tout matériau via ZenRay Height ; énormément de recherche. »
+> 20 October 2026, Matthieu (grammaire seule) : « Ça me semble beaucoup trop long d'attendre 20 minutes pour Crag. Soit le problème, c'est que Houdini n'est pas ouvert proprement, soit c'est que l'algorithme aurait dû faire les choses étape par étape au lieu de tout faire d'un coup. Même en termes de performance, ce n'est pas des choses que je souhaite garder. Il faut optimiser le programme pour qu'il procède étape par étape, afin de ne jamais attendre 20 minutes ; il y a de grosses passes d'optimisation à faire sur l'algorithme. »
 
-### 19 October 2026, 02:25:08 +0200 · Prompt · manual
+### 21 October 2026, 01:19:06 +0200 · Prompt · manual
 
-> 19 October 2026 : prompt de Matthieu (grammaire seule) : « Attention, continue, mais piège noté : les trois erreurs : (1) pas d'UDIM ni de deuxième matériau pour une longueur, une bande de trim sheet tile en U, l'îlot dépasse à droite de [0,1], la seule limite est la hauteur de bande en V ; (2) utiliser les SOPs natifs (uvlayout et son empilement, uvflatten avec alignement, Labs Trim Texture, UV Unitize), le Python en chef d'orchestre ; (3) trim sheet pour l'architecture, le modulaire, le mobilier et les gros props mécaniques, UV unique plus Copernicus pour l'organique. Append dans la documentation ou les rules. Le pipeline Geo, bandes UV, height, Copernicus fait sauter l'étape Substance. »
+> 21 October 2026, Matthieu (grammaire seule, texte complet de sa consigne de nuit) : « Fixe toutes les densités pour qu'elles soient vertes sur chacun des éléments par rapport à leur taille déclarée et en fonction chara organique ou hard surface, props / assets 1024 ou 2048. Évite pour le moment les maps 4096 : ce n'est pas interdit, mais ça prend beaucoup plus de mémoire. Refais proprement l'arche : utilise par défaut des maps de texture 2D 2048 x 2048, et fais plusieurs maps si jamais. PIG : fixe la densité, actuellement elle est rouge. ARCH : 2048 x 2048 max, plusieurs matériaux, planches autorisées ; attention, il ne s'agit pas d'UDIM, réservés au cinéma, c'est plutôt la logique Epic qui 
+> [... 2481 more characters in FEEDBACK.md]
 
-### 19 October 2026, 11:07:02 +0200 · Prompt · manual
+### 21 October 2026, 15:37:19 +0200 · Prompt · manual
 
-> 19 October 2026 : prompt de Matthieu (grammaire seule) : « c'est toujours le même problème, soit la feuille d'abord, soit la géométrie d'abord ; à l'ère de Claude Code et de ChatGPT Image, quelle est la meilleure méthode pour générer des UV et des matériaux reliés à une géométrie ? ChatGPT donne l'impulsion d'une direction de height, ZenRay Height la corrige en vraie height ; explique une nouvelle méthode ou une itération parfaite à 99,9 %, d'abord en phase parametric knowledge. » Proposition consignée dans UV-Trimsheet1.md section 15, à valider.
+> 21 October 2026, Matthieu (grammaire seule) : « continue Crag ; j'ai l'impression que sur le rubber toy le texel est trop petit, car je ne connais pas la taille de l'asset ; plutôt que les mètres de coutures dans le document, le plus important, ce sont les mesures en m3 de l'objet : longueur L (horizontale, de gauche à droite), largeur l (horizontale, vers le fond), hauteur h (verticale) ; inscris-les sur tous les assets du document ; le rubber toy a une texel density trop faible, il faut au minimum la doubler. »
 
-### 19 October 2026, 11:36:01 +0200 · Prompt · manual
+### 21 October 2026, 15:37:19 +0200 · Prompt · manual
 
-> 19 October 2026 : prompts de Matthieu (grammaire seule) : « oui construis, mais il faut la tester avant de la valider, relance Houdini et teste-la » ; puis, sur la capture des masques : « regarde l'arche, elle est mal découpée, sans doute un problème du script ; très bien cette vérification, on la gardera à l'avenir comme module de check pour le découpage ; refais cette étape et les suivantes en fonction ».
+> 21 October 2026, Matthieu : « Je ne sais pas si ça a vraiment du sens de calculer en m3 pour des UV, ou s'il faudrait plutôt calculer en m2 puisqu'il s'agit de surface ; je n'arrive pas à trancher ; comment font les tech artists 3D seniors ? » Puis : « comment peut-on déterminer depuis un objet 3D une surface en m2, surtout sur un objet organique comme le rubber toy ? Sur une table, je comprends : on mesure le haut et le bas. On définit la densité au début (1024 ou 2048), mais comment calcule-t-on la taille en m2 ? Est-ce qu'on calcule la couture ? Fais-moi un petit schéma. » Puis : « c'est trop complexe » ; « tu mesures par rapport à la surface la plus grande ? » ; « je ne comprends pas, re
+> [... 51 more characters in FEEDBACK.md]
 
-### 19 October 2026, 11:50:49 +0200 · Prompt · manual
+### 21 October 2026, 16:00:24 +0200 · Prompt · manual
 
-> 19 October 2026, prompt de Matthieu : « je ne comprends pas trop ce qu'on fait actuellement ; on fait juste un dépliage UV classique ? en quoi la height va être différente ou adaptée ? pourquoi n'avoir gardé que 3 couleurs alors qu'on en avait 5, est-il vraiment utile de passer de 5 à 3 ? comment avoir un Trim UV Texel ou un Texel UV Check, assemblé dans la sheet de travail ? je ne sais pas combien d'espace occupent mes bandes découpées. »
-
-
-## Last 3 iterations or checkpoints (19 October 2026 at 12:08)
-
-### 19 October 2026, 11:36:01 +0200 · Iteration · checkpoint claude:a3f20b1d
-
-> Materials first compiled sheet built and tested on Entrance_Arch_Clean ; cutting redone after Matthieu saw a dashed arch (45 degree crease on 45 degree chamfers) : robust crease, same angle same cut, cut check module numeric and visual ; score 1.000, orientation 100 percent, reread 100 percent, snapshot v006. Next : one AI swatch per material family, fix ZenRay Height border line.
-
-### 19 October 2026, 11:50:49 +0200 · Iteration · manual
-
-> 19 October 2026, itération : TrimTexelCheck.py (espace de texture par bande : px, m, part de la feuille, reuse, libre) et TrimWorkSheet.py (réglages, texel check, quatre vues, portes) ; bouton Work sheet (texel check) sur CTRL_uv ; planche Arch_s164_work_work_sheet.png, portes vertes. Mesure : 7 groupes = 13 bandes, 8,2 % libres, rivet et wire servent moins d'une fois leur texture ; 3 familles = 5 bandes, 34,2 % libres ; panneau 35,9 % de la feuille. Le regroupement en 3 familles reste à valider par Matthieu. UV-Trimsheet1.md section 18.
-
-### 19 October 2026, 11:50:57 +0200 · Iteration · checkpoint claude:a3f20b1d
-
-> 19 October 2026 : TrimTexelCheck.py et TrimWorkSheet.py construits et testes sur Entrance_Arch_Clean (bouton Work sheet sur CTRL_uv, portes vertes, x 1,64). 7 groupes = 13 bandes 8,2 % libres ; 3 familles = 5 bandes 34,2 % libres ; panneau 35,9 % de la feuille. Documente UV-Trimsheet1.md section 18. Prochain : Matthieu choisit familles et echelle.
+> 21 October 2026, Matthieu (grammaire seule, résumé fidèle) : « Honnêtement, je ne comprends toujours pas quel réflexe avoir en tant que tech artist pour texturer un objet ; peut-être que je devrais uniquement retenir la taille de l'objet et sa densité. Je comprends quelle texel density appliquer (ça se juge à l'œil, 512, 1024, 2048), mais je n'arrive pas à comprendre comment déterminer la taille d'un objet : Manny fait 1,8 m de haut, mais le rubber toy est à la fois haut, profond et large, et surtout plus large que haut. Je n'arrive pas à l'expliquer moi-même. »
 
 
-## Last order of work (19 October 2026 at 12:08)
+## Last 3 iterations or checkpoints (21 October 2026 at 16:06)
+
+### 20 October 2026, 09:35:05 +0200 · Iteration · checkpoint claude:a3f20b1d
+
+> ZenRay UV cinquième passe finie (20 October 2026) : toutes les méthodes M1 à M5 (M3 en trois variantes) des quatre assets à 0,999 ou plus, 29 auto-tests sur 29 dans les deux sens ; Manny coupé comme Epic (16 îles, 13,96 m, feuille 2048) ; page https://claude.ai/artifact/67UWF5RKjK4pyKaGUUDQ3g ; doc zenray-uv-1.md section 19. Prochain : validation de Matthieu.
+
+### 20 October 2026, 12:57:48 +0200 · Iteration · checkpoint claude:a3f20b1d
+
+> ZenRay UV, 20 October 2026 : artist references (Manny, rubber toy, shader ball) reproduced seam for seam by ZruvArtist (clicks, concepts, layout) : F1 1.000 and identical islands, shapes within 0.6 to 1.5 percent ; M1 of the bench cut by the artist pattern scores 1.000, 0.999999, 1.000 ; learned rules imposed on the tailor (Manny F1 0.115 to 0.387) ; pattern carried onto remeshes within 1.1 and 1.5 mm ; doctrine section 20, page version 3. Next : Matthieu validation, general rules for buried zones and quad loops, humanoid pattern transfer.
+
+### 20 October 2026, 18:56:41 +0200 · Iteration · checkpoint claude:a3f20b1d
+
+> 20 October 2026 : regle de Matthieu consignee (Rules.md) : un bord en escalier sur la feuille UV est une erreur de decoupe ; mesuree par UVSeamChecker.stair_runs (composante uv:smooth_border de M1, references a 0). Levre du cochon refaite par la regle cavity (ZruvArtist.cavity_cuts) : rebord identique a SideFX, 58 aretes sur 58, aucun virage, sans lire ses UV. Banc M1 final : cochon 0,999999 (16 iles comme SideFX, 0 escalier, 2048 px a 1568 px/m), arche 1,0, jouet 0,999993, boule 1,0, Manny 0,999471 ; SelfTest 64 sur 64, CavitySelfTest vert et rouge, ArtistSelfTest 3 sur 3. Page https://claude.ai/artifact/67UWF5RKjK4pyKaGUUDQ3g republiee ; zenray-uv-1.md section 22. Prochain geste : les cran
+> [... 135 more characters in FEEDBACK.md]
+
+
+## Last order of work (21 October 2026 at 16:06)
 
 ### 10 October 2026, 22:29:05 +0200 · Order of work · manual
 
 > 10 October 2026 : /goal 8 passes × 3 méthodologie pour affiner et trancher les prochaines étapes, nombres N (essayer le nombre maximal à chaque fois), sortie HTML avec les 3 méthodes et les 8 passes, go. Puis /wait-validation /tasks-sequence. Validation reçue : go, sauf la tâche 8 (consigner les résultats et trancher la suite), qui attend ta validation. (10 October 2026, 22:28)
 
 
-Next step: reread the latest prompt above, check it against Rules.md, then continue; append through feedback.py and close the turn with Client.mjs checkpoint. (19 October 2026 at 12:08)
+Next step: reread the latest prompt above, check it against Rules.md, then continue; append through feedback.py and close the turn with Client.mjs checkpoint. (21 October 2026 at 16:06)
