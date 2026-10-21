@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "projectId": "louisiana-bayou",
- "scannedAt": "2026-10-21T16:55:36.447Z",
+ "scannedAt": "2026-10-21T17:20:36.628Z",
  "conversations": [
   {
    "projectId": "louisiana-bayou",
@@ -37,18 +37,18 @@
   },
   {
    "projectId": "louisiana-bayou",
-   "lines": 2909,
-   "work": 484,
+   "lines": 2934,
+   "work": 487,
    "prompts": 18,
    "first": "2026-10-16T11:43:19.042Z",
-   "last": "2026-10-21T16:55:10.803Z",
+   "last": "2026-10-21T17:19:24.418Z",
    "strength": "strong",
    "conversationId": "claude:beb9938e-4434-4925-8d13-137bb7940fc0",
    "provider": "claude",
    "sessionId": "beb9938e-4434-4925-8d13-137bb7940fc0",
    "title": "UV Methodology (fork)",
-   "updatedAt": "2026-10-21T16:55:16.533Z",
-   "bytes": 40534,
+   "updatedAt": "2026-10-21T17:19:25.468Z",
+   "bytes": 348299794,
    "boundProject": "louisiana-bayou"
   },
   {
@@ -64,7 +64,7 @@
    "sessionId": "a3f20b1d-27ed-48e1-a0d1-5fe182c0e423",
    "title": "UV Methodology (original /mhzenray)",
    "updatedAt": "2026-10-20T19:18:11.914Z",
-   "bytes": 44784,
+   "bytes": 45467,
    "boundProject": null
   },
   {
@@ -341,6 +341,22 @@
   },
   {
    "projectId": "louisiana-bayou",
+   "lines": 41,
+   "work": 1,
+   "prompts": 2,
+   "first": "2026-10-14T11:34:57.859Z",
+   "last": "2026-10-21T17:09:12.855Z",
+   "strength": "strong",
+   "conversationId": "claude:d2f26016-25dd-4bcc-a6d8-122d50d3f383",
+   "provider": "claude",
+   "sessionId": "d2f26016-25dd-4bcc-a6d8-122d50d3f383",
+   "title": "3 motion design and editing video",
+   "updatedAt": "2026-10-21T17:20:17.251Z",
+   "bytes": 397780885,
+   "boundProject": null
+  },
+  {
+   "projectId": "louisiana-bayou",
    "lines": 39,
    "work": 1,
    "prompts": 3,
@@ -354,22 +370,6 @@
    "updatedAt": "2026-10-11T21:28:15.851Z",
    "bytes": 21082,
    "boundProject": "zenray-height"
-  },
-  {
-   "projectId": "louisiana-bayou",
-   "lines": 35,
-   "work": 1,
-   "prompts": 1,
-   "first": "2026-10-14T11:34:57.859Z",
-   "last": "2026-10-18T23:35:20.588Z",
-   "strength": "strong",
-   "conversationId": "claude:d2f26016-25dd-4bcc-a6d8-122d50d3f383",
-   "provider": "claude",
-   "sessionId": "d2f26016-25dd-4bcc-a6d8-122d50d3f383",
-   "title": "3 motion design and editing video",
-   "updatedAt": "2026-10-18T23:39:36.416Z",
-   "bytes": 22317,
-   "boundProject": null
   },
   {
    "projectId": "louisiana-bayou",
@@ -735,8 +735,8 @@
    "provider": "claude",
    "sessionId": "2ce02bbc-dad5-488e-9ffc-51313c488339",
    "title": "StudioPhoto Enhancing Assets",
-   "updatedAt": "2026-10-21T16:51:30.092Z",
-   "bytes": 38437,
+   "updatedAt": "2026-10-21T17:14:21.465Z",
+   "bytes": 38528,
    "boundProject": "studiophoto-matthieu-17-october-2026"
   },
   {
