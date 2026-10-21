@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "projectId": "louisiana-bayou",
- "scannedAt": "2026-10-21T10:45:10.207Z",
+ "scannedAt": "2026-10-21T10:54:56.347Z",
  "conversations": [
   {
    "projectId": "louisiana-bayou",
@@ -37,18 +37,18 @@
   },
   {
    "projectId": "louisiana-bayou",
-   "lines": 2758,
+   "lines": 2764,
    "work": 474,
    "prompts": 17,
    "first": "2026-10-16T11:43:19.042Z",
-   "last": "2026-10-21T10:44:03.335Z",
+   "last": "2026-10-21T10:54:42.416Z",
    "strength": "strong",
    "conversationId": "claude:beb9938e-4434-4925-8d13-137bb7940fc0",
    "provider": "claude",
    "sessionId": "beb9938e-4434-4925-8d13-137bb7940fc0",
    "title": "UV Methodology (fork)",
-   "updatedAt": "2026-10-21T10:44:03.335Z",
-   "bytes": 322872495,
+   "updatedAt": "2026-10-21T10:54:45.523Z",
+   "bytes": 322977370,
    "boundProject": null
   },
   {
@@ -751,8 +751,8 @@
    "provider": "claude",
    "sessionId": "2ce02bbc-dad5-488e-9ffc-51313c488339",
    "title": "StudioPhoto Enhancing Assets",
-   "updatedAt": "2026-10-21T10:45:08.096Z",
-   "bytes": 32835733,
+   "updatedAt": "2026-10-21T10:53:53.859Z",
+   "bytes": 38631,
    "boundProject": "studiophoto-matthieu-17-october-2026"
   },
   {
