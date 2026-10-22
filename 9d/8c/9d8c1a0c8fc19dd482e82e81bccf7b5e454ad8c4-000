@@ -4580,3 +4580,18 @@
 - Project: louisiana-bayou; kind: log. (22 October 2026, 12:20:42 +0200)
 
 > 22 October 2026, correction de l'entrée order-align-0999-22-october-2026 : la consigne a été reçue le 22 October 2026 vers 12 h ; « jusqu'à 11 demain matin » veut dire jusqu'au 23 October 2026 à 11 h. (22 October 2026, 12:20:42 +0200)
+
+## 22 October 2026, 14:21:54 +0200 : Log
+
+<!-- feedback-event:c8dc7ef3571fbd9e32a942cd00edb15aba8c6ed167db3023e6a90693d635fe54 (22 October 2026, 14:21:54 +0200) -->
+- Project: louisiana-bayou; kind: log. (22 October 2026, 14:21:54 +0200)
+
+> 22 October 2026 : boucle 0,999 du calage 2D par île menée. Arche à 512 : score de calage (bords dessinés trouvés à moins d'1 px de leur bord UV, îles posées sur leurs bords, coins à part) 0,315 puis 0,99911, 0,99678 à moins d'un demi-pixel, 156 îles sur 160 posées, recouvrement 0,737 puis 0,984 ; graphe /obj/ZRH_ArchAI512 refait et identique à Python ; test synthétique 48/48 sur le fichier de production, 99,845 à 100 % des pixels à moins de 0,5 px de la vérité ; restent à leurs voisines trois îles emboîtées dessinées avec d'autres proportions (40 dans 35, 38 dans 34, 283 dans 32) et une île d'un pixel. Planche avant/après : height-inputs/tmp-ZRUV_Arch512/align/final_01_zenray-height_sheet/board_fixes.png. (22 October 2026, 14:21:54 +0200)
+
+## 22 October 2026, 14:21:54 +0200 : Iteration
+
+<!-- feedback-event:95588468c4235335ca1a9f67738e1defa37de3ed5069f1dc0b45343c930c9228 (22 October 2026, 14:21:54 +0200) -->
+- Project: louisiana-bayou; kind: iteration. (22 October 2026, 14:21:54 +0200)
+- Source: checkpoint:claude:beb9938e-4434-4925-8d13-137bb7940fc0. (22 October 2026, 14:21:54 +0200)
+
+> 22 October 2026 : calage 2D par île, boucle 0,999. Score de calage de l arche à 512 : 0,315 puis 0,99911 (101 écarts sur 113 522 points), 156 îles sur 160 posées sur leurs bords, recouvrement 0,737 puis 0,984 ; production et graphe /obj/ZRH_ArchAI512 refaits (identiques à 0,000005) ; AlignSelfTest 48/48 sur le fichier de production ; page M1 reconstruite ; docs et skills synchronisés. Prochain : calage conjoint des îles emboîtées (40/35, 38/34, 283/32), puis le cochon quand sa height dessinée arrive. (22 October 2026, 14:21:54 +0200)
