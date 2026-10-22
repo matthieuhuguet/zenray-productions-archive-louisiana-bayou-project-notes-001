@@ -4634,3 +4634,26 @@
 - Source: checkpoint:claude:beb9938e-4434-4925-8d13-137bb7940fc0. (22 October 2026, 18:10:20 +0200)
 
 > 22 October 2026, 18 h : calage 2D par île md5 24e8b1b614715eb99e8abbada5201c52. Passe 3b : des bords justes à 90 % gardent un recalage au score de région faible ; ressort axial de la membrane sur les îles longues (warp_axial 0,3). Arche 0,99944 (64 écarts sur 113 316), page M1 refaite ; 239 feuilles synthétiques sur 240 dont 24 graines jamais vues, 216 courbures sur 216. Limite : deux pièces identiques dessinées collées. Preuves height-inputs/align-selftest/22-October-2026/1800/. (22 October 2026, 18:10:20 +0200)
+
+## 22 October 2026, 18:34:15 +0200 : Iteration
+
+<!-- feedback-event:c769709659146d638ef66d4cabc8364752b9a98df160c5fcc6bb2626685259fd (22 October 2026, 18:34:15 +0200) -->
+- Project: louisiana-bayou; kind: iteration. (22 October 2026, 18:34:15 +0200)
+- Source: checkpoint:claude:beb9938e-4434-4925-8d13-137bb7940fc0. (22 October 2026, 18:34:15 +0200)
+
+> 22 October 2026, 18 h 30 : calage 2D par île md5 55c0b4cd9a0cda0c0797733751f2db5b. Passe 3 : les bords choisissent aussi entre places au score de région proche ; échelle en longueur des bandes fines sur 60 % des paires de chaque bout. Arche 0,99944 inchangée ; 383 feuilles synthétiques sur 384 en huit batteries dont trente graines nouvelles, 324 courbures sur 324. Preuves height-inputs/align-selftest/22-October-2026/1830/. (22 October 2026, 18:34:15 +0200)
+
+## 22 October 2026, 18:38:57 +0200 : Standing rule
+
+<!-- feedback-event:60fbe01458826cd313f7627542859988de1f331d5e492635c60ac0e6807a7ee0 (22 October 2026, 18:38:57 +0200) -->
+- Project: louisiana-bayou; kind: rule. (22 October 2026, 18:38:57 +0200)
+
+> 22 October 2026, mots de Matthieu (grammaire seule) : « Je ne comprends pas : puisque tu atteins déjà 0,999, pourquoi tu as continué ? Du coup stop et commit, arrête à ce stade. » Règle : quand l'objectif chiffré est atteint (ici le score de calage 0,999), s'arrêter, commiter et rendre compte ; toute amélioration au-delà se propose et se demande, elle ne se poursuit pas seule. (22 October 2026) (22 October 2026, 18:38:57 +0200)
+
+## 22 October 2026, 18:38:57 +0200 : Iteration
+
+<!-- feedback-event:b448ad8550d6416db48b9ae45e48aa3f1a9f9a3f869fc0bbe729adf83e24c172 (22 October 2026, 18:38:57 +0200) -->
+- Project: louisiana-bayou; kind: iteration. (22 October 2026, 18:38:57 +0200)
+- Source: checkpoint:claude:beb9938e-4434-4925-8d13-137bb7940fc0. (22 October 2026, 18:38:57 +0200)
+
+> 22 October 2026, 18 h 40 : arrêt demandé par Matthieu. Calage 2D par île clos sur la version de 18 h 30 (md5 55c0b4cd9a0cda0c0797733751f2db5b), commitée ; arche 0,99944 (cible 0,999 atteinte), 383 feuilles synthétiques sur 384. Règle ajoutée : objectif atteint, on s arrête et on rend compte. (22 October 2026, 18:38:57 +0200)
