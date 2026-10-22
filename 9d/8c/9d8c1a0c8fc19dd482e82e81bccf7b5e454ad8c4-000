@@ -4626,3 +4626,11 @@
 - Source: checkpoint:claude:beb9938e-4434-4925-8d13-137bb7940fc0. (22 October 2026, 17:36:52 +0200)
 
 > 22 October 2026, 17 h 35 : calage 2D par île md5 25dd682893a22fcecfb7a1104745bac2. Passe 3 : les bords choisissent la forme ; passe 8 élargie aux pièces compactes de taille douteuse (portée dessinée, bords visibles, demi-pixel) ; isotropie des petites pièces à axe caché ; test cohérent sur les îles coupées. 144 feuilles synthétiques sur 144 dont six graines nouvelles, 108 courbures sur 108 ; arche 0,99941 inchangée. Preuves height-inputs/align-selftest/22-October-2026/night/. Prochain : nouvelles graines et feuilles, trait d un pixel à un côté visible. (22 October 2026, 17:36:52 +0200)
+
+## 22 October 2026, 18:10:20 +0200 : Iteration
+
+<!-- feedback-event:9167f9f93c4f3116ae397331948f1f4c27068ca02cb00d128dce9dfcd00425e3 (22 October 2026, 18:10:20 +0200) -->
+- Project: louisiana-bayou; kind: iteration. (22 October 2026, 18:10:20 +0200)
+- Source: checkpoint:claude:beb9938e-4434-4925-8d13-137bb7940fc0. (22 October 2026, 18:10:20 +0200)
+
+> 22 October 2026, 18 h : calage 2D par île md5 24e8b1b614715eb99e8abbada5201c52. Passe 3b : des bords justes à 90 % gardent un recalage au score de région faible ; ressort axial de la membrane sur les îles longues (warp_axial 0,3). Arche 0,99944 (64 écarts sur 113 316), page M1 refaite ; 239 feuilles synthétiques sur 240 dont 24 graines jamais vues, 216 courbures sur 216. Limite : deux pièces identiques dessinées collées. Preuves height-inputs/align-selftest/22-October-2026/1800/. (22 October 2026, 18:10:20 +0200)
