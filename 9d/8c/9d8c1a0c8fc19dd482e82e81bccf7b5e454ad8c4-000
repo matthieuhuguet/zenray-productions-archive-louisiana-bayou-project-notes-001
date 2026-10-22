@@ -4618,3 +4618,11 @@
 - Source: checkpoint:claude:beb9938e-4434-4925-8d13-137bb7940fc0. (22 October 2026, 16:59:14 +0200)
 
 > 22 October 2026, soir : calage 2D par île, version md5 d3225471164ac1fba82af3db7039fb33. Courbure dans tous les scores, pointes de moins de 3 px sans épingle, direction mesurée par les biais (t_info_min), membrane bornée par le dessin des voisines posées (drawn_reach_px), 8 fils. Arche à 512 : score de calage 0,99941 (67 écarts sur 113 327), 156 îles sur 160, 32 s, graphe identique à Python. Preuves 48/48 base et 48/48 modèle d image dans height-inputs/align-selftest/22-October-2026/evening/. Prochain geste : le boulon 229 dessiné contre une barre (calage 2D écrasé en hauteur, 1,85 px), boucle jusqu à 11 h le 23 October 2026. (22 October 2026, 16:59:14 +0200)
+
+## 22 October 2026, 17:36:52 +0200 : Iteration
+
+<!-- feedback-event:ee2cbad6e781b883bc121e03328b8e4683d655778dc3c086e4c9e8c1196c1076 (22 October 2026, 17:36:52 +0200) -->
+- Project: louisiana-bayou; kind: iteration. (22 October 2026, 17:36:52 +0200)
+- Source: checkpoint:claude:beb9938e-4434-4925-8d13-137bb7940fc0. (22 October 2026, 17:36:52 +0200)
+
+> 22 October 2026, 17 h 35 : calage 2D par île md5 25dd682893a22fcecfb7a1104745bac2. Passe 3 : les bords choisissent la forme ; passe 8 élargie aux pièces compactes de taille douteuse (portée dessinée, bords visibles, demi-pixel) ; isotropie des petites pièces à axe caché ; test cohérent sur les îles coupées. 144 feuilles synthétiques sur 144 dont six graines nouvelles, 108 courbures sur 108 ; arche 0,99941 inchangée. Preuves height-inputs/align-selftest/22-October-2026/night/. Prochain : nouvelles graines et feuilles, trait d un pixel à un côté visible. (22 October 2026, 17:36:52 +0200)
