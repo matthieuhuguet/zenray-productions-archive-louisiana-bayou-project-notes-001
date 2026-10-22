@@ -4559,3 +4559,24 @@
 - Source: checkpoint:claude:beb9938e-4434-4925-8d13-137bb7940fc0. (21 October 2026, 18:54:44 +0200)
 
 > Entrées Height par asset (HeightInputs.py, tmp-<asset> et zip), boutons et prompt sur la page M1, ZenRay Height --atlas sur la height ChatGPT de l arche 512 : 0,9951. Prochain : recalage 2D par île. (21 October 2026, 18:54:44 +0200)
+
+## 22 October 2026, 12:19:59 +0200 : Order of work
+
+<!-- feedback-event:20094c103146c36e21e3cdffccc3c5ea8a7a42ad3a9bd91d34280408d91b7d5c (22 October 2026, 12:19:59 +0200) -->
+- Project: louisiana-bayou; kind: order. (22 October 2026, 12:19:59 +0200)
+
+> 22 October 2026, consigne de Matthieu : « Tu continues de bosser, objectif que l'algo arrive à 0.999, ce doit être parfait, continue la boucle jusqu'à 11 demain matin » (calage 2D par île, PerIslandAlign.py ; point de départ : recouvrement 0,971 sur l'arche à 512, bords à moins d'un pixel 71,6 %, test synthétique 48 sur 48). (22 October 2026, 12:19:59 +0200)
+
+## 22 October 2026, 12:19:59 +0200 : Standing rule
+
+<!-- feedback-event:b49893c9d387c368727a18b01717c67f46d9e9b1dd788723c29071f08b1d17b7 (22 October 2026, 12:19:59 +0200) -->
+- Project: louisiana-bayou; kind: rule. (22 October 2026, 12:19:59 +0200)
+
+> 21 October 2026 : une height dessinée sur une feuille UV (modèle d'image ou ZenRay Height) se recale toujours sur les UV d'origine par PerIslandAlign.py (ou MCP houdini_align) avant de servir ; on lit le recouvrement ET l'accord des bords (part à moins d'un pixel, écart médian) ; tout changement du solveur se valide par AlignSelfTest.py (48 feuilles, vert et rouge) ET sur l'arche réelle, jamais sur l'un seul. (22 October 2026, 12:19:59 +0200)
+
+## 22 October 2026, 12:20:42 +0200 : Log
+
+<!-- feedback-event:9db953d268fbc24bc5f8de6b4158c93da5718c271284d160e7df9156c579d08b (22 October 2026, 12:20:42 +0200) -->
+- Project: louisiana-bayou; kind: log. (22 October 2026, 12:20:42 +0200)
+
+> 22 October 2026, correction de l'entrée order-align-0999-22-october-2026 : la consigne a été reçue le 22 October 2026 vers 12 h ; « jusqu'à 11 demain matin » veut dire jusqu'au 23 October 2026 à 11 h. (22 October 2026, 12:20:42 +0200)
