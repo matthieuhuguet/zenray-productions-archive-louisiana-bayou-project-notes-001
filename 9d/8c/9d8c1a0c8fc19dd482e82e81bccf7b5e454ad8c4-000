@@ -4595,3 +4595,18 @@
 - Source: checkpoint:claude:beb9938e-4434-4925-8d13-137bb7940fc0. (22 October 2026, 14:21:54 +0200)
 
 > 22 October 2026 : calage 2D par île, boucle 0,999. Score de calage de l arche à 512 : 0,315 puis 0,99911 (101 écarts sur 113 522 points), 156 îles sur 160 posées sur leurs bords, recouvrement 0,737 puis 0,984 ; production et graphe /obj/ZRH_ArchAI512 refaits (identiques à 0,000005) ; AlignSelfTest 48/48 sur le fichier de production ; page M1 reconstruite ; docs et skills synchronisés. Prochain : calage conjoint des îles emboîtées (40/35, 38/34, 283/32), puis le cochon quand sa height dessinée arrive. (22 October 2026, 14:21:54 +0200)
+
+## 22 October 2026, 16:05:41 +0200 : Log
+
+<!-- feedback-event:5166e7e91fc86bf81ebe53a3de70da8aad4d5709b66e339e52d3eb5d115c4395 (22 October 2026, 16:05:41 +0200) -->
+- Project: louisiana-bayou; kind: log. (22 October 2026, 16:05:41 +0200)
+
+> 22 October 2026, soir : calage 2D par île durci par la batterie synthétique « modèle d'image » (AlignSelfTest --ai) : courbure des îles longues gardée sous la membrane, membrane de 64 px, arbitrage de deux îles posées sur le même trait ; arche à 512 : score de calage 0,99944, 156 îles sur 160 ; base 48/48 et modèle d'image 46/48 sur les fichiers de production (md5 c3cfe922d454495b64a578327fe07259). (22 October 2026, 16:05:41 +0200)
+
+## 22 October 2026, 16:05:50 +0200 : Iteration
+
+<!-- feedback-event:b55d61f905849b62638ff2ffe2f5a71b46e907d0a902eed00b25a58ed57613ba (22 October 2026, 16:05:50 +0200) -->
+- Project: louisiana-bayou; kind: iteration. (22 October 2026, 16:05:50 +0200)
+- Source: checkpoint:claude:beb9938e-4434-4925-8d13-137bb7940fc0. (22 October 2026, 16:05:50 +0200)
+
+> 22 October 2026, soir : calage 2D par île durci par une batterie synthétique à vérité connue imitant le modèle d image (îles courbées, boulons décalés, bandes épaissies). Courbure gardée sous la membrane, membrane de 64 px, arbitrage des doubles occupations. Arche à 512 : score de calage 0,99944, 156 îles sur 160 ; base 48/48 et modèle d image 46/48 sur les fichiers de production ; page M1 refaite ; commit Memory1 608648810. Prochain : temps de calcul, puis les îles emboîtées. (22 October 2026, 16:05:50 +0200)
