@@ -4610,3 +4610,11 @@
 - Source: checkpoint:claude:beb9938e-4434-4925-8d13-137bb7940fc0. (22 October 2026, 16:05:50 +0200)
 
 > 22 October 2026, soir : calage 2D par île durci par une batterie synthétique à vérité connue imitant le modèle d image (îles courbées, boulons décalés, bandes épaissies). Courbure gardée sous la membrane, membrane de 64 px, arbitrage des doubles occupations. Arche à 512 : score de calage 0,99944, 156 îles sur 160 ; base 48/48 et modèle d image 46/48 sur les fichiers de production ; page M1 refaite ; commit Memory1 608648810. Prochain : temps de calcul, puis les îles emboîtées. (22 October 2026, 16:05:50 +0200)
+
+## 22 October 2026, 16:59:14 +0200 : Iteration
+
+<!-- feedback-event:aedc13a697c9956ad99998c3c1bfa8f406aa3ee702f9716032e3c088a1b5af76 (22 October 2026, 16:59:14 +0200) -->
+- Project: louisiana-bayou; kind: iteration. (22 October 2026, 16:59:14 +0200)
+- Source: checkpoint:claude:beb9938e-4434-4925-8d13-137bb7940fc0. (22 October 2026, 16:59:14 +0200)
+
+> 22 October 2026, soir : calage 2D par île, version md5 d3225471164ac1fba82af3db7039fb33. Courbure dans tous les scores, pointes de moins de 3 px sans épingle, direction mesurée par les biais (t_info_min), membrane bornée par le dessin des voisines posées (drawn_reach_px), 8 fils. Arche à 512 : score de calage 0,99941 (67 écarts sur 113 327), 156 îles sur 160, 32 s, graphe identique à Python. Preuves 48/48 base et 48/48 modèle d image dans height-inputs/align-selftest/22-October-2026/evening/. Prochain geste : le boulon 229 dessiné contre une barre (calage 2D écrasé en hauteur, 1,85 px), boucle jusqu à 11 h le 23 October 2026. (22 October 2026, 16:59:14 +0200)
