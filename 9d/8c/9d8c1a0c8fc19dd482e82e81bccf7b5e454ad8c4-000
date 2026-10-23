@@ -4657,3 +4657,10 @@
 - Source: checkpoint:claude:beb9938e-4434-4925-8d13-137bb7940fc0. (22 October 2026, 18:38:57 +0200)
 
 > 22 October 2026, 18 h 40 : arrêt demandé par Matthieu. Calage 2D par île clos sur la version de 18 h 30 (md5 55c0b4cd9a0cda0c0797733751f2db5b), commitée ; arche 0,99944 (cible 0,999 atteinte), 383 feuilles synthétiques sur 384. Règle ajoutée : objectif atteint, on s arrête et on rend compte. (22 October 2026, 18:38:57 +0200)
+
+## 23 October 2026, 13:29:08 +0200 : Standing rule
+
+<!-- feedback-event:d1e69763c23cfe2dbbc7d68cb8508dbb0c2d5ec9b9566c22ff7b70085d32490d (23 October 2026, 13:29:08 +0200) -->
+- Project: louisiana-bayou; kind: rule. (23 October 2026, 13:29:08 +0200)
+
+> 23 October 2026 : la base color se reproduit depuis la height déjà recalée dans le graphe (ALIGN_OUT) par ZenRay Height to Base Color ; ne jamais relancer PerIslandAlign pour la base color, la base color AI est seulement mesurée à travers le remap existant. (23 October 2026, 13:29:08 +0200)
