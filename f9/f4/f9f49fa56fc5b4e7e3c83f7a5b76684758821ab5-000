@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "projectId": "louisiana-bayou",
- "scannedAt": "2026-10-23T11:06:28.623Z",
+ "scannedAt": "2026-10-23T11:28:28.538Z",
  "conversations": [
   {
    "projectId": "louisiana-bayou",
@@ -37,18 +37,18 @@
   },
   {
    "projectId": "louisiana-bayou",
-   "lines": 3301,
-   "work": 504,
-   "prompts": 22,
+   "lines": 3324,
+   "work": 505,
+   "prompts": 23,
    "first": "2026-10-16T11:43:19.042Z",
-   "last": "2026-10-23T11:05:45.283Z",
+   "last": "2026-10-23T11:28:23.704Z",
    "strength": "strong",
    "conversationId": "claude:beb9938e-4434-4925-8d13-137bb7940fc0",
    "provider": "claude",
    "sessionId": "beb9938e-4434-4925-8d13-137bb7940fc0",
    "title": "zenray uv",
-   "updatedAt": "2026-10-23T11:05:46.479Z",
-   "bytes": 408033420,
+   "updatedAt": "2026-10-23T11:28:26.653Z",
+   "bytes": 410732723,
    "boundProject": "louisiana-bayou"
   },
   {
@@ -64,7 +64,7 @@
    "sessionId": "a3f20b1d-27ed-48e1-a0d1-5fe182c0e423",
    "title": "UV Methodology (original /mhzenray)",
    "updatedAt": "2026-10-20T19:18:11.914Z",
-   "bytes": 45539,
+   "bytes": 44728,
    "boundProject": null
   },
   {
@@ -222,8 +222,8 @@
    "conversationId": "gemini:2b7a9671-4eab-431a-9060-024382e6391a",
    "provider": "gemini",
    "sessionId": "2b7a9671-4eab-431a-9060-024382e6391a",
-   "title": "Conversation Gemini 2b7a9671",
-   "updatedAt": "2026-10-09T19:59:07.623Z",
+   "title": "redonne moi le sfx de mon projet poisson 8 octobre",
+   "updatedAt": "2026-10-09T19:58:17.855593+00:00",
    "bytes": 22183936,
    "boundProject": "poisson-gloss-matthieu-poterie-aix-8-octobre-2026"
   },
@@ -254,8 +254,8 @@
    "conversationId": "gemini:d497c75f-8809-407e-a21e-238432d044d7",
    "provider": "gemini",
    "sessionId": "d497c75f-8809-407e-a21e-238432d044d7",
-   "title": "Conversation Gemini d497c75f",
-   "updatedAt": "2026-10-13T18:55:41.045Z",
+   "title": "J'aimerais vérifier un truc, c'est que ZenRe Assets doit lier toutes les conversations d'un projet et lier aussi la dernière conversation d'",
+   "updatedAt": "2026-10-13T18:54:59.014425+00:00",
    "bytes": 5111808,
    "boundProject": null
   },
@@ -270,8 +270,8 @@
    "conversationId": "gemini:5f7f3820-57f6-48ef-9068-d1da82c1fb4a",
    "provider": "gemini",
    "sessionId": "5f7f3820-57f6-48ef-9068-d1da82c1fb4a",
-   "title": "Conversation Gemini 5f7f3820",
-   "updatedAt": "2026-09-18T16:44:38.477Z",
+   "title": "VIA ce skills reproduis exactement le design de cette image ref. donc l'effet de texture noir et bleu + le text font = Alize-Bold ref = /Use",
+   "updatedAt": "2026-09-18T16:33:52.685233+00:00",
    "bytes": 22462464,
    "boundProject": null
   },
@@ -414,8 +414,8 @@
    "conversationId": "gemini:20a24469-7472-4b42-8c52-ab98fa8c2827",
    "provider": "gemini",
    "sessionId": "20a24469-7472-4b42-8c52-ab98fa8c2827",
-   "title": "Conversation Gemini 20a24469",
-   "updatedAt": "2026-10-06T00:29:39.541Z",
+   "title": "/Users/zenray/Create/Build/Productions/ZenRayHoudini/VegetationCollection01/versions/height_evolution/077_CURRENT_lily_trim_height.png /User",
+   "updatedAt": "2026-10-06T00:28:49.019217+00:00",
    "bytes": 1904640,
    "boundProject": "vegetation-assets-collection-01"
   },
@@ -430,8 +430,8 @@
    "conversationId": "gemini:ba8225a5-8c29-4998-ae10-4df55cd2f006",
    "provider": "gemini",
    "sessionId": "ba8225a5-8c29-4998-ae10-4df55cd2f006",
-   "title": "Conversation Gemini ba8225a5",
-   "updatedAt": "2026-09-19T20:27:38.511Z",
+   "title": "Tu es le catalogueur d'assets pour le projet Louisiana Bayou. Ta mission : 1. Fais l'inventaire exhaustif de tous les assets relatifs au pro",
+   "updatedAt": "2026-09-19T20:26:58.191112+00:00",
    "bytes": 2039808,
    "boundProject": null
   },
@@ -494,8 +494,8 @@
    "conversationId": "gemini:9a87471e-1463-41d2-a491-898ba51f75ce",
    "provider": "gemini",
    "sessionId": "9a87471e-1463-41d2-a491-898ba51f75ce",
-   "title": "Conversation Gemini 9a87471e",
-   "updatedAt": "2026-09-19T20:30:39.115Z",
+   "title": "Alors j'ai juste une contrainte la miniature doit donc avoir le style et il me faut le batiment rouge et bleu du coup slash uniquement la te",
+   "updatedAt": "2026-09-19T20:30:07.416242+00:00",
    "bytes": 47792128,
    "boundProject": null
   },
@@ -526,8 +526,8 @@
    "conversationId": "gemini:57d211ec-bbfc-4b3d-9e9b-6acb5e2b1336",
    "provider": "gemini",
    "sessionId": "57d211ec-bbfc-4b3d-9e9b-6acb5e2b1336",
-   "title": "Conversation Gemini 57d211ec",
-   "updatedAt": "2026-10-17T19:19:44.803Z",
+   "title": "all",
+   "updatedAt": "2026-10-17T19:19:01.727244+00:00",
    "bytes": 3833856,
    "boundProject": null
   },
@@ -542,8 +542,8 @@
    "conversationId": "gemini:b5fe17ca-baf0-408d-b195-d321db97fce5",
    "provider": "gemini",
    "sessionId": "b5fe17ca-baf0-408d-b195-d321db97fce5",
-   "title": "Conversation Gemini b5fe17ca",
-   "updatedAt": "2026-10-08T10:11:37.548Z",
+   "title": "[$zenray-assets](/Users/zenray/.codex/skills/zenray-assets/SKILL.md) context on a repris louisiana bayou comprends l'index mapping",
+   "updatedAt": "2026-10-08T10:10:53.647286+00:00",
    "bytes": 11272192,
    "boundProject": "louisiana-bayou"
   },
@@ -558,8 +558,8 @@
    "conversationId": "gemini:4e82cfd4-5e49-40b3-bbe8-68e702efbe1d",
    "provider": "gemini",
    "sessionId": "4e82cfd4-5e49-40b3-bbe8-68e702efbe1d",
-   "title": "Conversation Gemini 4e82cfd4",
-   "updatedAt": "2026-09-16T17:47:05.988Z",
+   "title": "reprends le contexte de ma scène houdini ouverte et dis moi ce que tu vois J'aimerai hide la voiture pour le moment.",
+   "updatedAt": "2026-09-16T17:46:12.091925+00:00",
    "bytes": 5468160,
    "boundProject": null
   },
@@ -574,8 +574,8 @@
    "conversationId": "gemini:47be0dd6-e63e-4cf3-84c9-9f6ac0f10610",
    "provider": "gemini",
    "sessionId": "47be0dd6-e63e-4cf3-84c9-9f6ac0f10610",
-   "title": "Conversation Gemini 47be0dd6",
-   "updatedAt": "2026-09-12T13:31:27.736Z",
+   "title": "Tu es l'agent spécialisé dans la structure, le positionnement et les dimensions du Porche (Vestibule et Escalier) dans Houdini. Objectifs st",
+   "updatedAt": "2026-09-12T13:30:43.917197+00:00",
    "bytes": 2035712,
    "boundProject": null
   },
@@ -590,8 +590,8 @@
    "conversationId": "gemini:3871323d-5da2-4ac2-9e7a-1e1ffa4146fc",
    "provider": "gemini",
    "sessionId": "3871323d-5da2-4ac2-9e7a-1e1ffa4146fc",
-   "title": "Conversation Gemini 3871323d",
-   "updatedAt": "2026-09-12T13:01:11.654Z",
+   "title": "Tu es l'agent spécialisé dans la synchronisation de l'Armature (Arche et Croix) et de la Fenêtre B (Component_WindowB) dans Houdini. Objecti",
+   "updatedAt": "2026-09-12T13:00:34.347205+00:00",
    "bytes": 1830912,
    "boundProject": null
   },
@@ -606,8 +606,8 @@
    "conversationId": "gemini:817ce2b3-49da-4157-97ed-d40d9533b1e7",
    "provider": "gemini",
    "sessionId": "817ce2b3-49da-4157-97ed-d40d9533b1e7",
-   "title": "Conversation Gemini 817ce2b3",
-   "updatedAt": "2026-09-07T09:16:38.501Z",
+   "title": "Est ce que tu peux voir s'il existe un houdini mcp officiel sortie par compatible avec agents agnostique si possible je sais que radu cius a",
+   "updatedAt": "2026-09-07T09:15:58.634576+00:00",
    "bytes": 2674688,
    "boundProject": null
   },
@@ -626,6 +626,22 @@
    "updatedAt": "2026-10-14T10:45:04.320Z",
    "bytes": 21343,
    "boundProject": "zenray-assets-tube-view"
+  },
+  {
+   "projectId": "louisiana-bayou",
+   "lines": 18,
+   "work": 0,
+   "prompts": 1,
+   "first": "2026-10-17T14:21:27.442Z",
+   "last": "2026-10-23T11:09:50.907Z",
+   "strength": "weak",
+   "conversationId": "claude:2ce02bbc-dad5-488e-9ffc-51313c488339",
+   "provider": "claude",
+   "sessionId": "2ce02bbc-dad5-488e-9ffc-51313c488339",
+   "title": "studio photos",
+   "updatedAt": "2026-10-23T11:17:19.759Z",
+   "bytes": 38507,
+   "boundProject": "studiophoto-matthieu-17-october-2026"
   },
   {
    "projectId": "louisiana-bayou",
@@ -658,22 +674,6 @@
    "updatedAt": "2026-10-21T10:06:45.761Z",
    "bytes": 33540,
    "boundProject": "conversation-claude-f636b9060f04a23ee355c148"
-  },
-  {
-   "projectId": "louisiana-bayou",
-   "lines": 14,
-   "work": 0,
-   "prompts": 1,
-   "first": "2026-10-17T14:21:27.442Z",
-   "last": "2026-10-21T12:36:22.306Z",
-   "strength": "weak",
-   "conversationId": "claude:2ce02bbc-dad5-488e-9ffc-51313c488339",
-   "provider": "claude",
-   "sessionId": "2ce02bbc-dad5-488e-9ffc-51313c488339",
-   "title": "studio photos",
-   "updatedAt": "2026-10-21T17:14:21.465Z",
-   "bytes": 38562,
-   "boundProject": "studiophoto-matthieu-17-october-2026"
   },
   {
    "projectId": "louisiana-bayou",
@@ -773,6 +773,22 @@
   },
   {
    "projectId": "louisiana-bayou",
+   "lines": 5,
+   "work": 0,
+   "prompts": 0,
+   "first": "2026-10-23T11:00:00.778Z",
+   "last": "2026-10-23T11:14:46.836Z",
+   "strength": "weak",
+   "conversationId": "claude:11264bd4-8a19-4e76-b9be-dc012304e419",
+   "provider": "claude",
+   "sessionId": "11264bd4-8a19-4e76-b9be-dc012304e419",
+   "title": "zenray knowledge",
+   "updatedAt": "2026-10-23T11:20:29.198Z",
+   "bytes": 38388,
+   "boundProject": null
+  },
+  {
+   "projectId": "louisiana-bayou",
    "lines": 4,
    "work": 0,
    "prompts": 1,
@@ -801,22 +817,6 @@
    "title": "Organisation dossier Downloads",
    "updatedAt": "2026-09-30T10:58:03.807Z",
    "bytes": 22075,
-   "boundProject": null
-  },
-  {
-   "projectId": "louisiana-bayou",
-   "lines": 3,
-   "work": 0,
-   "prompts": 0,
-   "first": "2026-10-23T11:00:00.778Z",
-   "last": "2026-10-23T11:00:44.543Z",
-   "strength": "weak",
-   "conversationId": "claude:11264bd4-8a19-4e76-b9be-dc012304e419",
-   "provider": "claude",
-   "sessionId": "11264bd4-8a19-4e76-b9be-dc012304e419",
-   "title": "zenray knowledge",
-   "updatedAt": "2026-10-23T11:03:11.690Z",
-   "bytes": 2125939,
    "boundProject": null
   },
   {
@@ -1246,8 +1246,8 @@
    "conversationId": "gemini:8c359457-fb75-44b0-bca5-bc5fcf9ee51b",
    "provider": "gemini",
    "sessionId": "8c359457-fb75-44b0-bca5-bc5fcf9ee51b",
-   "title": "Conversation Gemini 8c359457",
-   "updatedAt": "2026-10-05T23:45:47.114Z",
+   "title": "change l'icone de zenray-dictate context + utilise les 3 couleurs de l'icone gemini pour créer une icon svg moderne go à partir de l'existan",
+   "updatedAt": "2026-10-05T23:44:58.703091+00:00",
    "bytes": 10227712,
    "boundProject": null
   },
@@ -1406,8 +1406,8 @@
    "conversationId": "gemini:3e22a918-b7a6-4b1f-99ea-e50907f40d44",
    "provider": "gemini",
    "sessionId": "3e22a918-b7a6-4b1f-99ea-e50907f40d44",
-   "title": "Conversation Gemini 3e22a918",
-   "updatedAt": "2026-09-15T20:06:00.494Z",
+   "title": "'/Users/zenray/Movies/2026-09-15 20-36-50.mkv' to mov et speed jusqu'à ce que ça fasse 30 secondes speed ajusté à la longueur initial. go da",
+   "updatedAt": "2026-09-15T20:05:24.351772+00:00",
    "bytes": 3629056,
    "boundProject": null
   },
