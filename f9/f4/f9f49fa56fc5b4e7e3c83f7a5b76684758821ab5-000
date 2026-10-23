@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "projectId": "louisiana-bayou",
- "scannedAt": "2026-10-23T15:05:30.803Z",
+ "scannedAt": "2026-10-23T15:13:31.262Z",
  "conversations": [
   {
    "projectId": "louisiana-bayou",
@@ -735,8 +735,8 @@
    "provider": "claude",
    "sessionId": "11264bd4-8a19-4e76-b9be-dc012304e419",
    "title": "zenray knowledge",
-   "updatedAt": "2026-10-23T12:37:24.607Z",
-   "bytes": 38493,
+   "updatedAt": "2026-10-23T15:13:27.908Z",
+   "bytes": 27412024,
    "boundProject": null
   },
   {
@@ -783,8 +783,8 @@
    "provider": "claude",
    "sessionId": "7e127e64-f68b-4058-b7bb-62c6b86d72ba",
    "title": "zenray meeting",
-   "updatedAt": "2026-10-23T15:05:10.313Z",
-   "bytes": 38390,
+   "updatedAt": "2026-10-23T15:12:49.546Z",
+   "bytes": 6071116,
    "boundProject": "zenray-plan"
   },
   {
