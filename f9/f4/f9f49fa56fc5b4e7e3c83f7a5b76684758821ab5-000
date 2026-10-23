@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "projectId": "louisiana-bayou",
- "scannedAt": "2026-10-23T15:13:31.262Z",
+ "scannedAt": "2026-10-23T16:00:04.078Z",
  "conversations": [
   {
    "projectId": "louisiana-bayou",
@@ -341,18 +341,18 @@
   },
   {
    "projectId": "louisiana-bayou",
-   "lines": 41,
+   "lines": 46,
    "work": 1,
    "prompts": 2,
    "first": "2026-10-14T11:34:57.859Z",
-   "last": "2026-10-21T17:09:12.855Z",
+   "last": "2026-10-23T15:16:27.938Z",
    "strength": "strong",
    "conversationId": "claude:d2f26016-25dd-4bcc-a6d8-122d50d3f383",
    "provider": "claude",
    "sessionId": "d2f26016-25dd-4bcc-a6d8-122d50d3f383",
    "title": "zenray motion design",
-   "updatedAt": "2026-10-22T22:09:46.176Z",
-   "bytes": 22379,
+   "updatedAt": "2026-10-23T15:59:40.957Z",
+   "bytes": 22404,
    "boundProject": null
   },
   {
@@ -735,8 +735,8 @@
    "provider": "claude",
    "sessionId": "11264bd4-8a19-4e76-b9be-dc012304e419",
    "title": "zenray knowledge",
-   "updatedAt": "2026-10-23T15:13:27.908Z",
-   "bytes": 27412024,
+   "updatedAt": "2026-10-23T15:50:05.341Z",
+   "bytes": 38276,
    "boundProject": null
   },
   {
@@ -782,10 +782,26 @@
    "conversationId": "claude:7e127e64-f68b-4058-b7bb-62c6b86d72ba",
    "provider": "claude",
    "sessionId": "7e127e64-f68b-4058-b7bb-62c6b86d72ba",
-   "title": "zenray meeting",
-   "updatedAt": "2026-10-23T15:12:49.546Z",
-   "bytes": 6071116,
+   "title": "zenray sales",
+   "updatedAt": "2026-10-23T15:59:42.290Z",
+   "bytes": 39055,
    "boundProject": "zenray-plan"
+  },
+  {
+   "projectId": "louisiana-bayou",
+   "lines": 6,
+   "work": 0,
+   "prompts": 1,
+   "first": "2026-10-23T15:13:39.496Z",
+   "last": "2026-10-23T15:45:24.690Z",
+   "strength": "weak",
+   "conversationId": "claude:dcc7ed98-e112-48d7-b02f-91779656c66d",
+   "provider": "claude",
+   "sessionId": "dcc7ed98-e112-48d7-b02f-91779656c66d",
+   "title": "zenray plan calendar",
+   "updatedAt": "2026-10-23T15:45:56.125Z",
+   "bytes": 38452,
+   "boundProject": null
   },
   {
    "projectId": "louisiana-bayou",
@@ -881,6 +897,22 @@
    "title": "Mail transfert dossier auto-école",
    "updatedAt": "2026-10-02T14:38:28.892Z",
    "bytes": 23040,
+   "boundProject": null
+  },
+  {
+   "projectId": "louisiana-bayou",
+   "lines": 2,
+   "work": 0,
+   "prompts": 0,
+   "first": "2026-10-23T15:28:42.729Z",
+   "last": "2026-10-23T15:28:42.729Z",
+   "strength": "weak",
+   "conversationId": "claude:21bf5c30-b775-4f4b-a369-b58c562c84b7",
+   "provider": "claude",
+   "sessionId": "21bf5c30-b775-4f4b-a369-b58c562c84b7",
+   "title": "Deep research zenray-sales : enrichir Sales1.md",
+   "updatedAt": "2026-10-23T15:59:21.783Z",
+   "bytes": 41401,
    "boundProject": null
   },
   {
