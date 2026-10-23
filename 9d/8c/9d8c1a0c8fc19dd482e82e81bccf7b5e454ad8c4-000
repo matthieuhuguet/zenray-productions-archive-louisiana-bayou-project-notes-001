@@ -4664,3 +4664,10 @@
 - Project: louisiana-bayou; kind: rule. (23 October 2026, 13:29:08 +0200)
 
 > 23 October 2026 : la base color se reproduit depuis la height déjà recalée dans le graphe (ALIGN_OUT) par ZenRay Height to Base Color ; ne jamais relancer PerIslandAlign pour la base color, la base color AI est seulement mesurée à travers le remap existant. (23 October 2026, 13:29:08 +0200)
+
+## 24 October 2026, 00:36:09 +0200 : Standing rule
+
+<!-- feedback-event:f757cdd449874ea8fb6bd19e6e6691a80aab099048757035aef17e2bfc127348 (24 October 2026, 00:36:09 +0200) -->
+- Project: louisiana-bayou; kind: rule. (24 October 2026, 00:36:09 +0200)
+
+> Les articles du projet (Articles/*.html et index) se reconstruisent et se republient seuls dès qu'une source change : entrée louisiana-bayou de zenray-edit/articles/Registry.json, refresh-articles.mjs, LaunchAgent com.zenray.articles-refresh. (24 October 2026) (24 October 2026, 00:36:09 +0200)
