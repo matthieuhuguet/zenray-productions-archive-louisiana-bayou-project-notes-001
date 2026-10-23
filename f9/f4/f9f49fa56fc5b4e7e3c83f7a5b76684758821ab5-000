@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "projectId": "louisiana-bayou",
- "scannedAt": "2026-10-23T14:47:30.557Z",
+ "scannedAt": "2026-10-23T15:00:30.824Z",
  "conversations": [
   {
    "projectId": "louisiana-bayou",
@@ -776,6 +776,22 @@
    "lines": 6,
    "work": 0,
    "prompts": 0,
+   "first": "2026-10-23T12:18:13.325Z",
+   "last": "2026-10-23T14:58:32.140Z",
+   "strength": "weak",
+   "conversationId": "claude:7e127e64-f68b-4058-b7bb-62c6b86d72ba",
+   "provider": "claude",
+   "sessionId": "7e127e64-f68b-4058-b7bb-62c6b86d72ba",
+   "title": "zenray meeting",
+   "updatedAt": "2026-10-23T14:59:35.251Z",
+   "bytes": 38403,
+   "boundProject": "zenray-plan"
+  },
+  {
+   "projectId": "louisiana-bayou",
+   "lines": 6,
+   "work": 0,
+   "prompts": 0,
    "first": "2026-10-11T22:13:26.358Z",
    "last": "2026-10-11T22:42:37.331Z",
    "strength": "weak",
@@ -786,22 +802,6 @@
    "updatedAt": "2026-10-11T22:51:54.267Z",
    "bytes": 20972,
    "boundProject": null
-  },
-  {
-   "projectId": "louisiana-bayou",
-   "lines": 5,
-   "work": 0,
-   "prompts": 0,
-   "first": "2026-10-23T12:18:13.325Z",
-   "last": "2026-10-23T14:46:34.160Z",
-   "strength": "weak",
-   "conversationId": "claude:7e127e64-f68b-4058-b7bb-62c6b86d72ba",
-   "provider": "claude",
-   "sessionId": "7e127e64-f68b-4058-b7bb-62c6b86d72ba",
-   "title": "zenray meeting",
-   "updatedAt": "2026-10-23T14:47:26.096Z",
-   "bytes": 38421,
-   "boundProject": "zenray-plan"
   },
   {
    "projectId": "louisiana-bayou",
