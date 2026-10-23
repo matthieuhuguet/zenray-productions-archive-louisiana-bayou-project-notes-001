@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "projectId": "louisiana-bayou",
- "scannedAt": "2026-10-23T21:05:28.695Z",
+ "scannedAt": "2026-10-23T21:23:28.681Z",
  "conversations": [
   {
    "projectId": "louisiana-bayou",
@@ -680,6 +680,22 @@
    "lines": 14,
    "work": 0,
    "prompts": 1,
+   "first": "2026-10-23T11:00:00.778Z",
+   "last": "2026-10-23T21:10:43.512Z",
+   "strength": "weak",
+   "conversationId": "claude:11264bd4-8a19-4e76-b9be-dc012304e419",
+   "provider": "claude",
+   "sessionId": "11264bd4-8a19-4e76-b9be-dc012304e419",
+   "title": "zenray knowledge",
+   "updatedAt": "2026-10-23T21:20:23.725Z",
+   "bytes": 34130576,
+   "boundProject": "zenray-knowledge-23-october-2026"
+  },
+  {
+   "projectId": "louisiana-bayou",
+   "lines": 14,
+   "work": 0,
+   "prompts": 1,
    "first": "2026-10-14T11:34:57.859Z",
    "last": "2026-10-15T13:12:56.448Z",
    "strength": "weak",
@@ -722,22 +738,6 @@
    "updatedAt": "2026-10-13T17:04:27.813Z",
    "bytes": 20264,
    "boundProject": null
-  },
-  {
-   "projectId": "louisiana-bayou",
-   "lines": 10,
-   "work": 0,
-   "prompts": 1,
-   "first": "2026-10-23T11:00:00.778Z",
-   "last": "2026-10-23T17:58:14.940Z",
-   "strength": "weak",
-   "conversationId": "claude:11264bd4-8a19-4e76-b9be-dc012304e419",
-   "provider": "claude",
-   "sessionId": "11264bd4-8a19-4e76-b9be-dc012304e419",
-   "title": "zenray knowledge",
-   "updatedAt": "2026-10-23T21:04:05.332Z",
-   "bytes": 38031,
-   "boundProject": "zenray-knowledge-23-october-2026"
   },
   {
    "projectId": "louisiana-bayou",
@@ -839,6 +839,22 @@
    "projectId": "louisiana-bayou",
    "lines": 4,
    "work": 0,
+   "prompts": 0,
+   "first": "2026-10-23T20:51:55.558Z",
+   "last": "2026-10-23T21:14:30.809Z",
+   "strength": "weak",
+   "conversationId": "claude:58712af3-1264-4e9c-a11d-d90fec62dce4",
+   "provider": "claude",
+   "sessionId": "58712af3-1264-4e9c-a11d-d90fec62dce4",
+   "title": "zenray calendar plan",
+   "updatedAt": "2026-10-23T21:23:06.962Z",
+   "bytes": 38353,
+   "boundProject": "zenray-calendar-plan-23-october-2026"
+  },
+  {
+   "projectId": "louisiana-bayou",
+   "lines": 4,
+   "work": 0,
    "prompts": 1,
    "first": "2026-10-10T21:07:39.124Z",
    "last": "2026-10-10T22:01:11.344Z",
@@ -866,22 +882,6 @@
    "updatedAt": "2026-09-30T10:58:03.807Z",
    "bytes": 22075,
    "boundProject": null
-  },
-  {
-   "projectId": "louisiana-bayou",
-   "lines": 3,
-   "work": 0,
-   "prompts": 0,
-   "first": "2026-10-23T20:51:55.558Z",
-   "last": "2026-10-23T21:01:19.136Z",
-   "strength": "weak",
-   "conversationId": "claude:58712af3-1264-4e9c-a11d-d90fec62dce4",
-   "provider": "claude",
-   "sessionId": "58712af3-1264-4e9c-a11d-d90fec62dce4",
-   "title": "zenray calendar plan",
-   "updatedAt": "2026-10-23T21:04:39.108Z",
-   "bytes": 38337,
-   "boundProject": "zenray-calendar-plan-23-october-2026"
   },
   {
    "projectId": "louisiana-bayou",
