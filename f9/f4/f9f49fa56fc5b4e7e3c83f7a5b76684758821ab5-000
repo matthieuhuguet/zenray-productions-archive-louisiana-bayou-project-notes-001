@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "projectId": "louisiana-bayou",
- "scannedAt": "2026-10-25T15:02:30.154Z",
+ "scannedAt": "2026-10-25T15:47:26.806Z",
  "conversations": [
   {
    "projectId": "louisiana-bayou",
@@ -469,18 +469,18 @@
   },
   {
    "projectId": "louisiana-bayou",
-   "lines": 10,
+   "lines": 11,
    "work": 0,
    "prompts": 2,
    "first": "2026-10-25T14:43:32.510Z",
-   "last": "2026-10-25T14:52:40.877Z",
+   "last": "2026-10-25T15:23:01.401Z",
    "strength": "strong",
    "conversationId": "claude:09d15ec8-88ad-4965-a2f0-80b68515e880",
    "provider": "claude",
    "sessionId": "09d15ec8-88ad-4965-a2f0-80b68515e880",
    "title": "zenray meshes",
-   "updatedAt": "2026-10-25T15:02:18.386Z",
-   "bytes": 4715757,
+   "updatedAt": "2026-10-25T15:47:07.917Z",
+   "bytes": 5279983,
    "boundProject": "zenray-meshes"
   },
   {
@@ -879,8 +879,8 @@
    "provider": "claude",
    "sessionId": "49b7cc73-992e-4b7f-a693-9e6a0cda48b3",
    "title": "zenray argent",
-   "updatedAt": "2026-10-25T14:26:10.292Z",
-   "bytes": 38160,
+   "updatedAt": "2026-10-25T15:35:09.669Z",
+   "bytes": 38169,
    "boundProject": "qlmarkdown-designs-25-october-2026"
   },
   {
@@ -935,6 +935,22 @@
    "projectId": "louisiana-bayou",
    "lines": 3,
    "work": 0,
+   "prompts": 0,
+   "first": "2026-10-25T14:08:33.899Z",
+   "last": "2026-10-25T15:32:57.355Z",
+   "strength": "weak",
+   "conversationId": "claude:b8e43d99-5824-4ddc-8444-a984b5743a04",
+   "provider": "claude",
+   "sessionId": "b8e43d99-5824-4ddc-8444-a984b5743a04",
+   "title": "zenray sfx",
+   "updatedAt": "2026-10-25T15:46:32.433Z",
+   "bytes": 38390,
+   "boundProject": null
+  },
+  {
+   "projectId": "louisiana-bayou",
+   "lines": 3,
+   "work": 0,
    "prompts": 1,
    "first": "2026-10-12T01:02:46.196Z",
    "last": "2026-10-12T07:32:32.868Z",
@@ -977,22 +993,6 @@
    "title": "Mail transfert dossier auto-école",
    "updatedAt": "2026-10-02T14:38:28.892Z",
    "bytes": 23040,
-   "boundProject": null
-  },
-  {
-   "projectId": "louisiana-bayou",
-   "lines": 2,
-   "work": 0,
-   "prompts": 0,
-   "first": "2026-10-25T14:08:33.899Z",
-   "last": "2026-10-25T14:08:33.899Z",
-   "strength": "weak",
-   "conversationId": "claude:b8e43d99-5824-4ddc-8444-a984b5743a04",
-   "provider": "claude",
-   "sessionId": "b8e43d99-5824-4ddc-8444-a984b5743a04",
-   "title": "zenray sfx",
-   "updatedAt": "2026-10-25T15:02:18.422Z",
-   "bytes": 6453265,
    "boundProject": null
   },
   {
