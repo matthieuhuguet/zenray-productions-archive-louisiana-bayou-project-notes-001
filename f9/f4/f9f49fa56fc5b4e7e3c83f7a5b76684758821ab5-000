@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "projectId": "louisiana-bayou",
- "scannedAt": "2026-10-25T14:08:54.816Z",
+ "scannedAt": "2026-10-25T14:30:49.812Z",
  "conversations": [
   {
    "projectId": "louisiana-bayou",
@@ -863,8 +863,8 @@
    "provider": "claude",
    "sessionId": "49b7cc73-992e-4b7f-a693-9e6a0cda48b3",
    "title": "zenray argent",
-   "updatedAt": "2026-10-25T14:04:12.731Z",
-   "bytes": 38366,
+   "updatedAt": "2026-10-25T14:26:10.292Z",
+   "bytes": 38160,
    "boundProject": "qlmarkdown-designs-25-october-2026"
   },
   {
@@ -961,6 +961,38 @@
    "title": "Mail transfert dossier auto-école",
    "updatedAt": "2026-10-02T14:38:28.892Z",
    "bytes": 23040,
+   "boundProject": null
+  },
+  {
+   "projectId": "louisiana-bayou",
+   "lines": 2,
+   "work": 0,
+   "prompts": 0,
+   "first": "2026-10-25T14:24:34.117Z",
+   "last": "2026-10-25T14:24:34.117Z",
+   "strength": "weak",
+   "conversationId": "claude:9bd97a57-f673-42be-bfdd-095696399637",
+   "provider": "claude",
+   "sessionId": "9bd97a57-f673-42be-bfdd-095696399637",
+   "title": "zenray meshes",
+   "updatedAt": "2026-10-25T14:25:42.887Z",
+   "bytes": 38411,
+   "boundProject": null
+  },
+  {
+   "projectId": "louisiana-bayou",
+   "lines": 2,
+   "work": 0,
+   "prompts": 0,
+   "first": "2026-10-25T14:08:33.899Z",
+   "last": "2026-10-25T14:08:33.899Z",
+   "strength": "weak",
+   "conversationId": "claude:b8e43d99-5824-4ddc-8444-a984b5743a04",
+   "provider": "claude",
+   "sessionId": "b8e43d99-5824-4ddc-8444-a984b5743a04",
+   "title": "zenray sfx",
+   "updatedAt": "2026-10-25T14:25:25.096Z",
+   "bytes": 4898328,
    "boundProject": null
   },
   {
