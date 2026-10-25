@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "projectId": "louisiana-bayou",
- "scannedAt": "2026-10-25T17:36:54.984Z",
+ "scannedAt": "2026-10-25T17:41:32.465Z",
  "conversations": [
   {
    "projectId": "louisiana-bayou",
@@ -479,8 +479,8 @@
    "provider": "claude",
    "sessionId": "09d15ec8-88ad-4965-a2f0-80b68515e880",
    "title": "zenray meshes",
-   "updatedAt": "2026-10-25T17:36:50.895Z",
-   "bytes": 22954668,
+   "updatedAt": "2026-10-25T17:38:32.523Z",
+   "bytes": 24760770,
    "boundProject": "zenray-meshes"
   },
   {
@@ -871,6 +871,22 @@
    "projectId": "louisiana-bayou",
    "lines": 5,
    "work": 0,
+   "prompts": 0,
+   "first": "2026-10-25T14:08:33.899Z",
+   "last": "2026-10-25T17:38:26.393Z",
+   "strength": "weak",
+   "conversationId": "claude:b8e43d99-5824-4ddc-8444-a984b5743a04",
+   "provider": "claude",
+   "sessionId": "b8e43d99-5824-4ddc-8444-a984b5743a04",
+   "title": "zenray sfx",
+   "updatedAt": "2026-10-25T17:38:47.764Z",
+   "bytes": 12523965,
+   "boundProject": "zenray-sfx-25-october-2026"
+  },
+  {
+   "projectId": "louisiana-bayou",
+   "lines": 5,
+   "work": 0,
    "prompts": 1,
    "first": "2026-10-25T13:40:53.907Z",
    "last": "2026-10-25T14:00:34.314Z",
@@ -929,22 +945,6 @@
    "title": "Organisation dossier Downloads",
    "updatedAt": "2026-09-30T10:58:03.807Z",
    "bytes": 22075,
-   "boundProject": null
-  },
-  {
-   "projectId": "louisiana-bayou",
-   "lines": 3,
-   "work": 0,
-   "prompts": 0,
-   "first": "2026-10-25T14:08:33.899Z",
-   "last": "2026-10-25T15:32:57.355Z",
-   "strength": "weak",
-   "conversationId": "claude:b8e43d99-5824-4ddc-8444-a984b5743a04",
-   "provider": "claude",
-   "sessionId": "b8e43d99-5824-4ddc-8444-a984b5743a04",
-   "title": "zenray sfx",
-   "updatedAt": "2026-10-25T17:36:52.377Z",
-   "bytes": 12229855,
    "boundProject": null
   },
   {
