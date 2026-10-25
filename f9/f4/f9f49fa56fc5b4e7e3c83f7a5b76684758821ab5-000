@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "projectId": "louisiana-bayou",
- "scannedAt": "2026-10-25T16:18:50.482Z",
+ "scannedAt": "2026-10-25T16:30:03.572Z",
  "conversations": [
   {
    "projectId": "louisiana-bayou",
@@ -479,7 +479,7 @@
    "provider": "claude",
    "sessionId": "09d15ec8-88ad-4965-a2f0-80b68515e880",
    "title": "zenray meshes",
-   "updatedAt": "2026-10-25T16:15:38.335Z",
+   "updatedAt": "2026-10-25T16:26:49.867Z",
    "bytes": 37893,
    "boundProject": "zenray-meshes"
   },
@@ -943,8 +943,8 @@
    "provider": "claude",
    "sessionId": "b8e43d99-5824-4ddc-8444-a984b5743a04",
    "title": "zenray sfx",
-   "updatedAt": "2026-10-25T16:18:43.801Z",
-   "bytes": 8633229,
+   "updatedAt": "2026-10-25T16:29:03.396Z",
+   "bytes": 37890,
    "boundProject": null
   },
   {
@@ -1007,8 +1007,8 @@
    "provider": "claude",
    "sessionId": "7b4fce4a-5400-4962-a3d3-28b11fde651d",
    "title": "speech to text claude",
-   "updatedAt": "2026-10-25T16:18:43.855Z",
-   "bytes": 2584698,
+   "updatedAt": "2026-10-25T16:29:39.382Z",
+   "bytes": 37909,
    "boundProject": null
   },
   {
