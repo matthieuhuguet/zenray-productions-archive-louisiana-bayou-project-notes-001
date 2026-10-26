@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "projectId": "louisiana-bayou",
- "scannedAt": "2026-10-26T09:29:19.903Z",
+ "scannedAt": "2026-10-26T09:33:20.348Z",
  "conversations": [
   {
    "projectId": "louisiana-bayou",
@@ -335,8 +335,8 @@
    "provider": "claude",
    "sessionId": "d2f26016-25dd-4bcc-a6d8-122d50d3f383",
    "title": "zenray motion design",
-   "updatedAt": "2026-10-26T09:28:24.409Z",
-   "bytes": 528138546,
+   "updatedAt": "2026-10-26T09:33:18.761Z",
+   "bytes": 528196993,
    "boundProject": null
   },
   {
@@ -447,8 +447,8 @@
    "provider": "claude",
    "sessionId": "09d15ec8-88ad-4965-a2f0-80b68515e880",
    "title": "zenray meshes",
-   "updatedAt": "2026-10-26T09:29:12.963Z",
-   "bytes": 379789510,
+   "updatedAt": "2026-10-26T09:32:50.699Z",
+   "bytes": 380023312,
    "boundProject": "zenray-meshes"
   },
   {
