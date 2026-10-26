@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "projectId": "louisiana-bayou",
- "scannedAt": "2026-10-26T08:47:31.261Z",
+ "scannedAt": "2026-10-26T09:09:32.918Z",
  "conversations": [
   {
    "projectId": "louisiana-bayou",
@@ -335,8 +335,8 @@
    "provider": "claude",
    "sessionId": "d2f26016-25dd-4bcc-a6d8-122d50d3f383",
    "title": "zenray motion design",
-   "updatedAt": "2026-10-26T08:35:20.779Z",
-   "bytes": 22405,
+   "updatedAt": "2026-10-26T09:09:30.861Z",
+   "bytes": 526363101,
    "boundProject": null
   },
   {
@@ -437,18 +437,18 @@
   },
   {
    "projectId": "louisiana-bayou",
-   "lines": 89,
+   "lines": 93,
    "work": 0,
    "prompts": 2,
    "first": "2026-10-25T14:43:32.510Z",
-   "last": "2026-10-26T08:38:01.789Z",
+   "last": "2026-10-26T09:02:43.896Z",
    "strength": "strong",
    "conversationId": "claude:09d15ec8-88ad-4965-a2f0-80b68515e880",
    "provider": "claude",
    "sessionId": "09d15ec8-88ad-4965-a2f0-80b68515e880",
    "title": "zenray meshes",
-   "updatedAt": "2026-10-26T08:47:26.464Z",
-   "bytes": 373067153,
+   "updatedAt": "2026-10-26T09:09:16.202Z",
+   "bytes": 376259555,
    "boundProject": "zenray-meshes"
   },
   {
@@ -919,6 +919,22 @@
    "projectId": "louisiana-bayou",
    "lines": 4,
    "work": 0,
+   "prompts": 0,
+   "first": "2026-10-26T08:47:35.579Z",
+   "last": "2026-10-26T08:47:49.694Z",
+   "strength": "weak",
+   "conversationId": "claude:1558c782-52c7-4beb-aab4-1d4a8cf7a556",
+   "provider": "claude",
+   "sessionId": "1558c782-52c7-4beb-aab4-1d4a8cf7a556",
+   "title": "Arbre méthodologique Zenray",
+   "updatedAt": "2026-10-26T08:49:53.379Z",
+   "bytes": 38296,
+   "boundProject": null
+  },
+  {
+   "projectId": "louisiana-bayou",
+   "lines": 4,
+   "work": 0,
    "prompts": 1,
    "first": "2026-10-25T11:28:08.321Z",
    "last": "2026-10-25T11:32:12.254Z",
@@ -967,6 +983,22 @@
    "projectId": "louisiana-bayou",
    "lines": 3,
    "work": 0,
+   "prompts": 0,
+   "first": "2026-10-26T08:47:05.520Z",
+   "last": "2026-10-26T08:52:36.506Z",
+   "strength": "weak",
+   "conversationId": "claude:38575095-b716-47ed-af1d-bf22b8ff30eb",
+   "provider": "claude",
+   "sessionId": "38575095-b716-47ed-af1d-bf22b8ff30eb",
+   "title": "zenray freelance",
+   "updatedAt": "2026-10-26T09:02:55.283Z",
+   "bytes": 38314,
+   "boundProject": null
+  },
+  {
+   "projectId": "louisiana-bayou",
+   "lines": 3,
+   "work": 0,
    "prompts": 1,
    "first": "2026-10-12T01:02:46.196Z",
    "last": "2026-10-12T07:32:32.868Z",
@@ -1009,22 +1041,6 @@
    "title": "Mail transfert dossier auto-école",
    "updatedAt": "2026-10-02T14:38:28.892Z",
    "bytes": 23040,
-   "boundProject": null
-  },
-  {
-   "projectId": "louisiana-bayou",
-   "lines": 2,
-   "work": 0,
-   "prompts": 0,
-   "first": "2026-10-26T08:47:05.520Z",
-   "last": "2026-10-26T08:47:05.520Z",
-   "strength": "weak",
-   "conversationId": "claude:38575095-b716-47ed-af1d-bf22b8ff30eb",
-   "provider": "claude",
-   "sessionId": "38575095-b716-47ed-af1d-bf22b8ff30eb",
-   "title": "Zenray Freelance interface redesign",
-   "updatedAt": "2026-10-26T08:47:30.995Z",
-   "bytes": 2056076,
    "boundProject": null
   },
   {
