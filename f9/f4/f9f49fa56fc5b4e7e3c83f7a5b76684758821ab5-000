@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "projectId": "louisiana-bayou",
- "scannedAt": "2026-10-26T17:32:57.472Z",
+ "scannedAt": "2026-10-26T17:45:57.673Z",
  "conversations": [
   {
    "projectId": "louisiana-bayou",
@@ -319,8 +319,8 @@
    "provider": "claude",
    "sessionId": "d2f26016-25dd-4bcc-a6d8-122d50d3f383",
    "title": "zenray motion design",
-   "updatedAt": "2026-10-26T17:30:56.517Z",
-   "bytes": 22398,
+   "updatedAt": "2026-10-26T17:45:25.596Z",
+   "bytes": 22403,
    "boundProject": null
   },
   {
@@ -447,8 +447,8 @@
    "provider": "claude",
    "sessionId": "09d15ec8-88ad-4965-a2f0-80b68515e880",
    "title": "zenray meshes",
-   "updatedAt": "2026-10-26T17:32:42.071Z",
-   "bytes": 450677827,
+   "updatedAt": "2026-10-26T17:45:54.758Z",
+   "bytes": 38262,
    "boundProject": "zenray-meshes"
   },
   {
@@ -821,6 +821,22 @@
   },
   {
    "projectId": "louisiana-bayou",
+   "lines": 10,
+   "work": 0,
+   "prompts": 1,
+   "first": "2026-10-25T14:08:33.899Z",
+   "last": "2026-10-26T17:39:57.939Z",
+   "strength": "weak",
+   "conversationId": "claude:b8e43d99-5824-4ddc-8444-a984b5743a04",
+   "provider": "claude",
+   "sessionId": "b8e43d99-5824-4ddc-8444-a984b5743a04",
+   "title": "zenray sfx",
+   "updatedAt": "2026-10-26T17:45:23.054Z",
+   "bytes": 16006147,
+   "boundProject": "zenray-sfx-25-october-2026"
+  },
+  {
+   "projectId": "louisiana-bayou",
    "lines": 9,
    "work": 0,
    "prompts": 1,
@@ -930,22 +946,6 @@
    "updatedAt": "2026-10-26T09:50:29.756Z",
    "bytes": 4459002,
    "boundProject": "qlmarkdown-designs-25-october-2026"
-  },
-  {
-   "projectId": "louisiana-bayou",
-   "lines": 5,
-   "work": 0,
-   "prompts": 0,
-   "first": "2026-10-25T14:08:33.899Z",
-   "last": "2026-10-25T17:38:26.393Z",
-   "strength": "weak",
-   "conversationId": "claude:b8e43d99-5824-4ddc-8444-a984b5743a04",
-   "provider": "claude",
-   "sessionId": "b8e43d99-5824-4ddc-8444-a984b5743a04",
-   "title": "zenray sfx",
-   "updatedAt": "2026-10-25T18:19:59.685Z",
-   "bytes": 38324,
-   "boundProject": "zenray-sfx-25-october-2026"
   },
   {
    "projectId": "louisiana-bayou",
