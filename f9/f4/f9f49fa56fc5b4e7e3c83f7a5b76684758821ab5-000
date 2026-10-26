@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "projectId": "louisiana-bayou",
- "scannedAt": "2026-10-26T08:34:47.562Z",
+ "scannedAt": "2026-10-26T08:47:31.261Z",
  "conversations": [
   {
    "projectId": "louisiana-bayou",
@@ -335,8 +335,8 @@
    "provider": "claude",
    "sessionId": "d2f26016-25dd-4bcc-a6d8-122d50d3f383",
    "title": "zenray motion design",
-   "updatedAt": "2026-10-26T08:34:38.397Z",
-   "bytes": 524408747,
+   "updatedAt": "2026-10-26T08:35:20.779Z",
+   "bytes": 22405,
    "boundProject": null
   },
   {
@@ -437,18 +437,18 @@
   },
   {
    "projectId": "louisiana-bayou",
-   "lines": 88,
+   "lines": 89,
    "work": 0,
    "prompts": 2,
    "first": "2026-10-25T14:43:32.510Z",
-   "last": "2026-10-26T06:50:15.696Z",
+   "last": "2026-10-26T08:38:01.789Z",
    "strength": "strong",
    "conversationId": "claude:09d15ec8-88ad-4965-a2f0-80b68515e880",
    "provider": "claude",
    "sessionId": "09d15ec8-88ad-4965-a2f0-80b68515e880",
    "title": "zenray meshes",
-   "updatedAt": "2026-10-26T08:34:36.312Z",
-   "bytes": 369967480,
+   "updatedAt": "2026-10-26T08:47:26.464Z",
+   "bytes": 373067153,
    "boundProject": "zenray-meshes"
   },
   {
@@ -880,7 +880,7 @@
    "sessionId": "7b4fce4a-5400-4962-a3d3-28b11fde651d",
    "title": "speech to text claude",
    "updatedAt": "2026-10-25T19:10:35.216Z",
-   "bytes": 38406,
+   "bytes": 38407,
    "boundProject": "zenray-dictate"
   },
   {
@@ -1009,6 +1009,22 @@
    "title": "Mail transfert dossier auto-école",
    "updatedAt": "2026-10-02T14:38:28.892Z",
    "bytes": 23040,
+   "boundProject": null
+  },
+  {
+   "projectId": "louisiana-bayou",
+   "lines": 2,
+   "work": 0,
+   "prompts": 0,
+   "first": "2026-10-26T08:47:05.520Z",
+   "last": "2026-10-26T08:47:05.520Z",
+   "strength": "weak",
+   "conversationId": "claude:38575095-b716-47ed-af1d-bf22b8ff30eb",
+   "provider": "claude",
+   "sessionId": "38575095-b716-47ed-af1d-bf22b8ff30eb",
+   "title": "Zenray Freelance interface redesign",
+   "updatedAt": "2026-10-26T08:47:30.995Z",
+   "bytes": 2056076,
    "boundProject": null
   },
   {
