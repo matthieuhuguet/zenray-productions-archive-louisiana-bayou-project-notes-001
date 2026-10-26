@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "projectId": "louisiana-bayou",
- "scannedAt": "2026-10-26T11:17:41.236Z",
+ "scannedAt": "2026-10-26T11:43:23.824Z",
  "conversations": [
   {
    "projectId": "louisiana-bayou",
@@ -501,6 +501,22 @@
   },
   {
    "projectId": "louisiana-bayou",
+   "lines": 5,
+   "work": 0,
+   "prompts": 3,
+   "first": "2026-10-26T09:48:54.499Z",
+   "last": "2026-10-26T11:24:19.347Z",
+   "strength": "strong",
+   "conversationId": "codex:01a1779c-e438-78e2-a3df-a723e47de83f",
+   "provider": "codex",
+   "sessionId": "01a1779c-e438-78e2-a3df-a723e47de83f",
+   "title": "Conversation codex 01a1779c",
+   "updatedAt": "2026-10-26T11:38:24.902Z",
+   "bytes": 7848535,
+   "boundProject": "zenray-calendar-plan-23-october-2026"
+  },
+  {
+   "projectId": "louisiana-bayou",
    "lines": 2,
    "work": 2,
    "prompts": 0,
@@ -695,6 +711,22 @@
    "projectId": "louisiana-bayou",
    "lines": 16,
    "work": 0,
+   "prompts": 1,
+   "first": "2026-10-25T16:05:21.061Z",
+   "last": "2026-10-26T11:20:28.169Z",
+   "strength": "weak",
+   "conversationId": "claude:7b4fce4a-5400-4962-a3d3-28b11fde651d",
+   "provider": "claude",
+   "sessionId": "7b4fce4a-5400-4962-a3d3-28b11fde651d",
+   "title": "speech to text claude",
+   "updatedAt": "2026-10-26T11:24:39.709Z",
+   "bytes": 38519,
+   "boundProject": "zenray-dictate"
+  },
+  {
+   "projectId": "louisiana-bayou",
+   "lines": 16,
+   "work": 0,
    "prompts": 0,
    "first": "2026-10-23T20:51:55.558Z",
    "last": "2026-10-25T11:15:32.120Z",
@@ -722,22 +754,6 @@
    "updatedAt": "2026-10-21T10:06:45.761Z",
    "bytes": 33540,
    "boundProject": "conversation-claude-f636b9060f04a23ee355c148"
-  },
-  {
-   "projectId": "louisiana-bayou",
-   "lines": 15,
-   "work": 0,
-   "prompts": 1,
-   "first": "2026-10-25T16:05:21.061Z",
-   "last": "2026-10-26T11:07:15.546Z",
-   "strength": "weak",
-   "conversationId": "claude:7b4fce4a-5400-4962-a3d3-28b11fde651d",
-   "provider": "claude",
-   "sessionId": "7b4fce4a-5400-4962-a3d3-28b11fde651d",
-   "title": "speech to text claude",
-   "updatedAt": "2026-10-26T11:17:20.769Z",
-   "bytes": 24438446,
-   "boundProject": "zenray-dictate"
   },
   {
    "projectId": "louisiana-bayou",
@@ -1025,22 +1041,6 @@
    "title": "Mail transfert dossier auto-école",
    "updatedAt": "2026-10-02T14:38:28.892Z",
    "bytes": 23040,
-   "boundProject": null
-  },
-  {
-   "projectId": "louisiana-bayou",
-   "lines": 2,
-   "work": 0,
-   "prompts": 1,
-   "first": "2026-10-26T09:48:54.499Z",
-   "last": "2026-10-26T09:48:54.500Z",
-   "strength": "weak",
-   "conversationId": "codex:01a1779c-e438-78e2-a3df-a723e47de83f",
-   "provider": "codex",
-   "sessionId": "01a1779c-e438-78e2-a3df-a723e47de83f",
-   "title": "Conversation codex 01a1779c",
-   "updatedAt": "2026-10-26T09:50:31.770Z",
-   "bytes": 559726,
    "boundProject": null
   },
   {
