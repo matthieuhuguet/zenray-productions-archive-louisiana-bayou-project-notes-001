@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "projectId": "louisiana-bayou",
- "scannedAt": "2026-10-28T10:53:56.653Z",
+ "scannedAt": "2026-10-28T11:06:23.498Z",
  "conversations": [
   {
    "projectId": "louisiana-bayou",
@@ -415,8 +415,8 @@
    "provider": "claude",
    "sessionId": "38575095-b716-47ed-af1d-bf22b8ff30eb",
    "title": "zenray freelance",
-   "updatedAt": "2026-10-28T10:53:28.308Z",
-   "bytes": 38429,
+   "updatedAt": "2026-10-28T11:05:28.571Z",
+   "bytes": 38438,
    "boundProject": "zenray-calendar-plan-23-october-2026"
   },
   {
@@ -1039,8 +1039,8 @@
    "provider": "claude",
    "sessionId": "cd2c9546-2bcb-406a-bdbf-e24353087bd1",
    "title": "zenray edit gallery",
-   "updatedAt": "2026-10-28T10:53:39.932Z",
-   "bytes": 6586069,
+   "updatedAt": "2026-10-28T11:00:27.892Z",
+   "bytes": 36545,
    "boundProject": null
   },
   {
