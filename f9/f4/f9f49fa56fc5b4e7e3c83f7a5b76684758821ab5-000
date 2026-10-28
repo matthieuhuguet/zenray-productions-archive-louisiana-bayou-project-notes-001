@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "projectId": "louisiana-bayou",
- "scannedAt": "2026-10-28T11:06:23.498Z",
+ "scannedAt": "2026-10-28T11:12:12.448Z",
  "conversations": [
   {
    "projectId": "louisiana-bayou",
@@ -415,8 +415,8 @@
    "provider": "claude",
    "sessionId": "38575095-b716-47ed-af1d-bf22b8ff30eb",
    "title": "zenray freelance",
-   "updatedAt": "2026-10-28T11:05:28.571Z",
-   "bytes": 38438,
+   "updatedAt": "2026-10-28T11:12:09.514Z",
+   "bytes": 35136437,
    "boundProject": "zenray-calendar-plan-23-october-2026"
   },
   {
