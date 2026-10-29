@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "projectId": "louisiana-bayou",
- "scannedAt": "2026-10-29T14:05:42.156Z",
+ "scannedAt": "2026-10-29T14:24:41.155Z",
  "conversations": [
   {
    "projectId": "louisiana-bayou",
@@ -399,8 +399,8 @@
    "provider": "claude",
    "sessionId": "09d15ec8-88ad-4965-a2f0-80b68515e880",
    "title": "zenray meshes",
-   "updatedAt": "2026-10-29T14:05:29.249Z",
-   "bytes": 732636355,
+   "updatedAt": "2026-10-29T14:22:28.845Z",
+   "bytes": 38640,
    "boundProject": "zenray-meshes"
   },
   {
