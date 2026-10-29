@@ -4671,3 +4671,31 @@
 - Project: louisiana-bayou; kind: rule. (24 October 2026, 00:36:09 +0200)
 
 > Les articles du projet (Articles/*.html et index) se reconstruisent et se republient seuls dès qu'une source change : entrée louisiana-bayou de zenray-edit/articles/Registry.json, refresh-articles.mjs, LaunchAgent com.zenray.articles-refresh. (24 October 2026) (24 October 2026, 00:36:09 +0200)
+
+## 29 October 2026, 19:08:24 +0100 : Standing rule
+
+<!-- feedback-event:2369de941030c94bc96e8890ae5a2b7b81b3ab91a4673afb9e55115f34f13cdf (29 October 2026, 19:08:24 +0100) -->
+- Project: louisiana-bayou; kind: rule. (29 October 2026, 19:08:24 +0100)
+
+> 29 October 2026 : les images Karma CPU du plan du toit (plan 3, dézoomé, sans mannequins) sont DÉJÀ VALIDÉES par Matthieu ; ne pas les refaire. Rendu Karma CPU arrêté à 47 images Beauty sur 480 (trop de CPU), reprise possible avec --skip-existing-frames. Le rendu final passe par Unreal (ZRS, niveau L_LouisianaBayouCinematic) avec les caméras identiques. (29 October 2026, 19:08:24 +0100)
+
+## 29 October 2026, 19:08:24 +0100 : Prompt
+
+<!-- feedback-event:e2560f6896ebaa58217746b9f041b88dc4e62c617edef6c2f84e0361f00d3556 (29 October 2026, 19:08:24 +0100) -->
+- Project: louisiana-bayou; kind: prompt. (29 October 2026, 19:08:24 +0100)
+
+> 29 October 2026 : sol d'Unreal en matériau GRIS (pas vert) ; soleil inversé ; trois setups de lighting à proposer avant validation de la scène. (29 October 2026, 19:08:24 +0100)
+
+## 29 October 2026, 20:31:05 +0100 : Prompt
+
+<!-- feedback-event:951e23363dd638b2a0f2bad8cc257c103c79265ba988457a2ab070be04c28f6a (29 October 2026, 20:31:05 +0100) -->
+- Project: louisiana-bayou; kind: prompt. (29 October 2026, 20:31:05 +0100)
+
+> 29 October 2026, retours caméra de Matthieu à traiter APRÈS validation de l'éclairage : (1) plan du toit (CINE_03) au moins 2 fois plus long, mouvement plus doux, un peu plus dézoomé mais focus sur la texture ; (2) dernier plan (CINE_06) trop étrange : reprendre le mouvement du premier plan mais inversé (le premier zoome, celui-ci dézoome) ; (3) plan 2 (CINE_02) doit zoomer sur la fenêtre du pignon au-dessus, pas sur le toit du petit porche ; (4) plan du haut du toit (CINE_04) : garder, pivoter un peu l'angle pour une perspective 3/4, moins vue de dessus ; (5) plans actuels à 3 s (72 images) dans lb_cameras_29-October-2026.json, mouvements Houdini posés dans LS_LouisianaBayouCinematic. Éclairage : trois ambiances A_StormOvercast, B_BreakInTheClouds, C_BlueHourStorm dans lb_moods_29-October-2026.json, ciel par dôme procédural (UDS ne rend pas ses nuages dans la vue). (29 October 2026, 20:31:05 +0100)
+
+## 29 October 2026, 22:11:55 +0100 : Standing rule
+
+<!-- feedback-event:007014dc617b0ce96d6e8ed8c8130f46e2b5202fe4a07ac13ac92398275628ae (29 October 2026, 22:11:55 +0100) -->
+- Project: louisiana-bayou; kind: rule. (29 October 2026, 22:11:55 +0100)
+
+> 29 October 2026 : herbe PCG limitée aux variantes VERTES, choisies par la teinte mesurée sous leurs UV (hue>=75, sat>=0.35 dans lb_pcg_grass_29-October-2026.json, green_filter) : sjliZ A-E et vlkhcbxia B,C,F,G ; vczndjqja et vdilbaiia (beiges/gris) exclues. Planche: render/ZRS-29-October-2026/grass_color_sheet.png (29 October 2026, 22:11:55 +0100)

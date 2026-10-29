@@ -1,20 +1,16 @@
-# Resume louisiana-bayou (21 October 2026 at 16:06)
+# Resume louisiana-bayou (29 October 2026 at 19:37)
 
-- Generated from FEEDBACK.md, Rules.md and ConversationIndex.json; derived, never edited by hand, never a substitute for the originals. (21 October 2026 at 16:06)
-- Pinned rules, read first: [Rules.md](/Users/zenray/.claude/Memory1/Projects/louisiana-bayou/Rules.md) (42 rules). (21 October 2026 at 16:06)
-- Canonical feedback: [FEEDBACK.md](/Users/zenray/.claude/Memory1/Projects/louisiana-bayou/FEEDBACK.md), 420 entries, last Prompt at 21 October 2026, 16:00:24 +0200. (21 October 2026 at 16:06)
+- Generated from FEEDBACK.md, Rules.md and ConversationIndex.json; derived, never edited by hand, never a substitute for the originals. (29 October 2026 at 19:37)
+- Pinned rules, read first: [Rules.md](/Users/zenray/.claude/Memory1/Projects/louisiana-bayou/Rules.md) (52 rules). (29 October 2026 at 19:37)
+- Canonical feedback: [FEEDBACK.md](/Users/zenray/.claude/Memory1/Projects/louisiana-bayou/FEEDBACK.md), 446 entries, last Prompt at 29 October 2026, 19:08:24 +0100. (29 October 2026 at 19:37)
 
-## Latest conversations (21 October 2026 at 16:06)
+## Latest conversations (29 October 2026 at 19:37)
 
-- LATEST claude:a3f20b1d-27ed-48e1-a0d1-5fe182c0e423, last activity 20 October 2026 at 18:56 Paris (from feedback). Original: `node scripts/Assets/ConversationDigest.mjs claude:a3f20b1d-27ed-48e1-a0d1-5fe182c0e423 --out <file.md>`. (21 October 2026 at 16:06)
-- claude:8ef64432-15df-4091-bb15-041c25f2482d, « vue arch 6 views », last activity 19 October 2026 at 12:09 Paris (from transcript). Original: `node scripts/Assets/ConversationDigest.mjs claude:8ef64432-15df-4091-bb15-041c25f2482d --out <file.md>`. (21 October 2026 at 16:06)
-- codex:01a11aa4-67bb-7ae1-b1d8-99af0c3495c3, « 01a11aa4-67bb-7ae1-b1d8-99af0c3495c3 », last activity 12 October 2026 at 11:47 Paris (from feedback). Original: `node scripts/Assets/ConversationDigest.mjs codex:01a11aa4-67bb-7ae1-b1d8-99af0c3495c3 --out <file.md>`. (21 October 2026 at 16:06)
+- LATEST claude:beb9938e-4434-4925-8d13-137bb7940fc0, « zenray uv », last activity 23 October 2026 at 15:08 Paris (from transcript). Original: `node scripts/Assets/ConversationDigest.mjs claude:beb9938e-4434-4925-8d13-137bb7940fc0 --out <file.md>`. (29 October 2026 at 19:37)
+- claude:a3f20b1d-27ed-48e1-a0d1-5fe182c0e423, last activity 20 October 2026 at 18:56 Paris (from feedback). Original: `node scripts/Assets/ConversationDigest.mjs claude:a3f20b1d-27ed-48e1-a0d1-5fe182c0e423 --out <file.md>`. (29 October 2026 at 19:37)
+- claude:8ef64432-15df-4091-bb15-041c25f2482d, « vue arch 6 views », last activity 19 October 2026 at 12:09 Paris (from transcript). Original: `node scripts/Assets/ConversationDigest.mjs claude:8ef64432-15df-4091-bb15-041c25f2482d --out <file.md>`. (29 October 2026 at 19:37)
 
-## Last 6 prompts of Matthieu, oldest first (21 October 2026 at 16:06)
-
-### 20 October 2026, 23:13:57 +0200 · Prompt · manual
-
-> 20 October 2026, Matthieu (grammaire seule) : « Le problème des numéros, c'est qu'ils sont beaucoup trop gros ; ils doivent être en Inter ; ça doit être une feuille en plus de ce qui existait déjà, jamais un remplacement ; en font Inter Regular, donc toujours sans serif ; si les chiffres sont trop gros, plus gros que l'island, alors ils se déportent sur la gauche avec une flèche blanche et un stroke noir de 1 px ; d'ailleurs pareil pour la font, blanche et stroke noir 1 px, voire moins, c'est adaptatif ce 1 px. Consigne et code. »
+## Last 6 prompts of Matthieu, oldest first (29 October 2026 at 19:37)
 
 ### 20 October 2026, 23:35:59 +0200 · Prompt · manual
 
@@ -38,28 +34,31 @@
 
 > 21 October 2026, Matthieu (grammaire seule, résumé fidèle) : « Honnêtement, je ne comprends toujours pas quel réflexe avoir en tant que tech artist pour texturer un objet ; peut-être que je devrais uniquement retenir la taille de l'objet et sa densité. Je comprends quelle texel density appliquer (ça se juge à l'œil, 512, 1024, 2048), mais je n'arrive pas à comprendre comment déterminer la taille d'un objet : Manny fait 1,8 m de haut, mais le rubber toy est à la fois haut, profond et large, et surtout plus large que haut. Je n'arrive pas à l'expliquer moi-même. »
 
+### 29 October 2026, 19:08:24 +0100 · Prompt · manual
 
-## Last 3 iterations or checkpoints (21 October 2026 at 16:06)
-
-### 20 October 2026, 09:35:05 +0200 · Iteration · checkpoint claude:a3f20b1d
-
-> ZenRay UV cinquième passe finie (20 October 2026) : toutes les méthodes M1 à M5 (M3 en trois variantes) des quatre assets à 0,999 ou plus, 29 auto-tests sur 29 dans les deux sens ; Manny coupé comme Epic (16 îles, 13,96 m, feuille 2048) ; page https://claude.ai/artifact/67UWF5RKjK4pyKaGUUDQ3g ; doc zenray-uv-1.md section 19. Prochain : validation de Matthieu.
-
-### 20 October 2026, 12:57:48 +0200 · Iteration · checkpoint claude:a3f20b1d
-
-> ZenRay UV, 20 October 2026 : artist references (Manny, rubber toy, shader ball) reproduced seam for seam by ZruvArtist (clicks, concepts, layout) : F1 1.000 and identical islands, shapes within 0.6 to 1.5 percent ; M1 of the bench cut by the artist pattern scores 1.000, 0.999999, 1.000 ; learned rules imposed on the tailor (Manny F1 0.115 to 0.387) ; pattern carried onto remeshes within 1.1 and 1.5 mm ; doctrine section 20, page version 3. Next : Matthieu validation, general rules for buried zones and quad loops, humanoid pattern transfer.
-
-### 20 October 2026, 18:56:41 +0200 · Iteration · checkpoint claude:a3f20b1d
-
-> 20 October 2026 : regle de Matthieu consignee (Rules.md) : un bord en escalier sur la feuille UV est une erreur de decoupe ; mesuree par UVSeamChecker.stair_runs (composante uv:smooth_border de M1, references a 0). Levre du cochon refaite par la regle cavity (ZruvArtist.cavity_cuts) : rebord identique a SideFX, 58 aretes sur 58, aucun virage, sans lire ses UV. Banc M1 final : cochon 0,999999 (16 iles comme SideFX, 0 escalier, 2048 px a 1568 px/m), arche 1,0, jouet 0,999993, boule 1,0, Manny 0,999471 ; SelfTest 64 sur 64, CavitySelfTest vert et rouge, ArtistSelfTest 3 sur 3. Page https://claude.ai/artifact/67UWF5RKjK4pyKaGUUDQ3g republiee ; zenray-uv-1.md section 22. Prochain geste : les cran
-> [... 135 more characters in FEEDBACK.md]
+> 29 October 2026 : sol d'Unreal en matériau GRIS (pas vert) ; soleil inversé ; trois setups de lighting à proposer avant validation de la scène.
 
 
-## Last order of work (21 October 2026 at 16:06)
+## Last 3 iterations or checkpoints (29 October 2026 at 19:37)
 
-### 10 October 2026, 22:29:05 +0200 · Order of work · manual
+### 22 October 2026, 18:10:20 +0200 · Iteration · checkpoint claude:beb9938e
 
-> 10 October 2026 : /goal 8 passes × 3 méthodologie pour affiner et trancher les prochaines étapes, nombres N (essayer le nombre maximal à chaque fois), sortie HTML avec les 3 méthodes et les 8 passes, go. Puis /wait-validation /tasks-sequence. Validation reçue : go, sauf la tâche 8 (consigner les résultats et trancher la suite), qui attend ta validation. (10 October 2026, 22:28)
+> 22 October 2026, 18 h : calage 2D par île md5 24e8b1b614715eb99e8abbada5201c52. Passe 3b : des bords justes à 90 % gardent un recalage au score de région faible ; ressort axial de la membrane sur les îles longues (warp_axial 0,3). Arche 0,99944 (64 écarts sur 113 316), page M1 refaite ; 239 feuilles synthétiques sur 240 dont 24 graines jamais vues, 216 courbures sur 216. Limite : deux pièces identiques dessinées collées. Preuves height-inputs/align-selftest/22-October-2026/1800/.
+
+### 22 October 2026, 18:34:15 +0200 · Iteration · checkpoint claude:beb9938e
+
+> 22 October 2026, 18 h 30 : calage 2D par île md5 55c0b4cd9a0cda0c0797733751f2db5b. Passe 3 : les bords choisissent aussi entre places au score de région proche ; échelle en longueur des bandes fines sur 60 % des paires de chaque bout. Arche 0,99944 inchangée ; 383 feuilles synthétiques sur 384 en huit batteries dont trente graines nouvelles, 324 courbures sur 324. Preuves height-inputs/align-selftest/22-October-2026/1830/.
+
+### 22 October 2026, 18:38:57 +0200 · Iteration · checkpoint claude:beb9938e
+
+> 22 October 2026, 18 h 40 : arrêt demandé par Matthieu. Calage 2D par île clos sur la version de 18 h 30 (md5 55c0b4cd9a0cda0c0797733751f2db5b), commitée ; arche 0,99944 (cible 0,999 atteinte), 383 feuilles synthétiques sur 384. Règle ajoutée : objectif atteint, on s arrête et on rend compte.
 
 
-Next step: reread the latest prompt above, check it against Rules.md, then continue; append through feedback.py and close the turn with Client.mjs checkpoint. (21 October 2026 at 16:06)
+## Last order of work (29 October 2026 at 19:37)
+
+### 22 October 2026, 12:19:59 +0200 · Order of work · manual
+
+> 22 October 2026, consigne de Matthieu : « Tu continues de bosser, objectif que l'algo arrive à 0.999, ce doit être parfait, continue la boucle jusqu'à 11 demain matin » (calage 2D par île, PerIslandAlign.py ; point de départ : recouvrement 0,971 sur l'arche à 512, bords à moins d'un pixel 71,6 %, test synthétique 48 sur 48).
+
+
+Next step: reread the latest prompt above, check it against Rules.md, then continue; append through feedback.py and close the turn with Client.mjs checkpoint. (29 October 2026 at 19:37)
