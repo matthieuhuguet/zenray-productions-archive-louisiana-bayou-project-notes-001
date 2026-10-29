@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "projectId": "louisiana-bayou",
- "scannedAt": "2026-10-29T13:31:48.470Z",
+ "scannedAt": "2026-10-29T13:40:06.590Z",
  "conversations": [
   {
    "projectId": "louisiana-bayou",
@@ -399,8 +399,8 @@
    "provider": "claude",
    "sessionId": "09d15ec8-88ad-4965-a2f0-80b68515e880",
    "title": "zenray meshes",
-   "updatedAt": "2026-10-29T13:31:42.050Z",
-   "bytes": 723981978,
+   "updatedAt": "2026-10-29T13:39:44.274Z",
+   "bytes": 726010297,
    "boundProject": "zenray-meshes"
   },
   {
@@ -1071,8 +1071,8 @@
    "provider": "claude",
    "sessionId": "de76d9d5-aa65-4367-8bbb-d6549dc439b7",
    "title": "Refus Ludia Zenray freelance",
-   "updatedAt": "2026-10-29T13:31:47.717Z",
-   "bytes": 3444681,
+   "updatedAt": "2026-10-29T13:35:59.193Z",
+   "bytes": 36108,
    "boundProject": null
   },
   {
