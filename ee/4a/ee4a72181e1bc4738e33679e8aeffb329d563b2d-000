@@ -1,0 +1,9 @@
+Louisiana Bayou Church: The Roof
+
+J'ai rendu la scène Louisiana Bayou Church directement dans Unreal Engine 5.8, avec Movie Render Queue et Lumen. Le nouvel article sur le toit est en ligne.
+
+Un HDA avec un curseur construit la grille de tuiles du toit, où une rangée sur deux est décalée d'une demi-tuile, et où les rangées se chevauchent. Les 36 motifs tiennent tous sur une seule feuille carrée de 2 048 px, en grille de 6 par 6. Pour chaque tuile, VEX choisit au hasard l'un des 36 motifs et déplace les UV de la tuile vers la case correspondante. Chaque tuile prend ensuite l'une des quatre orientations : normale, miroir horizontal, miroir vertical ou rotation de 180 degrés. Les étapes complètes sont dans l'article.
+
+L'église passe de Houdini à Unreal Engine 5.8, avec des heightmaps réalisées dans Copernicus. La scène ne compte que trois matériaux, chacun avec une texture de 2 048 px. Ce sont la peinture blanche, la fenêtre et le bois, et les tuiles du toit, une trim sheet. La fenêtre et le bois, en variantes A et B, partagent une seule texture avec l'escalier. Lors d'un test, le rendu coûte environ 0,9 seconde par image, en 3 360 x 1 440, en 21:9, à 24 images par seconde.
+
+Le film principal arrive bientôt. Musique : « Nuit sur Lumière » de Lumière's Opera, par Lorien Testard (Clair Obscur: Expedition 33), puis « Aerith's Theme » de Final Fantasy VII Remake. L'ambiance sonore du vent vient d'une vidéo YouTube d'ambiance.

@@ -1,0 +1,9 @@
+Louisiana Bayou Church: The Roof
+
+I rendered the Louisiana Bayou Church scene directly in Unreal Engine 5.8, with Movie Render Queue and Lumen. The new article about the roof is out.
+
+An HDA with a slider builds the roof's tile grid, where every other row is offset by half a tile and the rows overlap. All 36 patterns sit on one 2,048 px square sheet, in a 6 by 6 grid. For each tile, VEX picks one of the 36 patterns at random and moves the tile's UVs to the matching cell. Each tile then takes one of four orientations: normal, mirrored horizontally, mirrored vertically, or rotated 180 degrees. The full steps are in the article.
+
+The church comes from Houdini into Unreal Engine 5.8, with heightmaps made in Copernicus. The scene has only three materials, each with a 2,048 px texture. They are the white paint, the window and wood, and the roof tiles, a trim sheet. The window and wood, in variations A and B, share one texture with the stair. On a test, the render costs about 0.9 seconds per frame at 3,360 x 1,440 in 21:9 at 24 fps.
+
+The main film is coming soon. Music: "Nuit sur Lumière" from Lumière's Opera by Lorien Testard (Clair Obscur: Expedition 33), then "Aerith's Theme" from Final Fantasy VII Remake. The wind ambience comes from a YouTube ambience video.

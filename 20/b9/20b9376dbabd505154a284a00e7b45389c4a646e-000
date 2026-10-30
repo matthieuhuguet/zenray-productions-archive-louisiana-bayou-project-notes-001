@@ -1,0 +1,57 @@
+# Louisiana Bayou Church: The Roof, post trilingue (brouillon, 30 October 2026)
+
+Brouillon consigné le 30 October 2026, rien n'est publié. Rédigé en sections par des agents Haiku à partir de `Facts.md` (faits autorisés), assemblé et vérifié par moi, traduit du japonais et du français par deux agents à partir de l'anglais de référence. Procédure et règles : `/Users/zenray/.claude/skills/zenray-edit/references/Posts.md`.
+
+## Le post, trilingue
+
+EN / 日本語 / FR
+
+Louisiana Bayou Church: The Roof
+
+I rendered the Louisiana Bayou Church scene directly in Unreal Engine 5.8, with Movie Render Queue and Lumen. The new article about the roof is out.
+
+An HDA with a slider builds the roof's tile grid, where every other row is offset by half a tile and the rows overlap. All 36 patterns sit on one 2,048 px square sheet, in a 6 by 6 grid. For each tile, VEX picks one of the 36 patterns at random and moves the tile's UVs to the matching cell. Each tile then takes one of four orientations: normal, mirrored horizontally, mirrored vertically, or rotated 180 degrees. The full steps are in the article.
+
+The church comes from Houdini into Unreal Engine 5.8, with heightmaps made in Copernicus. The scene has only three materials, each with a 2,048 px texture. They are the white paint, the window and wood, and the roof tiles, a trim sheet. The window and wood, in variations A and B, share one texture with the stair. On a test, the render costs about 0.9 seconds per frame at 3,360 x 1,440 in 21:9 at 24 fps.
+
+The main film is coming soon. Music: "Nuit sur Lumière" from Lumière's Opera by Lorien Testard (Clair Obscur: Expedition 33), then "Aerith's Theme" from Final Fantasy VII Remake. The wind ambience comes from a YouTube ambience video.
+
+https://matthieuhuguet.com/reels/louisiana-bayou-church-the-roof
+
+---
+
+Louisiana Bayou Church: The Roof
+
+Louisiana Bayou ChurchのシーンをUnreal Engine 5.8で直接レンダリングしました。Movie Render QueueとLumenを使いました。屋根についての新しい記事が公開されています。
+
+スライダー付きのHDAが、屋根のタイルの格子を作ります。この格子では、一行おきの行がタイル半枚分ずれています。行同士は重なっています。36個のパターンはすべて、1枚の2,048 pxの正方形シートに置かれています。配置は6 × 6の格子状です。タイルごとに、VEXが36個のパターンからランダムに1つを選び、そのパターンに対応するセルへタイルのUVを移します。さらに、各タイルの向きは4つのどれかに決まります。その4つは、通常の向き、左右反転、上下反転、180度回転です。詳しい手順は記事にあります。
+
+教会は、Copernicusで作られたハイトマップとともに、HoudiniからUnreal Engine 5.8に読み込まれています。シーンのマテリアルは3つだけです。それぞれ2,048 pxのテクスチャを持っています。その3つは、白い塗装、窓と木材、そして屋根のタイルです。屋根のタイルは、トリムシートです。窓と木材（バリエーションAとB）は、階段と1枚のテクスチャを共有しています。テストでは、3,360 x 1,440（21:9）、24 fpsの条件で、レンダリングに1フレームあたり約0.9秒かかります。
+
+メインの映像は近日公開予定です。音楽: Lorien Testard（Clair Obscur: Expedition 33）による「Lumière's Opera」の「Nuit sur Lumière」、続いてFinal Fantasy VII Remakeの「Aerith's Theme」。風の環境音は、YouTubeの環境音動画が元になっています。
+
+https://matthieuhuguet.com/reels/louisiana-bayou-church-the-roof
+
+---
+
+Louisiana Bayou Church: The Roof
+
+J'ai rendu la scène Louisiana Bayou Church directement dans Unreal Engine 5.8, avec Movie Render Queue et Lumen. Le nouvel article sur le toit est en ligne.
+
+Un HDA avec un curseur construit la grille de tuiles du toit, où une rangée sur deux est décalée d'une demi-tuile, et où les rangées se chevauchent. Les 36 motifs tiennent tous sur une seule feuille carrée de 2 048 px, en grille de 6 par 6. Pour chaque tuile, VEX choisit au hasard l'un des 36 motifs et déplace les UV de la tuile vers la case correspondante. Chaque tuile prend ensuite l'une des quatre orientations : normale, miroir horizontal, miroir vertical ou rotation de 180 degrés. Les étapes complètes sont dans l'article.
+
+L'église passe de Houdini à Unreal Engine 5.8, avec des heightmaps réalisées dans Copernicus. La scène ne compte que trois matériaux, chacun avec une texture de 2 048 px. Ce sont la peinture blanche, la fenêtre et le bois, et les tuiles du toit, une trim sheet. La fenêtre et le bois, en variantes A et B, partagent une seule texture avec l'escalier. Lors d'un test, le rendu coûte environ 0,9 seconde par image, en 3 360 x 1 440, en 21:9, à 24 images par seconde.
+
+Le film principal arrive bientôt. Musique : « Nuit sur Lumière » de Lumière's Opera, par Lorien Testard (Clair Obscur: Expedition 33), puis « Aerith's Theme » de Final Fantasy VII Remake. L'ambiance sonore du vent vient d'une vidéo YouTube d'ambiance.
+
+https://matthieuhuguet.com/reels/louisiana-bayou-church-the-roof
+
+thanks for reading, like for more! ᕙ(`▿´)ᕗ
+
+#houdini #unrealengine #technicalart
+
+## Contrôle fait le 30 October 2026
+
+- Les chiffres (36 motifs, feuille de 2 048 px, grille de 6 par 6, quatre orientations, trois matériaux, 0,9 seconde par image à 3 360 x 1 440, Unreal Engine 5.8) viennent tous de `Facts.md` ; la mention « mesuré sur un test » est gardée dans les trois langues.
+- Aucun tiret cadratin, demi-cadratin ni double tiret, aucun mot banni, aucune mention d'IA ni d'outil interne, trois hashtags techniques au plus, kaomoji final.
+- À valider par Matthieu avant publication : le lien, l'ordre des paragraphes, et le choix de ne pas citer le nom du site du vent (« une vidéo YouTube d'ambiance »).
