@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "projectId": "louisiana-bayou",
- "scannedAt": "2026-11-04T00:15:15.407Z",
+ "scannedAt": "2026-11-04T06:16:22.757Z",
  "conversations": [
   {
    "projectId": "louisiana-bayou",
@@ -341,6 +341,22 @@
   },
   {
    "projectId": "louisiana-bayou",
+   "lines": 42,
+   "work": 1,
+   "prompts": 4,
+   "first": "2026-11-03T16:19:06.390Z",
+   "last": "2026-11-04T01:36:34.900Z",
+   "strength": "strong",
+   "conversationId": "claude:e3fcfc3d-2756-4ada-8b78-faa7ff7c168a",
+   "provider": "claude",
+   "sessionId": "e3fcfc3d-2756-4ada-8b78-faa7ff7c168a",
+   "title": "zorah materials",
+   "updatedAt": "2026-11-04T01:53:29.924Z",
+   "bytes": 38359,
+   "boundProject": "zorah-materials"
+  },
+  {
+   "projectId": "louisiana-bayou",
    "lines": 39,
    "work": 1,
    "prompts": 3,
@@ -418,22 +434,6 @@
    "updatedAt": "2026-10-30T13:00:29.267Z",
    "bytes": 38918,
    "boundProject": "zenray-calendar-plan-23-october-2026"
-  },
-  {
-   "projectId": "louisiana-bayou",
-   "lines": 23,
-   "work": 0,
-   "prompts": 3,
-   "first": "2026-11-03T16:19:06.390Z",
-   "last": "2026-11-04T00:01:31.793Z",
-   "strength": "strong",
-   "conversationId": "claude:e3fcfc3d-2756-4ada-8b78-faa7ff7c168a",
-   "provider": "claude",
-   "sessionId": "e3fcfc3d-2756-4ada-8b78-faa7ff7c168a",
-   "title": "zorah materials",
-   "updatedAt": "2026-11-04T00:14:47.764Z",
-   "bytes": 67771915,
-   "boundProject": "zorah-materials"
   },
   {
    "projectId": "louisiana-bayou",
@@ -1201,6 +1201,22 @@
    "title": "Mail transfert dossier auto-école",
    "updatedAt": "2026-10-02T14:38:28.892Z",
    "bytes": 23040,
+   "boundProject": null
+  },
+  {
+   "projectId": "louisiana-bayou",
+   "lines": 2,
+   "work": 0,
+   "prompts": 0,
+   "first": "2026-11-04T01:29:24.759Z",
+   "last": "2026-11-04T01:29:24.759Z",
+   "strength": "weak",
+   "conversationId": "claude:57bf6970-5289-409f-a946-08738bf3dd84",
+   "provider": "claude",
+   "sessionId": "57bf6970-5289-409f-a946-08738bf3dd84",
+   "title": "gt america = clean font easy to read",
+   "updatedAt": "2026-11-04T01:31:57.209Z",
+   "bytes": 42942,
    "boundProject": null
   },
   {
