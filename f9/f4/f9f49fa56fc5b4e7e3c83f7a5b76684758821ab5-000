@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "projectId": "louisiana-bayou",
- "scannedAt": "2026-11-09T18:07:18.994Z",
+ "scannedAt": "2026-11-10T00:08:39.959Z",
  "conversations": [
   {
    "projectId": "louisiana-bayou",
@@ -463,7 +463,7 @@
    "provider": "claude",
    "sessionId": "fdce96ce-c0fd-4b6e-8530-957817ed13c2",
    "title": "zenray documents",
-   "updatedAt": "2026-11-09T15:03:20.176Z",
+   "updatedAt": "2026-11-09T19:30:53.081Z",
    "bytes": 38048,
    "boundProject": null
   },
@@ -559,8 +559,8 @@
    "provider": "codex",
    "sessionId": "01a1b880-053e-79d2-a657-256ca3f2e083",
    "title": "Conversation codex 01a1b880",
-   "updatedAt": "2026-11-09T17:57:36.479Z",
-   "bytes": 36324724,
+   "updatedAt": "2026-11-09T21:56:27.029Z",
+   "bytes": 40030853,
    "boundProject": "zenray-progress"
   },
   {
@@ -776,6 +776,22 @@
    "lines": 17,
    "work": 0,
    "prompts": 1,
+   "first": "2026-11-05T18:27:08.735Z",
+   "last": "2026-11-09T22:58:56.949Z",
+   "strength": "weak",
+   "conversationId": "claude:0611e96b-26b2-4d65-a9e1-cb913738cca3",
+   "provider": "claude",
+   "sessionId": "0611e96b-26b2-4d65-a9e1-cb913738cca3",
+   "title": "zenray meshes v4",
+   "updatedAt": "2026-11-09T23:30:17.432Z",
+   "bytes": 282142,
+   "boundProject": "zenray-meshes"
+  },
+  {
+   "projectId": "louisiana-bayou",
+   "lines": 17,
+   "work": 0,
+   "prompts": 1,
    "first": "2026-11-02T18:40:37.992Z",
    "last": "2026-11-05T15:08:47.814Z",
    "strength": "weak",
@@ -872,6 +888,22 @@
    "lines": 11,
    "work": 0,
    "prompts": 1,
+   "first": "2026-11-04T12:50:54.198Z",
+   "last": "2026-11-09T20:53:54.225Z",
+   "strength": "weak",
+   "conversationId": "claude:ab8eb886-c8c8-4907-9217-d36f0dd11c49",
+   "provider": "claude",
+   "sessionId": "ab8eb886-c8c8-4907-9217-d36f0dd11c49",
+   "title": "zenray disk space",
+   "updatedAt": "2026-11-09T23:37:32.358Z",
+   "bytes": 276186,
+   "boundProject": null
+  },
+  {
+   "projectId": "louisiana-bayou",
+   "lines": 11,
+   "work": 0,
+   "prompts": 1,
    "first": "2026-10-10T20:53:28.651Z",
    "last": "2026-10-13T22:12:50.198Z",
    "strength": "weak",
@@ -914,22 +946,6 @@
    "updatedAt": "2026-10-23T17:39:34.036Z",
    "bytes": 38450,
    "boundProject": null
-  },
-  {
-   "projectId": "louisiana-bayou",
-   "lines": 8,
-   "work": 0,
-   "prompts": 0,
-   "first": "2026-11-05T18:27:08.735Z",
-   "last": "2026-11-09T15:39:15.878Z",
-   "strength": "weak",
-   "conversationId": "claude:0611e96b-26b2-4d65-a9e1-cb913738cca3",
-   "provider": "claude",
-   "sessionId": "0611e96b-26b2-4d65-a9e1-cb913738cca3",
-   "title": "zenray meshes v3",
-   "updatedAt": "2026-11-09T18:06:31.676Z",
-   "bytes": 61767947,
-   "boundProject": "zenray-meshes"
   },
   {
    "projectId": "louisiana-bayou",
@@ -1025,22 +1041,6 @@
    "title": "ZENRAY ASSETS",
    "updatedAt": "2026-10-11T22:51:54.267Z",
    "bytes": 20972,
-   "boundProject": null
-  },
-  {
-   "projectId": "louisiana-bayou",
-   "lines": 5,
-   "work": 0,
-   "prompts": 1,
-   "first": "2026-11-04T12:50:54.198Z",
-   "last": "2026-11-09T13:39:53.061Z",
-   "strength": "weak",
-   "conversationId": "claude:ab8eb886-c8c8-4907-9217-d36f0dd11c49",
-   "provider": "claude",
-   "sessionId": "ab8eb886-c8c8-4907-9217-d36f0dd11c49",
-   "title": "zenray disk space",
-   "updatedAt": "2026-11-09T18:05:46.514Z",
-   "bytes": 276830,
    "boundProject": null
   },
   {
@@ -1281,6 +1281,22 @@
    "title": "Mail transfert dossier auto-école",
    "updatedAt": "2026-10-02T14:38:28.892Z",
    "bytes": 23040,
+   "boundProject": null
+  },
+  {
+   "projectId": "louisiana-bayou",
+   "lines": 2,
+   "work": 0,
+   "prompts": 0,
+   "first": "2026-11-09T18:30:41.858Z",
+   "last": "2026-11-09T18:30:41.858Z",
+   "strength": "weak",
+   "conversationId": "claude:8bd7a123-c9f3-4d2d-86a7-775f6e818b1d",
+   "provider": "claude",
+   "sessionId": "8bd7a123-c9f3-4d2d-86a7-775f6e818b1d",
+   "title": "Zenray past query",
+   "updatedAt": "2026-11-09T18:31:03.453Z",
+   "bytes": 277470,
    "boundProject": null
   },
   {
