@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "projectId": "louisiana-bayou",
- "scannedAt": "2026-11-13T00:50:50.215Z",
+ "scannedAt": "2026-11-13T07:20:38.607Z",
  "conversations": [
   {
    "projectId": "louisiana-bayou",
@@ -416,7 +416,7 @@
    "sessionId": "0611e96b-26b2-4d65-a9e1-cb913738cca3",
    "title": "zenray meshes v5",
    "updatedAt": "2026-11-12T16:31:13.514Z",
-   "bytes": 308296,
+   "bytes": 305786,
    "boundProject": "zenray-meshes"
   },
   {
@@ -888,6 +888,22 @@
    "lines": 14,
    "work": 0,
    "prompts": 1,
+   "first": "2026-11-12T11:07:01.700Z",
+   "last": "2026-11-13T06:11:10.289Z",
+   "strength": "weak",
+   "conversationId": "claude:48664bcf-655d-4f1c-8f4c-981e576050ff",
+   "provider": "claude",
+   "sessionId": "48664bcf-655d-4f1c-8f4c-981e576050ff",
+   "title": "guides jaune et turquoise",
+   "updatedAt": "2026-11-13T07:19:24.086Z",
+   "bytes": 283195,
+   "boundProject": null
+  },
+  {
+   "projectId": "louisiana-bayou",
+   "lines": 14,
+   "work": 0,
+   "prompts": 1,
    "first": "2026-10-14T11:34:57.859Z",
    "last": "2026-10-15T13:12:56.448Z",
    "strength": "weak",
@@ -897,22 +913,6 @@
    "title": "Limite de motion design prompt de recherche",
    "updatedAt": "2026-10-15T18:45:10.638Z",
    "bytes": 30696,
-   "boundProject": null
-  },
-  {
-   "projectId": "louisiana-bayou",
-   "lines": 12,
-   "work": 0,
-   "prompts": 1,
-   "first": "2026-11-12T11:07:01.700Z",
-   "last": "2026-11-12T23:47:28.973Z",
-   "strength": "weak",
-   "conversationId": "claude:48664bcf-655d-4f1c-8f4c-981e576050ff",
-   "provider": "claude",
-   "sessionId": "48664bcf-655d-4f1c-8f4c-981e576050ff",
-   "title": "car avant crustacé (fable ?)",
-   "updatedAt": "2026-11-13T00:40:05.916Z",
-   "bytes": 283302,
    "boundProject": null
   },
   {
