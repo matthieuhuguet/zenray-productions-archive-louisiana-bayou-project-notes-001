@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "projectId": "louisiana-bayou",
- "scannedAt": "2026-11-12T18:29:47.058Z",
+ "scannedAt": "2026-11-13T00:50:50.215Z",
  "conversations": [
   {
    "projectId": "louisiana-bayou",
@@ -416,7 +416,7 @@
    "sessionId": "0611e96b-26b2-4d65-a9e1-cb913738cca3",
    "title": "zenray meshes v5",
    "updatedAt": "2026-11-12T16:31:13.514Z",
-   "bytes": 304563,
+   "bytes": 308296,
    "boundProject": "zenray-meshes"
   },
   {
@@ -901,6 +901,22 @@
   },
   {
    "projectId": "louisiana-bayou",
+   "lines": 12,
+   "work": 0,
+   "prompts": 1,
+   "first": "2026-11-12T11:07:01.700Z",
+   "last": "2026-11-12T23:47:28.973Z",
+   "strength": "weak",
+   "conversationId": "claude:48664bcf-655d-4f1c-8f4c-981e576050ff",
+   "provider": "claude",
+   "sessionId": "48664bcf-655d-4f1c-8f4c-981e576050ff",
+   "title": "car avant crustacé (fable ?)",
+   "updatedAt": "2026-11-13T00:40:05.916Z",
+   "bytes": 283302,
+   "boundProject": null
+  },
+  {
+   "projectId": "louisiana-bayou",
    "lines": 11,
    "work": 0,
    "prompts": 1,
@@ -1015,22 +1031,6 @@
    "projectId": "louisiana-bayou",
    "lines": 6,
    "work": 0,
-   "prompts": 1,
-   "first": "2026-11-12T11:07:01.700Z",
-   "last": "2026-11-12T16:15:59.437Z",
-   "strength": "weak",
-   "conversationId": "claude:48664bcf-655d-4f1c-8f4c-981e576050ff",
-   "provider": "claude",
-   "sessionId": "48664bcf-655d-4f1c-8f4c-981e576050ff",
-   "title": "car avant crustacé (fable ?)",
-   "updatedAt": "2026-11-12T16:31:12.147Z",
-   "bytes": 281848,
-   "boundProject": null
-  },
-  {
-   "projectId": "louisiana-bayou",
-   "lines": 6,
-   "work": 0,
    "prompts": 0,
    "first": "2026-11-07T23:01:28.675Z",
    "last": "2026-11-09T14:03:52.868Z",
@@ -1120,7 +1120,7 @@
    "sessionId": "e264aec9-490e-425d-a307-fecde33ce3c0",
    "title": "door + roof + bas de caisse",
    "updatedAt": "2026-11-12T16:30:32.481Z",
-   "bytes": 281930,
+   "bytes": 283871,
    "boundProject": null
   },
   {
@@ -1360,7 +1360,7 @@
    "sessionId": "d14443ab-9f88-45a8-9946-da7878363ee6",
    "title": "pare brise avant bas de caisse",
    "updatedAt": "2026-11-12T16:14:16.330Z",
-   "bytes": 282459,
+   "bytes": 282458,
    "boundProject": null
   },
   {
@@ -1376,7 +1376,7 @@
    "sessionId": "0f5f42ff-3d56-48e6-9963-4ff4381312af",
    "title": "hanche arrière",
    "updatedAt": "2026-11-12T16:13:30.977Z",
-   "bytes": 282234,
+   "bytes": 282233,
    "boundProject": null
   },
   {
